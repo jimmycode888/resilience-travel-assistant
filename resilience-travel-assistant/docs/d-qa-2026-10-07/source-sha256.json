@@ -1,0 +1,19 @@
+{
+  "src/components/TripForm.tsx": "c74ae85297c6e36ffa921da667320696b82ce8ffba0b03b131efd8050decb8a5",
+  "src/components/DecisionCard.tsx": "18a88f4e7ed0aaaaad838eb628d111685fed5f32c64afabc5a1e37ed6a927610",
+  "src/components/ScenarioSwitcher.tsx": "1ee8ca2cf23db282d9c1952b543a6e08dc4a39661fe7b1fd87bd06e25cd8821c",
+  "src/components/DecisionView.tsx": "5ec98f5c295edff1285c1a28c94577aebc584c3eecaf7809abfca96634803d43",
+  "src/components/use-decision.ts": "e58ff7cb99cf8ebbd9a1a921a9d1c0ac86932e3796904538dc739425e66e74aa",
+  "src/components/RouteTimeline.tsx": "a6815068ddeb926ad8c472bf87e1a983c1657e5e86011cce48513eb6a7746926",
+  "src/app/globals.css": "a2e50f65ac941c81ccbe3effd5b79fec9328024ef9e410cf8fb8987de17fbae7",
+  "src/app/layout.tsx": "8ab3dbdf535c6afbd145e443abd8aa0895c4e4c8c89a562c86a58390df5bccdf",
+  "src/app/error.tsx": "54cb49930677fc367700a75401a7a58fabef0f727c8fee663aa535da8790ef2e",
+  "src/app/global-error.tsx": "f77655716c2de95cb73ce05abb6f26e0721e3f43c3d80d01b49699b9b38e5768",
+  "vitest.config.ts": "cefb301c816b65a9de66cd2d29632d437b2c95faf6c3acedd7342cf3b683a9e0",
+  "src/test/frontend-card.test.ts": "d82d7ba5f0bb7503bd5b23fcea24fc45f28eaa71022cdfd3d5a9a11fe6ecae19",
+  "src/test/d-frontend.e2e.mjs": "527260d627d4f6b479656e16d9e458d98520738959c3505f75396687f8b476c6",
+  "README.md": "50a282e2475b0f5268a10c9f56b791a072ec07cc6199bd783e93577474470621",
+  "API_CONTRACT.md": "58e2ccfe9acfb368b8f4713f5f61604f396bd63406c526bd978f3d8fe1d5879c",
+  "INTEGRATION.md": "a72a1c88b33cdbea335d32b87b5101c06f12cf6e19cc25fe54d16b0a57851974",
+  "package.json": "348a551e98ee510de4aa38628a3cb6fb4723704eb94b48726e15e5f66760d1e7"
+}

@@ -1,0 +1,199 @@
+{
+  "testedAt": "2026-10-17T07:53:27.941Z",
+  "feed": {
+    "sourceUrl": "https://static.data.gov.hk/td/pt-headway-tc/gtfs.zip",
+    "datasetUrl": "https://data.gov.hk/en-data/dataset/hk-td-tis_11-pt-headway-en",
+    "importedAt": "2026-10-16T14:55:12.592724+00:00",
+    "sha256": "bec5f8d1381f376e17b8f6a9ccf14f395f5b0e53fa3ca867debbcd46028b4f48",
+    "feedDate": "2026-10-14T18:50:32",
+    "stopCount": 9466,
+    "routeCount": 2452,
+    "patternCount": 3625,
+    "skippedTrips": 0,
+    "interpolatedTrips": 78506,
+    "limitations": [
+      "No MTR heavy rail in this feed",
+      "Intermediate arrival times interpolated from official terminal timepoints",
+      "No live ETA or temporary diversions",
+      "Huanggang XB records excluded because terminals changed"
+    ]
+  },
+  "definition": "12 district-coordinate samples to Shenzhen Bay HK bus terminal, 08:00 Friday; verified pedestrian access, static reference bus timetable. This is not address-search or all-city coverage.",
+  "hkReference": {
+    "passed": 12,
+    "total": 12,
+    "rate": 1,
+    "results": [
+      {
+        "name": "中環",
+        "referenceRoute": true,
+        "minutes": 121,
+        "lines": [
+          "KMB 673P",
+          "KMB 960",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 2116
+      },
+      {
+        "name": "尖沙咀",
+        "referenceRoute": true,
+        "minutes": 115,
+        "lines": [
+          "KMB 260X",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 1078
+      },
+      {
+        "name": "旺角",
+        "referenceRoute": true,
+        "minutes": 107,
+        "lines": [
+          "KMB 58X",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 1158
+      },
+      {
+        "name": "沙田",
+        "referenceRoute": true,
+        "minutes": 98,
+        "lines": [
+          "KMB 263",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 1075
+      },
+      {
+        "name": "屯門",
+        "referenceRoute": true,
+        "minutes": 35,
+        "lines": [
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 997
+      },
+      {
+        "name": "元朗",
+        "referenceRoute": true,
+        "minutes": 57,
+        "lines": [
+          "NLB B2"
+        ],
+        "walkingVerified": true,
+        "ms": 1152
+      },
+      {
+        "name": "荃灣",
+        "referenceRoute": true,
+        "minutes": 118,
+        "lines": [
+          "LWB E31",
+          "KMB 58M",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 6527
+      },
+      {
+        "name": "將軍澳",
+        "referenceRoute": true,
+        "minutes": 169,
+        "lines": [
+          "CTB 796X",
+          "KMB+CTB 690S",
+          "KMB 960",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 3304
+      },
+      {
+        "name": "大埔",
+        "referenceRoute": true,
+        "minutes": 142,
+        "lines": [
+          "KMB 64K",
+          "GMB 72",
+          "NLB B2"
+        ],
+        "walkingVerified": true,
+        "ms": 6655
+      },
+      {
+        "name": "東涌",
+        "referenceRoute": true,
+        "minutes": 96,
+        "lines": [
+          "LWB E33",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 2106
+      },
+      {
+        "name": "西貢",
+        "referenceRoute": true,
+        "minutes": 151,
+        "lines": [
+          "GMB 1A",
+          "KMB 61X",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 4374
+      },
+      {
+        "name": "赤柱",
+        "referenceRoute": true,
+        "minutes": 159,
+        "lines": [
+          "GMB 40X",
+          "CTB 8P",
+          "KMB 960",
+          "CTB B3X"
+        ],
+        "walkingVerified": true,
+        "ms": 2188
+      }
+    ]
+  },
+  "shenzhenConfigured": true,
+  "crossBorder": {
+    "passed": 3,
+    "total": 3,
+    "results": [
+      {
+        "name": "中環",
+        "completeRoutes": 2,
+        "failures": [],
+        "partialLegs": 0
+      },
+      {
+        "name": "尖沙咀",
+        "completeRoutes": 2,
+        "failures": [],
+        "partialLegs": 0
+      },
+      {
+        "name": "旺角",
+        "completeRoutes": 2,
+        "failures": [],
+        "partialLegs": 0
+      }
+    ]
+  },
+  "limitations": [
+    "Sample coverage does not guarantee every address",
+    "No MTR heavy rail",
+    "Only two road ports in composed routes",
+    "No live vehicle ETA",
+    "Missing provider key must not count as covered"
+  ]
+}

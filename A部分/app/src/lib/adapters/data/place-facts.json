@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-14T12:08:50.110937+00:00",
+  "verified": [
+    {
+      "placeId": "sheung-shui-station",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E4%B8%8A%E6%B0%B4%E7%AB%99&n=5&b=1",
+      "name": "港鐵上水站",
+      "lat": 22.50149,
+      "lon": 114.12779,
+      "verifiedScope": "official station address representative point, not specific entrance"
+    },
+    {
+      "placeId": "university-station",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E5%A4%A7%E5%AD%B8%E7%AB%99&n=5&b=1",
+      "name": "港鐵大學站",
+      "lat": 22.41361,
+      "lon": 114.21028,
+      "verifiedScope": "official station address representative point, not specific entrance"
+    }
+  ],
+  "unverifiedPlaceCount": 20
+}

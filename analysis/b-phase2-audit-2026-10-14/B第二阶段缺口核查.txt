@@ -1,0 +1,92 @@
+B 第二阶段缺口核查（2026-10-14）
+
+结论：数据基础和正式注入已交付；未达到实时数据完整验收。
+核查依据：10/12 第二阶段进度报告、B 实现报告、B 第二阶段指令、A部分/app 当前代码，以及本次本地测试与注入式复现。未在本次重新访问官方端点，不把10/12的网络证据当10/14的可用性保证。
+
+一、版本与进度报告的校正
+
+当前更完整整合树在 A部分/app；第二阶段信息/ 仍没有 team-data.ts、port-conditions.ts 和 /api/team-journey。后者的 B_遗留问题清单与原型方案属于较早快照。
+progress-2026-10-12/index.html 标记 B 约70%，为沟通估计，不是验收指标。
+下列旧缺口已解决：
+1. port-conditions.ts 已有6口岸区间估算模型、逐口岸缓存与固定回退。
+2. team-data.ts 已注入正式端点 resolveRouteData。
+3. DATA_SOURCES.md 已补跨境一节。
+4. 东铁 LMC/LOW、九巴 B1/B9、城巴 B3X/B3/B3M/B7/B8 已有代码接入。
+5. C 的 border/thresholds.ts 已不再自带 BORDER_QUEUE_BASE；border/index.ts 调用 B 的 estimateBorderQueue。进度报告中“B/C两套常数”已过时。
+
+二、当前仍缺什么（按风险排序）
+
+P0：口岸事实与地点核实未完成（B主责）
+- geo/ports.ts 六口岸全部 coordinatesVerified=false；geo/places.ts 22处地点也未核实。
+- 开放时间、可通行方式与港深两侧入口位置必须分别有官方来源、核查日期和证据；不能核对了营业时间就把“坐标也已验证”一并设true。
+- 此数据直接决定关闭口岸排除、Plan B、跨境段绑定，是地基任务。
+
+P0：正式天气/交通抓取无超时和完整回退（B主责）
+- team-data.ts:127、143 直接 provider.fetch(new AbortController().signal)，没有timer/deadline。
+- Promise.all 中任一源一直不返回，口岸获取与最终结果都一直等待；catch只处理抛错，不能处理永不完成的Promise。
+- 此正式链路绕过第一阶段resolveContext的超时保护。天气/公告失败直接null/空数组，没有各自上一份有效cached回退。
+- port-conditions.ts:305 的 timeout 仅abort，缺少provider忽略abort时的硬截止保护。
+- 需要每源强制截止、有效缓存和明确fixture降级，含无响应与部分失败用例。
+
+P0：正式resolver缓存寿命不正确（B修复，A调整注入边界）
+- team-data.ts:114 持有Map，以departAt为key；成功的Promise没有TTL或淘汰。
+- team-journey-handler.ts:45 在模块加载时创建resolver，实际跨请求复用；与“只在请求生命周期内缓存”的注释不符。
+- 注入时钟复现：同一departAt相隔5分钟调用，天气fetch次数仍1，第二次仍返回原updatedAt且已经过期。
+- A的组合层会降低过期信心，但不会自动重新抓取；不等于数据刷新问题已解决。旧Promise也可能累积，失败降级结果亦可能永久复用。
+
+P1：来源时间、有效期与来源链接不完整（B主责）
+- port-conditions.ts:348、369 用本次collectedAt填updatedAt，没有按上游curr_time/data_timestamp核验源资料是否已过期。
+- team-data.ts:145 用行程departAt作为有公告时的更新时间，不是公告时间或采集时间。
+- team-data.ts:203-206 算整体效期只取天气/公告时间，没有真正纳入口岸观测效期；与“取最紧来源”的注释不一致。
+- RouteDataEnvelope.sourceUrl固定null，口岸逐源URL和notices没有完整传到正式返回；失败原因/先验与真实观测边界难以追溯。
+- 元数据必须明确updatedAt、collectedAt、evaluatedAt、expiresAt分别指什么。
+
+P1：模型输入接线仍不完整（B/A/C协作）
+- 模型支持direction、railDisrupted、incidentPortIds，但team-data.ts:153只传at=request.departAt和weather。
+- 因此TD口岸公告和铁路线风险信号没有进入相应排队加成；方向默认按上午/下午推断，而非真实行程方向。
+- at使用旅程出发时刻，不是到达口岸的时刻；通关时段与开放状态有偏差风险。A会另做关闭约束，但排队区间本身可能仍用错时段。
+- 当前实时运力/天气不得直接作为未来日期事实；需要评估时刻和适用时段约束，未来行程如实降级。
+
+P1：常态班距/节假日/服务窗口依据不足（B主责）
+- typicalHeadwayMinutes带“官方常态班距”注释，但每条常数尚无逐条官方出处或按时段变化的证据。
+- estimateBorderQueue只有周末判断，没有公众假期表；C的dayType参数也未完整进入B模型。
+- 口岸开放不等于接驳交通仍营运；首末班、服务日、班次方向和适用窗口尚未完整核实。
+- 当前源取口岸开往香港的班次，可作运力代理，不能冒充从香港前往口岸的实时可达性验证。
+
+P1/P2：第二阶段数据范围仍有空白（先确认必须验收的最小范围）
+- POI：目前是22处静态地点表，不是已完成官方核实的POI Adapter；学校/医院等范围未覆盖。
+- W4官方路线供应商：route/providers只有fixture/osrm，没有official.ts或等价的正式公共交通班次路径供应商；正式resolveCandidates仍明确providers=[]。
+- 港内690S的九巴联营缺口未完整补齐：口岸B1/B9接入不等于690S联营已经接入。
+- 深圳侧实时交通没有接入；皇岗/文锦渡当前没有已接入观测来源。允许如实fixture，但需记录适用范围、限制和验收结论。
+- 精确口岸排队、准确延误分钟与校准概率没有证据，不能为了“补齐”编造；先验区间+low/medium本身是合理交付边界。
+
+P1：验收、运行配置与文档收口（B+A+D）
+- 默认不开启网络是合理选择，不等于没有适配器；需确定正式演示环境的启用变量并重新验收live/cached/fixture。
+- 手动探针固定departAt=2026-10-13，写入10/12命名的证据文件；现在重新跑应避免旧日期与覆盖历史证据。
+- team-journey-handler.ts:93无条件追加“B实时资料尚未注入”提示，与已有注入冲突；旧报告的常数重复、缺跨境来源一节等也需同步改正。
+
+三、验证结果及边界
+
+本次在A部分/app执行：
+- B与接入相关4个测试文件：59项通过。
+- 全部标准Vitest：39文件、545项通过（报告的541项是10/12快照）。
+- 单独注入复现缓存问题：fetch次数1，时钟推进5分钟后仍旧updatedAt、expired=true。
+- 注入永不完成天气provider：120ms观察后仍pending；结合代码没有任何截止timer，确认正式天气链路缺截止机制。此120ms观察不是2500ms官方timeout验收。
+- 本次没有执行生产构建、浏览器或实时官网验收，也没有修改产品源码/已有报告。
+
+四、下一步前三项
+
+1. 收口事实层：六口岸开放时间/方式/双节点与22地点，逐项官方证据；先完成演示走廊所需节点。
+2. 修正式数据链：天气/TD硬截止与缓存回退、resolver请求作用域或TTL、逐源时间/URL透传，并补故障与过期测试。
+3. 补消费与验收：按行程方向/口岸抵达时间接入公告和铁路信号；确认live配置，与A/C/D连续跑通至少5次并核对展示口径。
+
+相关文件：
+A部分/app/docs/B_口岸估算实现_2026-10-12.md
+A部分/app/docs/DATA_SOURCES.md
+A部分/app/src/lib/adapters/team-data.ts
+A部分/app/src/lib/adapters/port-conditions.ts
+A部分/app/src/lib/border/index.ts
+A部分/app/src/lib/geo/ports.ts
+A部分/app/src/lib/geo/places.ts
+progress-2026-10-12/index.html
+第二阶段信息/docs/B_遗留问题清单_2026-10-12.md（旧快照，不作为最新完成状态）

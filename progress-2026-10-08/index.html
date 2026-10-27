@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>韧性出行助手 · 项目进度汇报（2026-10-08）</title>
+<style>
+  :root{
+    --bg:#0b1120; --panel:#111a2e; --panel2:#16213a; --line:#243354;
+    --ink:#e8eefc; --muted:#9fb0d0; --dim:#7286a8;
+    --ok:#34d399; --warn:#fbbf24; --bad:#f87171; --info:#60a5fa; --brand:#a78bfa;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.7 -apple-system,"PingFang SC","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif}
+  a{color:var(--info);text-decoration:none;border-bottom:1px dotted rgba(96,165,250,.5)}
+  a:hover{color:#93c5fd}
+  .wrap{max-width:1080px;margin:0 auto;padding:32px 20px 72px}
+  header.top{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:26px}
+  .kicker{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+  h1{font-size:30px;line-height:1.25;margin:8px 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:74ch}
+  .meta{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+  .chip{font-size:12.5px;border:1px solid var(--line);background:var(--panel);
+    border-radius:999px;padding:3px 11px;color:var(--muted)}
+  .chip b{color:var(--ink);font-weight:600}
+  h2{font-size:19px;margin:38px 0 12px;padding-left:11px;border-left:3px solid var(--brand)}
+  h2 small{font-weight:400;color:var(--dim);font-size:13px;margin-left:8px}
+  h3{font-size:15.5px;margin:20px 0 8px;color:var(--ink)}
+  p{margin:8px 0}
+  .grid{display:grid;gap:14px}
+  .g4{grid-template-columns:repeat(4,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:900px){.g4{grid-template-columns:repeat(2,1fr)}.g3,.g2{grid-template-columns:1fr}}
+  @media(max-width:560px){.g4{grid-template-columns:1fr}h1{font-size:24px}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 16px 14px}
+  .card .n{font-size:26px;font-weight:700;letter-spacing:-.02em}
+  .card .l{font-size:12.5px;color:var(--dim);margin-bottom:2px}
+  .card .d{font-size:12.5px;color:var(--muted);margin-top:4px}
+  .ok{color:var(--ok)} .warn{color:var(--warn)} .bad{color:var(--bad)} .info{color:var(--info)} .brand{color:var(--brand)}
+  .bar{height:7px;border-radius:999px;background:#1d2a45;overflow:hidden;margin-top:9px}
+  .bar>i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,#34d399,#22d3ee)}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+  th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+  th{font-size:12.5px;color:var(--dim);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+  tbody tr:hover{background:var(--panel2)}
+  td code,code{background:#0e1729;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:12.5px;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#c7d6f5}
+  .tag{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:999px;white-space:nowrap;
+    border:1px solid transparent;font-weight:600}
+  .t-ok{background:rgba(52,211,153,.13);color:var(--ok);border-color:rgba(52,211,153,.35)}
+  .t-wip{background:rgba(96,165,250,.13);color:var(--info);border-color:rgba(96,165,250,.35)}
+  .t-todo{background:rgba(159,176,208,.12);color:var(--muted);border-color:rgba(159,176,208,.3)}
+  .t-risk{background:rgba(248,113,113,.13);color:var(--bad);border-color:rgba(248,113,113,.35)}
+  .t-warn{background:rgba(251,191,36,.13);color:var(--warn);border-color:rgba(251,191,36,.35)}
+  .callout{border-left:3px solid var(--warn);background:rgba(251,191,36,.06);
+    padding:12px 14px;border-radius:0 12px 12px 0;margin:14px 0}
+  .callout.blue{border-color:var(--info);background:rgba(96,165,250,.06)}
+  .callout.red{border-color:var(--bad);background:rgba(248,113,113,.06)}
+  .callout p{margin:4px 0}
+  ul{margin:8px 0 8px 20px;padding:0}
+  li{margin:5px 0}
+  .muted{color:var(--muted)} .dim{color:var(--dim)} .sm{font-size:13px}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
+  .tl{list-style:none;margin:12px 0 0;padding:0}
+  .tl li{position:relative;padding:0 0 16px 26px;border-left:2px solid var(--line);margin-left:6px}
+  .tl li:last-child{border-left-color:transparent;padding-bottom:0}
+  .tl li::before{content:"";position:absolute;left:-7px;top:5px;width:12px;height:12px;border-radius:50%;
+    background:var(--panel);border:2px solid var(--dim)}
+  .tl li.done::before{border-color:var(--ok);background:var(--ok)}
+  .tl li.now::before{border-color:var(--warn);background:var(--warn);box-shadow:0 0 0 4px rgba(251,191,36,.18)}
+  .tl .t{font-weight:600}
+  footer{margin-top:46px;border-top:1px solid var(--line);padding-top:16px;color:var(--dim);font-size:12.5px}
+  @media print{body{background:#fff;color:#000}.card,table{border-color:#ddd}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="kicker">八校黑客松 · 韧性出行助手</div>
+  <h1>项目进度汇报</h1>
+  <p class="sub">固定通勤走廊（将军澳坑口 ↔ 中环）的「出行可靠性决策层」演示原型。<b>当前处于第三阶段（集成保护，10/8–10/10）</b>，距功能冻结剩 <b>3 天</b>，距提交剩 <b>10 天</b>。</p>
+  <div class="meta">
+    <span class="chip">汇报时间 <b>2026-10-08</b></span>
+    <span class="chip">功能冻结 <b>10-11</b></span>
+    <span class="chip">最终提交 <b>10-18</b></span>
+    <span class="chip">测试 <b class="ok">172 / 172 通过</b></span>
+    <span class="chip">运行中 <b class="ok">:5173</b></span>
+  </div>
+</header>
+
+<h2>一、总体结论 <small>一句话</small></h2>
+<div class="grid g4">
+  <div class="card">
+    <div class="l">纵向闭环</div>
+    <div class="n ok">可用</div>
+    <div class="d">输入 → 决策 → 结果页三情景全部跑通，规则确定性可复现</div>
+    <div class="bar"><i style="width:100%"></i></div>
+  </div>
+  <div class="card">
+    <div class="l">数据层</div>
+    <div class="n info">已接入</div>
+    <div class="d">HKO 天气 / 港铁抵站 / 城巴 ETA / 运输署公告，live→cached→fixture 回退</div>
+    <div class="bar"><i style="width:80%"></i></div>
+  </div>
+  <div class="card">
+    <div class="l">前端与 QA</div>
+    <div class="n warn">自动化完成</div>
+    <div class="d">13 文件修复 + 20 组浏览器自动化 + axe 0 违规；真人测试未做</div>
+    <div class="bar"><i style="width:70%"></i></div>
+  </div>
+  <div class="card">
+    <div class="l">冻结前置</div>
+    <div class="n warn">3 项未决</div>
+    <div class="d">契约登记、R1/R3 共用区段、五人用户测试</div>
+    <div class="bar"><i style="width:45%"></i></div>
+  </div>
+</div>
+
+<div class="callout green" style="border-color:var(--ok);background:rgba(52,211,153,.06)">
+  <p><b>一句话：</b>核心产品已经能跑、能被验证、能演示；剩下的风险<b>不在「能不能做出来」，而在「三处口径与验收还没闭环」</b>——契约新增字段待 A 登记、R1/R3 共用区段的中断语义待 C 处理、五位真人用户测试待 D 在 10/13 执行。这些都不影响 10/11 冻结后的演示可用性，但会影响提交材料的可信度。</p>
+</div>
+
+<h2>二、本次实测结果 <small>2026-10-08 由本会话直接运行，非引用历史文档</small></h2>
+<table>
+  <thead><tr><th>检查项</th><th>命令 / 方式</th><th>结果</th></tr></thead>
+  <tbody>
+    <tr><td>单元 / 集成测试</td><td class="mono">npm test</td><td><span class="tag t-ok">通过</span> 15 个测试文件 / <b>172 项</b>全过（7.8s）</td></tr>
+    <tr><td>代码检查</td><td class="mono">npm run lint</td><td><span class="tag t-ok">通过</span> ESLint 9 无告警</td></tr>
+    <tr><td>类型检查</td><td class="mono">npm run typecheck</td><td><span class="tag t-ok">通过</span> tsc --noEmit 无错误</td></tr>
+    <tr><td>冻结冒烟</td><td class="mono">freeze-smoke.test.ts</td><td><span class="tag t-ok">15 / 15</span> 三情景各 5 次，结果一致</td></tr>
+    <tr><td>健康检查</td><td class="mono">GET :5173/api/health</td><td><span class="tag t-ok">status: ok</span> version 0.1.0，走廊与三组 fixture 正常</td></tr>
+    <tr><td>决策接口</td><td class="mono">POST :5173/api/decision (disruption)</td><td><span class="tag t-ok">正确</span> uncertain / 低信心 / 主路线 R2 / Plan B R3</td></tr>
+    <tr><td>生产构建</td><td class="mono">.next/BUILD_ID</td><td><span class="tag t-warn">待复核</span> 仓库内构建为 <code>ANjRrC5AK97x2_s41Jzcc</code>，与 D 报告的 <code>NcKJZyS4…</code> 不是同一次</td></tr>
+  </tbody>
+</table>
+
+<h3>三个演示情景的当前输出（规则确定性）</h3>
+<table>
+  <thead><tr><th>情景</th><th>状态</th><th>建议出发</th><th>最迟出发</th><th>到达区间</th><th>信心</th><th>主路线</th><th>Plan B</th></tr></thead>
+  <tbody>
+    <tr><td>正常通勤</td><td><span class="tag t-ok">ready</span></td><td class="mono">08:09</td><td class="mono">08:15</td><td class="mono">08:54–09:04</td><td class="ok">高</td><td>R1 港铁主线</td><td>R2 过海巴士</td></tr>
+    <tr><td>暴雨影响</td><td><span class="tag t-ok">ready</span></td><td class="mono">07:58</td><td class="mono">08:12</td><td class="mono">08:43–09:06</td><td class="warn">中</td><td>R1 港铁主线</td><td>R2 过海巴士</td></tr>
+    <tr><td>交通中断</td><td><span class="tag t-warn">uncertain</span></td><td class="mono">07:22</td><td class="mono">07:38</td><td class="mono">08:24–09:19</td><td class="bad">低</td><td>R2 过海巴士</td><td>R3 港铁经鲗鱼涌</td></tr>
+  </tbody>
+</table>
+<p class="sm dim">三情景的建议出发时间、主路线与信心都不同，且全部由规则产生；已用黄金档案 + 10 次重复 + 5 次并发测试锁定，刷新与重复提交不会产生随机结果。</p>
+
+<h2>三、里程碑进度</h2>
+<ul class="tl">
+  <li class="done"><span class="t">第一/二阶段 · 项目基础与可共享版本</span> <span class="tag t-ok">已完成</span><br>
+    <span class="sm muted">骨架、共享类型、运行时校验、三组 fixture、决策 API、纵向闭环、全部状态页、确定性测试。</span></li>
+  <li class="now"><span class="t">第三阶段 · 集成保护（10/8–10/10）</span> <span class="tag t-wip">进行中</span><br>
+    <span class="sm muted">分层解耦、回退链、数据来源标注、演示手册、安全与可复现性检查均已完成；剩余 3 项口径闭环见第五节。</span></li>
+  <li><span class="t">第四阶段 · 功能冻结（10/11）</span> <span class="tag t-todo">未开始</span><br>
+    <span class="sm muted">待产出 <code>FEATURE_FREEZE_CHECKLIST.md</code>、冻结标签与提交信息（不推送）。</span></li>
+  <li><span class="t">内部测试 10/12 → 五人用户测试 10/13 → 反馈修复 10/14</span> <span class="tag t-todo">未开始</span></li>
+  <li><span class="t">压力彩排 10/16 → 最终冻结 10/17 → 提交 10/18</span> <span class="tag t-todo">未开始</span></li>
+</ul>
+
+<h2>四、各角色进度</h2>
+<div class="grid g2">
+  <div class="card">
+    <h3 style="margin-top:0">A · 技术架构与集成 <span class="tag t-ok">主体完成</span></h3>
+    <ul class="sm">
+      <li>交付：脚手架、<code>API_CONTRACT.md</code>、共享类型、<code>/api/decision</code> + <code>/api/health</code>、分层架构、全部文档。</li>
+      <li>待办：登记 C 的 4 个 additive 字段进 §2；更新 :5173 预览与缓存权限；产出冻结清单。</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">B · 数据与后端 <span class="tag t-ok">已接入</span></h3>
+    <ul class="sm">
+      <li>交付：HKO 天气 + warnsum、港铁 Next Train、城巴 690S ETA、运输署 XML 公告；逐源超时与 live→cached→fixture 回退。</li>
+      <li>待办：官方字段核对；混合数据质量口径需 A 确认；R2 的 690S 起站（明德邨 ≠ 坑口北）与服务窗口待修。</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">C · 决策引擎 <span class="tag t-ok">已完成</span></h3>
+    <ul class="sm">
+      <li>交付：契约 v1 的 <code>action</code> / <code>switchDeadline</code> / <code>basis</code> / <code>uncertainty</code>；修正 unknown ≠ 零延误；黑雨/八号以上露天候车降级为 <code>wait</code>。</li>
+      <li>待办：5 项变更待 A 批准；R1/R3 共用区段的中断过滤逻辑。</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">D · 前端与 QA <span class="tag t-warn">自动化完成 / 真人未做</span></h3>
+    <ul class="sm">
+      <li>交付：13 文件前端修复（F01–F10 全修并回归）、20 组浏览器自动化、axe 0 违规、360/390/768/1280 响应式。</li>
+      <li>待办：<b>五位真人用户测试（10/13）</b>、真实设备/读屏、现场断外网彩排。</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">E · UI / 视觉 <span class="tag t-wip">对齐完成，待定稿</span></h3>
+    <ul class="sm">
+      <li>交付：竞品分析报告、Figma UI 评审、<code>ui-review-prototype</code> 与真实 API 对齐（仅改原型目录，未动正式工程）。</li>
+      <li>待办：最新批准视觉稿；移动端切换条件首屏问题待 E 决策。</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">质量基线 <span class="tag t-ok">实时可信</span></h3>
+    <ul class="sm">
+      <li>无 <code>Math.random</code>、无硬编码个人路径、无硬编码密钥、决策层不读时钟。</li>
+      <li>所有数据默认 fixture，界面上明确标注「演示固定资料」与更新时间。</li>
+    </ul>
+  </div>
+</div>
+
+<h2>五、风险与待决事项 <small>按优先级</small></h2>
+<table>
+  <thead><tr><th>级别</th><th>事项</th><th>影响</th><th>负责</th></tr></thead>
+  <tbody>
+    <tr><td><span class="tag t-risk">P0</span></td><td><b>R1 与 R3 共用坑口—鲗鱼涌区段</b>：演示把中断设为将军澳线区间，但 R3 仍作 Plan B；若中断覆盖共用段，R3 同样不可用。</td><td>演示逻辑自相矛盾，评审易被质疑</td><td>C（+A 收窄事件口径）</td></tr>
+    <tr><td><span class="tag t-warn">P1</span></td><td><b>契约新增字段未登记</b>：<code>action</code> / <code>switchDeadline</code> / <code>basis</code> / <code>uncertainty</code> 已实现但不在 <code>API_CONTRACT.md</code>。</td><td>文档与实现不一致</td><td>A</td></tr>
+    <tr><td><span class="tag t-warn">P1</span></td><td><b>五人真人用户测试未执行</b>；45 条记录仍为空。</td><td>提交材料的用户证据缺失</td><td>D</td></tr>
+    <tr><td><span class="tag t-warn">P1</span></td><td><b>R2 起站与官方不符</b>：690S 官方往中环起站为明德邨，当前演示写坑口北；服务窗口与票价仍为 fixture。</td><td>事实性表述风险</td><td>B / A</td></tr>
+    <tr><td><span class="tag t-warn">P1</span></td><td><b>预览版本漂移</b>：:5173 在跑，:5180（D 新构建）已停；仓库现有构建 ID 与 D 报告不一致。</td><td>演示前可能拿到旧版页面</td><td>A</td></tr>
+    <tr><td><span class="tag t-todo">P2</span></td><td>繁体（真实数据）与简体（界面文案）混用；来源 <code>note</code> 含英文「fixture」；<code>dataSources[].url</code> 为 null；Plan B 无信心字段；移动端切换条件不在首屏。</td><td>文案与细节一致性</td><td>B / C / E</td></tr>
+  </tbody>
+</table>
+
+<h2>六、冻结前（10/8–10/10）行动清单</h2>
+<table>
+  <thead><tr><th>#</th><th>动作</th><th>负责</th><th>截止</th><th>验收</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>决定并登记 4 个 additive 字段；回应变更申请 §4 的 5 个问题</td><td>A</td><td>10/09</td><td>契约与实现一致</td></tr>
+    <tr><td>2</td><td>修正 R1/R3 共用区段的中断过滤，或收窄演示事件为北角站局部事件</td><td>C</td><td>10/09</td><td>新测试 + 黄金档案复核</td></tr>
+    <tr><td>3</td><td>核对并修订 R2 起站、服务窗口、票价表述（或明确标注为假设）</td><td>B / A</td><td>10/09</td><td>文档中可溯源</td></tr>
+    <tr><td>4</td><td>重建并用最新代码刷新 :5173 预览，确认演示可复现</td><td>A</td><td>10/10</td><td>构建 ID 与源码一致</td></tr>
+    <tr><td>5</td><td>执行 QA 清单、手机实机走查，建立 P0/P1/P2 问题表</td><td>D</td><td>10/10</td><td>问题表有复现步骤</td></tr>
+    <tr><td>6</td><td>产出 <code>FEATURE_FREEZE_CHECKLIST.md</code>（已知限制、演示路径、回退、P0/P1）</td><td>A</td><td>10/11</td><td>文件与演示路径一致</td></tr>
+    <tr><td>7</td><td>预约五位未参与开发的真实用户，锁定 10/13 测试时间</td><td>D</td><td>10/10</td><td>名单与时段确认</td></tr>
+  </tbody>
+</table>
+
+<h2>七、可访问的演示入口</h2>
+<table>
+  <thead><tr><th>入口</th><th>地址</th><th>状态</th></tr></thead>
+  <tbody>
+    <tr><td>正式应用（Next.js 生产构建）</td><td><a href="http://localhost:5173/">http://localhost:5173/</a></td><td><span class="tag t-ok">运行中 · 已实测 200</span></td></tr>
+    <tr><td>健康检查</td><td><a href="http://localhost:5173/api/health">http://localhost:5173/api/health</a></td><td><span class="tag t-ok">status: ok</span></td></tr>
+    <tr><td>UI 原型预览（E）</td><td>http://localhost:8443/（已注册，未运行）</td><td><span class="tag t-todo">需 ensure 重启</span></td></tr>
+    <tr><td>Figma UI 评审报告（E）</td><td>http://localhost:4173/（已注册，未运行）</td><td><span class="tag t-todo">需 ensure 重启</span></td></tr>
+    <tr><td>D 前端新构建预览</td><td>http://localhost:5180/（已注册，未运行）</td><td><span class="tag t-todo">需 ensure 重启</span></td></tr>
+  </tbody>
+</table>
+<p class="sm dim">说明：8443 / 4173 / 5180 在 2026-10-08 的端口探测中均无监听；如需演示这些入口，请用 <code>tutti artifact ensure --artifact-id &lt;id&gt;</code> 按原有命令与端口恢复，不要新起第二个服务。</p>
+
+<div class="callout blue">
+  <p><b>给队长的判断建议：</b>10/11 冻结前真正必须完成的只有 <b>第 1、2、4 项</b>（契约登记、R1/R3 语义、预览刷新）——它们直接影响演示是否自洽。第 3 项若时间不足，可降级为「在文档中明确标注为假设」，不必阻塞冻结。真人用户测试属提交材料，可在冻结后按原计划 10/13 执行。</p>
+</div>
+
+<footer>
+  <p>本报告由 2026-10-08 会话基于工作区实际文件与本次直接运行的命令生成；标注「待复核」的条目为文档间存在差异、尚未二次验证的事项。</p>
+  <p>项目路径：<span class="mono">/workspace/八校黑客松/resilience-travel-assistant</span>　|　生成时间：2026-10-08（香港时间 UTC+8）</p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,3993 @@
+{
+  "files": {
+    "0433927e5426bad4f750bdd65fd9a2a0.png": {
+      "bytes": 49750,
+      "sha256": "b2930482e1dc7d9e972f17be7707c96c2861a2f22072fc92619026d8826bf776"
+    },
+    "1-s2.0-S0968090X24001244-main.pdf": {
+      "bytes": 2102698,
+      "sha256": "dd2da2a31e6b59febcdd93735a1e73ab16f00d10f9955cd095647eeabe8a5044"
+    },
+    "A部分/README_先读我.md": {
+      "bytes": 1123,
+      "sha256": "ff49e36c20768d1e8da8abccf804bf7ced3d01c416d01907062dc9d75d9a8edc"
+    },
+    "A部分/SHA256SUMS.json": {
+      "bytes": 25492,
+      "sha256": "453005b1a3edeaa3f258b13e9c7f8c540164350a72017e218fe55ec80709c3ff"
+    },
+    "A部分/app/.env.example": {
+      "bytes": 2088,
+      "sha256": "25ac4a5e6d5d3d67606a1c742c2ade0668f2c45c6d26b15b11915add97a77d5c"
+    },
+    "A部分/app/.gitignore": {
+      "bytes": 71,
+      "sha256": "b5e5da896130abf26665d9f3276bf6d140cbe70aa1a293fe436db8afeda12186"
+    },
+    "A部分/app/API_CONTRACT.md": {
+      "bytes": 16400,
+      "sha256": "58e2ccfe9acfb368b8f4713f5f61604f396bd63406c526bd978f3d8fe1d5879c"
+    },
+    "A部分/app/APP_README.md": {
+      "bytes": 16868,
+      "sha256": "2991e0fc2657a8a8d56662716a37874ef314e3e442d5e514831dd50fa54e1c6a"
+    },
+    "A部分/app/B-补齐交付-2026-10-14.zip": {
+      "bytes": 129785,
+      "sha256": "1401827c26b89b0d7d811f31da1fa6217c42e6931fa43c7956ab4f9312981e3f"
+    },
+    "A部分/app/D_PHASE2_HANDOFF.md": {
+      "bytes": 4689,
+      "sha256": "da388b8bdbee8bc7048a90f4305a6f0f52e6f24fb0e1ff6b22f00da4e722170e"
+    },
+    "A部分/app/INTEGRATION.md": {
+      "bytes": 11261,
+      "sha256": "a72a1c88b33cdbea335d32b87b5101c06f12cf6e19cc25fe54d16b0a57851974"
+    },
+    "A部分/app/README.md": {
+      "bytes": 4305,
+      "sha256": "0cdcba241e893e720e0b0f086f322b5a3de72f93d740da1026926a6e2644cb9e"
+    },
+    "A部分/app/TASKS.md": {
+      "bytes": 17011,
+      "sha256": "a205168bf7fc8b5959ae9f59f2c11b1d248571e13db4df958bc021d4b9cb3275"
+    },
+    "A部分/app/data/transit/hk-feed-metadata.json": {
+      "bytes": 691,
+      "sha256": "92a4497469b5c29fc638ee5bfd171c474ec51d3257518495e0ae39e4124573d1"
+    },
+    "A部分/app/data/transit/hk-gtfs.zip": {
+      "bytes": 13739688,
+      "sha256": "bec5f8d1381f376e17b8f6a9ccf14f395f5b0e53fa3ca867debbcd46028b4f48"
+    },
+    "A部分/app/data/transit/hk-network.json.gz": {
+      "bytes": 903189,
+      "sha256": "3871031c301fb37800d9e92b172aa4d24e8fbea9aa8d2dca04cd827f94865c65"
+    },
+    "A部分/app/docs/ARCHITECTURE.md": {
+      "bytes": 10740,
+      "sha256": "68fda30b69da70c05f513f4dab5cd696a6ce3e488abd65184aed9f0c7697cf9c"
+    },
+    "A部分/app/docs/B_COLLABORATION_REVIEW.md": {
+      "bytes": 7761,
+      "sha256": "356ada58c69256be0cdb8e5f5d5a85e1c3951fbb8c2c7057ac126b8f6cc54c01"
+    },
+    "A部分/app/docs/B_HANDOFF.md": {
+      "bytes": 3287,
+      "sha256": "d7463ebfd8e0a0aa3495a73b1219b77c946f48b85bc58793a6deb3ea2e2bfd63"
+    },
+    "A部分/app/docs/B_口岸估算实现_2026-10-12.md": {
+      "bytes": 5715,
+      "sha256": "54d51fb2336204e75c0b7bd0676b08310ab84ef9ee1bfce6b0c8637977010646"
+    },
+    "A部分/app/docs/B_地理契约与来源字段_CR_2026-10-14.md": {
+      "bytes": 1541,
+      "sha256": "5fb86d38641ece1f6809e05f2f2fb89ec1fdc33500c81a66cfea08df430d7a72"
+    },
+    "A部分/app/docs/B_补齐交付_2026-10-14.md": {
+      "bytes": 7850,
+      "sha256": "a276c5d38789c9180fcb05e2e7559a44aa5479a09a04c5d3c46456b44140f582"
+    },
+    "A部分/app/docs/C_HANDOFF.md": {
+      "bytes": 8999,
+      "sha256": "aaaf83075c5a5b272330942e3a315b16e4600b3177cf685cee8ff06ab10aba60"
+    },
+    "A部分/app/docs/C_INTEGRATION_RECONCILIATION.md": {
+      "bytes": 13908,
+      "sha256": "4b7dbb73e7aa686bbf2bb9ae5764c3572c1a38c30727bb5e07a9d6aa10a66031"
+    },
+    "A部分/app/docs/C_PHASE2_GAP_CLOSURE.md": {
+      "bytes": 8196,
+      "sha256": "6098b10f26f3e66047ef6fa62f7194201d00365b7171333579aa8bd8d588fd6d"
+    },
+    "A部分/app/docs/C_PHASE2_HANDOFF.md": {
+      "bytes": 8884,
+      "sha256": "23c9ce7c4992acf2cfe023654bdfaec5501192d8c0bbbdaeced87d2ea83face9"
+    },
+    "A部分/app/docs/DATA_CONTRACT_CHANGE_REQUEST.md": {
+      "bytes": 1414,
+      "sha256": "244d41776635fb9edee2d63fac2f59629877365fe632bfb4682a62f0b7758eb4"
+    },
+    "A部分/app/docs/DATA_SOURCES.md": {
+      "bytes": 10586,
+      "sha256": "3eb122b2077618996af223075d8db95f293f66dd25cec66dcd0bfee480df210e"
+    },
+    "A部分/app/docs/DECISION_CONTRACT_CHANGE_REQUEST.md": {
+      "bytes": 12204,
+      "sha256": "c64cd6ec03b8f43f10edd53bfa5f56a807ff11daf6138fe390f497c7fda02429"
+    },
+    "A部分/app/docs/DECISION_ENGINE.md": {
+      "bytes": 15847,
+      "sha256": "1955ea40721cb1414d5386f66309a91ef6b5213fb854391821103b5f3192d834"
+    },
+    "A部分/app/docs/DEMO_RUNBOOK.md": {
+      "bytes": 8614,
+      "sha256": "48e657f354c54bb70f9f93b8f813fbb61e5af125e454325df924cfd4a7c331fa"
+    },
+    "A部分/app/docs/D_ACCEPTANCE.md": {
+      "bytes": 3396,
+      "sha256": "9bf122a3fea7bf423b3cb618e37611d5880894d4089ce30b5976fa00c4310890"
+    },
+    "A部分/app/docs/D_DEMO_RUNBOOK.md": {
+      "bytes": 1678,
+      "sha256": "67e03c665400d7ba4075fb023a9b16c8f3edc70eee4d0c459448bddc66bce828"
+    },
+    "A部分/app/docs/D_QA_RESULTS_2026-10-07.md": {
+      "bytes": 8305,
+      "sha256": "fc9a213f53ad68d7d5b4d35268a2f51032b7fb45ad2f9f157fcae42350056309"
+    },
+    "A部分/app/docs/D_UNFINISHED_REMINDER.md": {
+      "bytes": 1789,
+      "sha256": "47a373eb9f101a9ab9349e0928b26cc95b71a4e6aa667d5eaf1bb16edba674aa"
+    },
+    "A部分/app/docs/FIXTURE_CATALOG.md": {
+      "bytes": 4918,
+      "sha256": "99f9d11cb0d569e13bccc1881e1e783fd14b23e8d5fc965b32f00f35c8f7fb89"
+    },
+    "A部分/app/docs/FRONTEND_CONTRACT_ISSUES.md": {
+      "bytes": 3825,
+      "sha256": "ba1577749f624507968f6a329c409640445f8dd2a42b9723a0419231e3c965e0"
+    },
+    "A部分/app/docs/INTEGRATION_VERIFICATION_BC_A.md": {
+      "bytes": 9100,
+      "sha256": "4cab223c7eb0455ae35c934f40e9d0f111c540fd6f3d96b887da5e2182725607"
+    },
+    "A部分/app/docs/MAP_MODULE_MIGRATION.md": {
+      "bytes": 15265,
+      "sha256": "069414fdb195be5efe384be6bd3c67039f105711e46a4609f928562cc8c2803c"
+    },
+    "A部分/app/docs/PHASE1_ACCEPTANCE.md": {
+      "bytes": 10981,
+      "sha256": "5f71a6f6408a60ffd8d94a61a8e93e59689dd5964bbb1464886022b27e9d8dea"
+    },
+    "A部分/app/docs/PHASE1_PREVIEW_RECOVERY_2026-10-15.md": {
+      "bytes": 1978,
+      "sha256": "14a3eeed79dfb1d773841b70ff0f1dda9796dfe6131fa195ac48766a3d5c4fdb"
+    },
+    "A部分/app/docs/PHASE2_CONTRACTS.md": {
+      "bytes": 5752,
+      "sha256": "d381b11eb44ba11ca7257a886c2d9a083ac327cbb6219108987863b6113e909d"
+    },
+    "A部分/app/docs/PHASE2_INTEGRATION.md": {
+      "bytes": 6023,
+      "sha256": "635b541e44dcb05d05533d2895a279f026d3c9eb83a98e2dc4843a1032e918c4"
+    },
+    "A部分/app/docs/PHASE2_QA_2026-10-10.md": {
+      "bytes": 1877,
+      "sha256": "31ef61c56bfe7d6bc7c1f15e7ebb7c65fe36c473ca8246375f42a8589d02ab7e"
+    },
+    "A部分/app/docs/QA_CHECKLIST.md": {
+      "bytes": 11012,
+      "sha256": "4189c651d81c284bdcdd8c71a63bc0fa972fab73c123e7d1fbb115a32746720e"
+    },
+    "A部分/app/docs/QA_ISSUES.csv": {
+      "bytes": 2290,
+      "sha256": "a6907bc72b4bb4613dbd8b0b85ac3db783d1c66e4b2a961ae0218e600651077f"
+    },
+    "A部分/app/docs/RISK_ENGINE.md": {
+      "bytes": 11748,
+      "sha256": "9c2c05991c0c017e0a5a9921a21cd6900b3739986d31881bb45711fcdff12d8f"
+    },
+    "A部分/app/docs/UI_PREVIEW_REPAIR_2026-10-15.md": {
+      "bytes": 2916,
+      "sha256": "95dda7eb50befc66ca452b8fe6c1ed106848186b8df8df9cc92d42d0a080fab4"
+    },
+    "A部分/app/docs/USER_TEST_RECORDS.csv": {
+      "bytes": 2407,
+      "sha256": "6e1befa0c61ba29747b25eb020ab8819b829478de67720019bddb1cb737503d7"
+    },
+    "A部分/app/docs/USER_TEST_SCRIPT.md": {
+      "bytes": 6937,
+      "sha256": "46882947396b4c9e85b64dc4716648e52da92b82ec6c649622646a33a35f8587"
+    },
+    "A部分/app/docs/USER_TEST_SUMMARY.csv": {
+      "bytes": 484,
+      "sha256": "92047be65cdbf00d05a481904213070dd4f366fb73fc571af2f7ba3869c01a6e"
+    },
+    "A部分/app/docs/contracts/C_接口契约_v1_workbuddy.md": {
+      "bytes": 8241,
+      "sha256": "934366a63e37f784d4cefebe60c0f096a1f5d0883f6ebbb518d6f9759abdb34d"
+    },
+    "A部分/app/docs/contracts/README.md": {
+      "bytes": 1145,
+      "sha256": "c41fccd1bb83df66a51dd0f83f8183c4c0e73ecfd59e0984ec25f6b408907301"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/D_PHASE2_EXISTING.patch": {
+      "bytes": 3981,
+      "sha256": "9d6cf87034e5add34cc9267f1899a40fcb463dd1186198eb9a69119912723d6d"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/ISSUES.md": {
+      "bytes": 3119,
+      "sha256": "095110d0e629ea749d0ea21bc16d8443c413d7b905d93558cc844be558775236"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/ISSUE_TEMPLATE.csv": {
+      "bytes": 138,
+      "sha256": "48ae6989abb042fff480d5aea1b40828fdf1531899d05b2575199a9b4905fe2c"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/QA_RESULTS.md": {
+      "bytes": 5732,
+      "sha256": "24c37031e998e126bb06a3adec35cd8044f55c8481bf6d672b336267bb7ba368"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/STATUS.md": {
+      "bytes": 1402,
+      "sha256": "da9487a2910a450fca5a94d9dc597ae501243b062625fe7907186592d083ac26"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/TASK_CARDS.md": {
+      "bytes": 2183,
+      "sha256": "239c5df1729e78a6a8e11d015c5fa11c7af6e5c366d8f12bb9afd17d5bda3f25"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/USER_TEST_RECORDS.csv": {
+      "bytes": 1286,
+      "sha256": "8a5a412816f9f3f3ce366f76af452af2295ba3e7b920c547baf3b2116583a6f6"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/USER_TEST_SCRIPT.md": {
+      "bytes": 3086,
+      "sha256": "bb52493778dd508ca64f7b5868b4e823c04df34309b2cfc611ef882bbdf98b46"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/USER_TEST_SUMMARY.csv": {
+      "bytes": 238,
+      "sha256": "da3416677acb33e97512e941f32ccef0f3043bc3ccd33786e1f7a534fceecb3f"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/VERSION.json": {
+      "bytes": 724,
+      "sha256": "821363af30464d3a8c4c159054942232b23777a0ade57f515d189234f82b93ac"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/accessibility.json": {
+      "bytes": 66138,
+      "sha256": "2c4a14ddf1a40254ea2e02077f015b3785fafcbe7bb7f6b81dd5c12145e675e4"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/axe-review.json": {
+      "bytes": 18242,
+      "sha256": "342298a2b7e3e154d8a88d610b4c3a8b1fc3801668b8ae8863608c9104df6a5e"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/baseline-sha256.json": {
+      "bytes": 21607,
+      "sha256": "a673ba216755fa25277e6acf03c821c3cc6f1c976c242305f40c05f1eb333497"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/browser-results.json": {
+      "bytes": 3769,
+      "sha256": "40e630d4b46b223b4c355a1652a579614fb4d84d40f3b3cdbf595e9615dce097"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/delivery-manifest.json": {
+      "bytes": 1011,
+      "sha256": "cf9a80e34ea18899a2fd68e74e24812ad2efa81a886d24b8ddbbd00a310a8eb0"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/demo-disruption-http.json": {
+      "bytes": 46681,
+      "sha256": "138b1a7e5dd1e970c15766b56a529d098662a155da04a383d147d11c8444e2fb"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/fixture-http.json": {
+      "bytes": 46800,
+      "sha256": "600dc4cac890dcc1cfb6c064dec5a72d1d3032dc688a5f6edfe4c1e4e5c2904a"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/health-final.json": {
+      "bytes": 676,
+      "sha256": "637b4db41138eb724e475acf8e687156c7135754033250c6ff1f5b897815f81b"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/health.json": {
+      "bytes": 676,
+      "sha256": "ba96236c33be4ee9a557ed5af147c36c46839f17fb3d1843d777c864a290ff18"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/iso-reproduction.json": {
+      "bytes": 273,
+      "sha256": "48b28d0b11c64fd8a48880aad7c041dad934e726c9852172d2e80cb9aa0aed35"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/phase1-disruption-http.json": {
+      "bytes": 14433,
+      "sha256": "d168b162011007c7db5c85c2ff3c9a0950e633cd1bb300c141f7379cc10de5bd"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/phase1-disruption-max10-http.json": {
+      "bytes": 21262,
+      "sha256": "a39a92b0e01a8cff9d448ddfb6e88a5a3fd51f215f7b27ce87a6ae3a1ae1daf9"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/phase1-live-max10-http.json": {
+      "bytes": 22815,
+      "sha256": "c058db19bfa8565ba1d6372fcf5a398b716a981a49a4bdb27b3968f3557850a8"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/publication.json": {
+      "bytes": 2912,
+      "sha256": "912733d279c3821fc0067fe54b892e2396404e09e0d4a58f2e200235f19dccf3"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/shared-disruption-reproduction.json": {
+      "bytes": 46585,
+      "sha256": "285a850fd49cac445cf55d2e6d57ec1610969608222f49851a73698ef726c8ba"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/source-sha256.json": {
+      "bytes": 12980,
+      "sha256": "707510805cf3d86746e4c81e71650324dd8a3ebe2f5b959a64938cdbecd77c2f"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/viewport-1280.png": {
+      "bytes": 935409,
+      "sha256": "8c98965e94584efdaf5e8b67ba43bde2881aa88f8be8232a05f79029ded7d808"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/viewport-360.png": {
+      "bytes": 638464,
+      "sha256": "ebec4b5f91b6b5ad3141fcaf7d8d1e9e06e5381e68e891a01c35a5eb38a5d910"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/viewport-390.png": {
+      "bytes": 655261,
+      "sha256": "e13bac611070adaa7ca6aeddc5b82fbd6d8a1459f730bd403aced5660b32079b"
+    },
+    "A部分/app/docs/d-phase2-2026-10-10/viewport-768.png": {
+      "bytes": 759699,
+      "sha256": "e4aa3ee54448de90ace4820421d83d6418a0c0c1311779da3730ebf261855a3d"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/BASELINE_REPRODUCTION.md": {
+      "bytes": 1542,
+      "sha256": "246d4c0eb8ae9ba7586bbb5302b96deb82dd5e2dd4a2fa806560e4ad06d21a45"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/D_FRONTEND.patch": {
+      "bytes": 41145,
+      "sha256": "e66ce0edd995e973381bbbe3adc4e72e7da1ea3271c9f22b097676835aa9014a"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/accessibility.json": {
+      "bytes": 702,
+      "sha256": "95f283ab8cbce264b7122ef7d50f5a77b9cdaa9bdd36b1e1b8b1c2fc343627fa"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/api-error.png": {
+      "bytes": 55094,
+      "sha256": "a1b93ecd99c398146af1959026ebc07fed8601a0e30ad43d6c9128b41a51f5c8"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/docs/QA_CHECKLIST.md": {
+      "bytes": 5661,
+      "sha256": "47d6df09ae3ab650a875b31f36b259117e85905bd4eeae990612e86f7aba42e3"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/docs/USER_TEST_SCRIPT.md": {
+      "bytes": 4119,
+      "sha256": "74439711ec18d95febc881bff7da8854ad0610b741a831b290ab12b5fd572a7d"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/app/error.tsx.txt": {
+      "bytes": 1197,
+      "sha256": "cae5b31a3200ec10dc13b54228624b2ecf033d36dbbe3fe24cbd94efb4b2f63e"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/app/global-error.tsx.txt": {
+      "bytes": 1257,
+      "sha256": "f55d48aa49c55ae8011f83b9efc2db25771b9df8272d6e63bc9c506fa2a8632a"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/app/globals.css.txt": {
+      "bytes": 1042,
+      "sha256": "3d554676e216ce0831d41623bb7de9ffbe704b30c83d3e4ad42f7a2f8a36016f"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/app/layout.tsx.txt": {
+      "bytes": 1887,
+      "sha256": "f2ad224a4546e6b7534f28cd3114ac274673c8bb341f8a255815bf86a38c11fe"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/components/DecisionCard.tsx.txt": {
+      "bytes": 8093,
+      "sha256": "0c4205e1d9ce8cfc794c88c331e3df2fda83086ca9a03e24d021bf0ba17d4b1f"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/components/DecisionView.tsx.txt": {
+      "bytes": 2904,
+      "sha256": "2584a9fe594a2ae15007797ea0f0769e3f819a6c70ef2e0778bb8ae2960f1903"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/components/RouteTimeline.tsx.txt": {
+      "bytes": 2183,
+      "sha256": "ca9433b6693b72096a796e908b0310f52fca9a6c7837cd25fc1d15b760a00ab1"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/components/ScenarioSwitcher.tsx.txt": {
+      "bytes": 1861,
+      "sha256": "a9cb190d5fb586acea6fcb9d99e263225ea6e74b8bae0b5d50ed8f770cef690a"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/components/TripForm.tsx.txt": {
+      "bytes": 7980,
+      "sha256": "ee8dfb62cb1aaddff979f6bbb47c3d9fc88ec7a73b77f9f27f42674b0c0c73cd"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/src/components/use-decision.ts": {
+      "bytes": 2198,
+      "sha256": "6d091a973d7e861270d27f31bd0b88e6b4160ab4892f8ef98667d1155c780c57"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/before/vitest.config.ts.txt": {
+      "bytes": 325,
+      "sha256": "f14c919bf7966b6ea73ece5fe6d99ad43b48b263d390c0fd0d4493fab28872fe"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/browser-offline.png": {
+      "bytes": 58091,
+      "sha256": "a7673dc6518c7c62f12baafe0b1323d24835272fe7347716f2ccfe4037d558c6"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/browser-results.json": {
+      "bytes": 21353,
+      "sha256": "23c9ee6dde54681ebaf9a5720a7c0e5ccdadcb11bfed6ede93fad4503c04423d"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/input-390.png": {
+      "bytes": 112859,
+      "sha256": "ddcf623f5370d85cda275d61c782ca45802763fdec6b3bd11c3b605054b2e988"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/keyboard-walk.json": {
+      "bytes": 294,
+      "sha256": "45212a2522aa30e2db8c45c9ab835183c5bd5e566929e96fe6bad40d8e729209"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/live-360.png": {
+      "bytes": 525316,
+      "sha256": "f0eae3b1837f28284db9f562a610a9144f74c4e2ffdf33d3e7765d3b7ba8c6f9"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/live.png": {
+      "bytes": 510791,
+      "sha256": "0b48b1433960de36bcf923c1d547207baaaf66585567de9fa9aa25c27f800ebd"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/loading.png": {
+      "bytes": 49437,
+      "sha256": "489a854e8b9772ef626170683d4f374094881eac4cf307fbd13d411caaaa2237"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/minimal-contract.png": {
+      "bytes": 270034,
+      "sha256": "ce33ef93f067f2cda7ba479d26aec48841628f6d4775487253d5d66dae4eaac4"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/mobile-core.png": {
+      "bytes": 97232,
+      "sha256": "26c1fa5fce0f08a3fd4fc7d6a31ee3a97a83f6a06cba69aa25195ebaf656cb3c"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/publication.json": {
+      "bytes": 7187,
+      "sha256": "219ed1c743fbed340d69f7b1e8d1c0145e599daab786c5285d9778f09215daed"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/result-disruption-390.png": {
+      "bytes": 462545,
+      "sha256": "dcfade997f8859f6e1cacbd7511b423659e65d7e49b39228539eb4f0041342ac"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/result-heavy_rain-390.png": {
+      "bytes": 450929,
+      "sha256": "046322f9c881321790098eea613c8fbfac1b0a58b4f876d0db711cb0fc347f7b"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/result-normal-390.png": {
+      "bytes": 438473,
+      "sha256": "8245ffdc6f1204a41582df671db62e2cf92c948baf087d62e3219d98077c355c"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/room-assets-verified.json": {
+      "bytes": 7541,
+      "sha256": "a175317953dba402b04e817e738ad8c49d1213e43c44e11b1521b639cdf290bd"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/source-sha256.json": {
+      "bytes": 1648,
+      "sha256": "629d0fba21a7ba7cf7f4074aec6456fcf815bbb42803fcdb2febdfea30d940dd"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/unavailable.png": {
+      "bytes": 234575,
+      "sha256": "579da417013c7623e4f555d888fc660a623b5601cd3058c6d6414bf067969adc"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-1280.png": {
+      "bytes": 480605,
+      "sha256": "9ae4b771c305a224109c6bc74019a9817117cdb15a3e41661dc3e064149b97f2"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-360.png": {
+      "bytes": 439652,
+      "sha256": "eaf5c24b6543d8fc46250e7f168167da510bb229f6c825b30a63dc80f7314df2"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-390.png": {
+      "bytes": 438203,
+      "sha256": "acf1691aa659aa0d08367d2cd689f42e8906988e6477ad7a127733e881f6e8f7"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-768.png": {
+      "bytes": 460268,
+      "sha256": "4cd020bdac1a03c2bb10efc1fe74b2e7d8d6daf83625108957528f541f23bd42"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-disruption-1280.png": {
+      "bytes": 507644,
+      "sha256": "a26c6f1b70f83835c556ae78764716ed86030cf86985cef9bb7d5c84658cd531"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-disruption-360.png": {
+      "bytes": 463392,
+      "sha256": "45c2de2e414693e90723f0d176cd206dc324ae6ed4cd43de7858f424b7bc1869"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-disruption-390.png": {
+      "bytes": 462157,
+      "sha256": "294615b63a8e7a7c5afa6827e9730114e8736afc4dd5d557431b3720c3e5d544"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-disruption-768.png": {
+      "bytes": 486102,
+      "sha256": "bdac510b326a0f9fd002de0e765f91f049d0f7b71a4ad433ad0aa936a8b79af4"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-heavy_rain-1280.png": {
+      "bytes": 493076,
+      "sha256": "25a9bc994431ef26c5db7d2dbcde4106d5b0188047e25665f1ab11f96828384b"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-heavy_rain-360.png": {
+      "bytes": 453016,
+      "sha256": "2c7848efd73c29a95765f5fbaf35699e709aa0b2bd03049a9167aaa98c312ec8"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-heavy_rain-390.png": {
+      "bytes": 450943,
+      "sha256": "9e59ac18805a36a3fbad7f15c9f9e904eee109ec5717db637a090df094a8899b"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-heavy_rain-768.png": {
+      "bytes": 472358,
+      "sha256": "b8e415532bb35d8072e19e4d6411d737d0bef8b5caaed928c417f9ec2dbef672"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-normal-1280.png": {
+      "bytes": 481218,
+      "sha256": "5c9b27acae15119febf38160f82a637287425942fc3993a0cb3bbf57a9513792"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-normal-360.png": {
+      "bytes": 439839,
+      "sha256": "8c20f143d5e3372f26189f2a68dc45cae71643587fa4ea0bf994cb5cd44a86b0"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-normal-390.png": {
+      "bytes": 438495,
+      "sha256": "09472bb1f3f1f1feee2fa27e8a6580bd5fba2da29a7284d1016064b453063ed1"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/viewport-normal-768.png": {
+      "bytes": 460939,
+      "sha256": "bb5d0d3b0a20ee8b63d3cec84f70e055502d76db08db02fe36942b21dabe664a"
+    },
+    "A部分/app/docs/d-qa-2026-10-07/zoom-200.png": {
+      "bytes": 1087399,
+      "sha256": "c33c8fe8518e412f41ca47e059a6d47588040e440d9707bd2ce43e114eec0fdd"
+    },
+    "A部分/app/docs/data/b-extra-live-2026-10-14.json": {
+      "bytes": 1942,
+      "sha256": "c2f20cb005edb75c06c18edeedcbc09bfecf457560b29f2f01ef8de347ab03f2"
+    },
+    "A部分/app/docs/data/live-source-check.json": {
+      "bytes": 8402,
+      "sha256": "7dd5fa01cc39a35ab2811e854e0759f7d099b22bffcfa0c0d99493b06c5cf906"
+    },
+    "A部分/app/docs/data/official-bus-service-reference.json": {
+      "bytes": 1582,
+      "sha256": "2e8dacf775243314720746f93a6799d154cf3f3792817d2c6dd0739376ea7218"
+    },
+    "A部分/app/docs/data/official-rail-reference.json": {
+      "bytes": 7854,
+      "sha256": "0099693a551e3f7f2e3d2e9111f6b1ef56fb011500dce4ede2affc6ce8b037a2"
+    },
+    "A部分/app/docs/data/poi-source-probe-2026-10-14.json": {
+      "bytes": 2793,
+      "sha256": "21b07784de569eb608387c942ef2e98caaaa34dae42bfedc1d11fd1f4a889cc3"
+    },
+    "A部分/app/docs/data/preview-api-check.json": {
+      "bytes": 26171,
+      "sha256": "5136992c492b07b5a9e721d057ec06ec6c8551a4a7777530059a991cc0c2d160"
+    },
+    "A部分/app/docs/data/team-data-probe-2026-10-12.json": {
+      "bytes": 8492,
+      "sha256": "3bd52091c7547a0e7d6f75e35c6c6b27a856986df3dbf12a19104c5f75c6015e"
+    },
+    "A部分/app/docs/data/team-data-probe-2026-10-14.json": {
+      "bytes": 8071,
+      "sha256": "12caada4f90db9be15e51b14b19af16ce4e1e382d19b6f37369b280bd81eeeea"
+    },
+    "A部分/app/docs/map-source-fixed-2026-10-15.png": {
+      "bytes": 508226,
+      "sha256": "5cff3f4f741c6afb99051903fb1047a80eb7845115ab6aea2acd1ac4581f5628"
+    },
+    "A部分/app/docs/phase1-restored-2026-10-15.png": {
+      "bytes": 71874,
+      "sha256": "e6c4ad9aef5c26a74ea7bd0548c2bc1fab3a6c821457323750d3c9999fe7414d"
+    },
+    "A部分/app/docs/phase2-qa/desktop.png": {
+      "bytes": 504796,
+      "sha256": "5a57052cacb3ed713c8bc3312de12a5ae4ed2f0fb5eb9909e2be1f481a2b01b4"
+    },
+    "A部分/app/docs/phase2-qa/mobile.png": {
+      "bytes": 59577,
+      "sha256": "d853ee5267db66e49a1522a5e9df3306a7618a5e2e483a87522f82cac4ba0ac1"
+    },
+    "A部分/app/docs/screenshots/01-mobile-input.png": {
+      "bytes": 269678,
+      "sha256": "0ef3e1550d89af5442ff4e0c13acf2f450c466e9f8a3abe5f281e88e33fc6d96"
+    },
+    "A部分/app/docs/screenshots/02-mobile-result-disruption.png": {
+      "bytes": 1146295,
+      "sha256": "fb985108a43462251e125f579a7221726464dfdaee07e749febcd928c6279c2c"
+    },
+    "A部分/app/docs/screenshots/02-mobile-result-heavy_rain.png": {
+      "bytes": 1118928,
+      "sha256": "2a36d172359a374a267dc00d3d262824bbc38243a68dcab9ac571e47005130a0"
+    },
+    "A部分/app/docs/screenshots/02-mobile-result-normal.png": {
+      "bytes": 202019,
+      "sha256": "c53e1ab2b5fe63a70c4f8e06c8b6ab6dc391da76fe8c1015fcba9cb7d579a797"
+    },
+    "A部分/app/docs/screenshots/03-desktop-result-disruption.png": {
+      "bytes": 550090,
+      "sha256": "4b9626a2c1c9cd516a7bc7b15cf8f683b15016b3fdaa5ea7ca8de573765423cd"
+    },
+    "A部分/app/docs/screenshots/03-desktop-result-normal.png": {
+      "bytes": 523808,
+      "sha256": "ef433407fd50a2f5ec7bebef4ec606012296cc79623f4fadc160561dca9dcd3a"
+    },
+    "A部分/app/docs/screenshots/04-api-failure-state.png": {
+      "bytes": 79168,
+      "sha256": "7b3fb411a121117c31ed8ce8d5b5464d2fe6665c0456400d7832b8bf3f0a3199"
+    },
+    "A部分/app/docs/transit/TRANSIT_COVERAGE.md": {
+      "bytes": 6180,
+      "sha256": "11d7c3df0f6a29e4321a79623d13588fd3d9b92335712fa918b8d3e9d18cd947"
+    },
+    "A部分/app/docs/transit/coverage.json": {
+      "bytes": 4583,
+      "sha256": "a2e267039b31945373081322e5fc4ac79bee6be7bf20477101d2c8107540773b"
+    },
+    "A部分/app/docs/transit/shenzhen-coverage.json": {
+      "bytes": 7128,
+      "sha256": "88832cb83ce2bd73eb34811678e0deaae0f8fae0c4abbc2d385b12dda6f0ba73"
+    },
+    "A部分/app/docs/ui-spec-v2/API-UI-DEPENDENCIES.md": {
+      "bytes": 11270,
+      "sha256": "4502b84037465c4c131b4b637319727340b8967db3fc92056ce7d1a92ef799da"
+    },
+    "A部分/app/docs/ui-spec-v2/BRAND-ASSETS.md": {
+      "bytes": 9395,
+      "sha256": "30df35be6a0c5b6d0e37ae10af2e00814ce6a6ee755d2f27a994e741fdec1b90"
+    },
+    "A部分/app/docs/ui-spec-v2/COMPONENT-SPEC.md": {
+      "bytes": 14288,
+      "sha256": "11afd926f99ffbb4f47073286a9cc3cacafabb57352ee8d0fbb42bd08c4a4f0e"
+    },
+    "A部分/app/docs/ui-spec-v2/DESIGN-TOKENS-v2.md": {
+      "bytes": 16368,
+      "sha256": "506554048d8fda525f218ad45f468d529dcc2c459c613d93bceb62f67b1c6cdb"
+    },
+    "A部分/app/docs/ui-spec-v2/JOURNEY-VISUAL-SPEC-v2.md": {
+      "bytes": 25646,
+      "sha256": "aba906eb848f88ebe3a0cbd37c00f19d9c126d47310e1bf6a45f235e427ee916"
+    },
+    "A部分/app/docs/ui-spec-v2/MAP-LAYERS-SPEC-v2.md": {
+      "bytes": 16832,
+      "sha256": "47efda98d301b3c519341ab6d9bb0bb986399c1e3afd9ee6bb5316e98f10b177"
+    },
+    "A部分/app/docs/ui-spec-v2/QA-CHECKLIST.md": {
+      "bytes": 15434,
+      "sha256": "d127c3f14ddeed743768ef0e4bf915d936604f8e2fe38dc798e39a12c5f67505"
+    },
+    "A部分/app/docs/ui-spec-v2/README.md": {
+      "bytes": 4560,
+      "sha256": "59738ae5ae1f4da82addbd8a6177a7c1a36a49b74e41d9000e8ebbb9adcf3d86"
+    },
+    "A部分/app/docs/ui-spec-v2/REPLAY-SIMULATION-SPEC.md": {
+      "bytes": 13977,
+      "sha256": "fde8075640f8fff14af0630da38f4941b33ddac0bc1f77ef8f5fffd1ca207c71"
+    },
+    "A部分/app/docs/ui-spec-v2/RISK-VISUAL-SPEC-v2.md": {
+      "bytes": 12789,
+      "sha256": "e8860caaf7cce364bb189aab4b23a8cf5c66022fc4dcd9cacfdffdea28a2a646"
+    },
+    "A部分/app/docs/ui-spec-v2/UI-PAGE-INVENTORY.md": {
+      "bytes": 15257,
+      "sha256": "702f20c63740fbf3d1b54d71cc938aca2ef37430e892413047e9b1a036bcdc21"
+    },
+    "A部分/app/docs/ui-spec-v2/UI-STATES.md": {
+      "bytes": 16439,
+      "sha256": "36c640f9f110824174375c33bf18ed45167829924365088464b08881d8dffca1"
+    },
+    "A部分/app/docs/ui-spec-v2/UI-WIREFRAMES.md": {
+      "bytes": 22480,
+      "sha256": "10de2981fc88c8aa9bc23665fc67b845df052fafb07812fdd97eb4db1b4e2f16"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/README.md": {
+      "bytes": 11366,
+      "sha256": "713cb9c9f94d39c1262856e9c81f5e4e901f485442df9462f01c8df7b276cfce"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/app.js": {
+      "bytes": 31101,
+      "sha256": "139d603af0861aa9ccd5a8c380b7e0c57d5ef413397f5448c122edec6eead769"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/assets/favicon-180.png": {
+      "bytes": 34939,
+      "sha256": "f545d377d1425b3d52cc0c1a2efe2ae79dd804bc2d7a8c86fe40f26229f1c007"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/assets/favicon.png": {
+      "bytes": 5525,
+      "sha256": "4763d22f761a03d5ae31d63d78d53f0d1b0c731a24ed1021901fee16b26dd773"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/assets/logo-source-master-3000.png": {
+      "bytes": 1152680,
+      "sha256": "dd0d2fb3ad38e25b93fb75f17753edfeec3c2cef701ed3c4a46b353d4ee87bbb"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/assets/logo-symbol-256.png": {
+      "bytes": 53575,
+      "sha256": "d189abbc18a57356b4fa4d0af41dabb813010c17b9e336a1099530205a3101cc"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/assets/logo-symbol.png": {
+      "bytes": 171048,
+      "sha256": "694e5fc88a707b34dd9a2b593ef92030f99ebe19025459b9b8fce188de163226"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/data.js": {
+      "bytes": 12005,
+      "sha256": "f9b16d8398d0c303dcd945a27d7a63fa1f5ab73cfd409f720317163aabf9f1e4"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/index.html": {
+      "bytes": 6728,
+      "sha256": "6e9f411cc3b73818610ccc906e972c5d0ffcef89755d7bd6d65c976e0c0a7337"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/demo-states.png": {
+      "bytes": 562329,
+      "sha256": "f8fe5a07d7e6a6bb5d3256c9a384c64a4dfaf7fa74de0d6eaf0e4e787f1f161a"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/desktop-cross-border.png": {
+      "bytes": 441618,
+      "sha256": "6485af7ad3a8952ce1e2efac60a62c1f1d52f0bbb5489b6d2804a7df02f80679"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/desktop-logo.png": {
+      "bytes": 412783,
+      "sha256": "1df2ba615fa6236db41e5917a8d42f61b63640c464ae8fef176fff974311e215"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/desktop-main-after-logo.png": {
+      "bytes": 996103,
+      "sha256": "36b3765a3e4d973e9fcc5a893a80c6a6f3e2194e12e3a23df9191abb3f7cbfd6"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/desktop-main.png": {
+      "bytes": 1111138,
+      "sha256": "88176fcea81cc28216769087f75a1fa25d69c58ccf44ab97335198b9e4c4e01e"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/extra-desktop-disruption.png": {
+      "bytes": 1156208,
+      "sha256": "53dcf8700dad5e704485400146d9d036ce69288a23953a739163be2d9f435ae3"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/mobile-home.png": {
+      "bytes": 197823,
+      "sha256": "a7972e4496ede44e2c41d9087aac455be82e02ea2d4842dba7b3aa6a7f661a23"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/mobile-journey-result.png": {
+      "bytes": 169927,
+      "sha256": "7fe4b42024084cb4cb8ef4e1dc4c85b818efed102e17bed7fa7848b8417fd59e"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/mobile-logo.png": {
+      "bytes": 142636,
+      "sha256": "e861a949e6f124ec2d09ab6aad71a45770f0189a34340ebb36f9328cd96674f4"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/mobile-main-after-logo.png": {
+      "bytes": 929719,
+      "sha256": "cc5791f8357a42d416ed3f3a0969a5990ec60a10873ed95cc5c0ddc470f8c84d"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/screens/mobile-risk-analysis.png": {
+      "bytes": 195105,
+      "sha256": "00941847af060769e998e87b2b62bbcf21d4a50a795f46f82dce7f352149e271"
+    },
+    "A部分/app/docs/ui-spec-v2/prototype/styles.css": {
+      "bytes": 19766,
+      "sha256": "2627969b4f89f17148bb0e97ecbf5742fc3bd72432253045e0ca0e0a020e7915"
+    },
+    "A部分/app/eslint.config.mjs": {
+      "bytes": 868,
+      "sha256": "63a3e51ed8c8236dc15c9a3d3a36921d54498c06c78149206ceabe30ce4e6d8c"
+    },
+    "A部分/app/examples/team-integration.ts": {
+      "bytes": 1395,
+      "sha256": "aab2ffc78b0edd4d90b90b77ebb2d4a4f59611583850a0b69876bfcd49345499"
+    },
+    "A部分/app/next-env.d.ts": {
+      "bytes": 264,
+      "sha256": "08c7e5dc1f4bb9e8a84333533c35194c5cac0d20d5ad713f4aae5df5ba9a3d09"
+    },
+    "A部分/app/next.config.ts": {
+      "bytes": 745,
+      "sha256": "42d875c64ccc36d1db49562d3363656268d87c43d24c6ab73072ad805b0b9744"
+    },
+    "A部分/app/package-lock.json": {
+      "bytes": 275873,
+      "sha256": "091bf53ab2c60adb47e0e6967fdd7074cd7836a0f9a9971779acdee0419e3c34"
+    },
+    "A部分/app/package.json": {
+      "bytes": 1707,
+      "sha256": "de4c32977f74329fd06c91c340773580c5d12ffa02443d17998e84d1a80e1ff7"
+    },
+    "A部分/app/postcss.config.mjs": {
+      "bytes": 105,
+      "sha256": "8c4071497479b4bb346d0ebb53b1bdeb555beb659512aaa0d6988d0d83ddeed5"
+    },
+    "A部分/app/scripts/check-preview.mjs": {
+      "bytes": 1069,
+      "sha256": "400b92e35f4e6049c02cc3899c920cbec9841fbabab41d3e6a4337218c5373d3"
+    },
+    "A部分/app/scripts/import-hk-transit.py": {
+      "bytes": 5591,
+      "sha256": "eba6143f5f792670b6c9bd2968a46e62eba536f47e2e5eb28d11fa4adad88491"
+    },
+    "A部分/app/scripts/probe-risk.config.ts": {
+      "bytes": 195,
+      "sha256": "92f38f0ffde239037fca98740faa6dcdcb5d3e9f66b05821a22a1b1cc3e5413c"
+    },
+    "A部分/app/scripts/probe-risk.test.ts": {
+      "bytes": 10800,
+      "sha256": "eaf32bbe10ea1601c0d585fc459c672768837464928e258da008ff6e4127b698"
+    },
+    "A部分/app/scripts/probe-route.config.ts": {
+      "bytes": 196,
+      "sha256": "486db27aab2f42e6acc5934c93f83b502ad5f983c422e1477aa0e3333fa826c3"
+    },
+    "A部分/app/scripts/probe-route.test.ts": {
+      "bytes": 3917,
+      "sha256": "28d40c5987d53ea4f386e763b8efd1dadedd6c88a8f25886cea7cae9fdbb34af"
+    },
+    "A部分/app/scripts/probe-shenzhen.test.ts": {
+      "bytes": 3833,
+      "sha256": "61a1e2c8d97265dc51b1a54d7f6661fc141efd35bd8424062b2b5261e3cd0ebf"
+    },
+    "A部分/app/scripts/probe-team-data.config.ts": {
+      "bytes": 195,
+      "sha256": "0788f6552b07fd16787e88995ea4c55520419e63675651386beb6b51af3b5c75"
+    },
+    "A部分/app/scripts/probe-team-data.test.ts": {
+      "bytes": 4676,
+      "sha256": "6148295e2ca70e76351bbf4812154f7313411c5c43fe452c277719f189ac8668"
+    },
+    "A部分/app/scripts/probe-transit.config.ts": {
+      "bytes": 272,
+      "sha256": "60ece1decb8f1a4dfbcdba4a9157d41d7cf3fbaf08d3e1602631a218f8dc22db"
+    },
+    "A部分/app/scripts/probe-transit.test.ts": {
+      "bytes": 3171,
+      "sha256": "a86de10b471dee73ff4d6565d3315a6b004e6de3cea9f2feaba49a9ab774433d"
+    },
+    "A部分/app/scripts/probe-transport.test.ts": {
+      "bytes": 1805,
+      "sha256": "4ad742b2c28c0e972677c097f7f12001e2a7d22dcf4eadf5601588fc7dd7d923"
+    },
+    "A部分/app/scripts/probe.config.ts": {
+      "bytes": 195,
+      "sha256": "ec45b41b2454df83d37e3335958eda51c4c900fc7eb6809cc8dffd19bc200b86"
+    },
+    "A部分/app/src/app/api/d-team-fixture/route.ts": {
+      "bytes": 1128,
+      "sha256": "2cc5a5b1080ea221d90481162dddc0cae2c093947978f77a7623abe7ead56165"
+    },
+    "A部分/app/src/app/api/decision/route.ts": {
+      "bytes": 918,
+      "sha256": "ac9f96090cb83241e4e3c67f6f8c779e9626369d120b6dc74e88be33c267d9dd"
+    },
+    "A部分/app/src/app/api/health/route.ts": {
+      "bytes": 555,
+      "sha256": "cf26348b8248a00f02496cbaf6c54f063bbe41203c8cd916ba7bf5c803ec19d1"
+    },
+    "A部分/app/src/app/api/journey/route.ts": {
+      "bytes": 846,
+      "sha256": "dac797d7814f4541365c76613e4df0efa12c84eaeb2c0209f2defaeb435c70f7"
+    },
+    "A部分/app/src/app/api/places/route.ts": {
+      "bytes": 1970,
+      "sha256": "8b44de8d55889c6ba6886d2f7ce387d360333d8d86d69efb1524e89e1ded6cc9"
+    },
+    "A部分/app/src/app/api/team-journey/route.ts": {
+      "bytes": 1067,
+      "sha256": "b034dc611d52b7be361edc884079f89196cbfe7545140c7bda549200c400ef1f"
+    },
+    "A部分/app/src/app/api/transit-status/route.ts": {
+      "bytes": 950,
+      "sha256": "27ed031a24d743a985db020896b9d99449c3ee17147b93e82f78e56b7a6df419"
+    },
+    "A部分/app/src/app/error.tsx": {
+      "bytes": 1018,
+      "sha256": "54cb49930677fc367700a75401a7a58fabef0f727c8fee663aa535da8790ef2e"
+    },
+    "A部分/app/src/app/global-error.tsx": {
+      "bytes": 1161,
+      "sha256": "f77655716c2de95cb73ce05abb6f26e0721e3f43c3d80d01b49699b9b38e5768"
+    },
+    "A部分/app/src/app/globals.css": {
+      "bytes": 7880,
+      "sha256": "c72e1d6f98f0799b8712f2b1dad81219b3adf034980202329795dec04157712e"
+    },
+    "A部分/app/src/app/journey/page.tsx": {
+      "bytes": 131,
+      "sha256": "8981d1493da68a4de30f6315bf8f1dd788a55369469e4ded63ad024fc129048f"
+    },
+    "A部分/app/src/app/journey-team/page.tsx": {
+      "bytes": 223,
+      "sha256": "bdf102f76fac63e8a14d56a65eaf1cfa5ea72a0f20a1c8b0519a7a01e7f10681"
+    },
+    "A部分/app/src/app/journey-team/team.css": {
+      "bytes": 4357,
+      "sha256": "165047fa5a326c76876d2365e8655c48cda8bc2656c11b4004cb4c78f4c75063"
+    },
+    "A部分/app/src/app/layout.tsx": {
+      "bytes": 2009,
+      "sha256": "c2575324b23acca2d6762e82c5f272ea71aca33cf3ea203bc64d5df6b4b1f177"
+    },
+    "A部分/app/src/app/not-found.tsx": {
+      "bytes": 486,
+      "sha256": "d0445bdf92093c22a4a4586c1a812ea65fbaca2cdabea43667c68a535bcd84b1"
+    },
+    "A部分/app/src/app/page.tsx": {
+      "bytes": 643,
+      "sha256": "bc908e96287a10fecbef3db129f0e0a741c4890f19c81e2db7ac92a9003a42c1"
+    },
+    "A部分/app/src/app/result/page.tsx": {
+      "bytes": 1190,
+      "sha256": "f06907e0ec994b0181767b657a50f873ba694c4c596fea32cab0ef0e3f3f6ef3"
+    },
+    "A部分/app/src/components/AddressSearch.tsx": {
+      "bytes": 3957,
+      "sha256": "310510aff74b418ab5ce022dc5355199d0a877702eb8f5ca3c0b618214018e61"
+    },
+    "A部分/app/src/components/DataFreshnessBadge.tsx": {
+      "bytes": 1913,
+      "sha256": "1f109c122a0c5dfa0f25db58e157cef98bd1c2a4e73ca6affd30d8c823ab4c2d"
+    },
+    "A部分/app/src/components/DecisionCard.tsx": {
+      "bytes": 8641,
+      "sha256": "18a88f4e7ed0aaaaad838eb628d111685fed5f32c64afabc5a1e37ed6a927610"
+    },
+    "A部分/app/src/components/DecisionView.tsx": {
+      "bytes": 2966,
+      "sha256": "5ec98f5c295edff1285c1a28c94577aebc584c3eecaf7809abfca96634803d43"
+    },
+    "A部分/app/src/components/JourneyMap.tsx": {
+      "bytes": 7053,
+      "sha256": "89c2efc53979f3be6dd019c8d5a1b5ac2dafd9997a0292815ff2b42d974b0dd3"
+    },
+    "A部分/app/src/components/JourneyPlanner.tsx": {
+      "bytes": 20883,
+      "sha256": "d36dc136f805b51b7deb28b71714ed56916bdbb4e5ce298f8d32f9990e0a8243"
+    },
+    "A部分/app/src/components/RouteTimeline.tsx": {
+      "bytes": 2183,
+      "sha256": "a6815068ddeb926ad8c472bf87e1a983c1657e5e86011cce48513eb6a7746926"
+    },
+    "A部分/app/src/components/ScenarioSwitcher.tsx": {
+      "bytes": 2677,
+      "sha256": "1ee8ca2cf23db282d9c1952b543a6e08dc4a39661fe7b1fd87bd06e25cd8821c"
+    },
+    "A部分/app/src/components/TripForm.tsx": {
+      "bytes": 9574,
+      "sha256": "c74ae85297c6e36ffa921da667320696b82ce8ffba0b03b131efd8050decb8a5"
+    },
+    "A部分/app/src/components/d-team/TeamMap.tsx": {
+      "bytes": 3206,
+      "sha256": "bf0ca39a3f04c70c25343d0b2f3926b6190af41bc31a15558ecc9810c46f2424"
+    },
+    "A部分/app/src/components/d-team/TeamPlanner.tsx": {
+      "bytes": 8402,
+      "sha256": "71083164e4e5fe789c10326ac0aed2d72ebaffe4a683136bd15fd770133d422a"
+    },
+    "A部分/app/src/components/d-team/TeamResults.tsx": {
+      "bytes": 7665,
+      "sha256": "ffc519e75aa8ec6d46b17a4fb720dfc278f73345ed98dddd0221edcfe904c93d"
+    },
+    "A部分/app/src/components/d-team/client.ts": {
+      "bytes": 1638,
+      "sha256": "6f49f54b7bbd52ff4e05cea190e0de1e827a320e757a215a34493535001a7c27"
+    },
+    "A部分/app/src/components/d-team/contract.ts": {
+      "bytes": 6729,
+      "sha256": "dc9ec84032fc361168655c99b93377916f0cd3f7dd18bb46b59353583ed28864"
+    },
+    "A部分/app/src/components/d-team/fixtures.ts": {
+      "bytes": 3545,
+      "sha256": "585a43e8962bd42c877b6d04e0c2ffc2ee06633575c0231352057b53cd199d26"
+    },
+    "A部分/app/src/components/d-team/presentation.ts": {
+      "bytes": 2027,
+      "sha256": "3f260134f4cd060f6f034c39f183fd8ee5d571dee9bf1683b458963f734d7fee"
+    },
+    "A部分/app/src/components/d-team/scenarios.ts": {
+      "bytes": 604,
+      "sha256": "3cd3c0e16b62a97f24b806bc9cb404f01e607ebe79792b1878b12ad162ca2c92"
+    },
+    "A部分/app/src/components/states.tsx": {
+      "bytes": 3476,
+      "sha256": "d891d465d1b1b579ca19ef37986a3cd85b64c435d6acf5862ec96584c41716f8"
+    },
+    "A部分/app/src/components/use-decision.ts": {
+      "bytes": 2471,
+      "sha256": "e58ff7cb99cf8ebbd9a1a921a9d1c0ac86932e3796904538dc739425e66e74aa"
+    },
+    "A部分/app/src/lib/adapters/cache.ts": {
+      "bytes": 1250,
+      "sha256": "dad21603145e452469950859c366f14b6c492989083aa984c1a4a26f4ebd72b4"
+    },
+    "A部分/app/src/lib/adapters/data/hk-holidays.json": {
+      "bytes": 1103,
+      "sha256": "990365fecba7f61711f67f7385d8d50bf7a52c568e34e42e0bb093f0789500d5"
+    },
+    "A部分/app/src/lib/adapters/data/place-facts.json": {
+      "bytes": 772,
+      "sha256": "11b04bf2a505ff981040f703303cf5befcdb16f064b9ce760ff67fc50bc6ea44"
+    },
+    "A部分/app/src/lib/adapters/data/port-facts.json": {
+      "bytes": 6431,
+      "sha256": "54b93fd519680e281800f917b8ade2de88dfd206cc48da33533937c5a3d84b0f"
+    },
+    "A部分/app/src/lib/adapters/deadline.ts": {
+      "bytes": 953,
+      "sha256": "e32eda0038f7a1e887e94a303eff4b2590dee9e7329e9b6722596627f0371225"
+    },
+    "A部分/app/src/lib/adapters/hko.ts": {
+      "bytes": 2425,
+      "sha256": "dfe3b9a94146f854380b7ecf5b65efe01eb65f40dc4f9c0bc5436404f3a1a676"
+    },
+    "A部分/app/src/lib/adapters/holidays.ts": {
+      "bytes": 486,
+      "sha256": "0bd1d3a3a1122607cc79d882f4c8ba652385eaed5248ea487c6a3163fe853fc0"
+    },
+    "A部分/app/src/lib/adapters/index.ts": {
+      "bytes": 8565,
+      "sha256": "518c030016f64a7e75db7adbe0bc16783932b21dd7bf786ee8b99f3beb562a64"
+    },
+    "A部分/app/src/lib/adapters/joint-bus.ts": {
+      "bytes": 3487,
+      "sha256": "ac09bf79202a7fc0b750686f9b3a70fe0544a9bca3f53d33354464fb4992cedd"
+    },
+    "A部分/app/src/lib/adapters/live-providers.ts": {
+      "bytes": 4710,
+      "sha256": "cd84035176d8025abfeec9e1f17dfc22a0f2ea79f8113c3933308da5330f57af"
+    },
+    "A部分/app/src/lib/adapters/poi.ts": {
+      "bytes": 3005,
+      "sha256": "3fa4fc8d6fb495e2b5d60bd3c2bba059bb040c0ef794a8ed70a1f101851ea505"
+    },
+    "A部分/app/src/lib/adapters/port-conditions.ts": {
+      "bytes": 32303,
+      "sha256": "b87355878f0986cee18f8178711436507653e1a85daf0e79eb60192a83bd64a1"
+    },
+    "A部分/app/src/lib/adapters/source-client.ts": {
+      "bytes": 2689,
+      "sha256": "92f5f99cb828b9e35fe3fe244a0ccb699df5cdcd57bb8714f8f6e19a49080336"
+    },
+    "A部分/app/src/lib/adapters/team-data.ts": {
+      "bytes": 11351,
+      "sha256": "115e03813e365aaf9e99f5c14bb7421cd4c3910eccf498ff9306e112ea8f22bc"
+    },
+    "A部分/app/src/lib/adapters/traffic-news.ts": {
+      "bytes": 2004,
+      "sha256": "c921f7864050428b802af2cd0c581fa36376964b1a3c8f3bcef3be58e2d6f5c6"
+    },
+    "A部分/app/src/lib/adapters/transport-times.ts": {
+      "bytes": 8003,
+      "sha256": "f02804075a1c7dd06964a4cd5b2fb047b3063815f80b5b433c80fc57fa3dbf03"
+    },
+    "A部分/app/src/lib/adapters/types.ts": {
+      "bytes": 1698,
+      "sha256": "a0394e060214169f8a99ca38ec193325ec612d7905220489c9b7774967441743"
+    },
+    "A部分/app/src/lib/adapters/validation.ts": {
+      "bytes": 1344,
+      "sha256": "1231853fb0f6f7ac85650c0bd1c197553f544ffb7b7cc0efb6c06d16ca3203d2"
+    },
+    "A部分/app/src/lib/ai/index.ts": {
+      "bytes": 11628,
+      "sha256": "d936ffa1e61be5eedefaa8aaa189b75a05f96922c7ea5feedbe2267b2ba6db04"
+    },
+    "A部分/app/src/lib/api/decision-handler.ts": {
+      "bytes": 3245,
+      "sha256": "2fe4e76963609f2dbb8601bd5ac77ce75084ab7815f9659d29454d2c1aaa1c0c"
+    },
+    "A部分/app/src/lib/api/errors.ts": {
+      "bytes": 1071,
+      "sha256": "62415258065eef1417c662f11a798651fe4a6af180ab62837c84af0d1ff94ab9"
+    },
+    "A部分/app/src/lib/api/health-handler.ts": {
+      "bytes": 2040,
+      "sha256": "4f29c71b0392be87fc369b8bf10fb464af39f99dcffb14b5f42428348ca67097"
+    },
+    "A部分/app/src/lib/api/journey-handler.ts": {
+      "bytes": 3208,
+      "sha256": "9884231fe3040a1911c1bdd5f2b81ae133274012c2427f763c02b10cf276a91e"
+    },
+    "A部分/app/src/lib/api/team-journey-handler.ts": {
+      "bytes": 5445,
+      "sha256": "4db0afe1e88d33bbc5b884296d96dc96fb862045e6d9c34eae87d55a789118b9"
+    },
+    "A部分/app/src/lib/api-client.ts": {
+      "bytes": 3672,
+      "sha256": "52cd62826090d1098909c7bdf1a34bd1b68e5735f769e9c9c813950a22628a9f"
+    },
+    "A部分/app/src/lib/border/index.ts": {
+      "bytes": 6375,
+      "sha256": "8402ad104d0ae9e985964049d28581f48b06a2cf17b0610612a2a19c1eceba35"
+    },
+    "A部分/app/src/lib/border/thresholds.ts": {
+      "bytes": 976,
+      "sha256": "eb1efd3bab6a0d52911ac6b8e90e89997a228c0a955186212d346a9a13e7b2df"
+    },
+    "A部分/app/src/lib/corridor/index.ts": {
+      "bytes": 10454,
+      "sha256": "284627ecd3781a10d4d4c23ebe3d847bde3c123ddbbd864700c1e7f3851dd1ae"
+    },
+    "A部分/app/src/lib/crowd/index.ts": {
+      "bytes": 6046,
+      "sha256": "47602730ca91b173c134acb90c6edd7d7e7ce5421c6385966a87383489ea2af6"
+    },
+    "A部分/app/src/lib/crowd/thresholds.ts": {
+      "bytes": 1861,
+      "sha256": "f48d1d4da1816609dc5780448e2191ae5ac1cd1ac9350e9719bb299d7fa9dc04"
+    },
+    "A部分/app/src/lib/decision/advisory.ts": {
+      "bytes": 14088,
+      "sha256": "a0b22df808baceae48aa2ff1532acd186e142e87797187923b71dc39274360e8"
+    },
+    "A部分/app/src/lib/decision/disruption.ts": {
+      "bytes": 7754,
+      "sha256": "7355e30705bca0324cd3e84b230dbfb3f74337bb4540df03faada4f4c41743c2"
+    },
+    "A部分/app/src/lib/decision/engine.ts": {
+      "bytes": 30503,
+      "sha256": "083864bbe6a36ca716d1c03da660514582906d3b4e26caa5529316fdc7cb5e7b"
+    },
+    "A部分/app/src/lib/decision/explain.ts": {
+      "bytes": 9787,
+      "sha256": "f045b114f023295f421c62886e0eb558d8a1b8e86dc36c3918ca50a5823630c2"
+    },
+    "A部分/app/src/lib/decision/index.ts": {
+      "bytes": 1137,
+      "sha256": "4baafb7e15b1bbb8f0d3a790c455e3dd233a92ff8e6d12f8051b49cd4f8b9ef8"
+    },
+    "A部分/app/src/lib/decision/scoring.ts": {
+      "bytes": 4708,
+      "sha256": "c0698687bd5bc4b58c9dd75c916b598819e8d79fe066535144836966dd19ce64"
+    },
+    "A部分/app/src/lib/decision/team-decide.ts": {
+      "bytes": 10936,
+      "sha256": "287b8d472ac09b19dbc2a0244464ffe3fa9b2e93e85f1ebaa414a4d2c53f78a8"
+    },
+    "A部分/app/src/lib/decision/thresholds.ts": {
+      "bytes": 5254,
+      "sha256": "76059513e16234311cbfa11f8cb2da1586357e27b46e7693d506ff68b95dc502"
+    },
+    "A部分/app/src/lib/departure/index.ts": {
+      "bytes": 5091,
+      "sha256": "f18baec77f697d98c14bb9ceda2337259e9bd254e7b2a8b006ebc6980bf08c59"
+    },
+    "A部分/app/src/lib/fixtures/context/index.ts": {
+      "bytes": 751,
+      "sha256": "a1aaac7638a652c760772186f67cef34b2e5fea89a3020904d4b8ddf708a2c6f"
+    },
+    "A部分/app/src/lib/fixtures/context/snapshots.ts": {
+      "bytes": 6486,
+      "sha256": "414748d31624dc52d4a54b0145c242b6f480e89eb5d2dc8ea331238a0620791d"
+    },
+    "A部分/app/src/lib/fixtures/demo-request.ts": {
+      "bytes": 979,
+      "sha256": "13f07f5e1a9b005d9f996ab167957589e3069a260090b90282efccb44c5ba471"
+    },
+    "A部分/app/src/lib/fixtures/golden/disruption.json": {
+      "bytes": 21513,
+      "sha256": "d86a8e93754f7401c971ed97674e013f5072aa322016acd4b4b8c5c9c3ebd688"
+    },
+    "A部分/app/src/lib/fixtures/golden/heavy_rain.json": {
+      "bytes": 23359,
+      "sha256": "ffc118c74a363a0fc8ab559b154822c925df05eb00914ae30f3a181a7b05ecc5"
+    },
+    "A部分/app/src/lib/fixtures/golden/normal.json": {
+      "bytes": 22791,
+      "sha256": "4718c11d4ac1224deb2280a2788342486c83734ea207e5c6337cb40f46f200d4"
+    },
+    "A部分/app/src/lib/geo/address-search.ts": {
+      "bytes": 1654,
+      "sha256": "5f091253aab14df04bb0261844d25c58eeb2b58bbb82719b8fd8b2f248d55542"
+    },
+    "A部分/app/src/lib/geo/als.ts": {
+      "bytes": 1802,
+      "sha256": "74b71097b59dcda71d7eaf34f8aada0e54484a356453ba28aac8f1cc8ca2c2e0"
+    },
+    "A部分/app/src/lib/geo/basemap.ts": {
+      "bytes": 722,
+      "sha256": "d3199e7ed4eb4c5ac3b169de6be6764a4305715d685a196e3d154af4229b9c26"
+    },
+    "A部分/app/src/lib/geo/distance.ts": {
+      "bytes": 1014,
+      "sha256": "b3f53f2cec733b0872ef0c28e1a8a5f124b5fbf9b99890d785a1a3f5b00fd87d"
+    },
+    "A部分/app/src/lib/geo/geolocation.ts": {
+      "bytes": 7229,
+      "sha256": "306f3f1632d82f673240c44f1ebde43798c40542b562058549ca92a5ef6c4916"
+    },
+    "A部分/app/src/lib/geo/places.ts": {
+      "bytes": 9711,
+      "sha256": "ead398d83cdae26b47e018f3c552471b01b5c767650abd3ee44e6aa6a2b548ae"
+    },
+    "A部分/app/src/lib/geo/ports.ts": {
+      "bytes": 9821,
+      "sha256": "74da63898ddc53a5c015e25820896a35c6ac5bfc4c27a067dafd31d1b965413b"
+    },
+    "A部分/app/src/lib/integration/index.ts": {
+      "bytes": 703,
+      "sha256": "9689d7c3e69924e320129aa4bb7474dc42f7c91331a54b5453d0b45b54f6a5dc"
+    },
+    "A部分/app/src/lib/integration/service.ts": {
+      "bytes": 7073,
+      "sha256": "a74cd471bc8b0c207a97f471e5b91c9c97ae494dc38e0d975730696038c142c3"
+    },
+    "A部分/app/src/lib/integration/ui-contract.ts": {
+      "bytes": 970,
+      "sha256": "65db51b9d2337363602354dfa310d02c90fe0921b6ede990f8de96df5b33303e"
+    },
+    "A部分/app/src/lib/journey/analysis.ts": {
+      "bytes": 9246,
+      "sha256": "5c668b6a4172ee20e77e24d00e1a63d9cecfc10ecb511cd339e2078d500c3901"
+    },
+    "A部分/app/src/lib/labels.ts": {
+      "bytes": 1649,
+      "sha256": "8fe90b67954c640fa925dac73429b508cca88dc475ea8546b6cf75e7dea9dd30"
+    },
+    "A部分/app/src/lib/plan/index.ts": {
+      "bytes": 4285,
+      "sha256": "a41deac0e46dfebc718cf4ce7c39862ebb737f47b40626a967d130a619d4d935"
+    },
+    "A部分/app/src/lib/reliability/engine.ts": {
+      "bytes": 5798,
+      "sha256": "5dfa60f82865c0ad8e7183fa600e848ae6a97ca879ad78ea097998c6b2499297"
+    },
+    "A部分/app/src/lib/reliability/index.ts": {
+      "bytes": 415,
+      "sha256": "8e40666d3103512eb268fe54db25a457866e401d2ccde3482e854131649cbc11"
+    },
+    "A部分/app/src/lib/reliability/ranking.ts": {
+      "bytes": 4256,
+      "sha256": "67990f6440672bf9695b379fd2f59f967dfc10710a569c80bb07db769c576cd1"
+    },
+    "A部分/app/src/lib/reliability/thresholds.ts": {
+      "bytes": 1882,
+      "sha256": "7608630914c44196316288e9d4bbd1ba97b8f21d4413c1849f76ccfa19b25752"
+    },
+    "A部分/app/src/lib/risk/engine.ts": {
+      "bytes": 4819,
+      "sha256": "3ec7cad4e456202711ec2e86643b8f35f69fa2e40cd9c759494cf225e2dc2db5"
+    },
+    "A部分/app/src/lib/risk/factors.ts": {
+      "bytes": 15114,
+      "sha256": "b6fd62272fc4dd5dc52e65849014d9bfe1bbc02e3e79d63bf9e7e3132d5973d0"
+    },
+    "A部分/app/src/lib/risk/index.ts": {
+      "bytes": 388,
+      "sha256": "b6e7309febeaffc75677ff769cca37390883510bd070ccbaf8f758a9ed6b5368"
+    },
+    "A部分/app/src/lib/risk/thresholds.ts": {
+      "bytes": 8205,
+      "sha256": "8efe44b16fbefc761a426ebb19747ed5e3f70779583eabee250a224384686c9f"
+    },
+    "A部分/app/src/lib/route/adapter.ts": {
+      "bytes": 13881,
+      "sha256": "4d7d38f33e601d79254b5e3b7453a6deb64685f5a532b51edbc3b6dafefef3c5"
+    },
+    "A部分/app/src/lib/route/instructions.ts": {
+      "bytes": 7489,
+      "sha256": "fe04864833f92d7817b4589ab29cbc3d517a595f9aafc8bb9927249bce1c02c8"
+    },
+    "A部分/app/src/lib/route/parse.ts": {
+      "bytes": 7874,
+      "sha256": "08fb53c6981492ff6aa83c2e78895af3aae51fe54114730a0ac40ef329aaf901"
+    },
+    "A部分/app/src/lib/route/providers/fixture.ts": {
+      "bytes": 11124,
+      "sha256": "69c093908ebf092668038ec571ab2cdb573e3dbccb5c60420bd24502ddac539d"
+    },
+    "A部分/app/src/lib/route/providers/osrm.ts": {
+      "bytes": 5146,
+      "sha256": "5b51c0bb9cb28303faef16ca7e14f799104f049449d33b5f4ebd35c7c2836edb"
+    },
+    "A部分/app/src/lib/time.ts": {
+      "bytes": 5983,
+      "sha256": "5bbf0e8ea8b16f1d3ddf684dbf4c1c36990c4f010f5f9c3c04e892b1985568d3"
+    },
+    "A部分/app/src/lib/transit/amap-search.ts": {
+      "bytes": 1409,
+      "sha256": "7f3c70abf5b1f6d0f73ecb97384f46ff8d45e361fbb7c196585487b22d88ca57"
+    },
+    "A部分/app/src/lib/transit/amap.ts": {
+      "bytes": 8581,
+      "sha256": "2ff4db38b92ab5bf95410db228eff5db03be66bc8c121839cb59a2555cc89c00"
+    },
+    "A部分/app/src/lib/transit/eviltransform.d.ts": {
+      "bytes": 118,
+      "sha256": "8021e3b58a0c96f9148bee7dc66da14c7690b5bdcd7eb316f08183a6fa7c6763"
+    },
+    "A部分/app/src/lib/transit/hk-data.ts": {
+      "bytes": 580,
+      "sha256": "ac61baae852164fee963b633a1d16b684c433df1ce7684b79b17e905b18fd394"
+    },
+    "A部分/app/src/lib/transit/hk-router.ts": {
+      "bytes": 8926,
+      "sha256": "a463f07106b5f3ba3581465039be2bdd79903dc32d2903193ae28ac5f6f09ae7"
+    },
+    "A部分/app/src/lib/transit/service.ts": {
+      "bytes": 10351,
+      "sha256": "c539f95035c3d2c57ad7dbb657b6499ec0fb8a1b7048a67983728137bd86b6e1"
+    },
+    "A部分/app/src/lib/transit/types.ts": {
+      "bytes": 1423,
+      "sha256": "646f52e4ac1061afcb25406fbe28364edc3a800ccffcece54f4106219cbe09c8"
+    },
+    "A部分/app/src/lib/transit/walking.ts": {
+      "bytes": 2775,
+      "sha256": "f301a8f1d7407f0c6631d455c012650d7ac6c9111e757a49782907182a662712"
+    },
+    "A部分/app/src/lib/types/context.ts": {
+      "bytes": 3626,
+      "sha256": "2f3215a22266054a026bf4e4141ea71e3840d589c25e53aa6cff5f7aab844389"
+    },
+    "A部分/app/src/lib/types/decision.ts": {
+      "bytes": 6576,
+      "sha256": "6c52d9f4951dc3f915264bbfa2f2f87e6bbc3e7795f7de7f08c59054b6736d9c"
+    },
+    "A部分/app/src/lib/types/index.ts": {
+      "bytes": 261,
+      "sha256": "b71c1ab1019ce07f189fd8a420d558ba58071e43e23d669baee3759b5ea1d7a5"
+    },
+    "A部分/app/src/lib/types/journey-analysis.ts": {
+      "bytes": 1743,
+      "sha256": "6d754b2725aadccb555d11a1efbcdd3c79d611284170889979138f69c36f4d09"
+    },
+    "A部分/app/src/lib/types/journey.ts": {
+      "bytes": 3856,
+      "sha256": "dd30b50af67a2585bebefb0b80a479907fcba5177101f35d8b5667a9ca273da7"
+    },
+    "A部分/app/src/lib/types/reliability.ts": {
+      "bytes": 3614,
+      "sha256": "a9894311fc3003199ace4e6df1fd91c0c2d60dec0064dd7d7e2f66fc6afd54cc"
+    },
+    "A部分/app/src/lib/types/request.ts": {
+      "bytes": 1712,
+      "sha256": "7782c444e517786fe311423b0b5e282afc70a9c60fab3dcc3c360353b901197f"
+    },
+    "A部分/app/src/lib/types/risk.ts": {
+      "bytes": 7267,
+      "sha256": "905f45a28ff25a562926dc1e7fc89429d204f88a8c301ec0c3cf599966fd4d9a"
+    },
+    "A部分/app/src/lib/types/route.ts": {
+      "bytes": 3290,
+      "sha256": "8c85537be2452c8dde417727281f7a8cee5baa3dc1a8f7229992cec528d9b0df"
+    },
+    "A部分/app/src/lib/types/team-integration.ts": {
+      "bytes": 2144,
+      "sha256": "7201711b66c5d1a058113cfd6ba09e69bd263241fd42a55717087e6ad9860f16"
+    },
+    "A部分/app/src/lib/url-params.ts": {
+      "bytes": 3701,
+      "sha256": "b393b9ebb9cc003fdc4bb3b2824d8c2a4a7e502bd072739eeb1fbb1c4d827837"
+    },
+    "A部分/app/src/lib/validation.ts": {
+      "bytes": 4484,
+      "sha256": "2974c31d94f0de1954b37decd3c3018c70b0f73197a2a58a7506edcf3e69dec4"
+    },
+    "A部分/app/src/test/address-search.test.ts": {
+      "bytes": 4211,
+      "sha256": "fc77eac92eaf91ab90ff7064eed020ae97b7c1a61fb2ee341a8e85d64b24bd2a"
+    },
+    "A部分/app/src/test/api.test.ts": {
+      "bytes": 10304,
+      "sha256": "b035f7e24dd8b63dabf05be487e19b15726b1b8104d4007984e5daefec4bedc5"
+    },
+    "A部分/app/src/test/b-data-reliability.test.ts": {
+      "bytes": 9041,
+      "sha256": "beda22dc1660a2874faf0189bc7090361e5e520aa16caf0f07a5e2d69df207b1"
+    },
+    "A部分/app/src/test/c-ab-integration.test.ts": {
+      "bytes": 4878,
+      "sha256": "965b27b43667db904fd5742942bc207046952fbc5821b88cb39a3c348d478e49"
+    },
+    "A部分/app/src/test/c-ai.test.ts": {
+      "bytes": 5399,
+      "sha256": "76f22f1d46e0a11be0693cccdab81f72aaf198a9f82332dd746eb0417072e8e2"
+    },
+    "A部分/app/src/test/c-border.test.ts": {
+      "bytes": 4403,
+      "sha256": "0848b434e0c302b7cd09846bbabcdaf1b4bbf125613eee6b0094d6f5b5c918e4"
+    },
+    "A部分/app/src/test/c-crowd.test.ts": {
+      "bytes": 3053,
+      "sha256": "3e70d560a76635fff84d730439e37bcf567234b788868205b751b01bfb9fadda"
+    },
+    "A部分/app/src/test/c-departure.test.ts": {
+      "bytes": 2732,
+      "sha256": "e9987fe1f46581b3c86d27d98e2d5955f5c8909463fb8b006ec49e88fa800eed"
+    },
+    "A部分/app/src/test/c-plan.test.ts": {
+      "bytes": 2910,
+      "sha256": "5fdc83c7a29466f9a8847ef5bb6ad470d31eb5966945dc638d8d1b11280f3cf8"
+    },
+    "A部分/app/src/test/c-team-decide.test.ts": {
+      "bytes": 9005,
+      "sha256": "21c757df9704ea069fa666143c50782854ad0cceec225a26267735ad80fccf43"
+    },
+    "A部分/app/src/test/context-contract.test.ts": {
+      "bytes": 6660,
+      "sha256": "3326e1b3f8d6c51f6ebf64db2df04f7b2447cbebe8682cb9bbca2a3adfef8cc5"
+    },
+    "A部分/app/src/test/d-frontend.e2e.mjs": {
+      "bytes": 15658,
+      "sha256": "527260d627d4f6b479656e16d9e458d98520738959c3505f75396687f8b476c6"
+    },
+    "A部分/app/src/test/d-team-upstream-review.test.ts": {
+      "bytes": 2111,
+      "sha256": "d3d4d97f90e44d4fb01c56e6865fa9cc4f5023b2ddd28572e7d46ab000858d99"
+    },
+    "A部分/app/src/test/d-team.e2e.mjs": {
+      "bytes": 13100,
+      "sha256": "817f13fe05f73fe0419efa326d9cac070ebb1668d73a7dbf073bbcd3fbdde4f0"
+    },
+    "A部分/app/src/test/d-team.test.ts": {
+      "bytes": 7670,
+      "sha256": "6a266c468cc50ce5f17d52a23bddd3de2fa3c2226d592f2f36ec05e2ef71d777"
+    },
+    "A部分/app/src/test/data-adapters.test.ts": {
+      "bytes": 3596,
+      "sha256": "b7b4878be0952f07841fd818f87a3d5ebbad4e9cd8fb5554770f3c4a2d01c9e7"
+    },
+    "A部分/app/src/test/decision-advisory.test.ts": {
+      "bytes": 7069,
+      "sha256": "2e0f83f846d5c275502e53953b7bb5b68293bbc6013b64bceb7ac550e5e30a7d"
+    },
+    "A部分/app/src/test/decision-disruption-scope.test.ts": {
+      "bytes": 5688,
+      "sha256": "ca52dd2811c013dcf33f3f73ec27a9f7e02bdc1b95cd93f56d685dffa4e20c6f"
+    },
+    "A部分/app/src/test/decision-edge-cases.test.ts": {
+      "bytes": 6923,
+      "sha256": "a238d171d5c4ae024ba99075a04edc63317e07d950bfe41c1bc61b3bdfba026a"
+    },
+    "A部分/app/src/test/decision-explain.test.ts": {
+      "bytes": 5159,
+      "sha256": "bab33bef0a04bfc7ec8ae8e35641416c133d73f0fcc23fb70878d50ad4eb5f4e"
+    },
+    "A部分/app/src/test/decision-live-safety.test.ts": {
+      "bytes": 8075,
+      "sha256": "863199d82e36806c8b9e05bbc2c00d4ad9145405f3d132a6770faf3069092ee3"
+    },
+    "A部分/app/src/test/decision-properties.test.ts": {
+      "bytes": 5050,
+      "sha256": "938cf7410a106bb9d04a516d15ffc25393cc4111166d7bd470028a4a03e5da3a"
+    },
+    "A部分/app/src/test/decision-scenarios.test.ts": {
+      "bytes": 6689,
+      "sha256": "66a60a4e266abc91288a3778d44e3097856261b23881613c71319c2672fa53ff"
+    },
+    "A部分/app/src/test/determinism.test.ts": {
+      "bytes": 2321,
+      "sha256": "628f21e43c60943a6737beba08d96f38f8f2ef2da0ec24f285d80af9a914fd2c"
+    },
+    "A部分/app/src/test/freeze-smoke.test.ts": {
+      "bytes": 3991,
+      "sha256": "fa3274aaf357785e9508b9f7bb0a717d5caf059123b0c24cc0968f344488120b"
+    },
+    "A部分/app/src/test/frontend-card.test.ts": {
+      "bytes": 1818,
+      "sha256": "d82d7ba5f0bb7503bd5b23fcea24fc45f28eaa71022cdfd3d5a9a11fe6ecae19"
+    },
+    "A部分/app/src/test/geo-ports.test.ts": {
+      "bytes": 4896,
+      "sha256": "ff56ded34dd904b54dbf483712696f5d446042745062686dda3fcf0006820651"
+    },
+    "A部分/app/src/test/geolocation.test.ts": {
+      "bytes": 7291,
+      "sha256": "90d1c510ba3adafe41e680b4feb17fc080ee29c02c1815c050063733640e20bf"
+    },
+    "A部分/app/src/test/golden.test.ts": {
+      "bytes": 3462,
+      "sha256": "92fc02ccf147201a53d05f52f1adc7c46f30bd9f61fd3061d500144347c34b85"
+    },
+    "A部分/app/src/test/instructions.test.ts": {
+      "bytes": 7428,
+      "sha256": "0ee30d2dd0f25e58595539f4248f73dab47b4c7ff775342ef5e9ea36f280998a"
+    },
+    "A部分/app/src/test/journey-analysis.test.ts": {
+      "bytes": 5671,
+      "sha256": "7a3c8a775a27bfdd94b80ab4cc571198a5e0310a97a199c967c995423ee3fbdd"
+    },
+    "A部分/app/src/test/port-conditions.test.ts": {
+      "bytes": 17188,
+      "sha256": "57accb31441a024d8a2866a467f90a4c04764e89bcc839c10c230324a62c6db2"
+    },
+    "A部分/app/src/test/reliability-ranking.test.ts": {
+      "bytes": 9106,
+      "sha256": "b5e86047d843000a2e2ff581d40317c7479019aeec6edefc75589aab2e4f5729"
+    },
+    "A部分/app/src/test/risk-engine.test.ts": {
+      "bytes": 8172,
+      "sha256": "dc5803fd5c24a25e4e9313e9c5bdea1685fa11e7670403f363a08c8e97f7f764"
+    },
+    "A部分/app/src/test/route-crossborder.test.ts": {
+      "bytes": 12296,
+      "sha256": "0524ceeaeec26523d753838233e0b0cc9f00d3c93d41e55bf801d8214ee4e5e7"
+    },
+    "A部分/app/src/test/route-parse.test.ts": {
+      "bytes": 8044,
+      "sha256": "0e8471f1c5085f8f3706bcac709a2529e054857dcef5e25f8db4c7f211641409"
+    },
+    "A部分/app/src/test/team-data.test.ts": {
+      "bytes": 8393,
+      "sha256": "43487e615a363283b6587641361a74d7263808399454a6323dae746b2c52e760"
+    },
+    "A部分/app/src/test/team-integration.test.ts": {
+      "bytes": 4679,
+      "sha256": "fe35ab83772e49c1a6e9b0dd30b8b255094fcc55f5235bcd1a0cc8a0d7f5d488"
+    },
+    "A部分/app/src/test/team-journey-api.test.ts": {
+      "bytes": 4115,
+      "sha256": "82bed630dee1d62f54a8e4f172e924b51af73fd96362dcc6da410ef77e4e2bd5"
+    },
+    "A部分/app/src/test/time.test.ts": {
+      "bytes": 3132,
+      "sha256": "4d2ec605edbb19ce40a0b5a3c97623d7b3e81f2a6ce1df2d09d675a06df7b55c"
+    },
+    "A部分/app/src/test/transit.test.ts": {
+      "bytes": 9521,
+      "sha256": "be77fad99ca433804a57fac1745032b9e5513f506298ad0a2ad6430a3278f842"
+    },
+    "A部分/app/src/test/transport-times.test.ts": {
+      "bytes": 5875,
+      "sha256": "f5f63b73172415cc0344d10e8098d0246aef69df84ede864dcf4bef362a16ec9"
+    },
+    "A部分/app/src/test/url-params.test.ts": {
+      "bytes": 2457,
+      "sha256": "16475c475117204cc48193be0233573225180704783ca6eb86aaf398c0f83fb6"
+    },
+    "A部分/app/src/test/validation.test.ts": {
+      "bytes": 3676,
+      "sha256": "ba44ed6bb0fbb6a1fa4405a1a23a6f4516c51612f235fdf86c812c781b70f816"
+    },
+    "A部分/app/tailwind.config.ts": {
+      "bytes": 471,
+      "sha256": "ec14251fd19a4228271ec856b09c3861d6cbd7e8dbda80f3f266bc7f00045f5d"
+    },
+    "A部分/app/tsconfig.json": {
+      "bytes": 835,
+      "sha256": "ad98eb0e64c8d624fa52045e082286ce97150c1af16ed2f9899e3893a3fa9b68"
+    },
+    "A部分/app/vitest.config.ts": {
+      "bytes": 358,
+      "sha256": "cefb301c816b65a9de66cd2d29632d437b2c95faf6c3acedd7342cf3b683a9e0"
+    },
+    "A部分/app/第二阶段_团队分工工作流.md": {
+      "bytes": 23194,
+      "sha256": "e642849af116354ca69082f0c3fba3962afd4e48340a1b5a4792681a8bb351f3"
+    },
+    "A部分/app/第二阶段_路径读取工作流.md": {
+      "bytes": 13137,
+      "sha256": "e1285c5b1f5c864f59d271952d75f04727af3938ec19a11b9ed780e238357aff"
+    },
+    "A部分/app/给Pi_Agent_成员A指令_第二阶段.txt": {
+      "bytes": 6870,
+      "sha256": "866f71f3264edd1711ef4560f6bb980bbc346679e429bbd1ca35de2f2432249a"
+    },
+    "A部分/app/给Pi_Agent_成员B指令_第二阶段.txt": {
+      "bytes": 6915,
+      "sha256": "8bcafcd94bc52dace6630237d0982ae0323e64d221e681b53eebeef22fd880b6"
+    },
+    "A部分/app/给Pi_Agent_成员C指令_第二阶段.txt": {
+      "bytes": 7862,
+      "sha256": "7161d582762ddf766cd9ff64a1affead8a9ac633655806d2ce93b5552c439667"
+    },
+    "A部分/app/给Pi_Agent_成员D指令_第二阶段.txt": {
+      "bytes": 6247,
+      "sha256": "4a042239f1a3d55364c471fc4850c3a207407347d4fa25e8d3033044f4cdb1bd"
+    },
+    "A部分/app/给Pi_Agent_成员E指令_第二阶段.txt": {
+      "bytes": 6161,
+      "sha256": "025288c069d1d8101ced4312f10c64f1f3d4d31defb5124ee0c0a76a79373e1c"
+    },
+    "A部分/上传云电脑运行.md": {
+      "bytes": 1926,
+      "sha256": "03d6f10b68326bdcb7f7a81ef417b63cdafbfe23bc108ff71b54e05c15f1fc80"
+    },
+    "A部分/交付范围.md": {
+      "bytes": 1572,
+      "sha256": "8ea28a3c64c30e1725539583b20e61b4b9956225261b9ca023f4a78d7115226f"
+    },
+    "A部分/其他成员接口.md": {
+      "bytes": 6251,
+      "sha256": "ebc36dc444000f879c7a4cd08fbfe96c2df3d8c99a8295affaa52ad5ca5a63d7"
+    },
+    "A部分/验证结果.md": {
+      "bytes": 1161,
+      "sha256": "74e4c6382f882cc0a2ec344f5f452c39c567f10135c8bd433202168eedd101c1"
+    },
+    "A部分_云电脑交付_2026-10-10.zip": {
+      "bytes": 16267915,
+      "sha256": "585bd7df0cf5dadd1a766b8b507aedb6aef668a98df73e94eaacfba5d3555e1e"
+    },
+    "A部分_云电脑交付_2026-10-10.zip.sha256": {
+      "bytes": 105,
+      "sha256": "4d2be8c001483616d922b3e4e1aa76ba840f28d38f9fa090d3f695dcd6a45bd9"
+    },
+    "A部分_解压与校验报告.md": {
+      "bytes": 3075,
+      "sha256": "53863236ec9cb5e8b03c45d4bb0be2523a9cea1b74c2e80c64c61988b43d7f5e"
+    },
+    "Codex 图像 2026年10月4日 00_59_43.png": {
+      "bytes": 2503514,
+      "sha256": "7733fd40456d2447e58ae4cdc06bd35335ca02f302127804c9979f8b4b8250b3"
+    },
+    "D_第二阶段交付_v2.0_2026-10-10.zip": {
+      "bytes": 3002811,
+      "sha256": "c37dc4f4fc947ab1100b2a09ca9430593a703da3f28eacccd0f1fd8876af42e4"
+    },
+    "JPR-2024-11-25-C.pdf": {
+      "bytes": 548943,
+      "sha256": "e15b9686a446225080bc199d698293f8d14e4743cc49e9cf8f60fa8800068934"
+    },
+    "START-HERE_本地运行指南.md": {
+      "bytes": 5402,
+      "sha256": "00056fa690167b5f72ca38c85e60c4f42dedba13e88911c04883085b92c1fb18"
+    },
+    "analysis/b-phase2-audit-2026-10-14/B第二阶段缺口核查.txt": {
+      "bytes": 7689,
+      "sha256": "2ef6273655c11ee13306f1514ba0280e96558eb4c6e84a1d7229cf3f17c99792"
+    },
+    "analysis/b-phase2-audit-2026-10-14/reproduce.ts": {
+      "bytes": 1580,
+      "sha256": "34cd69ac00f09b9ff808cb3b2ac93d1f3df19dfd06c953488316430f1739a7c0"
+    },
+    "analysis/existing-solutions-landscape/artifact.json": {
+      "bytes": 16446,
+      "sha256": "c44a469610308ba9f7af7fdb1ee9c854848657260e7da48f09e14a661ac721c5"
+    },
+    "analysis/existing-solutions-landscape/report.html": {
+      "bytes": 397767,
+      "sha256": "677b1303407691978668d92b64218f1ca6873d2f236a37e22253c26f22c937e8"
+    },
+    "analysis/ui-design-review/UI设计稿评审_页面结构稿.md": {
+      "bytes": 13972,
+      "sha256": "51ffeaf12ad1f71c007cd7dd167ccfd122ad1b6356c86027f0dc6b932ace27a7"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/evidence/_report-render-mid.png": {
+      "bytes": 336242,
+      "sha256": "8280f5595a4dc3715c62f5a39b9fe9e5dfcb0b4dee99f88121cbbad862b1df5a"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/evidence/_report-render-top.png": {
+      "bytes": 660809,
+      "sha256": "c843a29137175a489b7928f01fdd682a6b852b9dc0be03a513376416a2c82854"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/evidence/community-file-metadata.json": {
+      "bytes": 12901,
+      "sha256": "d157741fad2f13f813799be5f5d0c6f35bf30176fb3f7dbfd22b97df90a57c5a"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/evidence/community-page.html": {
+      "bytes": 759377,
+      "sha256": "8fc0325a4b8406f7c84b3565e2941bbd4b4197a3e8ce27ca08218b5201d7026c"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/evidence/figma-community-page.png": {
+      "bytes": 430877,
+      "sha256": "d008853d72ac8982788c625ba6fc54a46b57b64c9647a0b4149de17239b46dc1"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/evidence/figma-cover-1920.png": {
+      "bytes": 174711,
+      "sha256": "82ea80f5be358c8553ea7ff4769396a66531f2a896c32ea2ce859c51b4a1845b"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/evidence/figma-preview-click.png": {
+      "bytes": 212620,
+      "sha256": "8e01c6e94e68c21a65811b3d553a793525d65bfb9b18c732c7a87a40bf87764c"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/index.html": {
+      "bytes": 29514,
+      "sha256": "4a22500ae530a6b3892beec9c5d12dc9a2de8be2d8a5891a88dbfe7dec4e507b"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/01-input-0-normal.png": {
+      "bytes": 324844,
+      "sha256": "6da192a644ec7486b8d4e76044570a7b16a4413a676842b8942200fae2da347c"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/01-input-1-heavy-rain.png": {
+      "bytes": 324419,
+      "sha256": "e884707f53b8b305b85dc6059f5a28244f3cc00e1c75dcfdf527aa642aed789f"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/01-input-2-disruption.png": {
+      "bytes": 324844,
+      "sha256": "44756fab6820c09c9169998220b6060db8302f6b240d81c40a324fcd01b140b3"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/10-result-normal-desktop.png": {
+      "bytes": 440968,
+      "sha256": "9bdd63dc5e44fb03399d69b8d05e7de38d0f7d8cbf114626a347d3439110d608"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/10-result-normal-desktop.txt": {
+      "bytes": 1520,
+      "sha256": "6558e0da216aa4fbbebf4ca658c6d2c24a7b118612fbf4c43848e3754229ffce"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/11-result-normal-expanded.png": {
+      "bytes": 491138,
+      "sha256": "80ddfe598280e43ca3523ac354945bad6351f0ab99dc6b95117628a6a42eef6b"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/11-result-normal-expanded.txt": {
+      "bytes": 1778,
+      "sha256": "25823b7394a64407d7165bf2622d3dd870280522ba24a065371118b226506f88"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/13-result-disruption.png": {
+      "bytes": 483600,
+      "sha256": "2b6953037d0cb269b2a5f775c6d94c3c11bad634341bfbe314f43c35bf5e9a26"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/13-result-disruption.txt": {
+      "bytes": 1727,
+      "sha256": "8faad73b38e3063fa30f4bf75a392d0500b4cb6b10b67d5fe9342f72e29f94a5"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/13-result-heavy-rain.png": {
+      "bytes": 483008,
+      "sha256": "18eb48d9fb8aea8476be93eec62df18f29af4374dc58da8ebc225b1ed281eabf"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/13-result-heavy-rain.txt": {
+      "bytes": 1702,
+      "sha256": "7863105ddf07e51f5de33aa0c1ade1b6dea50f74a1747de99995b545610af03a"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/20-mobile-input.png": {
+      "bytes": 231313,
+      "sha256": "8d069d298e9ed966301055494265f4c115a92a3afa9ee84113aa4e4cb616e965"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/20-mobile-input.txt": {
+      "bytes": 1082,
+      "sha256": "e2a52123413bf8185f5ed87b1afc643e7e95028b3e0999f8511cbd52068875d7"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/21-mobile-result.png": {
+      "bytes": 347395,
+      "sha256": "550e42885a8bfd1ee5654eb204f4f1fc868233a40179eaadef0296a953f7baa5"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/21-mobile-result.txt": {
+      "bytes": 1420,
+      "sha256": "0c7eb3f0b68084097583b7aaea94f66dbf1c29c6ce3c082040ea41026af46de1"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/30-state-error.png": {
+      "bytes": 155962,
+      "sha256": "e18ede11ae71ed56ce38c2b9ed84fae324437edf3d5317cf313e3400063f6f54"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/30-state-error.txt": {
+      "bytes": 577,
+      "sha256": "bdebac2b37302d48b5e833bbfdb144805d94e74b4bb7fb2eb7c5002f144a12f8"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/30-state-loading.png": {
+      "bytes": 149035,
+      "sha256": "ddf6b6ed9996156f4960ee399a7fc006271c791716b55ebb26a839790154dd6f"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/30-state-loading.txt": {
+      "bytes": 564,
+      "sha256": "cfe5b27e2d0c20c44dcbea26e813e87b5cc4dbb997a2f593868bd37ab924203c"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/30-state-unavailable.png": {
+      "bytes": 156581,
+      "sha256": "644ec75cd104645e13bb50bb986bfb2d117028648985893f84b84c4ce5dab06c"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/30-state-unavailable.txt": {
+      "bytes": 586,
+      "sha256": "910a8c0168b197796fc8f92787652a444c2852435df190176f888231bae55f60"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/30-state-uncertain.png": {
+      "bytes": 161924,
+      "sha256": "ebc24af8d37a006e720616951a299c59c04a2efbb3f4659218feb7cb94d0bb0b"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/screens/30-state-uncertain.txt": {
+      "bytes": 590,
+      "sha256": "ceb825a6cd82369cfabaff01a2eff2ae2fd461f6bba57daa9260280cb0b6ead7"
+    },
+    "analysis/ui-design-review/figma-2026-10-07/评审报告.md": {
+      "bytes": 20834,
+      "sha256": "e892eff687e27a849a352e0fc86c8c52f7214c7c4f2a012e641ba96833f44a46"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/App.v2.tsx": {
+      "bytes": 37921,
+      "sha256": "ed4ed62550482f83963fd8fd8c3c260b76c4c49643e67adf81c8221491644b4e"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/UI_Prototype_对齐修改报告.md": {
+      "bytes": 13958,
+      "sha256": "fde102e6acbf6a66bf7be38376409537032b8643a8ce4ca6e39acb2be85244ac"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/UI_Prototype_运行报告.md": {
+      "bytes": 7395,
+      "sha256": "542298080f86a2d8da33c9213f1d9f299b5b103fb12a123f1df61f8370a524e1"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/index.css": {
+      "bytes": 28111,
+      "sha256": "b2892e36402c1ead25e3afea1dbefa4b5bb366bbf39a9c942e45f41cc38146e7"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/original-src-backup/index.html": {
+      "bytes": 440,
+      "sha256": "768eac67e6271681de61c23f1c94a6bf688607bbad2d0bccafd8f4bfe789a079"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/original-src-backup/src/App.tsx": {
+      "bytes": 23484,
+      "sha256": "4994a480aba885e4965313f0697a79044de0d4557b6da803e64c3b9a7c7012e2"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/original-src-backup/src/index.css": {
+      "bytes": 24426,
+      "sha256": "c7b3e10aa5dd149320e9ac57c10a93b5071afe3ff439f47596698a312051f837"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/original-src-backup/src/main.tsx": {
+      "bytes": 232,
+      "sha256": "5f49dce6e6cc4b5d678cf529ef892af0ab7dfa6afb300b11ad559224019b8b05"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/original-src-backup/src/vite-env.d.ts": {
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/original-src-backup/vite.config.ts": {
+      "bytes": 11751,
+      "sha256": "414a100df447463da3c94c92497f734cc4c9fb2e1ea883ddf9a8ad71ba1e9c15"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-1-input.png": {
+      "bytes": 315400,
+      "sha256": "d9cc2e410bf013c9e231ae91ddbcbf9a7a9699b80064f714f55ac6489da40001"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-2-result-normal.png": {
+      "bytes": 430388,
+      "sha256": "560b752c38ee501d6d2a3eba3def2cf5a620d55501781c1836a9548136a63b0c"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-2-result-normal.txt": {
+      "bytes": 1520,
+      "sha256": "6558e0da216aa4fbbebf4ca658c6d2c24a7b118612fbf4c43848e3754229ffce"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-3-result-disruption.png": {
+      "bytes": 473385,
+      "sha256": "b6f169ace865f158018d985cb4118b7fa03b29b7eceacf95c3492f4dda586924"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-3-result-disruption.txt": {
+      "bytes": 1727,
+      "sha256": "8faad73b38e3063fa30f4bf75a392d0500b4cb6b10b67d5fe9342f72e29f94a5"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-3-result-heavy-rain.png": {
+      "bytes": 472139,
+      "sha256": "ccb53af64725545b44a77ad22455d1878dde44f7e302d415e548335e9db89ee5"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-3-result-heavy-rain.txt": {
+      "bytes": 1702,
+      "sha256": "7863105ddf07e51f5de33aa0c1ade1b6dea50f74a1747de99995b545610af03a"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-4-state-error.png": {
+      "bytes": 143220,
+      "sha256": "29e6d470574298118bd5154935dac24b11e2df33e79659759a8f456a79cf5a7a"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-4-state-error.txt": {
+      "bytes": 577,
+      "sha256": "bdebac2b37302d48b5e833bbfdb144805d94e74b4bb7fb2eb7c5002f144a12f8"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-4-state-loading.png": {
+      "bytes": 136035,
+      "sha256": "b4c8763632d9d2043d52fc51beed068dcd044b4a8f6bbc7ba48a004ed2c68da2"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-4-state-loading.txt": {
+      "bytes": 564,
+      "sha256": "cfe5b27e2d0c20c44dcbea26e813e87b5cc4dbb997a2f593868bd37ab924203c"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-4-state-unavailable.png": {
+      "bytes": 143867,
+      "sha256": "a001e2db427659915aa3db85518540d7ea86941fc58326ff73718ad8563090e9"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-4-state-unavailable.txt": {
+      "bytes": 586,
+      "sha256": "910a8c0168b197796fc8f92787652a444c2852435df190176f888231bae55f60"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-4-state-uncertain.png": {
+      "bytes": 149508,
+      "sha256": "08a01f52cb7cbd2d532f704ea7645f61a4bc090bfa6908f3d60585298c0f261e"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-4-state-uncertain.txt": {
+      "bytes": 590,
+      "sha256": "ceb825a6cd82369cfabaff01a2eff2ae2fd461f6bba57daa9260280cb0b6ead7"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop-first-screen.png": {
+      "bytes": 316287,
+      "sha256": "be1b806f1ad69bf659d00a9043e7051b19ca3accea10996bab7152f2379df66c"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/desktop.txt": {
+      "bytes": 564,
+      "sha256": "cfe5b27e2d0c20c44dcbea26e813e87b5cc4dbb997a2f593868bd37ab924203c"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-1-input.png": {
+      "bytes": 228078,
+      "sha256": "66469bafab24ccef642df5f2cd4de7fdfbbf7df5caaf544eed49e2f7712beff1"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-2-result-normal.png": {
+      "bytes": 339708,
+      "sha256": "e1d2b06623f27df20ca4e1aa92e3c24f1165f0795b534747936b674c52bae5cb"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-2-result-normal.txt": {
+      "bytes": 1420,
+      "sha256": "0c7eb3f0b68084097583b7aaea94f66dbf1c29c6ce3c082040ea41026af46de1"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-3-result-disruption.png": {
+      "bytes": 371657,
+      "sha256": "f31311c3b5f8312022d2b28c472f601c5c3d4ad6f775344ec704c47abbb1bd53"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-3-result-disruption.txt": {
+      "bytes": 1627,
+      "sha256": "ede5dd3b7d431c291269bd57f25f8b95c0404dcf6d1406394b0a6f04697ecc6d"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-3-result-heavy-rain.png": {
+      "bytes": 377193,
+      "sha256": "688e350ad22f36ae822f8a7f43e2d39cacd09981a992812c46d2d97595060573"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-3-result-heavy-rain.txt": {
+      "bytes": 1602,
+      "sha256": "e8444bdda01d6e1a734bb4bc09110b034e80a9941fba620a309b177d777e9799"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-4-state-error.png": {
+      "bytes": 100532,
+      "sha256": "4ba7843c393fae071e58fbcf4a9a27de762219f99bbc20c3ea19f6ceca7ec6a4"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-4-state-error.txt": {
+      "bytes": 477,
+      "sha256": "151f16bbc911828ad1f3f39957db2de1991ccae84a46e89dd691260ad613c299"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-4-state-loading.png": {
+      "bytes": 94325,
+      "sha256": "eac3f9f087d54a895bfb3e81c1c73743280cd8bf425e378a85f06e33ba414d83"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-4-state-loading.txt": {
+      "bytes": 463,
+      "sha256": "824b90977553457d4972fa07c10118fa246705b8eef7af5e4292b9b052ea56ab"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-4-state-unavailable.png": {
+      "bytes": 101116,
+      "sha256": "77b0b1175bb6593742194941a7abcde44f358439a033eafe14c852504f6ac7a8"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-4-state-unavailable.txt": {
+      "bytes": 486,
+      "sha256": "3a34461785137504e1545170d0b0712f608ca7a31a912cfd90f8460f6ca05923"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-4-state-uncertain.png": {
+      "bytes": 105320,
+      "sha256": "4ae2a2d05b025c263093efb846373b74254d4ee7c121ac6373e0fcf3d25c6ebf"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-4-state-uncertain.txt": {
+      "bytes": 490,
+      "sha256": "08ba889dbfa88e3139df251745c2ae7e6a9fe7b0c4a91da1c4595ca4a86146e7"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-first-screen.png": {
+      "bytes": 121547,
+      "sha256": "78e7d6ca88d69a9baad1476489b03784fd4884cfec5ab10436bb02b4f1f4acdf"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-scroll-mid.png": {
+      "bytes": 128046,
+      "sha256": "50a94178c2df913db483b593322b8ba69a405a0d4f54e3d33b74279b975fdc65"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-viewport-bottom.png": {
+      "bytes": 124252,
+      "sha256": "8c3b1acb3dc67f5f7c589a24b4772f06c940ba22d1aa2da8f494cf29a0130902"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile-viewport-top.png": {
+      "bytes": 153915,
+      "sha256": "f2ee6ba9fc7dd23a46a02a6bd5069cb8d6464c8aa89431448d7d7f72e9bc69c5"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens/mobile.txt": {
+      "bytes": 463,
+      "sha256": "824b90977553457d4972fa07c10118fa246705b8eef7af5e4292b9b052ea56ab"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-input.png": {
+      "bytes": 290270,
+      "sha256": "5f871e322d91daa1ce26a8fac7ed0b3fff6fbf0b266e94a2fb0ec07129f6a3da"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-result-default.png": {
+      "bytes": 1300308,
+      "sha256": "880f902f83da1e5efa65fba403aee1c4cf5afa7a810f99cc638ac10da13330bc"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-scenario-disruption.png": {
+      "bytes": 1647878,
+      "sha256": "c27b5dd408db86c3b23c16c61f14dc9231bb171b729e0463944f0eccb91305e9"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-scenario-disruption.txt": {
+      "bytes": 6944,
+      "sha256": "dca0a76c4e2ccd1dd4372d156c54d999f4146207f836e761e6c153bec0fdf704"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-scenario-heavy_rain.png": {
+      "bytes": 1423430,
+      "sha256": "f117fce302f38bad363a2c4fb860b9474b7b641efbdb358db7c82a189b8ddf86"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-scenario-heavy_rain.txt": {
+      "bytes": 5835,
+      "sha256": "23a195cd9468b6f44cc8ea54ac608a6ee4c5d5438a688d83c69e407655d3c792"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-scenario-normal.png": {
+      "bytes": 1365923,
+      "sha256": "1530e397c95442ffdd9b562d2795d4eb029b4ba2c9814d6e35f1eaab137bb65e"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-scenario-normal.txt": {
+      "bytes": 5579,
+      "sha256": "59aed909842e17639baead58cc155c16e7f98b126238a1fe5b9722671dbd3d04"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-state-error.png": {
+      "bytes": 214556,
+      "sha256": "cdf879400ffb32e1716e2853da7f0ee974b6cce6542e5ce8e723833fb32eae23"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-state-error.txt": {
+      "bytes": 767,
+      "sha256": "801d63672af8f160518444cb57615ff012979f105007ec8bcae306bb9e8c8ba5"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-state-loading.png": {
+      "bytes": 231377,
+      "sha256": "2125774d164ca11ad8782e6cd701d68924606acbf5eccae33701668b6c8c6340"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-state-loading.txt": {
+      "bytes": 837,
+      "sha256": "b712a297fbfb121c3b627f472b2f0c6ef243511b5aa44bdd85d7c4c524604391"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-state-unavailable.png": {
+      "bytes": 427826,
+      "sha256": "878b62cee97a06ebac9d494208b470793cb4b7d4e0bdc3262a4ed17f556d2ac1"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/desktop-state-unavailable.txt": {
+      "bytes": 1621,
+      "sha256": "1f040e78b25ec784f9a70baf8c9ff50afb7f548f67da82dfdfb9e50140f43655"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-input.png": {
+      "bytes": 239294,
+      "sha256": "08420fff962069dab4bead7e07209622d43c7f1256a34da51a4673caee2b9457"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-result-default.png": {
+      "bytes": 857299,
+      "sha256": "627fb7287b2c06962fad80dd5782e0cdf155d76c9b7eebbbed590613d8f6e184"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-scenario-disruption.png": {
+      "bytes": 1169099,
+      "sha256": "eb13fe5f0b0f714dae391b1135542a81eccfe66c2d3372a763da10f4ee55f196"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-scenario-disruption.txt": {
+      "bytes": 5424,
+      "sha256": "12234e654252922314e09e56c487c31a47c8f91aa8c6f6e650cc1a8e9cc10b28"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-scenario-heavy_rain.png": {
+      "bytes": 955793,
+      "sha256": "dbd3863443e34e982f1c09a81d51afe0277b6f02ad75e95241c29710dfc6f7d5"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-scenario-heavy_rain.txt": {
+      "bytes": 4363,
+      "sha256": "72f630ed4b82a01885eb3db3c89f5cca9d11493b03e111e1cf1dbd3a8ac5da74"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-scenario-normal.png": {
+      "bytes": 917086,
+      "sha256": "7af7be79f3b84dba63c929e95602dfa6b69ff1b4e70de2ff72df3277f39c8daa"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-scenario-normal.txt": {
+      "bytes": 4154,
+      "sha256": "f2ee83e65c051be9b2c66a938a7d6b7cef3eadb7106fa26869310a4f4239534a"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-state-error.png": {
+      "bytes": 178989,
+      "sha256": "b06775c536c512df4f2544ce35b15cbb0a0265f1827ba5a7fa7bdf1f6c610b50"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-state-error.txt": {
+      "bytes": 735,
+      "sha256": "7bde6b4f0fb0a7b37332cca360c8f3c77c62cbb9416f483e437b8460a29d2e06"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-state-loading.png": {
+      "bytes": 191768,
+      "sha256": "b75643b016dfecf843a9bf5abf70551da3372c02e6aa403f5d18d1fd25e5f0f5"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-state-loading.txt": {
+      "bytes": 805,
+      "sha256": "bd9d3e2395f0bfe566a5d15ee08f9441bc1b1e4794bbe9784a5ab2864b8ebd89"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-state-unavailable.png": {
+      "bytes": 362202,
+      "sha256": "de5dbb5f4ca7f3f47e717f80eff0d1a9cdd1c4ee382bbe7249412b38ee72059b"
+    },
+    "analysis/ui-design-review/prototype-2026-10-07/screens-final/mobile-state-unavailable.txt": {
+      "bytes": 1589,
+      "sha256": "4fac9feeefa07010601a333b68303ebe0fd8a522aa86a4725a33772e32869f20"
+    },
+    "analysis/ui-design-review/原始设计稿_页面结构.png": {
+      "bytes": 68934,
+      "sha256": "d9d729fa030103de885eaa2356fe31ff4f652f726e33911f1125cdca8e1290bb"
+    },
+    "d107f09f811f3e8ac6c8389a398d96e9.png": {
+      "bytes": 199513,
+      "sha256": "c01b4ea4f22ad9877cb521b1c7308f32ba0dd324c9daa301cd3f3000a7da426e"
+    },
+    "generated/p0-shots/crop_detail.png": {
+      "bytes": 66018,
+      "sha256": "287f3a47cab33e8e8da2f48a9fc01f01f0b6f0903809b5039a6abe097b2f3403"
+    },
+    "generated/p0-shots/crop_top.png": {
+      "bytes": 119752,
+      "sha256": "ace13ed0cf42da700d10e05177d019fc86a935922edd5dc955b1773694126453"
+    },
+    "generated/p0-shots/shot-test.png": {
+      "bytes": 182438,
+      "sha256": "ad0222b5ebfc495ac2805f3175bd0987f242527126e24a4333296ecdc0f771e2"
+    },
+    "generated/shots-2026-10-08/01-report-desktop.png": {
+      "bytes": 785629,
+      "sha256": "1fe4c83d006a85230ad2d458a80dfb28c74bf84c7ff06fd13f61170ebffc9ce3"
+    },
+    "generated/shots-2026-10-08/02-report-mobile.png": {
+      "bytes": 813040,
+      "sha256": "cccd5288f401b50e7a8980630b321a8dbcc23a15bdc9559911042949d559742e"
+    },
+    "generated/shots-2026-10-08/10-app-input-desktop.png": {
+      "bytes": 116378,
+      "sha256": "f535978c05b35cd8c498c7601eb8922968ace0f07384bd7c9b00bc5c87036619"
+    },
+    "generated/shots-2026-10-08/11-app-normal-desktop.png": {
+      "bytes": 5289,
+      "sha256": "57f45d88e654eeca054ff1cc37c39a437cb6e4b6ea2a6f59cf08a6228670107a"
+    },
+    "generated/shots-2026-10-08/12-app-normal-mobile.png": {
+      "bytes": 47386,
+      "sha256": "374df290f5c87c444e6e74936bd756da658ebe58c73705b8ed334d5f93a4e5c2"
+    },
+    "generated/shots-2026-10-08/13-app-heavy-rain-mobile.png": {
+      "bytes": 47386,
+      "sha256": "374df290f5c87c444e6e74936bd756da658ebe58c73705b8ed334d5f93a4e5c2"
+    },
+    "generated/shots-2026-10-08/14-app-disruption-mobile.png": {
+      "bytes": 2740,
+      "sha256": "fb32313e11bc8ffbd5310a1660e630b64cedb4622f8462a5eae2d5464ac8279e"
+    },
+    "generated/shots-2026-10-08/15-app-health.png": {
+      "bytes": 33186,
+      "sha256": "dd308c0ba16da722344d9f7aec0c895594bb4aef98f17430ae4e32443365b092"
+    },
+    "generated/shots-2026-10-08/20-prototype-desktop.png": {
+      "bytes": 115381,
+      "sha256": "18258f073fe2738e84965d549b49b4e0a238029cba5f9385b858dcf9a43f6f4e"
+    },
+    "generated/shots-2026-10-08/21-prototype-mobile.png": {
+      "bytes": 99449,
+      "sha256": "47624b6287765a5f70006020e5b07b0e3d06e3dd913f76be0fbbecee4c3c783a"
+    },
+    "generated/shots-2026-10-08/30-figma-review-desktop.png": {
+      "bytes": 1866326,
+      "sha256": "1b91929db47cda6894e8b4600995a55ff610a39b282896abd30c1d5d209f3fbb"
+    },
+    "generated/shots-2026-10-08/31-app-input-desktop.png": {
+      "bytes": 99850,
+      "sha256": "15349a89f52ff78745c1aaf86dd69097658de8f99844b6abbe044d0e0e3edb26"
+    },
+    "generated/shots-2026-10-08/32-app-normal-desktop.png": {
+      "bytes": 480932,
+      "sha256": "c3bbe12d94977e5b099b28d3055b2d61db868dbd53ab0145499720a5cbcc0fe6"
+    },
+    "generated/shots-2026-10-08/33-app-normal-mobile.png": {
+      "bytes": 438283,
+      "sha256": "31bd20c093d79daadad04fed67e8fb8e094e6a7c967a17a7d4c62d6b94b70c16"
+    },
+    "generated/shots-2026-10-08/34-app-heavy-rain-mobile.png": {
+      "bytes": 450710,
+      "sha256": "55c3ea709245902495d0d2b5c7c632bd2538a1dcf8fbd07e0fb807015bc8de52"
+    },
+    "generated/shots-2026-10-08/35-app-disruption-mobile.png": {
+      "bytes": 462010,
+      "sha256": "db1557f5256d63b7640cbb7866bfee07a0de40e8ddcbaeca37d8876116eb162d"
+    },
+    "generated/shots-2026-10-08/36-app-disruption-desktop.png": {
+      "bytes": 507616,
+      "sha256": "e2668a16544a5ffd316bc6222d0c57f62bb68287a5992b277637edefd4ff1370"
+    },
+    "generated/shots-2026-10-08/37-app-health.png": {
+      "bytes": 31781,
+      "sha256": "ee76fd93b8c17a5564e46bf1f7369f85c4f384d13f0c40106239ad7386b3750d"
+    },
+    "generated/shots-2026-10-08/capture-app.mjs": {
+      "bytes": 2714,
+      "sha256": "86de484751f46de75644403b02c20d5b00afd4c8fe1fc4c5d2b6909b52df7797"
+    },
+    "generated/shots-2026-10-08/capture.mjs": {
+      "bytes": 2915,
+      "sha256": "218e4426d7a5001020ebcbc8b1f1267702e1084c82f979adf93823cbf8cfad69"
+    },
+    "generated/shots-2026-10-08/dbg.mjs": {
+      "bytes": 1001,
+      "sha256": "8e2d3051db046aef30a9e45990f65e07d27fa95a5939023298eb2377cd071b92"
+    },
+    "generated/shots-2026-10-08/dbg2.mjs": {
+      "bytes": 932,
+      "sha256": "8795bd81918b102c1f98fccf7af7337c5adf0d4ee0e2b65def551fea333f249e"
+    },
+    "generated/shots-2026-10-08/dbg3.mjs": {
+      "bytes": 947,
+      "sha256": "e36be61d4540c15cb77d989b6b824b266a8c009c746038e172b23c165da686b2"
+    },
+    "idea.pages": {
+      "bytes": 136326,
+      "sha256": "5c9b79d17af806073ab45f6e14d0236f4ccc8aca380786ac25c50e7456630382"
+    },
+    "page.html": {
+      "bytes": 22959,
+      "sha256": "d88b82969d1e883b32a5e912abc59a4d4c675ffa8dc566394a731fad72af25c1"
+    },
+    "progress-2026-10-08/index.html": {
+      "bytes": 19246,
+      "sha256": "50dc9afd3381f495b8b5fed3f49135f5232ad9c5d18ad62f864f2f04721ff1b7"
+    },
+    "progress-2026-10-12/index.html": {
+      "bytes": 22086,
+      "sha256": "f5aab81f09038b5896f71e6f8535d79f7f4d6ea57d5a3625bf0695e95e0b8efb"
+    },
+    "resilience-travel-assistant/.env.example": {
+      "bytes": 1392,
+      "sha256": "e0c4bb6b753ebec6286a5f1a1138b79d4923116e15de7110b4f13d3bd4339734"
+    },
+    "resilience-travel-assistant/.gitignore": {
+      "bytes": 404,
+      "sha256": "4649ffd87e7fd413fba844c5ac11546455a06d685e35c6ad22d2bd0c96195baf"
+    },
+    "resilience-travel-assistant/API_CONTRACT.md": {
+      "bytes": 16400,
+      "sha256": "58e2ccfe9acfb368b8f4713f5f61604f396bd63406c526bd978f3d8fe1d5879c"
+    },
+    "resilience-travel-assistant/B-data-handoff.zip": {
+      "bytes": 103647,
+      "sha256": "4b55b1b7255bfb0b2f1c5cb325e31a1652bfec7a23069306b74afc161b3e6134"
+    },
+    "resilience-travel-assistant/D_HANDOFF.md": {
+      "bytes": 2074,
+      "sha256": "1f4eaaf32bc09115e78ed25d0147ed7398ba2e6bb520bd139bf6f9f76c34b89a"
+    },
+    "resilience-travel-assistant/D_前端QA准备包_2026-10-07.zip": {
+      "bytes": 11874,
+      "sha256": "5603909e004fc06a3945b3c64beba0e8b27478de1d867fd4c60e15d3dcfbf1e8"
+    },
+    "resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip": {
+      "bytes": 11491759,
+      "sha256": "9d26d89056a0f14d3468a6be96a35ea44e20d6fd9fa9ca87405a2553d7d51ef9"
+    },
+    "resilience-travel-assistant/INTEGRATION.md": {
+      "bytes": 11261,
+      "sha256": "a72a1c88b33cdbea335d32b87b5101c06f12cf6e19cc25fe54d16b0a57851974"
+    },
+    "resilience-travel-assistant/README.md": {
+      "bytes": 12447,
+      "sha256": "50a282e2475b0f5268a10c9f56b791a072ec07cc6199bd783e93577474470621"
+    },
+    "resilience-travel-assistant/TASKS.md": {
+      "bytes": 13021,
+      "sha256": "1e32aaad64bbd537c77c46ed048dd9711deb82eee56025148c598e967b0598a9"
+    },
+    "resilience-travel-assistant/docs/ARCHITECTURE.md": {
+      "bytes": 9842,
+      "sha256": "42c1535c7fbad534e8fa9a73771ce07cacb507efc086bb4bd0f2a9a5e672ccde"
+    },
+    "resilience-travel-assistant/docs/B_COLLABORATION_REVIEW.md": {
+      "bytes": 7761,
+      "sha256": "356ada58c69256be0cdb8e5f5d5a85e1c3951fbb8c2c7057ac126b8f6cc54c01"
+    },
+    "resilience-travel-assistant/docs/B_HANDOFF.md": {
+      "bytes": 3287,
+      "sha256": "d7463ebfd8e0a0aa3495a73b1219b77c946f48b85bc58793a6deb3ea2e2bfd63"
+    },
+    "resilience-travel-assistant/docs/C_DEV_PLAN.md": {
+      "bytes": 9423,
+      "sha256": "bf0d72c85cadbc32ee8cfb2765e572c96907936bbcae6d46f02f4c059b21ee87"
+    },
+    "resilience-travel-assistant/docs/C_HANDOFF.md": {
+      "bytes": 8999,
+      "sha256": "aaaf83075c5a5b272330942e3a315b16e4600b3177cf685cee8ff06ab10aba60"
+    },
+    "resilience-travel-assistant/docs/C_INTEGRATION_RECONCILIATION.md": {
+      "bytes": 13908,
+      "sha256": "4b7dbb73e7aa686bbf2bb9ae5764c3572c1a38c30727bb5e07a9d6aa10a66031"
+    },
+    "resilience-travel-assistant/docs/C_PHASE2_REVIEW.md": {
+      "bytes": 11128,
+      "sha256": "97522e90484e61efae202e91531e2881da5591fa3abb981f6600979e84b8c244"
+    },
+    "resilience-travel-assistant/docs/DATA_CONTRACT_CHANGE_REQUEST.md": {
+      "bytes": 1414,
+      "sha256": "244d41776635fb9edee2d63fac2f59629877365fe632bfb4682a62f0b7758eb4"
+    },
+    "resilience-travel-assistant/docs/DATA_SOURCES.md": {
+      "bytes": 5995,
+      "sha256": "08a582007c8debc1bc4c03620eaee29d53aa6d083f06b7c6a5d43515648158cc"
+    },
+    "resilience-travel-assistant/docs/DECISION_CONTRACT_CHANGE_REQUEST.md": {
+      "bytes": 13461,
+      "sha256": "9ab67c263da3ad7bb4c8da3851a3615d64c02fed46d0ddc80b26484f3c50b071"
+    },
+    "resilience-travel-assistant/docs/DECISION_ENGINE.md": {
+      "bytes": 16596,
+      "sha256": "bf3117ca7dc388ffadee7f1864d7d89a80e612a1258483594055c7b19ca3087c"
+    },
+    "resilience-travel-assistant/docs/DEMO_RUNBOOK.md": {
+      "bytes": 8614,
+      "sha256": "48e657f354c54bb70f9f93b8f813fbb61e5af125e454325df924cfd4a7c331fa"
+    },
+    "resilience-travel-assistant/docs/D_ACCEPTANCE.md": {
+      "bytes": 3396,
+      "sha256": "9bf122a3fea7bf423b3cb618e37611d5880894d4089ce30b5976fa00c4310890"
+    },
+    "resilience-travel-assistant/docs/D_DEMO_RUNBOOK.md": {
+      "bytes": 1678,
+      "sha256": "67e03c665400d7ba4075fb023a9b16c8f3edc70eee4d0c459448bddc66bce828"
+    },
+    "resilience-travel-assistant/docs/D_QA_RESULTS_2026-10-07.md": {
+      "bytes": 8305,
+      "sha256": "fc9a213f53ad68d7d5b4d35268a2f51032b7fb45ad2f9f157fcae42350056309"
+    },
+    "resilience-travel-assistant/docs/D_UNFINISHED_REMINDER.md": {
+      "bytes": 1789,
+      "sha256": "47a373eb9f101a9ab9349e0928b26cc95b71a4e6aa667d5eaf1bb16edba674aa"
+    },
+    "resilience-travel-assistant/docs/FIXTURE_CATALOG.md": {
+      "bytes": 4918,
+      "sha256": "99f9d11cb0d569e13bccc1881e1e783fd14b23e8d5fc965b32f00f35c8f7fb89"
+    },
+    "resilience-travel-assistant/docs/FRONTEND_CONTRACT_ISSUES.md": {
+      "bytes": 3825,
+      "sha256": "ba1577749f624507968f6a329c409640445f8dd2a42b9723a0419231e3c965e0"
+    },
+    "resilience-travel-assistant/docs/INTEGRATION_VERIFICATION_BC_A.md": {
+      "bytes": 9100,
+      "sha256": "4cab223c7eb0455ae35c934f40e9d0f111c540fd6f3d96b887da5e2182725607"
+    },
+    "resilience-travel-assistant/docs/PHASE1_ACCEPTANCE.md": {
+      "bytes": 10981,
+      "sha256": "5f71a6f6408a60ffd8d94a61a8e93e59689dd5964bbb1464886022b27e9d8dea"
+    },
+    "resilience-travel-assistant/docs/QA_CHECKLIST.md": {
+      "bytes": 11012,
+      "sha256": "4189c651d81c284bdcdd8c71a63bc0fa972fab73c123e7d1fbb115a32746720e"
+    },
+    "resilience-travel-assistant/docs/QA_ISSUES.csv": {
+      "bytes": 2290,
+      "sha256": "a6907bc72b4bb4613dbd8b0b85ac3db783d1c66e4b2a961ae0218e600651077f"
+    },
+    "resilience-travel-assistant/docs/USER_TEST_RECORDS.csv": {
+      "bytes": 2407,
+      "sha256": "6e1befa0c61ba29747b25eb020ab8819b829478de67720019bddb1cb737503d7"
+    },
+    "resilience-travel-assistant/docs/USER_TEST_SCRIPT.md": {
+      "bytes": 6937,
+      "sha256": "46882947396b4c9e85b64dc4716648e52da92b82ec6c649622646a33a35f8587"
+    },
+    "resilience-travel-assistant/docs/USER_TEST_SUMMARY.csv": {
+      "bytes": 484,
+      "sha256": "92047be65cdbf00d05a481904213070dd4f366fb73fc571af2f7ba3869c01a6e"
+    },
+    "resilience-travel-assistant/docs/contracts/C_接口契约_v1_workbuddy.md": {
+      "bytes": 8241,
+      "sha256": "934366a63e37f784d4cefebe60c0f096a1f5d0883f6ebbb518d6f9759abdb34d"
+    },
+    "resilience-travel-assistant/docs/contracts/README.md": {
+      "bytes": 1145,
+      "sha256": "c41fccd1bb83df66a51dd0f83f8183c4c0e73ecfd59e0984ec25f6b408907301"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/BASELINE_REPRODUCTION.md": {
+      "bytes": 1542,
+      "sha256": "246d4c0eb8ae9ba7586bbb5302b96deb82dd5e2dd4a2fa806560e4ad06d21a45"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/D_FRONTEND.patch": {
+      "bytes": 41145,
+      "sha256": "e66ce0edd995e973381bbbe3adc4e72e7da1ea3271c9f22b097676835aa9014a"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/accessibility.json": {
+      "bytes": 702,
+      "sha256": "95f283ab8cbce264b7122ef7d50f5a77b9cdaa9bdd36b1e1b8b1c2fc343627fa"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/api-error.png": {
+      "bytes": 55094,
+      "sha256": "a1b93ecd99c398146af1959026ebc07fed8601a0e30ad43d6c9128b41a51f5c8"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/docs/QA_CHECKLIST.md": {
+      "bytes": 5661,
+      "sha256": "47d6df09ae3ab650a875b31f36b259117e85905bd4eeae990612e86f7aba42e3"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/docs/USER_TEST_SCRIPT.md": {
+      "bytes": 4119,
+      "sha256": "74439711ec18d95febc881bff7da8854ad0610b741a831b290ab12b5fd572a7d"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/app/error.tsx.txt": {
+      "bytes": 1197,
+      "sha256": "cae5b31a3200ec10dc13b54228624b2ecf033d36dbbe3fe24cbd94efb4b2f63e"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/app/global-error.tsx.txt": {
+      "bytes": 1257,
+      "sha256": "f55d48aa49c55ae8011f83b9efc2db25771b9df8272d6e63bc9c506fa2a8632a"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/app/globals.css.txt": {
+      "bytes": 1042,
+      "sha256": "3d554676e216ce0831d41623bb7de9ffbe704b30c83d3e4ad42f7a2f8a36016f"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/app/layout.tsx.txt": {
+      "bytes": 1887,
+      "sha256": "f2ad224a4546e6b7534f28cd3114ac274673c8bb341f8a255815bf86a38c11fe"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/components/DecisionCard.tsx.txt": {
+      "bytes": 8093,
+      "sha256": "0c4205e1d9ce8cfc794c88c331e3df2fda83086ca9a03e24d021bf0ba17d4b1f"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/components/DecisionView.tsx.txt": {
+      "bytes": 2904,
+      "sha256": "2584a9fe594a2ae15007797ea0f0769e3f819a6c70ef2e0778bb8ae2960f1903"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/components/RouteTimeline.tsx.txt": {
+      "bytes": 2183,
+      "sha256": "ca9433b6693b72096a796e908b0310f52fca9a6c7837cd25fc1d15b760a00ab1"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/components/ScenarioSwitcher.tsx.txt": {
+      "bytes": 1861,
+      "sha256": "a9cb190d5fb586acea6fcb9d99e263225ea6e74b8bae0b5d50ed8f770cef690a"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/components/TripForm.tsx.txt": {
+      "bytes": 7980,
+      "sha256": "ee8dfb62cb1aaddff979f6bbb47c3d9fc88ec7a73b77f9f27f42674b0c0c73cd"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/src/components/use-decision.ts": {
+      "bytes": 2198,
+      "sha256": "6d091a973d7e861270d27f31bd0b88e6b4160ab4892f8ef98667d1155c780c57"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/before/vitest.config.ts.txt": {
+      "bytes": 325,
+      "sha256": "f14c919bf7966b6ea73ece5fe6d99ad43b48b263d390c0fd0d4493fab28872fe"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/browser-offline.png": {
+      "bytes": 58091,
+      "sha256": "a7673dc6518c7c62f12baafe0b1323d24835272fe7347716f2ccfe4037d558c6"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/browser-results.json": {
+      "bytes": 21353,
+      "sha256": "23c9ee6dde54681ebaf9a5720a7c0e5ccdadcb11bfed6ede93fad4503c04423d"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/input-390.png": {
+      "bytes": 112859,
+      "sha256": "ddcf623f5370d85cda275d61c782ca45802763fdec6b3bd11c3b605054b2e988"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/keyboard-walk.json": {
+      "bytes": 294,
+      "sha256": "45212a2522aa30e2db8c45c9ab835183c5bd5e566929e96fe6bad40d8e729209"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/live-360.png": {
+      "bytes": 525316,
+      "sha256": "f0eae3b1837f28284db9f562a610a9144f74c4e2ffdf33d3e7765d3b7ba8c6f9"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/live.png": {
+      "bytes": 510791,
+      "sha256": "0b48b1433960de36bcf923c1d547207baaaf66585567de9fa9aa25c27f800ebd"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/loading.png": {
+      "bytes": 49437,
+      "sha256": "489a854e8b9772ef626170683d4f374094881eac4cf307fbd13d411caaaa2237"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/minimal-contract.png": {
+      "bytes": 270034,
+      "sha256": "ce33ef93f067f2cda7ba479d26aec48841628f6d4775487253d5d66dae4eaac4"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/mobile-core.png": {
+      "bytes": 97232,
+      "sha256": "26c1fa5fce0f08a3fd4fc7d6a31ee3a97a83f6a06cba69aa25195ebaf656cb3c"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/publication.json": {
+      "bytes": 7187,
+      "sha256": "219ed1c743fbed340d69f7b1e8d1c0145e599daab786c5285d9778f09215daed"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/result-disruption-390.png": {
+      "bytes": 462545,
+      "sha256": "dcfade997f8859f6e1cacbd7511b423659e65d7e49b39228539eb4f0041342ac"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/result-heavy_rain-390.png": {
+      "bytes": 450929,
+      "sha256": "046322f9c881321790098eea613c8fbfac1b0a58b4f876d0db711cb0fc347f7b"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/result-normal-390.png": {
+      "bytes": 438473,
+      "sha256": "8245ffdc6f1204a41582df671db62e2cf92c948baf087d62e3219d98077c355c"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/room-assets-verified.json": {
+      "bytes": 7541,
+      "sha256": "a175317953dba402b04e817e738ad8c49d1213e43c44e11b1521b639cdf290bd"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/source-sha256.json": {
+      "bytes": 1648,
+      "sha256": "629d0fba21a7ba7cf7f4074aec6456fcf815bbb42803fcdb2febdfea30d940dd"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/unavailable.png": {
+      "bytes": 234575,
+      "sha256": "579da417013c7623e4f555d888fc660a623b5601cd3058c6d6414bf067969adc"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-1280.png": {
+      "bytes": 480605,
+      "sha256": "9ae4b771c305a224109c6bc74019a9817117cdb15a3e41661dc3e064149b97f2"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-360.png": {
+      "bytes": 439652,
+      "sha256": "eaf5c24b6543d8fc46250e7f168167da510bb229f6c825b30a63dc80f7314df2"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-390.png": {
+      "bytes": 438203,
+      "sha256": "acf1691aa659aa0d08367d2cd689f42e8906988e6477ad7a127733e881f6e8f7"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-768.png": {
+      "bytes": 460268,
+      "sha256": "4cd020bdac1a03c2bb10efc1fe74b2e7d8d6daf83625108957528f541f23bd42"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-disruption-1280.png": {
+      "bytes": 507644,
+      "sha256": "a26c6f1b70f83835c556ae78764716ed86030cf86985cef9bb7d5c84658cd531"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-disruption-360.png": {
+      "bytes": 463392,
+      "sha256": "45c2de2e414693e90723f0d176cd206dc324ae6ed4cd43de7858f424b7bc1869"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-disruption-390.png": {
+      "bytes": 462157,
+      "sha256": "294615b63a8e7a7c5afa6827e9730114e8736afc4dd5d557431b3720c3e5d544"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-disruption-768.png": {
+      "bytes": 486102,
+      "sha256": "bdac510b326a0f9fd002de0e765f91f049d0f7b71a4ad433ad0aa936a8b79af4"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-heavy_rain-1280.png": {
+      "bytes": 493076,
+      "sha256": "25a9bc994431ef26c5db7d2dbcde4106d5b0188047e25665f1ab11f96828384b"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-heavy_rain-360.png": {
+      "bytes": 453016,
+      "sha256": "2c7848efd73c29a95765f5fbaf35699e709aa0b2bd03049a9167aaa98c312ec8"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-heavy_rain-390.png": {
+      "bytes": 450943,
+      "sha256": "9e59ac18805a36a3fbad7f15c9f9e904eee109ec5717db637a090df094a8899b"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-heavy_rain-768.png": {
+      "bytes": 472358,
+      "sha256": "b8e415532bb35d8072e19e4d6411d737d0bef8b5caaed928c417f9ec2dbef672"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-normal-1280.png": {
+      "bytes": 481218,
+      "sha256": "5c9b27acae15119febf38160f82a637287425942fc3993a0cb3bbf57a9513792"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-normal-360.png": {
+      "bytes": 439839,
+      "sha256": "8c20f143d5e3372f26189f2a68dc45cae71643587fa4ea0bf994cb5cd44a86b0"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-normal-390.png": {
+      "bytes": 438495,
+      "sha256": "09472bb1f3f1f1feee2fa27e8a6580bd5fba2da29a7284d1016064b453063ed1"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/viewport-normal-768.png": {
+      "bytes": 460939,
+      "sha256": "bb5d0d3b0a20ee8b63d3cec84f70e055502d76db08db02fe36942b21dabe664a"
+    },
+    "resilience-travel-assistant/docs/d-qa-2026-10-07/zoom-200.png": {
+      "bytes": 1087399,
+      "sha256": "c33c8fe8518e412f41ca47e059a6d47588040e440d9707bd2ce43e114eec0fdd"
+    },
+    "resilience-travel-assistant/docs/data/live-source-check.json": {
+      "bytes": 8402,
+      "sha256": "7dd5fa01cc39a35ab2811e854e0759f7d099b22bffcfa0c0d99493b06c5cf906"
+    },
+    "resilience-travel-assistant/docs/data/official-bus-service-reference.json": {
+      "bytes": 1582,
+      "sha256": "2e8dacf775243314720746f93a6799d154cf3f3792817d2c6dd0739376ea7218"
+    },
+    "resilience-travel-assistant/docs/data/official-rail-reference.json": {
+      "bytes": 7854,
+      "sha256": "0099693a551e3f7f2e3d2e9111f6b1ef56fb011500dce4ede2affc6ce8b037a2"
+    },
+    "resilience-travel-assistant/docs/data/preview-api-check.json": {
+      "bytes": 26171,
+      "sha256": "5136992c492b07b5a9e721d057ec06ec6c8551a4a7777530059a991cc0c2d160"
+    },
+    "resilience-travel-assistant/docs/screenshots/01-mobile-input.png": {
+      "bytes": 269678,
+      "sha256": "0ef3e1550d89af5442ff4e0c13acf2f450c466e9f8a3abe5f281e88e33fc6d96"
+    },
+    "resilience-travel-assistant/docs/screenshots/02-mobile-result-disruption.png": {
+      "bytes": 1146295,
+      "sha256": "fb985108a43462251e125f579a7221726464dfdaee07e749febcd928c6279c2c"
+    },
+    "resilience-travel-assistant/docs/screenshots/02-mobile-result-heavy_rain.png": {
+      "bytes": 1118928,
+      "sha256": "2a36d172359a374a267dc00d3d262824bbc38243a68dcab9ac571e47005130a0"
+    },
+    "resilience-travel-assistant/docs/screenshots/02-mobile-result-normal.png": {
+      "bytes": 202019,
+      "sha256": "c53e1ab2b5fe63a70c4f8e06c8b6ab6dc391da76fe8c1015fcba9cb7d579a797"
+    },
+    "resilience-travel-assistant/docs/screenshots/03-desktop-result-disruption.png": {
+      "bytes": 550090,
+      "sha256": "4b9626a2c1c9cd516a7bc7b15cf8f683b15016b3fdaa5ea7ca8de573765423cd"
+    },
+    "resilience-travel-assistant/docs/screenshots/03-desktop-result-normal.png": {
+      "bytes": 523808,
+      "sha256": "ef433407fd50a2f5ec7bebef4ec606012296cc79623f4fadc160561dca9dcd3a"
+    },
+    "resilience-travel-assistant/docs/screenshots/04-api-failure-state.png": {
+      "bytes": 79168,
+      "sha256": "7b3fb411a121117c31ed8ce8d5b5464d2fe6665c0456400d7832b8bf3f0a3199"
+    },
+    "resilience-travel-assistant/eslint.config.mjs": {
+      "bytes": 643,
+      "sha256": "f039c58299994ce41530a4fcd1bf24f50ff0664e4a9b4d83d8ec3c189106f5df"
+    },
+    "resilience-travel-assistant/next-env.d.ts": {
+      "bytes": 262,
+      "sha256": "85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6"
+    },
+    "resilience-travel-assistant/next.config.ts": {
+      "bytes": 422,
+      "sha256": "e7c329037edd634e5cf7c87f63fd888416cbabc0af78de133d667c5211a894ce"
+    },
+    "resilience-travel-assistant/package-lock.json": {
+      "bytes": 274477,
+      "sha256": "f22681fe06cb1912df1d195402933da37802e01deacd57ef46871465cc4fda0a"
+    },
+    "resilience-travel-assistant/package.json": {
+      "bytes": 1208,
+      "sha256": "348a551e98ee510de4aa38628a3cb6fb4723704eb94b48726e15e5f66760d1e7"
+    },
+    "resilience-travel-assistant/postcss.config.mjs": {
+      "bytes": 105,
+      "sha256": "8c4071497479b4bb346d0ebb53b1bdeb555beb659512aaa0d6988d0d83ddeed5"
+    },
+    "resilience-travel-assistant/scripts/probe-transport.test.ts": {
+      "bytes": 1805,
+      "sha256": "4ad742b2c28c0e972677c097f7f12001e2a7d22dcf4eadf5601588fc7dd7d923"
+    },
+    "resilience-travel-assistant/scripts/probe.config.ts": {
+      "bytes": 195,
+      "sha256": "ec45b41b2454df83d37e3335958eda51c4c900fc7eb6809cc8dffd19bc200b86"
+    },
+    "resilience-travel-assistant/src/app/api/decision/route.ts": {
+      "bytes": 918,
+      "sha256": "ac9f96090cb83241e4e3c67f6f8c779e9626369d120b6dc74e88be33c267d9dd"
+    },
+    "resilience-travel-assistant/src/app/api/health/route.ts": {
+      "bytes": 555,
+      "sha256": "cf26348b8248a00f02496cbaf6c54f063bbe41203c8cd916ba7bf5c803ec19d1"
+    },
+    "resilience-travel-assistant/src/app/error.tsx": {
+      "bytes": 1018,
+      "sha256": "54cb49930677fc367700a75401a7a58fabef0f727c8fee663aa535da8790ef2e"
+    },
+    "resilience-travel-assistant/src/app/global-error.tsx": {
+      "bytes": 1161,
+      "sha256": "f77655716c2de95cb73ce05abb6f26e0721e3f43c3d80d01b49699b9b38e5768"
+    },
+    "resilience-travel-assistant/src/app/globals.css": {
+      "bytes": 1080,
+      "sha256": "a2e50f65ac941c81ccbe3effd5b79fec9328024ef9e410cf8fb8987de17fbae7"
+    },
+    "resilience-travel-assistant/src/app/layout.tsx": {
+      "bytes": 1989,
+      "sha256": "8ab3dbdf535c6afbd145e443abd8aa0895c4e4c8c89a562c86a58390df5bccdf"
+    },
+    "resilience-travel-assistant/src/app/not-found.tsx": {
+      "bytes": 486,
+      "sha256": "d0445bdf92093c22a4a4586c1a812ea65fbaca2cdabea43667c68a535bcd84b1"
+    },
+    "resilience-travel-assistant/src/app/page.tsx": {
+      "bytes": 113,
+      "sha256": "3b12fea8d8f948115a9c39a4e7d0d9196e1ee50edc907e598ec28d90e9e3d028"
+    },
+    "resilience-travel-assistant/src/app/result/page.tsx": {
+      "bytes": 939,
+      "sha256": "7de8eadbcca898b31a657e84bfc2ed0d6dca4e9d9d3a24b07333acc5fa12e94a"
+    },
+    "resilience-travel-assistant/src/components/DataFreshnessBadge.tsx": {
+      "bytes": 1913,
+      "sha256": "1f109c122a0c5dfa0f25db58e157cef98bd1c2a4e73ca6affd30d8c823ab4c2d"
+    },
+    "resilience-travel-assistant/src/components/DecisionCard.tsx": {
+      "bytes": 8641,
+      "sha256": "18a88f4e7ed0aaaaad838eb628d111685fed5f32c64afabc5a1e37ed6a927610"
+    },
+    "resilience-travel-assistant/src/components/DecisionView.tsx": {
+      "bytes": 2966,
+      "sha256": "5ec98f5c295edff1285c1a28c94577aebc584c3eecaf7809abfca96634803d43"
+    },
+    "resilience-travel-assistant/src/components/RouteTimeline.tsx": {
+      "bytes": 2183,
+      "sha256": "a6815068ddeb926ad8c472bf87e1a983c1657e5e86011cce48513eb6a7746926"
+    },
+    "resilience-travel-assistant/src/components/ScenarioSwitcher.tsx": {
+      "bytes": 2677,
+      "sha256": "1ee8ca2cf23db282d9c1952b543a6e08dc4a39661fe7b1fd87bd06e25cd8821c"
+    },
+    "resilience-travel-assistant/src/components/TripForm.tsx": {
+      "bytes": 9574,
+      "sha256": "c74ae85297c6e36ffa921da667320696b82ce8ffba0b03b131efd8050decb8a5"
+    },
+    "resilience-travel-assistant/src/components/states.tsx": {
+      "bytes": 3476,
+      "sha256": "d891d465d1b1b579ca19ef37986a3cd85b64c435d6acf5862ec96584c41716f8"
+    },
+    "resilience-travel-assistant/src/components/use-decision.ts": {
+      "bytes": 2471,
+      "sha256": "e58ff7cb99cf8ebbd9a1a921a9d1c0ac86932e3796904538dc739425e66e74aa"
+    },
+    "resilience-travel-assistant/src/lib/adapters/cache.ts": {
+      "bytes": 1250,
+      "sha256": "dad21603145e452469950859c366f14b6c492989083aa984c1a4a26f4ebd72b4"
+    },
+    "resilience-travel-assistant/src/lib/adapters/hko.ts": {
+      "bytes": 2425,
+      "sha256": "dfe3b9a94146f854380b7ecf5b65efe01eb65f40dc4f9c0bc5436404f3a1a676"
+    },
+    "resilience-travel-assistant/src/lib/adapters/index.ts": {
+      "bytes": 8565,
+      "sha256": "518c030016f64a7e75db7adbe0bc16783932b21dd7bf786ee8b99f3beb562a64"
+    },
+    "resilience-travel-assistant/src/lib/adapters/live-providers.ts": {
+      "bytes": 4542,
+      "sha256": "283c00874285a9a33ef26c319a62ca6d8f36122b8dd179479cd330ba26d37540"
+    },
+    "resilience-travel-assistant/src/lib/adapters/traffic-news.ts": {
+      "bytes": 1919,
+      "sha256": "cfd65f429783b6f4e09e0ce1f38b347d2c43540a4a40f5e796a2501e9a7404dd"
+    },
+    "resilience-travel-assistant/src/lib/adapters/transport-times.ts": {
+      "bytes": 8003,
+      "sha256": "f02804075a1c7dd06964a4cd5b2fb047b3063815f80b5b433c80fc57fa3dbf03"
+    },
+    "resilience-travel-assistant/src/lib/adapters/types.ts": {
+      "bytes": 1698,
+      "sha256": "a0394e060214169f8a99ca38ec193325ec612d7905220489c9b7774967441743"
+    },
+    "resilience-travel-assistant/src/lib/adapters/validation.ts": {
+      "bytes": 1344,
+      "sha256": "1231853fb0f6f7ac85650c0bd1c197553f544ffb7b7cc0efb6c06d16ca3203d2"
+    },
+    "resilience-travel-assistant/src/lib/api/decision-handler.ts": {
+      "bytes": 3245,
+      "sha256": "2fe4e76963609f2dbb8601bd5ac77ce75084ab7815f9659d29454d2c1aaa1c0c"
+    },
+    "resilience-travel-assistant/src/lib/api/errors.ts": {
+      "bytes": 1071,
+      "sha256": "62415258065eef1417c662f11a798651fe4a6af180ab62837c84af0d1ff94ab9"
+    },
+    "resilience-travel-assistant/src/lib/api/health-handler.ts": {
+      "bytes": 2040,
+      "sha256": "4f29c71b0392be87fc369b8bf10fb464af39f99dcffb14b5f42428348ca67097"
+    },
+    "resilience-travel-assistant/src/lib/api-client.ts": {
+      "bytes": 3672,
+      "sha256": "52cd62826090d1098909c7bdf1a34bd1b68e5735f769e9c9c813950a22628a9f"
+    },
+    "resilience-travel-assistant/src/lib/corridor/index.ts": {
+      "bytes": 10454,
+      "sha256": "284627ecd3781a10d4d4c23ebe3d847bde3c123ddbbd864700c1e7f3851dd1ae"
+    },
+    "resilience-travel-assistant/src/lib/decision/advisory.ts": {
+      "bytes": 14088,
+      "sha256": "a0b22df808baceae48aa2ff1532acd186e142e87797187923b71dc39274360e8"
+    },
+    "resilience-travel-assistant/src/lib/decision/disruption.ts": {
+      "bytes": 7754,
+      "sha256": "7355e30705bca0324cd3e84b230dbfb3f74337bb4540df03faada4f4c41743c2"
+    },
+    "resilience-travel-assistant/src/lib/decision/engine.ts": {
+      "bytes": 30503,
+      "sha256": "083864bbe6a36ca716d1c03da660514582906d3b4e26caa5529316fdc7cb5e7b"
+    },
+    "resilience-travel-assistant/src/lib/decision/explain.ts": {
+      "bytes": 9787,
+      "sha256": "f045b114f023295f421c62886e0eb558d8a1b8e86dc36c3918ca50a5823630c2"
+    },
+    "resilience-travel-assistant/src/lib/decision/index.ts": {
+      "bytes": 1035,
+      "sha256": "641559a7d9590745a1036efb1d100e6ff0a0114a6b098f8adce784ff5556590e"
+    },
+    "resilience-travel-assistant/src/lib/decision/scoring.ts": {
+      "bytes": 4708,
+      "sha256": "c0698687bd5bc4b58c9dd75c916b598819e8d79fe066535144836966dd19ce64"
+    },
+    "resilience-travel-assistant/src/lib/decision/thresholds.ts": {
+      "bytes": 5254,
+      "sha256": "76059513e16234311cbfa11f8cb2da1586357e27b46e7693d506ff68b95dc502"
+    },
+    "resilience-travel-assistant/src/lib/fixtures/context/index.ts": {
+      "bytes": 751,
+      "sha256": "a1aaac7638a652c760772186f67cef34b2e5fea89a3020904d4b8ddf708a2c6f"
+    },
+    "resilience-travel-assistant/src/lib/fixtures/context/snapshots.ts": {
+      "bytes": 6486,
+      "sha256": "414748d31624dc52d4a54b0145c242b6f480e89eb5d2dc8ea331238a0620791d"
+    },
+    "resilience-travel-assistant/src/lib/fixtures/demo-request.ts": {
+      "bytes": 979,
+      "sha256": "13f07f5e1a9b005d9f996ab167957589e3069a260090b90282efccb44c5ba471"
+    },
+    "resilience-travel-assistant/src/lib/fixtures/golden/disruption.json": {
+      "bytes": 21513,
+      "sha256": "d86a8e93754f7401c971ed97674e013f5072aa322016acd4b4b8c5c9c3ebd688"
+    },
+    "resilience-travel-assistant/src/lib/fixtures/golden/heavy_rain.json": {
+      "bytes": 23359,
+      "sha256": "ffc118c74a363a0fc8ab559b154822c925df05eb00914ae30f3a181a7b05ecc5"
+    },
+    "resilience-travel-assistant/src/lib/fixtures/golden/normal.json": {
+      "bytes": 22791,
+      "sha256": "4718c11d4ac1224deb2280a2788342486c83734ea207e5c6337cb40f46f200d4"
+    },
+    "resilience-travel-assistant/src/lib/labels.ts": {
+      "bytes": 1649,
+      "sha256": "8fe90b67954c640fa925dac73429b508cca88dc475ea8546b6cf75e7dea9dd30"
+    },
+    "resilience-travel-assistant/src/lib/time.ts": {
+      "bytes": 5983,
+      "sha256": "5bbf0e8ea8b16f1d3ddf684dbf4c1c36990c4f010f5f9c3c04e892b1985568d3"
+    },
+    "resilience-travel-assistant/src/lib/types/context.ts": {
+      "bytes": 3626,
+      "sha256": "2f3215a22266054a026bf4e4141ea71e3840d589c25e53aa6cff5f7aab844389"
+    },
+    "resilience-travel-assistant/src/lib/types/decision.ts": {
+      "bytes": 6576,
+      "sha256": "6c52d9f4951dc3f915264bbfa2f2f87e6bbc3e7795f7de7f08c59054b6736d9c"
+    },
+    "resilience-travel-assistant/src/lib/types/index.ts": {
+      "bytes": 82,
+      "sha256": "135d396a8032a39605ae49881ab3529719628946743e3ba0333bc2df9e3cd372"
+    },
+    "resilience-travel-assistant/src/lib/types/request.ts": {
+      "bytes": 1712,
+      "sha256": "7782c444e517786fe311423b0b5e282afc70a9c60fab3dcc3c360353b901197f"
+    },
+    "resilience-travel-assistant/src/lib/url-params.ts": {
+      "bytes": 3701,
+      "sha256": "b393b9ebb9cc003fdc4bb3b2824d8c2a4a7e502bd072739eeb1fbb1c4d827837"
+    },
+    "resilience-travel-assistant/src/lib/validation.ts": {
+      "bytes": 4484,
+      "sha256": "2974c31d94f0de1954b37decd3c3018c70b0f73197a2a58a7506edcf3e69dec4"
+    },
+    "resilience-travel-assistant/src/test/api.test.ts": {
+      "bytes": 10304,
+      "sha256": "b035f7e24dd8b63dabf05be487e19b15726b1b8104d4007984e5daefec4bedc5"
+    },
+    "resilience-travel-assistant/src/test/c-ab-integration.test.ts": {
+      "bytes": 4878,
+      "sha256": "965b27b43667db904fd5742942bc207046952fbc5821b88cb39a3c348d478e49"
+    },
+    "resilience-travel-assistant/src/test/context-contract.test.ts": {
+      "bytes": 6660,
+      "sha256": "3326e1b3f8d6c51f6ebf64db2df04f7b2447cbebe8682cb9bbca2a3adfef8cc5"
+    },
+    "resilience-travel-assistant/src/test/d-frontend.e2e.mjs": {
+      "bytes": 15658,
+      "sha256": "527260d627d4f6b479656e16d9e458d98520738959c3505f75396687f8b476c6"
+    },
+    "resilience-travel-assistant/src/test/data-adapters.test.ts": {
+      "bytes": 3596,
+      "sha256": "b7b4878be0952f07841fd818f87a3d5ebbad4e9cd8fb5554770f3c4a2d01c9e7"
+    },
+    "resilience-travel-assistant/src/test/decision-advisory.test.ts": {
+      "bytes": 7069,
+      "sha256": "2e0f83f846d5c275502e53953b7bb5b68293bbc6013b64bceb7ac550e5e30a7d"
+    },
+    "resilience-travel-assistant/src/test/decision-disruption-scope.test.ts": {
+      "bytes": 5688,
+      "sha256": "ca52dd2811c013dcf33f3f73ec27a9f7e02bdc1b95cd93f56d685dffa4e20c6f"
+    },
+    "resilience-travel-assistant/src/test/decision-edge-cases.test.ts": {
+      "bytes": 6923,
+      "sha256": "a238d171d5c4ae024ba99075a04edc63317e07d950bfe41c1bc61b3bdfba026a"
+    },
+    "resilience-travel-assistant/src/test/decision-explain.test.ts": {
+      "bytes": 5159,
+      "sha256": "bab33bef0a04bfc7ec8ae8e35641416c133d73f0fcc23fb70878d50ad4eb5f4e"
+    },
+    "resilience-travel-assistant/src/test/decision-live-safety.test.ts": {
+      "bytes": 8075,
+      "sha256": "863199d82e36806c8b9e05bbc2c00d4ad9145405f3d132a6770faf3069092ee3"
+    },
+    "resilience-travel-assistant/src/test/decision-properties.test.ts": {
+      "bytes": 5050,
+      "sha256": "938cf7410a106bb9d04a516d15ffc25393cc4111166d7bd470028a4a03e5da3a"
+    },
+    "resilience-travel-assistant/src/test/decision-scenarios.test.ts": {
+      "bytes": 6689,
+      "sha256": "66a60a4e266abc91288a3778d44e3097856261b23881613c71319c2672fa53ff"
+    },
+    "resilience-travel-assistant/src/test/determinism.test.ts": {
+      "bytes": 2321,
+      "sha256": "628f21e43c60943a6737beba08d96f38f8f2ef2da0ec24f285d80af9a914fd2c"
+    },
+    "resilience-travel-assistant/src/test/freeze-smoke.test.ts": {
+      "bytes": 3991,
+      "sha256": "fa3274aaf357785e9508b9f7bb0a717d5caf059123b0c24cc0968f344488120b"
+    },
+    "resilience-travel-assistant/src/test/frontend-card.test.ts": {
+      "bytes": 1818,
+      "sha256": "d82d7ba5f0bb7503bd5b23fcea24fc45f28eaa71022cdfd3d5a9a11fe6ecae19"
+    },
+    "resilience-travel-assistant/src/test/golden.test.ts": {
+      "bytes": 3462,
+      "sha256": "92fc02ccf147201a53d05f52f1adc7c46f30bd9f61fd3061d500144347c34b85"
+    },
+    "resilience-travel-assistant/src/test/time.test.ts": {
+      "bytes": 3132,
+      "sha256": "4d2ec605edbb19ce40a0b5a3c97623d7b3e81f2a6ce1df2d09d675a06df7b55c"
+    },
+    "resilience-travel-assistant/src/test/transport-times.test.ts": {
+      "bytes": 5875,
+      "sha256": "f5f63b73172415cc0344d10e8098d0246aef69df84ede864dcf4bef362a16ec9"
+    },
+    "resilience-travel-assistant/src/test/url-params.test.ts": {
+      "bytes": 2457,
+      "sha256": "16475c475117204cc48193be0233573225180704783ca6eb86aaf398c0f83fb6"
+    },
+    "resilience-travel-assistant/src/test/validation.test.ts": {
+      "bytes": 3676,
+      "sha256": "ba44ed6bb0fbb6a1fa4405a1a23a6f4516c51612f235fdf86c812c781b70f816"
+    },
+    "resilience-travel-assistant/tailwind.config.ts": {
+      "bytes": 471,
+      "sha256": "ec14251fd19a4228271ec856b09c3861d6cbd7e8dbda80f3f266bc7f00045f5d"
+    },
+    "resilience-travel-assistant/tsconfig.json": {
+      "bytes": 643,
+      "sha256": "73b53b56935c8a651b1bfc61a6c1b7ce459318d599485a73ba3160db56a68b23"
+    },
+    "resilience-travel-assistant/vitest.config.ts": {
+      "bytes": 358,
+      "sha256": "cefb301c816b65a9de66cd2d29632d437b2c95faf6c3acedd7342cf3b683a9e0"
+    },
+    "resilience-travel-assistant-testpack-2026-10-09.zip": {
+      "bytes": 57821216,
+      "sha256": "5b7b96ede77226af207680b7e5f99af5025551acc38605beb27ee919c9341ca1"
+    },
+    "tp_rsc20260703cb3-754-2-c.pdf": {
+      "bytes": 390608,
+      "sha256": "ec746295a9885fbe3e1f97a2cfdcb48e44fe0b7b11028098eeb76eea0c2a84e0"
+    },
+    "ui-review-prototype/.figma/make/analyze-routes": {
+      "bytes": 70,
+      "sha256": "7a81578bcfa5ba5f2105d7165e0cd2d8d1c6151d2a0c5ba766b3ef1c824ee788"
+    },
+    "ui-review-prototype/.figma/make/deploy": {
+      "bytes": 88,
+      "sha256": "fe35b0aff744f5aa8bb16eb1590c720ff6b0ff4bce9ede78f73e02bbfd7e7f3f"
+    },
+    "ui-review-prototype/.figma/make/deploy-preview": {
+      "bytes": 163,
+      "sha256": "3b82ce85bad03ce7b0e4e288a6e40e5caf119c41a392de3d3420ff17c42d0e8b"
+    },
+    "ui-review-prototype/.figma/make/dev": {
+      "bytes": 52,
+      "sha256": "91f795e632539988b0fe3de57084839f41a827ba5c274590388f7d0650ec2314"
+    },
+    "ui-review-prototype/.figma/make/dev.json": {
+      "bytes": 959,
+      "sha256": "e78b91a2a63456a6eab9756c3fb6d767dfe3673adcef1dcfe4f52c010238c3e7"
+    },
+    "ui-review-prototype/.figma/make/format": {
+      "bytes": 63,
+      "sha256": "254598ef0d1a61c3abc2a426c7065487ca140c8f9b90e4d66ea05dff20832335"
+    },
+    "ui-review-prototype/.figma/make/install": {
+      "bytes": 90,
+      "sha256": "90705d33ffd6b0700def7f2f304fd24ae04e17af5fc7d8437df44cf546d64891"
+    },
+    "ui-review-prototype/.figma/make/langserver": {
+      "bytes": 106,
+      "sha256": "e6b9034d28bbc82e6333a3b77f8d5fd593ac54eeed7e4e76569329fdbb534fff"
+    },
+    "ui-review-prototype/.figma/make/site.json": {
+      "bytes": 348,
+      "sha256": "f125350d2f0717ae054fc1ae169712258a0609ff17de8e8c24d924a007166a16"
+    },
+    "ui-review-prototype/.gitattributes": {
+      "bytes": 7728,
+      "sha256": "fdd53ecc7bf79a69d3ef228ec98e0151f10e02702b90b553f04785b61db68354"
+    },
+    "ui-review-prototype/.gitignore": {
+      "bytes": 424,
+      "sha256": "6770e60e045a25964f62df2a396a19b3f5c402facbf43c73c125b021b2fc5674"
+    },
+    "ui-review-prototype/.mise.toml": {
+      "bytes": 43,
+      "sha256": "6d2834ef5f78a7dc4c384570a62b895137fdf63df171d237f0747932bd001435"
+    },
+    "ui-review-prototype/AGENTS.md": {
+      "bytes": 2321,
+      "sha256": "b39f6ead09e39e9f6eb5a132342519fb7bf9c77ab14522f0da38edf9224c6b77"
+    },
+    "ui-review-prototype/CLAUDE.md": {
+      "bytes": 11,
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    "ui-review-prototype/UI-BASELINE.md": {
+      "bytes": 1080,
+      "sha256": "eba1c068a3fca24d66910ce0015e4bf402f61aa97a8807dd15492396bbf4a82f"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/API-UI-MAPPING.md": {
+      "bytes": 7787,
+      "sha256": "a90bafaf32d0efb4d10b91066d471c4e792a82293d1a36ec0cbc884f6a38d311"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/BASELINE-MANIFEST.md": {
+      "bytes": 5784,
+      "sha256": "594dc2b1d25222d4c1ca13e8353da9b7752d4d8998e97d80520ac7696286e133"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/COMPONENT-CHECKLIST.md": {
+      "bytes": 5683,
+      "sha256": "4de954519dc9ec3de722f1c30980f8afb1d3abaf6ee32e57a1cb323887588111"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/DEMO-MODE.md": {
+      "bytes": 1619,
+      "sha256": "c3f4cc9b60263de43c5963e6bde635ff4e70571a829ef688c97f7d0e36317852"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/DESIGN-TOKENS.md": {
+      "bytes": 8567,
+      "sha256": "bb22289fbe2df15df7c24a60924071660513ea3b85c91e62c13a5446b0e17026"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/QA-CHECKLIST.md": {
+      "bytes": 4961,
+      "sha256": "19aad455fd79900d41806723d5dd30599f9af981de49555c5463e93602657a44"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/README.md": {
+      "bytes": 3445,
+      "sha256": "36a7a0afd6f5c5a1e553476f5f44c95c3c30c93d5efc21c952fab2fe30c24685"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/UI-Scenarios.md": {
+      "bytes": 4618,
+      "sha256": "8538cc9c1a59091e4b752bb519ec9be5ff8096b1d27730cede704e510b4e395a"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/UI-Screens.md": {
+      "bytes": 6978,
+      "sha256": "3a38109c97f88f516887dd098a77b6ee9dc1d3a341ea70d3523f991f3bea89e4"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/UI-States.md": {
+      "bytes": 5103,
+      "sha256": "a382ccb139b5d64420c5c8770f37c424d058edc494783eec71634b2f8bb88efa"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/desktop-disruption.png": {
+      "bytes": 1647878,
+      "sha256": "c27b5dd408db86c3b23c16c61f14dc9231bb171b729e0463944f0eccb91305e9"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/desktop-heavy-rain.png": {
+      "bytes": 1423430,
+      "sha256": "f117fce302f38bad363a2c4fb860b9474b7b641efbdb358db7c82a189b8ddf86"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/desktop-input.png": {
+      "bytes": 290270,
+      "sha256": "5f871e322d91daa1ce26a8fac7ed0b3fff6fbf0b266e94a2fb0ec07129f6a3da"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/desktop-normal.png": {
+      "bytes": 1365923,
+      "sha256": "1530e397c95442ffdd9b562d2795d4eb029b4ba2c9814d6e35f1eaab137bb65e"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/desktop-state-error.png": {
+      "bytes": 214556,
+      "sha256": "cdf879400ffb32e1716e2853da7f0ee974b6cce6542e5ce8e723833fb32eae23"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/desktop-state-loading.png": {
+      "bytes": 231377,
+      "sha256": "2125774d164ca11ad8782e6cd701d68924606acbf5eccae33701668b6c8c6340"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/desktop-state-unavailable.png": {
+      "bytes": 427826,
+      "sha256": "878b62cee97a06ebac9d494208b470793cb4b7d4e0bdc3262a4ed17f556d2ac1"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/mobile-disruption.png": {
+      "bytes": 1169099,
+      "sha256": "eb13fe5f0b0f714dae391b1135542a81eccfe66c2d3372a763da10f4ee55f196"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/mobile-heavy-rain.png": {
+      "bytes": 955793,
+      "sha256": "dbd3863443e34e982f1c09a81d51afe0277b6f02ad75e95241c29710dfc6f7d5"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/mobile-input.png": {
+      "bytes": 239294,
+      "sha256": "08420fff962069dab4bead7e07209622d43c7f1256a34da51a4673caee2b9457"
+    },
+    "ui-review-prototype/UI-Handoff-v1.0/screens/mobile-normal.png": {
+      "bytes": 917086,
+      "sha256": "7af7be79f3b84dba63c929e95602dfa6b69ff1b4e70de2ff72df3277f39c8daa"
+    },
+    "ui-review-prototype/dist/assets/index--V4hCMrY.js": {
+      "bytes": 268729,
+      "sha256": "cd60e297f217135d609fc46e6ea895f1a693c0b8a7a4a2594a5e77008cca1b85"
+    },
+    "ui-review-prototype/dist/assets/index-BOsiTrFW.css": {
+      "bytes": 29218,
+      "sha256": "96409f55d4cd7aad6ab96716b0c3c8a9b2609900d08c517d2df3732783a7042b"
+    },
+    "ui-review-prototype/dist/index.html": {
+      "bytes": 914,
+      "sha256": "c6b5c8cff4d76c28f184e5e121d999ec3b28da17b5cf1f7d0574254e6f5e1cd4"
+    },
+    "ui-review-prototype/dist/robots.txt": {
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    "ui-review-prototype/index.html": {
+      "bytes": 440,
+      "sha256": "768eac67e6271681de61c23f1c94a6bf688607bbad2d0bccafd8f4bfe789a079"
+    },
+    "ui-review-prototype/package.json": {
+      "bytes": 585,
+      "sha256": "2e6f3ba99dbd8a4d567d2f058699451326aa73e3d95fb6a9e555654a99d4f7f2"
+    },
+    "ui-review-prototype/pnpm-lock.yaml": {
+      "bytes": 29458,
+      "sha256": "4898ab91c6fe90782fb79b43995ba987b2b648464db013df5c770c0370959931"
+    },
+    "ui-review-prototype/src/App.tsx": {
+      "bytes": 37972,
+      "sha256": "d230e23632dd92bcee7db4d0ef9b1f5e88cc1d8d6c5136de5ecaf2e34abc3c59"
+    },
+    "ui-review-prototype/src/data/decisions.ts": {
+      "bytes": 71928,
+      "sha256": "9119fc3008ae850447bfabb8e0e6813103a65c50c208746402a97ca7255ef5a2"
+    },
+    "ui-review-prototype/src/index.css": {
+      "bytes": 28111,
+      "sha256": "b2892e36402c1ead25e3afea1dbefa4b5bb366bbf39a9c942e45f41cc38146e7"
+    },
+    "ui-review-prototype/src/main.tsx": {
+      "bytes": 232,
+      "sha256": "5f49dce6e6cc4b5d678cf529ef892af0ab7dfa6afb300b11ad559224019b8b05"
+    },
+    "ui-review-prototype/src/vite-env.d.ts": {
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    "ui-review-prototype/tsconfig.json": {
+      "bytes": 556,
+      "sha256": "9a1e96d63eaccd5416b2f78ecaccf2b3a27ca71e213fa5859cf5349c66123bf9"
+    },
+    "ui-review-prototype/vite.config.ts": {
+      "bytes": 13728,
+      "sha256": "a046ec077034d0814e361c6a06dfef42dd12ce45859155b1df360a2ae06278bf"
+    },
+    "团队开发工作流.md": {
+      "bytes": 13970,
+      "sha256": "026cc80c5211687b4a266159f247e7fdc5baf7dc04c3cdf13e24dcc94cefeb50"
+    },
+    "团队开发工作流_组员版.txt": {
+      "bytes": 7785,
+      "sha256": "7a77332c33c1a6db3c10d9aafb395b312b1b4bb9841ca9aaa84ed1a6d88601b2"
+    },
+    "团队开发工作流_组员版_副本.txt": {
+      "bytes": 7785,
+      "sha256": "7a77332c33c1a6db3c10d9aafb395b312b1b4bb9841ca9aaa84ed1a6d88601b2"
+    },
+    "第二阶段信息/API_CONTRACT.md": {
+      "bytes": 16400,
+      "sha256": "58e2ccfe9acfb368b8f4713f5f61604f396bd63406c526bd978f3d8fe1d5879c"
+    },
+    "第二阶段信息/APP_README.md": {
+      "bytes": 12447,
+      "sha256": "50a282e2475b0f5268a10c9f56b791a072ec07cc6199bd783e93577474470621"
+    },
+    "第二阶段信息/INTEGRATION.md": {
+      "bytes": 11261,
+      "sha256": "a72a1c88b33cdbea335d32b87b5101c06f12cf6e19cc25fe54d16b0a57851974"
+    },
+    "第二阶段信息/README.md": {
+      "bytes": 5705,
+      "sha256": "fbbd1e1330e43cc5ba3011de4b82985feb57a707174f2773c236e8202f6da9af"
+    },
+    "第二阶段信息/TASKS.md": {
+      "bytes": 13021,
+      "sha256": "1e32aaad64bbd537c77c46ed048dd9711deb82eee56025148c598e967b0598a9"
+    },
+    "第二阶段信息/docs/ARCHITECTURE.md": {
+      "bytes": 9842,
+      "sha256": "42c1535c7fbad534e8fa9a73771ce07cacb507efc086bb4bd0f2a9a5e672ccde"
+    },
+    "第二阶段信息/docs/B_COLLABORATION_REVIEW.md": {
+      "bytes": 7761,
+      "sha256": "356ada58c69256be0cdb8e5f5d5a85e1c3951fbb8c2c7057ac126b8f6cc54c01"
+    },
+    "第二阶段信息/docs/B_HANDOFF.md": {
+      "bytes": 3287,
+      "sha256": "d7463ebfd8e0a0aa3495a73b1219b77c946f48b85bc58793a6deb3ea2e2bfd63"
+    },
+    "第二阶段信息/docs/B_免费来源核查_2026-10-12.md": {
+      "bytes": 9715,
+      "sha256": "8236bde8ed5e3ff9244b1f5268abdce523bbecbf4dd144fffe45b80dca0d9d3a"
+    },
+    "第二阶段信息/docs/B_口岸估算方案_2026-10-12.md": {
+      "bytes": 7491,
+      "sha256": "f2900928b9c3c406d9e2adecc2da3c5b33a393179e76f6452a17ac091c33cde8"
+    },
+    "第二阶段信息/docs/B_遗留问题清单_2026-10-12.md": {
+      "bytes": 8634,
+      "sha256": "29291717fcdd37773c5db6e0bfcf9e759a93c5270d1203baa1d9075c8cda5450"
+    },
+    "第二阶段信息/docs/C_HANDOFF.md": {
+      "bytes": 8999,
+      "sha256": "aaaf83075c5a5b272330942e3a315b16e4600b3177cf685cee8ff06ab10aba60"
+    },
+    "第二阶段信息/docs/C_INTEGRATION_RECONCILIATION.md": {
+      "bytes": 13908,
+      "sha256": "4b7dbb73e7aa686bbf2bb9ae5764c3572c1a38c30727bb5e07a9d6aa10a66031"
+    },
+    "第二阶段信息/docs/DATA_CONTRACT_CHANGE_REQUEST.md": {
+      "bytes": 1414,
+      "sha256": "244d41776635fb9edee2d63fac2f59629877365fe632bfb4682a62f0b7758eb4"
+    },
+    "第二阶段信息/docs/DATA_SOURCES.md": {
+      "bytes": 5995,
+      "sha256": "08a582007c8debc1bc4c03620eaee29d53aa6d083f06b7c6a5d43515648158cc"
+    },
+    "第二阶段信息/docs/DECISION_CONTRACT_CHANGE_REQUEST.md": {
+      "bytes": 12204,
+      "sha256": "c64cd6ec03b8f43f10edd53bfa5f56a807ff11daf6138fe390f497c7fda02429"
+    },
+    "第二阶段信息/docs/DECISION_ENGINE.md": {
+      "bytes": 15847,
+      "sha256": "1955ea40721cb1414d5386f66309a91ef6b5213fb854391821103b5f3192d834"
+    },
+    "第二阶段信息/docs/DEMO_RUNBOOK.md": {
+      "bytes": 8614,
+      "sha256": "48e657f354c54bb70f9f93b8f813fbb61e5af125e454325df924cfd4a7c331fa"
+    },
+    "第二阶段信息/docs/D_ACCEPTANCE.md": {
+      "bytes": 3396,
+      "sha256": "9bf122a3fea7bf423b3cb618e37611d5880894d4089ce30b5976fa00c4310890"
+    },
+    "第二阶段信息/docs/D_DEMO_RUNBOOK.md": {
+      "bytes": 1678,
+      "sha256": "67e03c665400d7ba4075fb023a9b16c8f3edc70eee4d0c459448bddc66bce828"
+    },
+    "第二阶段信息/docs/D_QA_RESULTS_2026-10-07.md": {
+      "bytes": 8305,
+      "sha256": "fc9a213f53ad68d7d5b4d35268a2f51032b7fb45ad2f9f157fcae42350056309"
+    },
+    "第二阶段信息/docs/D_UNFINISHED_REMINDER.md": {
+      "bytes": 1789,
+      "sha256": "47a373eb9f101a9ab9349e0928b26cc95b71a4e6aa667d5eaf1bb16edba674aa"
+    },
+    "第二阶段信息/docs/FIXTURE_CATALOG.md": {
+      "bytes": 4918,
+      "sha256": "99f9d11cb0d569e13bccc1881e1e783fd14b23e8d5fc965b32f00f35c8f7fb89"
+    },
+    "第二阶段信息/docs/FRONTEND_CONTRACT_ISSUES.md": {
+      "bytes": 3825,
+      "sha256": "ba1577749f624507968f6a329c409640445f8dd2a42b9723a0419231e3c965e0"
+    },
+    "第二阶段信息/docs/INTEGRATION_VERIFICATION_BC_A.md": {
+      "bytes": 9100,
+      "sha256": "4cab223c7eb0455ae35c934f40e9d0f111c540fd6f3d96b887da5e2182725607"
+    },
+    "第二阶段信息/docs/MAP_MODULE_MIGRATION.md": {
+      "bytes": 15265,
+      "sha256": "069414fdb195be5efe384be6bd3c67039f105711e46a4609f928562cc8c2803c"
+    },
+    "第二阶段信息/docs/PHASE1_ACCEPTANCE.md": {
+      "bytes": 10981,
+      "sha256": "5f71a6f6408a60ffd8d94a61a8e93e59689dd5964bbb1464886022b27e9d8dea"
+    },
+    "第二阶段信息/docs/QA_CHECKLIST.md": {
+      "bytes": 11012,
+      "sha256": "4189c651d81c284bdcdd8c71a63bc0fa972fab73c123e7d1fbb115a32746720e"
+    },
+    "第二阶段信息/docs/QA_ISSUES.csv": {
+      "bytes": 2290,
+      "sha256": "a6907bc72b4bb4613dbd8b0b85ac3db783d1c66e4b2a961ae0218e600651077f"
+    },
+    "第二阶段信息/docs/USER_TEST_RECORDS.csv": {
+      "bytes": 2407,
+      "sha256": "6e1befa0c61ba29747b25eb020ab8819b829478de67720019bddb1cb737503d7"
+    },
+    "第二阶段信息/docs/USER_TEST_SCRIPT.md": {
+      "bytes": 6937,
+      "sha256": "46882947396b4c9e85b64dc4716648e52da92b82ec6c649622646a33a35f8587"
+    },
+    "第二阶段信息/docs/USER_TEST_SUMMARY.csv": {
+      "bytes": 484,
+      "sha256": "92047be65cdbf00d05a481904213070dd4f366fb73fc571af2f7ba3869c01a6e"
+    },
+    "第二阶段信息/docs/contracts/C_接口契约_v1_workbuddy.md": {
+      "bytes": 8241,
+      "sha256": "934366a63e37f784d4cefebe60c0f096a1f5d0883f6ebbb518d6f9759abdb34d"
+    },
+    "第二阶段信息/docs/contracts/README.md": {
+      "bytes": 1145,
+      "sha256": "c41fccd1bb83df66a51dd0f83f8183c4c0e73ecfd59e0984ec25f6b408907301"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/BASELINE_REPRODUCTION.md": {
+      "bytes": 1542,
+      "sha256": "246d4c0eb8ae9ba7586bbb5302b96deb82dd5e2dd4a2fa806560e4ad06d21a45"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/D_FRONTEND.patch": {
+      "bytes": 41145,
+      "sha256": "e66ce0edd995e973381bbbe3adc4e72e7da1ea3271c9f22b097676835aa9014a"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/accessibility.json": {
+      "bytes": 702,
+      "sha256": "95f283ab8cbce264b7122ef7d50f5a77b9cdaa9bdd36b1e1b8b1c2fc343627fa"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/api-error.png": {
+      "bytes": 55094,
+      "sha256": "a1b93ecd99c398146af1959026ebc07fed8601a0e30ad43d6c9128b41a51f5c8"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/docs/QA_CHECKLIST.md": {
+      "bytes": 5661,
+      "sha256": "47d6df09ae3ab650a875b31f36b259117e85905bd4eeae990612e86f7aba42e3"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/docs/USER_TEST_SCRIPT.md": {
+      "bytes": 4119,
+      "sha256": "74439711ec18d95febc881bff7da8854ad0610b741a831b290ab12b5fd572a7d"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/app/error.tsx.txt": {
+      "bytes": 1197,
+      "sha256": "cae5b31a3200ec10dc13b54228624b2ecf033d36dbbe3fe24cbd94efb4b2f63e"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/app/global-error.tsx.txt": {
+      "bytes": 1257,
+      "sha256": "f55d48aa49c55ae8011f83b9efc2db25771b9df8272d6e63bc9c506fa2a8632a"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/app/globals.css.txt": {
+      "bytes": 1042,
+      "sha256": "3d554676e216ce0831d41623bb7de9ffbe704b30c83d3e4ad42f7a2f8a36016f"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/app/layout.tsx.txt": {
+      "bytes": 1887,
+      "sha256": "f2ad224a4546e6b7534f28cd3114ac274673c8bb341f8a255815bf86a38c11fe"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/components/DecisionCard.tsx.txt": {
+      "bytes": 8093,
+      "sha256": "0c4205e1d9ce8cfc794c88c331e3df2fda83086ca9a03e24d021bf0ba17d4b1f"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/components/DecisionView.tsx.txt": {
+      "bytes": 2904,
+      "sha256": "2584a9fe594a2ae15007797ea0f0769e3f819a6c70ef2e0778bb8ae2960f1903"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/components/RouteTimeline.tsx.txt": {
+      "bytes": 2183,
+      "sha256": "ca9433b6693b72096a796e908b0310f52fca9a6c7837cd25fc1d15b760a00ab1"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/components/ScenarioSwitcher.tsx.txt": {
+      "bytes": 1861,
+      "sha256": "a9cb190d5fb586acea6fcb9d99e263225ea6e74b8bae0b5d50ed8f770cef690a"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/components/TripForm.tsx.txt": {
+      "bytes": 7980,
+      "sha256": "ee8dfb62cb1aaddff979f6bbb47c3d9fc88ec7a73b77f9f27f42674b0c0c73cd"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/src/components/use-decision.ts": {
+      "bytes": 2198,
+      "sha256": "6d091a973d7e861270d27f31bd0b88e6b4160ab4892f8ef98667d1155c780c57"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/before/vitest.config.ts.txt": {
+      "bytes": 325,
+      "sha256": "f14c919bf7966b6ea73ece5fe6d99ad43b48b263d390c0fd0d4493fab28872fe"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/browser-offline.png": {
+      "bytes": 58091,
+      "sha256": "a7673dc6518c7c62f12baafe0b1323d24835272fe7347716f2ccfe4037d558c6"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/browser-results.json": {
+      "bytes": 21353,
+      "sha256": "23c9ee6dde54681ebaf9a5720a7c0e5ccdadcb11bfed6ede93fad4503c04423d"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/input-390.png": {
+      "bytes": 112859,
+      "sha256": "ddcf623f5370d85cda275d61c782ca45802763fdec6b3bd11c3b605054b2e988"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/keyboard-walk.json": {
+      "bytes": 294,
+      "sha256": "45212a2522aa30e2db8c45c9ab835183c5bd5e566929e96fe6bad40d8e729209"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/live-360.png": {
+      "bytes": 525316,
+      "sha256": "f0eae3b1837f28284db9f562a610a9144f74c4e2ffdf33d3e7765d3b7ba8c6f9"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/live.png": {
+      "bytes": 510791,
+      "sha256": "0b48b1433960de36bcf923c1d547207baaaf66585567de9fa9aa25c27f800ebd"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/loading.png": {
+      "bytes": 49437,
+      "sha256": "489a854e8b9772ef626170683d4f374094881eac4cf307fbd13d411caaaa2237"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/minimal-contract.png": {
+      "bytes": 270034,
+      "sha256": "ce33ef93f067f2cda7ba479d26aec48841628f6d4775487253d5d66dae4eaac4"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/mobile-core.png": {
+      "bytes": 97232,
+      "sha256": "26c1fa5fce0f08a3fd4fc7d6a31ee3a97a83f6a06cba69aa25195ebaf656cb3c"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/publication.json": {
+      "bytes": 7187,
+      "sha256": "219ed1c743fbed340d69f7b1e8d1c0145e599daab786c5285d9778f09215daed"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/result-disruption-390.png": {
+      "bytes": 462545,
+      "sha256": "dcfade997f8859f6e1cacbd7511b423659e65d7e49b39228539eb4f0041342ac"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/result-heavy_rain-390.png": {
+      "bytes": 450929,
+      "sha256": "046322f9c881321790098eea613c8fbfac1b0a58b4f876d0db711cb0fc347f7b"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/result-normal-390.png": {
+      "bytes": 438473,
+      "sha256": "8245ffdc6f1204a41582df671db62e2cf92c948baf087d62e3219d98077c355c"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/room-assets-verified.json": {
+      "bytes": 7541,
+      "sha256": "a175317953dba402b04e817e738ad8c49d1213e43c44e11b1521b639cdf290bd"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/source-sha256.json": {
+      "bytes": 1648,
+      "sha256": "629d0fba21a7ba7cf7f4074aec6456fcf815bbb42803fcdb2febdfea30d940dd"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/unavailable.png": {
+      "bytes": 234575,
+      "sha256": "579da417013c7623e4f555d888fc660a623b5601cd3058c6d6414bf067969adc"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-1280.png": {
+      "bytes": 480605,
+      "sha256": "9ae4b771c305a224109c6bc74019a9817117cdb15a3e41661dc3e064149b97f2"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-360.png": {
+      "bytes": 439652,
+      "sha256": "eaf5c24b6543d8fc46250e7f168167da510bb229f6c825b30a63dc80f7314df2"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-390.png": {
+      "bytes": 438203,
+      "sha256": "acf1691aa659aa0d08367d2cd689f42e8906988e6477ad7a127733e881f6e8f7"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-768.png": {
+      "bytes": 460268,
+      "sha256": "4cd020bdac1a03c2bb10efc1fe74b2e7d8d6daf83625108957528f541f23bd42"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-disruption-1280.png": {
+      "bytes": 507644,
+      "sha256": "a26c6f1b70f83835c556ae78764716ed86030cf86985cef9bb7d5c84658cd531"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-disruption-360.png": {
+      "bytes": 463392,
+      "sha256": "45c2de2e414693e90723f0d176cd206dc324ae6ed4cd43de7858f424b7bc1869"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-disruption-390.png": {
+      "bytes": 462157,
+      "sha256": "294615b63a8e7a7c5afa6827e9730114e8736afc4dd5d557431b3720c3e5d544"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-disruption-768.png": {
+      "bytes": 486102,
+      "sha256": "bdac510b326a0f9fd002de0e765f91f049d0f7b71a4ad433ad0aa936a8b79af4"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-heavy_rain-1280.png": {
+      "bytes": 493076,
+      "sha256": "25a9bc994431ef26c5db7d2dbcde4106d5b0188047e25665f1ab11f96828384b"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-heavy_rain-360.png": {
+      "bytes": 453016,
+      "sha256": "2c7848efd73c29a95765f5fbaf35699e709aa0b2bd03049a9167aaa98c312ec8"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-heavy_rain-390.png": {
+      "bytes": 450943,
+      "sha256": "9e59ac18805a36a3fbad7f15c9f9e904eee109ec5717db637a090df094a8899b"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-heavy_rain-768.png": {
+      "bytes": 472358,
+      "sha256": "b8e415532bb35d8072e19e4d6411d737d0bef8b5caaed928c417f9ec2dbef672"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-normal-1280.png": {
+      "bytes": 481218,
+      "sha256": "5c9b27acae15119febf38160f82a637287425942fc3993a0cb3bbf57a9513792"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-normal-360.png": {
+      "bytes": 439839,
+      "sha256": "8c20f143d5e3372f26189f2a68dc45cae71643587fa4ea0bf994cb5cd44a86b0"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-normal-390.png": {
+      "bytes": 438495,
+      "sha256": "09472bb1f3f1f1feee2fa27e8a6580bd5fba2da29a7284d1016064b453063ed1"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/viewport-normal-768.png": {
+      "bytes": 460939,
+      "sha256": "bb5d0d3b0a20ee8b63d3cec84f70e055502d76db08db02fe36942b21dabe664a"
+    },
+    "第二阶段信息/docs/d-qa-2026-10-07/zoom-200.png": {
+      "bytes": 1087399,
+      "sha256": "c33c8fe8518e412f41ca47e059a6d47588040e440d9707bd2ce43e114eec0fdd"
+    },
+    "第二阶段信息/docs/data/free-source-probe-2026-10-12.json": {
+      "bytes": 7231,
+      "sha256": "a46a239d01262294fe093ce09c1f97e152bbd33d3d8aebd3a4d8115514f80071"
+    },
+    "第二阶段信息/docs/data/live-source-check.json": {
+      "bytes": 8402,
+      "sha256": "7dd5fa01cc39a35ab2811e854e0759f7d099b22bffcfa0c0d99493b06c5cf906"
+    },
+    "第二阶段信息/docs/data/live-weather-check-2026-10-12.json": {
+      "bytes": 2802,
+      "sha256": "c73ed346b341e76bc8cddb3a542be437c5a9bd94093e22e597e4fd8438cb565c"
+    },
+    "第二阶段信息/docs/data/official-bus-service-reference.json": {
+      "bytes": 1582,
+      "sha256": "2e8dacf775243314720746f93a6799d154cf3f3792817d2c6dd0739376ea7218"
+    },
+    "第二阶段信息/docs/data/official-rail-reference.json": {
+      "bytes": 7854,
+      "sha256": "0099693a551e3f7f2e3d2e9111f6b1ef56fb011500dce4ede2affc6ce8b037a2"
+    },
+    "第二阶段信息/docs/data/port-queue-estimate-2026-10-12.json": {
+      "bytes": 4418,
+      "sha256": "69065db37b859c7732a1fd0c912e109ad314b3adcdedc865791024eb9d7b725a"
+    },
+    "第二阶段信息/docs/data/preview-api-check.json": {
+      "bytes": 26171,
+      "sha256": "5136992c492b07b5a9e721d057ec06ec6c8551a4a7777530059a991cc0c2d160"
+    },
+    "第二阶段信息/docs/screenshots/01-mobile-input.png": {
+      "bytes": 269678,
+      "sha256": "0ef3e1550d89af5442ff4e0c13acf2f450c466e9f8a3abe5f281e88e33fc6d96"
+    },
+    "第二阶段信息/docs/screenshots/02-mobile-result-disruption.png": {
+      "bytes": 1146295,
+      "sha256": "fb985108a43462251e125f579a7221726464dfdaee07e749febcd928c6279c2c"
+    },
+    "第二阶段信息/docs/screenshots/02-mobile-result-heavy_rain.png": {
+      "bytes": 1118928,
+      "sha256": "2a36d172359a374a267dc00d3d262824bbc38243a68dcab9ac571e47005130a0"
+    },
+    "第二阶段信息/docs/screenshots/02-mobile-result-normal.png": {
+      "bytes": 202019,
+      "sha256": "c53e1ab2b5fe63a70c4f8e06c8b6ab6dc391da76fe8c1015fcba9cb7d579a797"
+    },
+    "第二阶段信息/docs/screenshots/03-desktop-result-disruption.png": {
+      "bytes": 550090,
+      "sha256": "4b9626a2c1c9cd516a7bc7b15cf8f683b15016b3fdaa5ea7ca8de573765423cd"
+    },
+    "第二阶段信息/docs/screenshots/03-desktop-result-normal.png": {
+      "bytes": 523808,
+      "sha256": "ef433407fd50a2f5ec7bebef4ec606012296cc79623f4fadc160561dca9dcd3a"
+    },
+    "第二阶段信息/docs/screenshots/04-api-failure-state.png": {
+      "bytes": 79168,
+      "sha256": "7b3fb411a121117c31ed8ce8d5b5464d2fe6665c0456400d7832b8bf3f0a3199"
+    },
+    "第二阶段信息/eslint.config.mjs": {
+      "bytes": 756,
+      "sha256": "78c8e787b9060b30bda4105671a70930acd03b4be4820ed7cb34cc38428b146b"
+    },
+    "第二阶段信息/next-env.d.ts": {
+      "bytes": 262,
+      "sha256": "85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6"
+    },
+    "第二阶段信息/next.config.ts": {
+      "bytes": 422,
+      "sha256": "e7c329037edd634e5cf7c87f63fd888416cbabc0af78de133d667c5211a894ce"
+    },
+    "第二阶段信息/package-lock.json": {
+      "bytes": 274477,
+      "sha256": "f22681fe06cb1912df1d195402933da37802e01deacd57ef46871465cc4fda0a"
+    },
+    "第二阶段信息/package.json": {
+      "bytes": 1357,
+      "sha256": "003c370394d0ae38ed60c7f1a479aed40ea075fe21d74fcbee9698f472cea7c4"
+    },
+    "第二阶段信息/postcss.config.mjs": {
+      "bytes": 105,
+      "sha256": "8c4071497479b4bb346d0ebb53b1bdeb555beb659512aaa0d6988d0d83ddeed5"
+    },
+    "第二阶段信息/scripts/port-queue-estimate-probe.mjs": {
+      "bytes": 11026,
+      "sha256": "1a931b5a7b78487fa7d2a763811690fcb69dcbbf4d5606e0625315a9164eaa5f"
+    },
+    "第二阶段信息/scripts/probe-route.config.ts": {
+      "bytes": 196,
+      "sha256": "486db27aab2f42e6acc5934c93f83b502ad5f983c422e1477aa0e3333fa826c3"
+    },
+    "第二阶段信息/scripts/probe-route.test.ts": {
+      "bytes": 3917,
+      "sha256": "28d40c5987d53ea4f386e763b8efd1dadedd6c88a8f25886cea7cae9fdbb34af"
+    },
+    "第二阶段信息/scripts/probe-transport.test.ts": {
+      "bytes": 1805,
+      "sha256": "4ad742b2c28c0e972677c097f7f12001e2a7d22dcf4eadf5601588fc7dd7d923"
+    },
+    "第二阶段信息/scripts/probe.config.ts": {
+      "bytes": 195,
+      "sha256": "ec45b41b2454df83d37e3335958eda51c4c900fc7eb6809cc8dffd19bc200b86"
+    },
+    "第二阶段信息/src/app/api/decision/route.ts": {
+      "bytes": 918,
+      "sha256": "ac9f96090cb83241e4e3c67f6f8c779e9626369d120b6dc74e88be33c267d9dd"
+    },
+    "第二阶段信息/src/app/api/health/route.ts": {
+      "bytes": 555,
+      "sha256": "cf26348b8248a00f02496cbaf6c54f063bbe41203c8cd916ba7bf5c803ec19d1"
+    },
+    "第二阶段信息/src/app/error.tsx": {
+      "bytes": 1018,
+      "sha256": "54cb49930677fc367700a75401a7a58fabef0f727c8fee663aa535da8790ef2e"
+    },
+    "第二阶段信息/src/app/global-error.tsx": {
+      "bytes": 1161,
+      "sha256": "f77655716c2de95cb73ce05abb6f26e0721e3f43c3d80d01b49699b9b38e5768"
+    },
+    "第二阶段信息/src/app/globals.css": {
+      "bytes": 1080,
+      "sha256": "a2e50f65ac941c81ccbe3effd5b79fec9328024ef9e410cf8fb8987de17fbae7"
+    },
+    "第二阶段信息/src/app/layout.tsx": {
+      "bytes": 1989,
+      "sha256": "8ab3dbdf535c6afbd145e443abd8aa0895c4e4c8c89a562c86a58390df5bccdf"
+    },
+    "第二阶段信息/src/app/not-found.tsx": {
+      "bytes": 486,
+      "sha256": "d0445bdf92093c22a4a4586c1a812ea65fbaca2cdabea43667c68a535bcd84b1"
+    },
+    "第二阶段信息/src/app/page.tsx": {
+      "bytes": 113,
+      "sha256": "3b12fea8d8f948115a9c39a4e7d0d9196e1ee50edc907e598ec28d90e9e3d028"
+    },
+    "第二阶段信息/src/app/result/page.tsx": {
+      "bytes": 939,
+      "sha256": "7de8eadbcca898b31a657e84bfc2ed0d6dca4e9d9d3a24b07333acc5fa12e94a"
+    },
+    "第二阶段信息/src/components/DataFreshnessBadge.tsx": {
+      "bytes": 1913,
+      "sha256": "1f109c122a0c5dfa0f25db58e157cef98bd1c2a4e73ca6affd30d8c823ab4c2d"
+    },
+    "第二阶段信息/src/components/DecisionCard.tsx": {
+      "bytes": 8641,
+      "sha256": "18a88f4e7ed0aaaaad838eb628d111685fed5f32c64afabc5a1e37ed6a927610"
+    },
+    "第二阶段信息/src/components/DecisionView.tsx": {
+      "bytes": 2966,
+      "sha256": "5ec98f5c295edff1285c1a28c94577aebc584c3eecaf7809abfca96634803d43"
+    },
+    "第二阶段信息/src/components/RouteTimeline.tsx": {
+      "bytes": 2183,
+      "sha256": "a6815068ddeb926ad8c472bf87e1a983c1657e5e86011cce48513eb6a7746926"
+    },
+    "第二阶段信息/src/components/ScenarioSwitcher.tsx": {
+      "bytes": 2677,
+      "sha256": "1ee8ca2cf23db282d9c1952b543a6e08dc4a39661fe7b1fd87bd06e25cd8821c"
+    },
+    "第二阶段信息/src/components/TripForm.tsx": {
+      "bytes": 9574,
+      "sha256": "c74ae85297c6e36ffa921da667320696b82ce8ffba0b03b131efd8050decb8a5"
+    },
+    "第二阶段信息/src/components/states.tsx": {
+      "bytes": 3476,
+      "sha256": "d891d465d1b1b579ca19ef37986a3cd85b64c435d6acf5862ec96584c41716f8"
+    },
+    "第二阶段信息/src/components/use-decision.ts": {
+      "bytes": 2471,
+      "sha256": "e58ff7cb99cf8ebbd9a1a921a9d1c0ac86932e3796904538dc739425e66e74aa"
+    },
+    "第二阶段信息/src/lib/adapters/cache.ts": {
+      "bytes": 1250,
+      "sha256": "dad21603145e452469950859c366f14b6c492989083aa984c1a4a26f4ebd72b4"
+    },
+    "第二阶段信息/src/lib/adapters/hko.ts": {
+      "bytes": 2425,
+      "sha256": "dfe3b9a94146f854380b7ecf5b65efe01eb65f40dc4f9c0bc5436404f3a1a676"
+    },
+    "第二阶段信息/src/lib/adapters/index.ts": {
+      "bytes": 8565,
+      "sha256": "518c030016f64a7e75db7adbe0bc16783932b21dd7bf786ee8b99f3beb562a64"
+    },
+    "第二阶段信息/src/lib/adapters/live-providers.ts": {
+      "bytes": 4542,
+      "sha256": "283c00874285a9a33ef26c319a62ca6d8f36122b8dd179479cd330ba26d37540"
+    },
+    "第二阶段信息/src/lib/adapters/traffic-news.ts": {
+      "bytes": 1919,
+      "sha256": "cfd65f429783b6f4e09e0ce1f38b347d2c43540a4a40f5e796a2501e9a7404dd"
+    },
+    "第二阶段信息/src/lib/adapters/transport-times.ts": {
+      "bytes": 8003,
+      "sha256": "f02804075a1c7dd06964a4cd5b2fb047b3063815f80b5b433c80fc57fa3dbf03"
+    },
+    "第二阶段信息/src/lib/adapters/types.ts": {
+      "bytes": 1698,
+      "sha256": "a0394e060214169f8a99ca38ec193325ec612d7905220489c9b7774967441743"
+    },
+    "第二阶段信息/src/lib/adapters/validation.ts": {
+      "bytes": 1344,
+      "sha256": "1231853fb0f6f7ac85650c0bd1c197553f544ffb7b7cc0efb6c06d16ca3203d2"
+    },
+    "第二阶段信息/src/lib/api/decision-handler.ts": {
+      "bytes": 3245,
+      "sha256": "2fe4e76963609f2dbb8601bd5ac77ce75084ab7815f9659d29454d2c1aaa1c0c"
+    },
+    "第二阶段信息/src/lib/api/errors.ts": {
+      "bytes": 1071,
+      "sha256": "62415258065eef1417c662f11a798651fe4a6af180ab62837c84af0d1ff94ab9"
+    },
+    "第二阶段信息/src/lib/api/health-handler.ts": {
+      "bytes": 2040,
+      "sha256": "4f29c71b0392be87fc369b8bf10fb464af39f99dcffb14b5f42428348ca67097"
+    },
+    "第二阶段信息/src/lib/api-client.ts": {
+      "bytes": 3672,
+      "sha256": "52cd62826090d1098909c7bdf1a34bd1b68e5735f769e9c9c813950a22628a9f"
+    },
+    "第二阶段信息/src/lib/corridor/index.ts": {
+      "bytes": 10454,
+      "sha256": "284627ecd3781a10d4d4c23ebe3d847bde3c123ddbbd864700c1e7f3851dd1ae"
+    },
+    "第二阶段信息/src/lib/decision/advisory.ts": {
+      "bytes": 14088,
+      "sha256": "a0b22df808baceae48aa2ff1532acd186e142e87797187923b71dc39274360e8"
+    },
+    "第二阶段信息/src/lib/decision/engine.ts": {
+      "bytes": 29482,
+      "sha256": "201617eb88024ec4d9f57c2ce25872ac427bce44f1a55244876c8f4b5f41bf1d"
+    },
+    "第二阶段信息/src/lib/decision/index.ts": {
+      "bytes": 525,
+      "sha256": "8b707b52a73478466dd8400d565b47c7e93ae4dc22321ac4f13075df335174a8"
+    },
+    "第二阶段信息/src/lib/decision/scoring.ts": {
+      "bytes": 4708,
+      "sha256": "c0698687bd5bc4b58c9dd75c916b598819e8d79fe066535144836966dd19ce64"
+    },
+    "第二阶段信息/src/lib/decision/thresholds.ts": {
+      "bytes": 5254,
+      "sha256": "76059513e16234311cbfa11f8cb2da1586357e27b46e7693d506ff68b95dc502"
+    },
+    "第二阶段信息/src/lib/fixtures/context/index.ts": {
+      "bytes": 751,
+      "sha256": "a1aaac7638a652c760772186f67cef34b2e5fea89a3020904d4b8ddf708a2c6f"
+    },
+    "第二阶段信息/src/lib/fixtures/context/snapshots.ts": {
+      "bytes": 6486,
+      "sha256": "414748d31624dc52d4a54b0145c242b6f480e89eb5d2dc8ea331238a0620791d"
+    },
+    "第二阶段信息/src/lib/fixtures/demo-request.ts": {
+      "bytes": 979,
+      "sha256": "13f07f5e1a9b005d9f996ab167957589e3069a260090b90282efccb44c5ba471"
+    },
+    "第二阶段信息/src/lib/fixtures/golden/disruption.json": {
+      "bytes": 21513,
+      "sha256": "d86a8e93754f7401c971ed97674e013f5072aa322016acd4b4b8c5c9c3ebd688"
+    },
+    "第二阶段信息/src/lib/fixtures/golden/heavy_rain.json": {
+      "bytes": 23359,
+      "sha256": "ffc118c74a363a0fc8ab559b154822c925df05eb00914ae30f3a181a7b05ecc5"
+    },
+    "第二阶段信息/src/lib/fixtures/golden/normal.json": {
+      "bytes": 22791,
+      "sha256": "4718c11d4ac1224deb2280a2788342486c83734ea207e5c6337cb40f46f200d4"
+    },
+    "第二阶段信息/src/lib/geo/distance.ts": {
+      "bytes": 1014,
+      "sha256": "b3f53f2cec733b0872ef0c28e1a8a5f124b5fbf9b99890d785a1a3f5b00fd87d"
+    },
+    "第二阶段信息/src/lib/geo/geolocation.ts": {
+      "bytes": 7229,
+      "sha256": "306f3f1632d82f673240c44f1ebde43798c40542b562058549ca92a5ef6c4916"
+    },
+    "第二阶段信息/src/lib/geo/places.ts": {
+      "bytes": 9704,
+      "sha256": "309c72f440821d26244ebabeaabb62b732cc9884ffb08849cd7f43e3417158d4"
+    },
+    "第二阶段信息/src/lib/geo/ports.ts": {
+      "bytes": 9080,
+      "sha256": "d12a54bde1af448e8193a18a253cc8eedb4884055932a94f2524819f1e64f14b"
+    },
+    "第二阶段信息/src/lib/labels.ts": {
+      "bytes": 1649,
+      "sha256": "8fe90b67954c640fa925dac73429b508cca88dc475ea8546b6cf75e7dea9dd30"
+    },
+    "第二阶段信息/src/lib/route/adapter.ts": {
+      "bytes": 13881,
+      "sha256": "4d7d38f33e601d79254b5e3b7453a6deb64685f5a532b51edbc3b6dafefef3c5"
+    },
+    "第二阶段信息/src/lib/route/instructions.ts": {
+      "bytes": 7489,
+      "sha256": "fe04864833f92d7817b4589ab29cbc3d517a595f9aafc8bb9927249bce1c02c8"
+    },
+    "第二阶段信息/src/lib/route/parse.ts": {
+      "bytes": 7874,
+      "sha256": "08fb53c6981492ff6aa83c2e78895af3aae51fe54114730a0ac40ef329aaf901"
+    },
+    "第二阶段信息/src/lib/route/providers/fixture.ts": {
+      "bytes": 10303,
+      "sha256": "8be608ee556ebf8d6129902b7c857527c43e49a0420d29be614afb8c01d2989d"
+    },
+    "第二阶段信息/src/lib/route/providers/osrm.ts": {
+      "bytes": 5146,
+      "sha256": "5b51c0bb9cb28303faef16ca7e14f799104f049449d33b5f4ebd35c7c2836edb"
+    },
+    "第二阶段信息/src/lib/time.ts": {
+      "bytes": 5983,
+      "sha256": "5bbf0e8ea8b16f1d3ddf684dbf4c1c36990c4f010f5f9c3c04e892b1985568d3"
+    },
+    "第二阶段信息/src/lib/types/context.ts": {
+      "bytes": 3626,
+      "sha256": "2f3215a22266054a026bf4e4141ea71e3840d589c25e53aa6cff5f7aab844389"
+    },
+    "第二阶段信息/src/lib/types/decision.ts": {
+      "bytes": 6576,
+      "sha256": "6c52d9f4951dc3f915264bbfa2f2f87e6bbc3e7795f7de7f08c59054b6736d9c"
+    },
+    "第二阶段信息/src/lib/types/index.ts": {
+      "bytes": 134,
+      "sha256": "c6e544b4a060bd5f938b6753c6c62fec63cc7559bd8bb0158ef4b013dfb25049"
+    },
+    "第二阶段信息/src/lib/types/journey.ts": {
+      "bytes": 3856,
+      "sha256": "dd30b50af67a2585bebefb0b80a479907fcba5177101f35d8b5667a9ca273da7"
+    },
+    "第二阶段信息/src/lib/types/request.ts": {
+      "bytes": 1712,
+      "sha256": "7782c444e517786fe311423b0b5e282afc70a9c60fab3dcc3c360353b901197f"
+    },
+    "第二阶段信息/src/lib/types/route.ts": {
+      "bytes": 3278,
+      "sha256": "860a2aac19533e15fa746316c5853c8c6211bea5a2aebfe1e7355c22b211183e"
+    },
+    "第二阶段信息/src/lib/url-params.ts": {
+      "bytes": 3701,
+      "sha256": "b393b9ebb9cc003fdc4bb3b2824d8c2a4a7e502bd072739eeb1fbb1c4d827837"
+    },
+    "第二阶段信息/src/lib/validation.ts": {
+      "bytes": 4484,
+      "sha256": "2974c31d94f0de1954b37decd3c3018c70b0f73197a2a58a7506edcf3e69dec4"
+    },
+    "第二阶段信息/src/test/api.test.ts": {
+      "bytes": 10304,
+      "sha256": "b035f7e24dd8b63dabf05be487e19b15726b1b8104d4007984e5daefec4bedc5"
+    },
+    "第二阶段信息/src/test/context-contract.test.ts": {
+      "bytes": 6660,
+      "sha256": "3326e1b3f8d6c51f6ebf64db2df04f7b2447cbebe8682cb9bbca2a3adfef8cc5"
+    },
+    "第二阶段信息/src/test/d-frontend.e2e.mjs": {
+      "bytes": 15658,
+      "sha256": "527260d627d4f6b479656e16d9e458d98520738959c3505f75396687f8b476c6"
+    },
+    "第二阶段信息/src/test/data-adapters.test.ts": {
+      "bytes": 3596,
+      "sha256": "b7b4878be0952f07841fd818f87a3d5ebbad4e9cd8fb5554770f3c4a2d01c9e7"
+    },
+    "第二阶段信息/src/test/decision-advisory.test.ts": {
+      "bytes": 7069,
+      "sha256": "2e0f83f846d5c275502e53953b7bb5b68293bbc6013b64bceb7ac550e5e30a7d"
+    },
+    "第二阶段信息/src/test/decision-edge-cases.test.ts": {
+      "bytes": 6923,
+      "sha256": "a238d171d5c4ae024ba99075a04edc63317e07d950bfe41c1bc61b3bdfba026a"
+    },
+    "第二阶段信息/src/test/decision-live-safety.test.ts": {
+      "bytes": 8075,
+      "sha256": "863199d82e36806c8b9e05bbc2c00d4ad9145405f3d132a6770faf3069092ee3"
+    },
+    "第二阶段信息/src/test/decision-scenarios.test.ts": {
+      "bytes": 6689,
+      "sha256": "66a60a4e266abc91288a3778d44e3097856261b23881613c71319c2672fa53ff"
+    },
+    "第二阶段信息/src/test/determinism.test.ts": {
+      "bytes": 2321,
+      "sha256": "628f21e43c60943a6737beba08d96f38f8f2ef2da0ec24f285d80af9a914fd2c"
+    },
+    "第二阶段信息/src/test/freeze-smoke.test.ts": {
+      "bytes": 3991,
+      "sha256": "fa3274aaf357785e9508b9f7bb0a717d5caf059123b0c24cc0968f344488120b"
+    },
+    "第二阶段信息/src/test/frontend-card.test.ts": {
+      "bytes": 1818,
+      "sha256": "d82d7ba5f0bb7503bd5b23fcea24fc45f28eaa71022cdfd3d5a9a11fe6ecae19"
+    },
+    "第二阶段信息/src/test/geo-ports.test.ts": {
+      "bytes": 4896,
+      "sha256": "ff56ded34dd904b54dbf483712696f5d446042745062686dda3fcf0006820651"
+    },
+    "第二阶段信息/src/test/geolocation.test.ts": {
+      "bytes": 7291,
+      "sha256": "90d1c510ba3adafe41e680b4feb17fc080ee29c02c1815c050063733640e20bf"
+    },
+    "第二阶段信息/src/test/golden.test.ts": {
+      "bytes": 3462,
+      "sha256": "92fc02ccf147201a53d05f52f1adc7c46f30bd9f61fd3061d500144347c34b85"
+    },
+    "第二阶段信息/src/test/instructions.test.ts": {
+      "bytes": 7428,
+      "sha256": "0ee30d2dd0f25e58595539f4248f73dab47b4c7ff775342ef5e9ea36f280998a"
+    },
+    "第二阶段信息/src/test/route-crossborder.test.ts": {
+      "bytes": 12296,
+      "sha256": "0524ceeaeec26523d753838233e0b0cc9f00d3c93d41e55bf801d8214ee4e5e7"
+    },
+    "第二阶段信息/src/test/route-parse.test.ts": {
+      "bytes": 8044,
+      "sha256": "0e8471f1c5085f8f3706bcac709a2529e054857dcef5e25f8db4c7f211641409"
+    },
+    "第二阶段信息/src/test/time.test.ts": {
+      "bytes": 3132,
+      "sha256": "4d2ec605edbb19ce40a0b5a3c97623d7b3e81f2a6ce1df2d09d675a06df7b55c"
+    },
+    "第二阶段信息/src/test/transport-times.test.ts": {
+      "bytes": 5875,
+      "sha256": "f5f63b73172415cc0344d10e8098d0246aef69df84ede864dcf4bef362a16ec9"
+    },
+    "第二阶段信息/src/test/url-params.test.ts": {
+      "bytes": 2457,
+      "sha256": "16475c475117204cc48193be0233573225180704783ca6eb86aaf398c0f83fb6"
+    },
+    "第二阶段信息/src/test/validation.test.ts": {
+      "bytes": 3676,
+      "sha256": "ba44ed6bb0fbb6a1fa4405a1a23a6f4516c51612f235fdf86c812c781b70f816"
+    },
+    "第二阶段信息/tailwind.config.ts": {
+      "bytes": 471,
+      "sha256": "ec14251fd19a4228271ec856b09c3861d6cbd7e8dbda80f3f266bc7f00045f5d"
+    },
+    "第二阶段信息/tsconfig.json": {
+      "bytes": 675,
+      "sha256": "b8c82127c39e2fa761c8693ed1533f9cc54dc3f075790f284357092dc0628b09"
+    },
+    "第二阶段信息/vitest.config.ts": {
+      "bytes": 358,
+      "sha256": "cefb301c816b65a9de66cd2d29632d437b2c95faf6c3acedd7342cf3b683a9e0"
+    },
+    "第二阶段信息/第二阶段_团队分工工作流.md": {
+      "bytes": 23194,
+      "sha256": "e642849af116354ca69082f0c3fba3962afd4e48340a1b5a4792681a8bb351f3"
+    },
+    "第二阶段信息/第二阶段_路径读取工作流.md": {
+      "bytes": 12221,
+      "sha256": "e01eb6a8b78708284fb75ff205903292c6f399ac1b3b5add28929c2801f6c028"
+    },
+    "第二阶段信息/给Pi_Agent_成员A指令_第二阶段.txt": {
+      "bytes": 6870,
+      "sha256": "866f71f3264edd1711ef4560f6bb980bbc346679e429bbd1ca35de2f2432249a"
+    },
+    "第二阶段信息/给Pi_Agent_成员B指令_第二阶段.txt": {
+      "bytes": 6915,
+      "sha256": "8bcafcd94bc52dace6630237d0982ae0323e64d221e681b53eebeef22fd880b6"
+    },
+    "第二阶段信息/给Pi_Agent_成员C指令_第二阶段.txt": {
+      "bytes": 7862,
+      "sha256": "7161d582762ddf766cd9ff64a1affead8a9ac633655806d2ce93b5552c439667"
+    },
+    "第二阶段信息/给Pi_Agent_成员D指令_第二阶段.txt": {
+      "bytes": 6247,
+      "sha256": "4a042239f1a3d55364c471fc4850c3a207407347d4fa25e8d3033044f4cdb1bd"
+    },
+    "第二阶段信息/给Pi_Agent_成员E指令_第二阶段.txt": {
+      "bytes": 6161,
+      "sha256": "025288c069d1d8101ced4312f10c64f1f3d4d31defb5124ee0c0a76a79373e1c"
+    },
+    "给Pi_Agent_成员A指令.txt": {
+      "bytes": 6760,
+      "sha256": "746924768c36e453ec8c032a753922b316c6f37c7afe4f87fed2b8a6ec596fd8"
+    },
+    "给Pi_Agent_成员B指令.txt": {
+      "bytes": 4538,
+      "sha256": "88f0ccd5638b9a573fa2717f96c5bc111c22f739db199914d515af59dd0b5fef"
+    },
+    "给Pi_Agent_成员C指令.txt": {
+      "bytes": 5195,
+      "sha256": "f10a85fa221a075a8d31533811b2c84ab637cafa466a63e37b919acc2d1f22a9"
+    },
+    "给Pi_Agent_成员D指令.txt": {
+      "bytes": 5077,
+      "sha256": "8fa7c0348721cff3ca4f61f18f793ea167f3699566c626707f7ece96af103195"
+    },
+    "选题.docx": {
+      "bytes": 16542,
+      "sha256": "fe7208773cfb55d3d4dab54f71162c7d978b787b3037cf311ab14088e1aa0866"
+    },
+    "韧性出行助手-问卷二维码.png": {
+      "bytes": 2503514,
+      "sha256": "7733fd40456d2447e58ae4cdc06bd35335ca02f302127804c9979f8b4b8250b3"
+    },
+    "韧性出行项目立项说明.docx": {
+      "bytes": 42539,
+      "sha256": "1419d90f93c3a8b6969698e0856209e526d7e68d96f2c7e9873aed89c6021574"
+    },
+    "完整项目本地部署说明.md": {
+      "bytes": 4186,
+      "sha256": "98c14eaf0accaf1d27f577b64474c35f64d88c151087ac8a8c72e51697087ab2"
+    },
+    "deploy-local.mjs": {
+      "bytes": 1460,
+      "sha256": "502e975b5345c623d790e66571c06fe95e7c4283ac7fd8832eeb87a8f7825dc2"
+    }
+  },
+  "sanitizedArchives": [
+    "D_第二阶段交付_v2.0_2026-10-10.zip",
+    "resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip",
+    "resilience-travel-assistant-testpack-2026-10-09.zip"
+  ],
+  "excludedArchiveEntries": [
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/browser-final.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/browser-first-attempt.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/browser.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/contracts-final.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/contracts.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/smoke.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/typecheck-final.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/typecheck.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/verify-final.log",
+    "D_第二阶段交付_v2.0_2026-10-10.zip!app/docs/d-phase2-2026-10-10/verify.log",
+    "resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip!docs/d-qa-2026-10-07/browser.log",
+    "resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip!docs/d-qa-2026-10-07/smoke.log",
+    "resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip!docs/d-qa-2026-10-07/browser-first-attempt.log",
+    "resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip!docs/d-qa-2026-10-07/verify.log",
+    "resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip!docs/d-qa-2026-10-07/verify-rebuild.log",
+    "resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip!docs/d-qa-2026-10-07/verify-final.log",
+    "resilience-travel-assistant-testpack-2026-10-09.zip!resilience-travel-assistant-testpack/01-app/docs/d-qa-2026-10-07/browser-first-attempt.log",
+    "resilience-travel-assistant-testpack-2026-10-09.zip!resilience-travel-assistant-testpack/01-app/docs/d-qa-2026-10-07/browser.log",
+    "resilience-travel-assistant-testpack-2026-10-09.zip!resilience-travel-assistant-testpack/01-app/docs/d-qa-2026-10-07/smoke.log",
+    "resilience-travel-assistant-testpack-2026-10-09.zip!resilience-travel-assistant-testpack/01-app/docs/d-qa-2026-10-07/verify-final.log",
+    "resilience-travel-assistant-testpack-2026-10-09.zip!resilience-travel-assistant-testpack/01-app/docs/d-qa-2026-10-07/verify-rebuild.log",
+    "resilience-travel-assistant-testpack-2026-10-09.zip!resilience-travel-assistant-testpack/01-app/docs/d-qa-2026-10-07/verify.log"
+  ]
+}

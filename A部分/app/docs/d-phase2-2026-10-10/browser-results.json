@@ -1,0 +1,182 @@
+{
+  "at": "2026-10-10T15:40:30.365Z",
+  "browser": "Chromium",
+  "base": "http://localhost:5191",
+  "results": [
+    {
+      "name": "正常 HTTP fixture，與演示/正式界線、香港時區",
+      "status": "passed",
+      "detail": {
+        "routes": 3,
+        "timezone": "browser New York, inputs/rendering Hong Kong"
+      }
+    },
+    {
+      "name": "情景 go",
+      "status": "passed"
+    },
+    {
+      "name": "情景 hold",
+      "status": "passed"
+    },
+    {
+      "name": "情景 unavailable",
+      "status": "passed"
+    },
+    {
+      "name": "情景 missing",
+      "status": "passed"
+    },
+    {
+      "name": "情景 stale",
+      "status": "passed"
+    },
+    {
+      "name": "情景 timeout",
+      "status": "passed"
+    },
+    {
+      "name": "情景 disruption",
+      "status": "passed"
+    },
+    {
+      "name": "情景 severe",
+      "status": "passed"
+    },
+    {
+      "name": "情景 empty",
+      "status": "passed"
+    },
+    {
+      "name": "情景 no-backup",
+      "status": "passed"
+    },
+    {
+      "name": "情景 deadline",
+      "status": "passed"
+    },
+    {
+      "name": "情景 critical",
+      "status": "passed"
+    },
+    {
+      "name": "不同口岸及關閉時間",
+      "status": "passed"
+    },
+    {
+      "name": "卡片 ↔ 地圖路段與鍵盤聯動",
+      "status": "passed"
+    },
+    {
+      "name": "非法輸入與首錯焦點、輸入保留",
+      "status": "passed"
+    },
+    {
+      "name": "重複提交、加载、輸入切換與舊響應競爭",
+      "status": "passed"
+    },
+    {
+      "name": "請求失敗 500 與重試",
+      "status": "passed"
+    },
+    {
+      "name": "請求失敗 非法 JSON 與重試",
+      "status": "passed"
+    },
+    {
+      "name": "請求失敗 非法契約 與重試",
+      "status": "passed"
+    },
+    {
+      "name": "15 秒請求逾時可重試",
+      "status": "passed"
+    },
+    {
+      "name": "正式 HTTP 未接入，無自動演示回退",
+      "status": "passed"
+    },
+    {
+      "name": "瀏覽器網絡中斷清舊結果、恢復後重試",
+      "status": "passed"
+    },
+    {
+      "name": "響應式 360",
+      "status": "passed",
+      "detail": {
+        "width": 360,
+        "scroll": 360,
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "響應式 390",
+      "status": "passed",
+      "detail": {
+        "width": 390,
+        "scroll": 390,
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "響應式 768",
+      "status": "passed",
+      "detail": {
+        "width": 768,
+        "scroll": 768,
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "響應式 1280",
+      "status": "passed",
+      "detail": {
+        "width": 1280,
+        "scroll": 1280,
+        "smallTargets": []
+      }
+    },
+    {
+      "name": "自動 axe 檢查（不替代真人）",
+      "status": "passed",
+      "detail": [
+        {
+          "scenario": "normal",
+          "violations": 0,
+          "incomplete": 1
+        },
+        {
+          "scenario": "go",
+          "violations": 0,
+          "incomplete": 1
+        },
+        {
+          "scenario": "hold",
+          "violations": 0,
+          "incomplete": 1
+        },
+        {
+          "scenario": "unavailable",
+          "violations": 0,
+          "incomplete": 1
+        }
+      ]
+    },
+    {
+      "name": "A 演示中斷主路/備選及第一階段 HTTP 復核",
+      "status": "passed",
+      "detail": {
+        "demoStatus": 200,
+        "phase1Status": 200
+      }
+    },
+    {
+      "name": "A 演示頁改輸入取消舊響應",
+      "status": "passed"
+    },
+    {
+      "name": "第一階段空白數字、非法日期、零費用與鍵盤情景复核",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

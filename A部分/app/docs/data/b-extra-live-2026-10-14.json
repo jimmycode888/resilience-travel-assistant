@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-14T12:44:53.461Z",
+  "note": "一次实测存档，不是目前实时数据。",
+  "boards": [
+    {
+      "id": "CTB-690S-002910-I",
+      "label": "明德邨（寶寧路）→ 中環（交易廣場）",
+      "sourceUrl": "https://rt.data.gov.hk/v2/transport/citybus/eta/CTB/002910/690S",
+      "updatedAt": "2026-10-14T20:44:52+08:00",
+      "collectedAt": "2026-10-14T20:44:53+08:00",
+      "expiresAt": "2026-10-14T20:46:52+08:00",
+      "quality": "live",
+      "state": "no_prediction",
+      "delayReported": null,
+      "arrivals": [],
+      "note": "抵站預測非全程行車時間；不代表班距、服務正常或延誤分鐘數。只涵蓋城巴班次；九巴時段、非服務時間或空 ETA 皆不可推論停駛。690S 並非現有 R2 起站，待 A 確認。"
+    },
+    {
+      "id": "KMB-690S-5016E25156D72ADA-O",
+      "label": "明德邨 → 中環（九巴）",
+      "sourceUrl": "https://data.etabus.gov.hk/v1/transport/kmb/eta/5016E25156D72ADA/690S/1",
+      "updatedAt": "2026-10-14T20:44:52+08:00",
+      "collectedAt": "2026-10-14T20:44:52+08:00",
+      "expiresAt": "2026-10-14T20:46:52+08:00",
+      "quality": "live",
+      "state": "no_prediction",
+      "delayReported": null,
+      "arrivals": [],
+      "note": "官方已核對明德邨站與O方向；沒有ETA不是停駛。未確認全程行車時間，不能冒充現有R2。"
+    }
+  ],
+  "poi": {
+    "candidates": [
+      {
+        "name": "港鐵上水站",
+        "lat": 22.50149,
+        "lon": 114.12779,
+        "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E4%B8%8A%E6%B0%B4%E7%AB%99&n=10&b=1",
+        "updatedAt": "2026-10-14T20:44:53+08:00",
+        "quality": "live",
+        "note": "官方地址代表點；搜尋相似項不代表目的地或出口已核實。"
+      }
+    ],
+    "quality": "live",
+    "notice": "請核對候選名稱，地址代表點不是已核實入口。"
+  }
+}

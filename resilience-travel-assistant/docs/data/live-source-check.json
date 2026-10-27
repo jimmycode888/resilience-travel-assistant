@@ -1,0 +1,220 @@
+{
+  "checkedAt": "2026-10-07T01:36:52.392Z",
+  "note": "一次實測存檔，非目前即時資料，不作演示 fixture 或決策输入",
+  "boards": [
+    {
+      "id": "TKL-HAH",
+      "label": "坑口 → 北角",
+      "sourceUrl": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC",
+      "updatedAt": "2026-10-07T09:36:44+08:00",
+      "collectedAt": "2026-10-07T09:36:50+08:00",
+      "expiresAt": "2026-10-07T09:38:44+08:00",
+      "quality": "live",
+      "state": "available",
+      "delayReported": false,
+      "arrivals": [
+        {
+          "at": "2026-10-07T09:38:44+08:00",
+          "destination": "NOP",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:40:44+08:00",
+          "destination": "NOP",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:42:44+08:00",
+          "destination": "NOP",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:46:44+08:00",
+          "destination": "NOP",
+          "platform": "2"
+        }
+      ],
+      "note": "抵站預測非全程行車時間；不代表班距、服務正常或延誤分鐘數。"
+    },
+    {
+      "id": "ISL-NOP",
+      "label": "北角 → 堅尼地城（途經中環）",
+      "sourceUrl": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=NOP&lang=TC",
+      "updatedAt": "2026-10-07T09:36:38+08:00",
+      "collectedAt": "2026-10-07T09:36:50+08:00",
+      "expiresAt": "2026-10-07T09:38:38+08:00",
+      "quality": "live",
+      "state": "available",
+      "delayReported": false,
+      "arrivals": [
+        {
+          "at": "2026-10-07T09:37:38+08:00",
+          "destination": "KET",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:39:38+08:00",
+          "destination": "KET",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:41:38+08:00",
+          "destination": "KET",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:43:38+08:00",
+          "destination": "KET",
+          "platform": "2"
+        }
+      ],
+      "note": "抵站預測非全程行車時間；不代表班距、服務正常或延誤分鐘數。"
+    },
+    {
+      "id": "ISL-QUB",
+      "label": "鰂魚涌 → 堅尼地城（途經中環）",
+      "sourceUrl": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=QUB&lang=TC",
+      "updatedAt": "2026-10-07T09:36:38+08:00",
+      "collectedAt": "2026-10-07T09:36:50+08:00",
+      "expiresAt": "2026-10-07T09:38:38+08:00",
+      "quality": "live",
+      "state": "available",
+      "delayReported": false,
+      "arrivals": [
+        {
+          "at": "2026-10-07T09:37:38+08:00",
+          "destination": "KET",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:39:38+08:00",
+          "destination": "KET",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:41:38+08:00",
+          "destination": "KET",
+          "platform": "2"
+        },
+        {
+          "at": "2026-10-07T09:43:38+08:00",
+          "destination": "KET",
+          "platform": "2"
+        }
+      ],
+      "note": "抵站預測非全程行車時間；不代表班距、服務正常或延誤分鐘數。"
+    },
+    {
+      "id": "CTB-690S-002910-I",
+      "label": "明德邨（寶寧路）→ 中環（交易廣場）",
+      "sourceUrl": "https://rt.data.gov.hk/v2/transport/citybus/eta/CTB/002910/690S",
+      "updatedAt": "2026-10-07T09:36:50+08:00",
+      "collectedAt": "2026-10-07T09:36:50+08:00",
+      "expiresAt": "2026-10-07T09:38:50+08:00",
+      "quality": "live",
+      "state": "no_prediction",
+      "delayReported": null,
+      "arrivals": [],
+      "note": "抵站預測非全程行車時間；不代表班距、服務正常或延誤分鐘數。只涵蓋城巴班次；九巴時段、非服務時間或空 ETA 皆不可推論停駛。690S 並非現有 R2 起站，待 A 確認。"
+    }
+  ],
+  "weather": {
+    "weather": {
+      "condition": "clear",
+      "warning": "火災危險警告",
+      "rainfallMmPerHour": null,
+      "temperatureC": 26,
+      "updatedAt": "2026-10-07T09:02:00+08:00",
+      "note": "天氣狀況由官方圖示及生效警告映射；氣溫取將軍澳站，缺測為 null。分區雨量上限不等於沿途每小時雨量，故雨量率保留 null。警告與報告為分開擷取，非原子快照。"
+    }
+  },
+  "traffic": {
+    "incidents": []
+  },
+  "context": {
+    "tier": "live",
+    "resolution": {
+      "snapshot": {
+        "scenario": "live",
+        "serviceDate": "2026-10-07",
+        "collectedAt": "2026-10-07T09:36:52+08:00",
+        "expiresAt": "2026-10-07T09:38:38+08:00",
+        "quality": "live",
+        "weather": {
+          "condition": "clear",
+          "warning": "火災危險警告",
+          "rainfallMmPerHour": null,
+          "temperatureC": 26,
+          "note": "天氣狀況由官方圖示及生效警告映射；氣溫取將軍澳站，缺測為 null。分區雨量上限不等於沿途每小時雨量，故雨量率保留 null。警告與報告為分開擷取，非原子快照。",
+          "updatedAt": "2026-10-07T09:02:00+08:00"
+        },
+        "routes": [
+          {
+            "routeId": "R1",
+            "status": "unknown",
+            "delayMinutes": 0,
+            "crowding": "unknown",
+            "note": "坑口 → 北角：下一班抵站 2026-10-07T09:38:44+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；北角 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:37:38+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=NOP&lang=TC；預測只適用現在，不能推算未來出發的接駁或全程延誤。",
+            "affectedSegments": [],
+            "updatedAt": "2026-10-07T09:36:38+08:00"
+          },
+          {
+            "routeId": "R2",
+            "status": "unknown",
+            "delayMinutes": 0,
+            "crowding": "unknown",
+            "note": "R2 真實起站與线路尚待確認；城巴 690S 候選數據獨立提供，不冒充現行 R2。",
+            "affectedSegments": [],
+            "updatedAt": "2026-10-07T09:36:50+08:00"
+          },
+          {
+            "routeId": "R3",
+            "status": "unknown",
+            "delayMinutes": 0,
+            "crowding": "unknown",
+            "note": "坑口 → 北角：下一班抵站 2026-10-07T09:38:44+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；鰂魚涌 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:37:38+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=QUB&lang=TC；與 R1 共用將軍澳線，非獨立故障備援。",
+            "affectedSegments": [],
+            "updatedAt": "2026-10-07T09:36:38+08:00"
+          }
+        ],
+        "incidents": [],
+        "sources": [
+          {
+            "id": "weather-live",
+            "label": "即時天氣",
+            "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php",
+            "quality": "live",
+            "updatedAt": "2026-10-07T09:02:00+08:00",
+            "note": "來源：hko-weather"
+          },
+          {
+            "id": "td-special-traffic-news",
+            "label": "運輸署走廊相關公告",
+            "url": "https://www.td.gov.hk/en/special_news/trafficnews.xml",
+            "quality": "live",
+            "updatedAt": "2026-10-07T09:36:52+08:00",
+            "note": "抵站／公告不是全程 ETA、擁擠預測或精確延誤"
+          },
+          {
+            "id": "mtr-next-train",
+            "label": "港鐵下一班抵站預測",
+            "url": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php",
+            "quality": "live",
+            "updatedAt": "2026-10-07T09:36:38+08:00",
+            "note": "抵站／公告不是全程 ETA、擁擠預測或精確延誤"
+          },
+          {
+            "id": "route-estimates",
+            "label": "靜態路線時間及費用",
+            "url": null,
+            "quality": "fixture",
+            "updatedAt": "2026-10-13T07:30:00+08:00",
+            "note": "演示估算，非官方 ETA 或票價。交通狀態缺失時為 unknown。"
+          }
+        ]
+      },
+      "quality": "live",
+      "notices": []
+    }
+  }
+}

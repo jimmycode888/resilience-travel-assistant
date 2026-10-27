@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>韌性出行助手 · 第二階段 UI 原型（獨立設計原型）</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- ── 頂欄：產品名稱 + 系統狀態 + 資料時間 ── -->
+  <header class="topbar">
+    <div class="brand">
+      <!-- 品牌圖形：Header 用透明 PNG；產品名稱使用真實文字，不合併進圖片 -->
+      <img class="brand-logo" src="assets/logo-symbol.png" alt="" width="512" height="512" aria-hidden="true">
+      <span class="brand-name">韌性出行助手</span>
+    </div>
+    <div class="topbar-meta">
+      <span class="system-status ok" id="systemStatus"><span class="dot"></span>當前狀態：正常</span>
+      <span class="divider"></span>
+      <span>資料更新：2026-10-13 07:30</span>
+    </div>
+  </header>
+
+  <div class="proto-banner">
+    <span>獨立設計原型 · 非生產功能</span><span>·</span>
+    <span>演示固定資料（fixture）</span><span>·</span>
+    <span>座標未經官方核實</span><span>·</span>
+    <span>折線為演示示意，非導航路網</span>
+  </div>
+
+  <!-- ── Demo 模式（僅 ?demo=1 顯示） ── -->
+  <section class="demo-panel" id="demoPanel" hidden>
+    <div class="demo-inner" id="demoInner"></div>
+  </section>
+
+  <main class="workspace">
+
+    <!-- ── 1. Home / Search ── -->
+    <aside class="card search-panel">
+      <h2>規劃行程</h2>
+      <p class="card-hint">演示日期：2026 年 10 月 13 日 · 香港時間</p>
+
+      <label class="field"><span class="field-label">起點</span>
+        <select class="field-input" id="originInput" aria-label="起點"></select></label>
+      <label class="field"><span class="field-label">終點</span>
+        <select class="field-input" id="destInput" aria-label="終點"></select></label>
+
+      <button type="button" class="text-btn" id="locateBtn">◎ 使用目前位置</button>
+      <p id="locationMessage" class="hint-row"></p>
+
+      <label class="field"><span class="field-label">出發時間</span>
+        <input class="field-input" type="datetime-local" id="departInput" aria-label="出發時間"></label>
+      <label class="field"><span class="field-label">希望在此之前到達（選填）</span>
+        <input class="field-input" type="datetime-local" id="arriveInput" aria-label="希望在此之前到達"></label>
+
+      <fieldset style="border:0;padding:0;margin-top:14px">
+        <legend class="field-label">比較偏好</legend>
+        <div class="mode-grid" id="modeGrid">
+          <button type="button" data-mode="balanced" aria-pressed="true">綜合推薦</button>
+          <button type="button" data-mode="fastest" aria-pressed="false">最快</button>
+          <button type="button" data-mode="reliable" aria-pressed="false">最穩</button>
+          <button type="button" data-mode="less_crowded" aria-pressed="false">較少人</button>
+        </div>
+      </fieldset>
+
+      <button type="button" class="cta" id="planBtn">比較行程 →</button>
+      <div class="form-error" id="formError" role="alert" hidden></div>
+
+      <div class="presets">
+        <strong>快速試用</strong>
+        <button type="button" class="preset" data-preset="xb">中環 → 福田 · 3 條跨境路線</button>
+        <button type="button" class="preset" data-preset="hk">坑口 → 中環 · 境內走廊（原型未收錄）</button>
+      </div>
+    </aside>
+
+    <!-- ── 主欄 ── -->
+    <div class="main-col">
+
+      <!-- ── 2. Map ── -->
+      <div class="pick-row" role="group" aria-label="在地圖選取">
+        <span>在地圖選取：</span>
+        <button type="button" data-pick="origin" aria-pressed="false">起點</button>
+        <button type="button" data-pick="destination" aria-pressed="true">終點</button>
+      </div>
+
+      <section class="map-panel" aria-label="候選路線地圖（演示示意）">
+        <div class="map-toolbar">
+          <strong>港深路線圖（演示示意）</strong>
+          <label><input type="checkbox" id="riskLayerToggle" checked> 風險上色</label>
+          <label><input type="checkbox" id="portLayerToggle" checked> 口岸</label>
+        </div>
+        <svg class="map-svg" id="mapSvg" viewBox="0 0 1000 560" role="img"
+             aria-label="中環至福田三條跨境候選路線的演示示意圖；非真實導航路網"></svg>
+        <div class="map-legend" id="mapLegend"></div>
+        <p class="map-caption" id="mapCaption" role="status">點選折線或口岸查看詳情；此為演示示意，非真實導航路網。</p>
+      </section>
+
+      <!-- 狀態橫幅 -->
+      <div id="bannerArea" style="display:flex;flex-direction:column;gap:10px"></div>
+      <div id="statusArea"></div>
+
+      <!-- ── 3. Journey Result ── -->
+      <section class="card" id="resultsCard">
+        <div class="card-head">
+          <div><h2 id="resultsHeading">候選路線</h2>
+            <p class="card-hint">點選路線卡可查看詳情並在地圖上高亮。</p></div>
+          <span id="resultsMeta"></span>
+        </div>
+        <div class="route-grid" id="routeGrid"></div>
+      </section>
+
+      <!-- ── 4. Risk Analysis ── -->
+      <section class="card" id="detailCard"></section>
+
+      <!-- ── 5. Best Departure　6. Plan B ── -->
+      <div class="advice-grid" id="adviceGrid">
+        <section class="card" id="bestDepartureCard"></section>
+        <section class="card" id="planBCard"></section>
+      </div>
+
+      <!-- ── Replay / Simulation ── -->
+      <section class="card" id="replayCard"></section>
+
+      <!-- ── 7. Data Status ── -->
+      <section class="card" id="sourceCard"></section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p><strong>韌性出行助手 · 第二階段 UI 原型</strong>　Owner: E（UI / UX / Design System）</p>
+    <p>本頁為 <strong>獨立設計原型</strong>，用於視覺驗收與 D 的實作參考；不是生產功能，也未接上任何生產 API。
+      所有路線、時間、排隊與風險數值皆為<strong>演示資料</strong>。</p>
+    <p>視覺規範來源：<code>docs/ui-spec-v2/DESIGN-TOKENS-v2.md</code>、<code>RISK-VISUAL-SPEC-v2.md</code>、
+      <code>MAP-LAYERS-SPEC-v2.md</code>、<code>UI-WIREFRAMES.md</code>。Demo 模式：<code>?demo=1</code>。</p>
+  </footer>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

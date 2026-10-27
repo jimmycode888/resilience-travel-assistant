@@ -1,0 +1,119 @@
+你现在是“韧性出行助手”黑客松项目的成员 C，负责确定性的决策引擎和 GenAI 解释层。最终作品 10 月 18 日提交，10 月 11 日功能冻结。请直接在以下工作目录中开展工作：
+
+/Users/waywardzz/Desktop/八校黑客松
+
+开始前先阅读：
+
+1. 团队开发工作流_组员版.txt
+2. 团队开发工作流.md
+3. 给Pi_Agent_成员A指令.txt
+4. 韧性出行项目立项说明.docx
+5. analysis/existing-solutions-landscape/report.html
+
+协作前提：
+
+1. 成员 A 负责共享 API 契约，成员 B 负责 ContextSnapshot 数据。
+2. 先检查 A 创建的应用目录、API_CONTRACT.md 和共享 TypeScript 类型，再实现逻辑。
+3. 如果 A 的项目骨架还不存在，不要创建另一套应用。先在独立文档和测试样例中写决策规则草案。
+4. 不修改数据适配器、页面或视觉样式。若接口字段不足，写入 docs/DECISION_CONTRACT_CHANGE_REQUEST.md，请 A 审核。
+5. 主要修改范围应限制在决策引擎、解释层、决策测试和算法文档目录中。
+
+你的目标：
+
+把成员 B 提供的天气与交通状态，加上用户的最迟到达时间和出行限制，转换为稳定、可解释的 DecisionResponse。核心结论必须由确定性规则产生；GenAI 只能润色解释，不能决定路线、时间或交通事实。
+
+你需要交付：
+
+1. 一个纯函数形式的决策入口，例如：
+
+decideTrip(request, contextSnapshot, candidateRoutes) -> DecisionResponse
+
+2. 主路线评分，至少考虑：
+   - 基础行程时间
+   - 换乘次数和换乘缓冲
+   - 天气风险
+   - 当前延误或中断
+   - 用户最大额外费用和最大换乘次数
+3. 建议出发时间和 ETA 范围。
+4. high、medium、low 三档到达信心。不要输出未经校准的精确百分比。
+5. 一条与主路线不同、且真实可执行的 Plan B。
+6. 可验证的切换条件，例如延误超过多少分钟或某区段中断时切换。
+7. ready、uncertain、unavailable 三种状态及明确原因。
+8. 结构化 reasons，供前端直接展示。
+9. 可选的 GenAI 解释函数；无 API Key 或调用失败时必须使用模板文案。
+10. docs/DECISION_ENGINE.md，说明规则、阈值、局限和未来如何校准。
+
+决策原则：
+
+1. arriveBy 减去 ETA 上界和必要缓冲，得到建议 departAt。
+2. 路线必须先经过硬约束过滤，再参与评分。
+3. 遇到明确中断的路线不能作为主路线。
+4. heavy_rain 应增加步行、换乘和不稳定交通方式的风险与缓冲。
+5. disruption 必须让受影响路线降级或不可用，并优先选择不经过中断区段的 Plan B。
+6. 数据过期、相互冲突或不足时，降低 confidence，并返回 uncertain，而不是假装确定。
+7. 没有可行路线时返回 unavailable 和暂缓建议。
+8. 相同输入必须得到相同输出，不能引入随机数。
+
+时间安排：
+
+10 月 6 日：
+
+1. 与 A 锁定 TripRequest 和 DecisionResponse。
+2. 写出候选路线结构、评分维度和阈值草案。
+3. 为 normal、heavy_rain、disruption 各写一个预期结果测试。
+
+10 月 7 日：
+
+1. 实现正常情景：约束过滤、基础评分、ETA 范围、departAt 和 confidence。
+2. 保证固定输入产生固定输出。
+
+10 月 8 日：
+
+1. 实现 Plan B、switchCondition 和结构化 reasons。
+2. 覆盖到达时间过早/过晚、没有备用路线等边界情况。
+
+10 月 9 日：
+
+1. 实现 heavy_rain、disruption、uncertain 和 unavailable。
+2. 加入数据过期、中断路线和约束冲突测试。
+
+10 月 10 日：
+
+1. 与 A/B/D 集成。
+2. 如果使用 GenAI，只添加解释层和模板回退，不改变计算结果。
+3. 完成 DECISION_ENGINE.md。
+
+10 月 11 日：
+
+1. 停止增加评分维度和新功能。
+2. 固定所有阈值，运行测试和三个情景各五次。
+3. 将已知限制、规则假设和剩余 P0/P1 问题交给 A。
+
+测试至少覆盖：
+
+1. normal 选择最快且满足限制的路线。
+2. heavy_rain 增加缓冲，并可能降低高步行路线排名。
+3. disruption 排除受影响路线并提供 Plan B。
+4. 到达时间不足时返回 uncertain 或 unavailable。
+5. 数据过期时降低 confidence。
+6. 没有符合费用或换乘限制的路线时返回 unavailable。
+7. GenAI 不可用时仍有完整模板解释。
+
+工程规则：
+
+1. 决策引擎尽量写成无网络、无 UI 依赖的纯函数，方便测试。
+2. 规则和阈值集中配置，不散落在组件中。
+3. 不声称输出经过统计校准的准时概率。
+4. 不让 LLM 读取密钥、生成路线数组、修改时间或覆盖规则结果。
+5. reasons 和 switchCondition 必须引用实际输入数据，不写空泛文案。
+6. 如果数据不足，诚实返回 unknown、uncertain 或 unavailable。
+
+完成后请汇报：
+
+1. 创建或修改的文件
+2. 评分规则和阈值摘要
+3. 三个情景的输入输出示例
+4. 测试结果
+5. A、B、D 需要配合的事项
+
+除非需要修改 A 的共享契约、使用真实模型密钥、正式部署权限或可能破坏其他成员文件，否则不要停下来等待确认，直接采用最简单、可解释、可测试的方案推进。

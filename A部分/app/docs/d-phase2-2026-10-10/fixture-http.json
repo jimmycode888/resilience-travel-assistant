@@ -1,0 +1,1355 @@
+{
+  "kind": "d-team-fixture-v1",
+  "result": {
+    "request": {
+      "origin": "central-exchange-square",
+      "destination": "futian-station-sz",
+      "departAt": "2026-10-13T08:00:00+08:00",
+      "mode": "balanced"
+    },
+    "evaluatedAt": "2026-10-13T07:59:00+08:00",
+    "routes": [
+      {
+        "candidate": {
+          "id": "xb-1-lok-ma-chau",
+          "label": "經落馬洲支線口岸",
+          "provider": "fixture",
+          "quality": "fixture",
+          "journey": {
+            "id": "xb-1-lok-ma-chau",
+            "label": "經落馬洲支線口岸",
+            "segments": [
+              {
+                "id": "xb-1-lok-ma-chau-s1",
+                "mode": "walk",
+                "kind": "in_hk",
+                "line": null,
+                "from": {
+                  "id": "central-exchange-square",
+                  "name": "中環（交易廣場）",
+                  "lat": 22.284,
+                  "lon": 114.159,
+                  "kind": "landmark",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "central-station",
+                  "name": "中環站",
+                  "lat": 22.282,
+                  "lon": 114.158,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:00:00+08:00",
+                "arriveAt": "2026-10-13T08:05:00+08:00",
+                "durationMinutes": 5,
+                "geometry": [
+                  [
+                    114.159,
+                    22.284
+                  ],
+                  [
+                    114.158,
+                    22.282
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": []
+              },
+              {
+                "id": "xb-1-lok-ma-chau-s2",
+                "mode": "mtr",
+                "kind": "in_hk",
+                "line": "港島線",
+                "from": {
+                  "id": "central-station",
+                  "name": "中環站",
+                  "lat": 22.282,
+                  "lon": 114.158,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "admiralty-station",
+                  "name": "金鐘站",
+                  "lat": 22.279,
+                  "lon": 114.165,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:05:00+08:00",
+                "arriveAt": "2026-10-13T08:08:00+08:00",
+                "durationMinutes": 3,
+                "geometry": [
+                  [
+                    114.158,
+                    22.282
+                  ],
+                  [
+                    114.165,
+                    22.279
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": []
+              },
+              {
+                "id": "xb-1-lok-ma-chau-s3",
+                "mode": "mtr",
+                "kind": "in_hk",
+                "line": "東鐵線",
+                "from": {
+                  "id": "admiralty-station",
+                  "name": "金鐘站",
+                  "lat": 22.279,
+                  "lon": 114.165,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "lok-ma-chau-station",
+                  "name": "落馬洲站",
+                  "lat": 22.5145,
+                  "lon": 114.0656,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:08:00+08:00",
+                "arriveAt": "2026-10-13T09:00:00+08:00",
+                "durationMinutes": 52,
+                "geometry": [
+                  [
+                    114.165,
+                    22.279
+                  ],
+                  [
+                    114.182,
+                    22.303
+                  ],
+                  [
+                    114.179,
+                    22.373
+                  ],
+                  [
+                    114.21,
+                    22.413
+                  ],
+                  [
+                    114.128,
+                    22.502
+                  ],
+                  [
+                    114.0656,
+                    22.5145
+                  ]
+                ],
+                "viaStations": [
+                  "紅磡",
+                  "大圍",
+                  "大學",
+                  "上水"
+                ],
+                "viaDistricts": [
+                  "灣仔",
+                  "九龍城",
+                  "沙田",
+                  "北區"
+                ]
+              },
+              {
+                "id": "xb-1-lok-ma-chau-s4",
+                "mode": "walk",
+                "kind": "border_crossing",
+                "line": null,
+                "from": {
+                  "id": "lok-ma-chau-station",
+                  "name": "落馬洲站",
+                  "lat": 22.5145,
+                  "lon": 114.0656,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "futian-checkpoint",
+                  "name": "福田口岸",
+                  "lat": 22.519,
+                  "lon": 114.068,
+                  "kind": "port",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T09:00:00+08:00",
+                "arriveAt": "2026-10-13T09:12:00+08:00",
+                "durationMinutes": 12,
+                "geometry": [
+                  [
+                    114.0656,
+                    22.5145
+                  ],
+                  [
+                    114.068,
+                    22.519
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": [],
+                "border": {
+                  "portId": "lok-ma-chau",
+                  "queueMinutesRange": [
+                    12,
+                    28
+                  ],
+                  "confidence": "low",
+                  "note": "估算：依時段規律推算，非官方即時排隊資料。"
+                }
+              },
+              {
+                "id": "xb-1-lok-ma-chau-s5",
+                "mode": "mtr",
+                "kind": "in_sz",
+                "line": "深圳地鐵 4 號線",
+                "from": {
+                  "id": "futian-checkpoint",
+                  "name": "福田口岸",
+                  "lat": 22.519,
+                  "lon": 114.068,
+                  "kind": "port",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "futian-station-sz",
+                  "name": "福田",
+                  "lat": 22.539,
+                  "lon": 114.057,
+                  "kind": "station",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T09:12:00+08:00",
+                "arriveAt": "2026-10-13T09:21:00+08:00",
+                "durationMinutes": 9,
+                "geometry": [
+                  [
+                    114.068,
+                    22.519
+                  ],
+                  [
+                    114.057,
+                    22.539
+                  ]
+                ],
+                "viaStations": [
+                  "福民",
+                  "會展中心"
+                ],
+                "viaDistricts": [
+                  "福田區"
+                ]
+              }
+            ],
+            "departAt": "2026-10-13T08:00:00+08:00",
+            "arriveAt": "2026-10-13T09:21:00+08:00",
+            "totalMinutes": 81,
+            "crossesBorder": true,
+            "borderPortIds": [
+              "lok-ma-chau"
+            ]
+          }
+        },
+        "assessment": {
+          "routeId": "xb-1-lok-ma-chau",
+          "label": "經落馬洲支線口岸",
+          "mode": "balanced",
+          "rankScore": 88,
+          "timeScore": 100,
+          "riskScore": 25,
+          "durationMinutes": 81,
+          "risk": {
+            "routeId": "xb-1-lok-ma-chau",
+            "label": "經落馬洲支線口岸",
+            "mode": "balanced",
+            "crossesBorder": true,
+            "score": 25,
+            "level": "low",
+            "breakdown": {
+              "weather": 0,
+              "crowd": 15,
+              "disruption": 0,
+              "transfer": 50,
+              "border": 56,
+              "overall": 25,
+              "weights": {
+                "weather": 0.15,
+                "crowd": 0.2,
+                "disruption": 0.25,
+                "transfer": 0.1,
+                "border": 0.3
+              },
+              "factors": [
+                {
+                  "id": "weather",
+                  "score": 0,
+                  "level": "low",
+                  "weight": 0.15,
+                  "contribution": 0,
+                  "claim": "天氣條件為「晴朗」",
+                  "evidence": "RISK_ENGINE.md §3.1：天氣條件 clear，無警告。",
+                  "source": "香港天文台",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "crowd",
+                  "score": 15,
+                  "level": "low",
+                  "weight": 0.2,
+                  "contribution": 3,
+                  "claim": "人流風險等級為「低」",
+                  "evidence": "D 測試信號，沒有真實人數",
+                  "source": "人流風險模型（成員 C）",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "disruption",
+                  "score": 0,
+                  "level": "low",
+                  "weight": 0.25,
+                  "contribution": 0,
+                  "claim": "服務狀態為「正常」。",
+                  "evidence": "RISK_ENGINE.md §3.2：服務狀態基準分與相關事件加成；相關事件 0 條。",
+                  "source": "運輸署特別交通消息 / 港鐵服務狀態",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "transfer",
+                  "score": 50,
+                  "level": "medium",
+                  "weight": 0.1,
+                  "contribution": 5,
+                  "claim": "需轉乘 2 次",
+                  "evidence": "RISK_ENGINE.md §3.3：以非步行段數推算轉乘次數。",
+                  "source": "RISK_ENGINE.md §3.3",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "border",
+                  "score": 56,
+                  "level": "medium",
+                  "weight": 0.3,
+                  "contribution": 16.8,
+                  "claim": "口岸排隊約 12–28 分鐘（估算）",
+                  "evidence": "估算：依時段規律推算，非官方即時排隊資料。",
+                  "source": "口岸排隊估算（歷史時段模型）",
+                  "sourceUrl": null
+                }
+              ],
+              "confidence": "low"
+            },
+            "quality": "fixture",
+            "notices": [
+              "資料品質為 fixture，風險評估可信度已下調。"
+            ]
+          },
+          "reliability": {
+            "routeId": "xb-1-lok-ma-chau",
+            "label": "經落馬洲支線口岸",
+            "mode": "balanced",
+            "onTimeConfidence": "low",
+            "confidenceNote": "此為定性到達信心，不是校準過的準時機率。",
+            "etaRange": [
+              "2026-10-13T09:33:00+08:00",
+              "2026-10-13T09:59:00+08:00"
+            ],
+            "riskLevel": "low",
+            "ruleScore": 62,
+            "factors": [
+              {
+                "claim": "這條路線的整體風險為「低」（風險分數 25）。",
+                "evidence": "風險引擎的加權總分 breakdown.overall = 25，等級門檻見 risk/thresholds.ts。",
+                "source": "RISK_ENGINE.md §2",
+                "sourceUrl": null
+              },
+              {
+                "claim": "需要 2 次轉乘，轉乘越多、誤點與趕不上接駁的風險越高。",
+                "evidence": "非步行路段數減一即為轉乘次數（transfers = 2）；轉乘 >= 2 時扣 8 分。",
+                "source": "RISK_ENGINE.md §6",
+                "sourceUrl": null
+              },
+              {
+                "claim": "本次結論的資料品質為「fixture」。",
+                "evidence": "資料品質直接限制信心上限：fixture 不得宣稱高信心（QUALITY_PENALTY[fixture] = 5）。",
+                "source": "API_CONTRACT.md §4.5",
+                "sourceUrl": null
+              },
+              {
+                "claim": "ETA 區間依風險等級「低」加上 10 分鐘緩衝。",
+                "evidence": "緩衝分鐘數取自 ETA_FLOAT_MINUTES_BY_LEVEL，等級越高緩衝越大，不假裝知道精確到達時刻。",
+                "source": "RISK_ENGINE.md §6",
+                "sourceUrl": null
+              }
+            ],
+            "quality": "fixture",
+            "notices": [
+              "本路線使用演示資料（fixture），信心與時間僅供示意，不得視為即時結果。",
+              "此為定性到達信心，不是校準過的準時機率。"
+            ]
+          }
+        },
+        "eligible": true,
+        "exclusions": [],
+        "meetsDeadline": null,
+        "data": {
+          "routeId": "xb-1-lok-ma-chau",
+          "source": "D 界面測試 fixture（非 B 實時來源）",
+          "sourceUrl": null,
+          "updatedAt": "2026-10-13T07:58:00+08:00",
+          "expiresAt": "2026-10-13T08:14:00+08:00",
+          "quality": "fixture",
+          "confidence": "low",
+          "value": {
+            "quality": "fixture",
+            "weather": {
+              "condition": "clear",
+              "warning": null,
+              "updatedAt": "2026-10-13T07:59:00+08:00"
+            },
+            "service": {
+              "status": "ok",
+              "delayMinutes": 0,
+              "crowding": "low",
+              "updatedAt": "2026-10-13T07:59:00+08:00"
+            },
+            "incidents": [],
+            "crowd": {
+              "level": "low",
+              "confidence": "low",
+              "evidence": "D 測試信號，沒有真實人數"
+            },
+            "border": {
+              "portId": "lok-ma-chau",
+              "queueMinutesRange": [
+                12,
+                28
+              ],
+              "confidence": "low",
+              "note": "估算：依時段規律推算，非官方即時排隊資料。"
+            }
+          }
+        }
+      },
+      {
+        "candidate": {
+          "id": "xb-2-lo-wu",
+          "label": "經羅湖口岸",
+          "provider": "fixture",
+          "quality": "fixture",
+          "journey": {
+            "id": "xb-2-lo-wu",
+            "label": "經羅湖口岸",
+            "segments": [
+              {
+                "id": "xb-2-lo-wu-s1",
+                "mode": "walk",
+                "kind": "in_hk",
+                "line": null,
+                "from": {
+                  "id": "central-exchange-square",
+                  "name": "中環（交易廣場）",
+                  "lat": 22.284,
+                  "lon": 114.159,
+                  "kind": "landmark",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "central-station",
+                  "name": "中環站",
+                  "lat": 22.282,
+                  "lon": 114.158,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:00:00+08:00",
+                "arriveAt": "2026-10-13T08:05:00+08:00",
+                "durationMinutes": 5,
+                "geometry": [
+                  [
+                    114.159,
+                    22.284
+                  ],
+                  [
+                    114.158,
+                    22.282
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": []
+              },
+              {
+                "id": "xb-2-lo-wu-s2",
+                "mode": "mtr",
+                "kind": "in_hk",
+                "line": "港島線",
+                "from": {
+                  "id": "central-station",
+                  "name": "中環站",
+                  "lat": 22.282,
+                  "lon": 114.158,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "admiralty-station",
+                  "name": "金鐘站",
+                  "lat": 22.279,
+                  "lon": 114.165,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:05:00+08:00",
+                "arriveAt": "2026-10-13T08:08:00+08:00",
+                "durationMinutes": 3,
+                "geometry": [
+                  [
+                    114.158,
+                    22.282
+                  ],
+                  [
+                    114.165,
+                    22.279
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": []
+              },
+              {
+                "id": "xb-2-lo-wu-s3",
+                "mode": "mtr",
+                "kind": "in_hk",
+                "line": "東鐵線",
+                "from": {
+                  "id": "admiralty-station",
+                  "name": "金鐘站",
+                  "lat": 22.279,
+                  "lon": 114.165,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "lo-wu-station-hk",
+                  "name": "羅湖站",
+                  "lat": 22.53,
+                  "lon": 114.113,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:08:00+08:00",
+                "arriveAt": "2026-10-13T09:04:00+08:00",
+                "durationMinutes": 56,
+                "geometry": [
+                  [
+                    114.165,
+                    22.279
+                  ],
+                  [
+                    114.182,
+                    22.303
+                  ],
+                  [
+                    114.179,
+                    22.373
+                  ],
+                  [
+                    114.21,
+                    22.413
+                  ],
+                  [
+                    114.128,
+                    22.502
+                  ],
+                  [
+                    114.113,
+                    22.53
+                  ]
+                ],
+                "viaStations": [
+                  "紅磡",
+                  "大圍",
+                  "大學",
+                  "上水"
+                ],
+                "viaDistricts": [
+                  "灣仔",
+                  "九龍城",
+                  "沙田",
+                  "北區"
+                ]
+              },
+              {
+                "id": "xb-2-lo-wu-s4",
+                "mode": "walk",
+                "kind": "border_crossing",
+                "line": null,
+                "from": {
+                  "id": "lo-wu-station-hk",
+                  "name": "羅湖站",
+                  "lat": 22.53,
+                  "lon": 114.113,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "luohu-station-sz",
+                  "name": "羅湖（深圳）",
+                  "lat": 22.533,
+                  "lon": 114.118,
+                  "kind": "station",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T09:04:00+08:00",
+                "arriveAt": "2026-10-13T09:14:00+08:00",
+                "durationMinutes": 10,
+                "geometry": [
+                  [
+                    114.113,
+                    22.53
+                  ],
+                  [
+                    114.118,
+                    22.533
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": [],
+                "border": {
+                  "portId": "lo-wu",
+                  "queueMinutesRange": [
+                    18,
+                    40
+                  ],
+                  "confidence": "low",
+                  "note": "估算：依時段規律推算，非官方即時排隊資料。"
+                }
+              },
+              {
+                "id": "xb-2-lo-wu-s5",
+                "mode": "mtr",
+                "kind": "in_sz",
+                "line": "深圳地鐵 1 號線",
+                "from": {
+                  "id": "luohu-station-sz",
+                  "name": "羅湖（深圳）",
+                  "lat": 22.533,
+                  "lon": 114.118,
+                  "kind": "station",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "convention-center",
+                  "name": "會展中心",
+                  "lat": 22.539,
+                  "lon": 114.065,
+                  "kind": "station",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T09:14:00+08:00",
+                "arriveAt": "2026-10-13T09:26:00+08:00",
+                "durationMinutes": 12,
+                "geometry": [
+                  [
+                    114.118,
+                    22.533
+                  ],
+                  [
+                    114.065,
+                    22.539
+                  ]
+                ],
+                "viaStations": [
+                  "國貿",
+                  "大劇院"
+                ],
+                "viaDistricts": [
+                  "羅湖區",
+                  "福田區"
+                ]
+              },
+              {
+                "id": "xb-2-lo-wu-s6",
+                "mode": "mtr",
+                "kind": "in_sz",
+                "line": "深圳地鐵 4 號線",
+                "from": {
+                  "id": "convention-center",
+                  "name": "會展中心",
+                  "lat": 22.539,
+                  "lon": 114.065,
+                  "kind": "station",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "futian-station-sz",
+                  "name": "福田",
+                  "lat": 22.539,
+                  "lon": 114.057,
+                  "kind": "station",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T09:26:00+08:00",
+                "arriveAt": "2026-10-13T09:31:00+08:00",
+                "durationMinutes": 5,
+                "geometry": [
+                  [
+                    114.065,
+                    22.539
+                  ],
+                  [
+                    114.057,
+                    22.539
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": [
+                  "福田區"
+                ]
+              }
+            ],
+            "departAt": "2026-10-13T08:00:00+08:00",
+            "arriveAt": "2026-10-13T09:31:00+08:00",
+            "totalMinutes": 91,
+            "crossesBorder": true,
+            "borderPortIds": [
+              "lo-wu"
+            ]
+          }
+        },
+        "assessment": {
+          "routeId": "xb-2-lo-wu",
+          "label": "經羅湖口岸",
+          "mode": "balanced",
+          "rankScore": 73,
+          "timeScore": 80,
+          "riskScore": 35,
+          "durationMinutes": 91,
+          "risk": {
+            "routeId": "xb-2-lo-wu",
+            "label": "經羅湖口岸",
+            "mode": "balanced",
+            "crossesBorder": true,
+            "score": 35,
+            "level": "low",
+            "breakdown": {
+              "weather": 0,
+              "crowd": 15,
+              "disruption": 0,
+              "transfer": 75,
+              "border": 80,
+              "overall": 35,
+              "weights": {
+                "weather": 0.15,
+                "crowd": 0.2,
+                "disruption": 0.25,
+                "transfer": 0.1,
+                "border": 0.3
+              },
+              "factors": [
+                {
+                  "id": "weather",
+                  "score": 0,
+                  "level": "low",
+                  "weight": 0.15,
+                  "contribution": 0,
+                  "claim": "天氣條件為「晴朗」",
+                  "evidence": "RISK_ENGINE.md §3.1：天氣條件 clear，無警告。",
+                  "source": "香港天文台",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "crowd",
+                  "score": 15,
+                  "level": "low",
+                  "weight": 0.2,
+                  "contribution": 3,
+                  "claim": "人流風險等級為「低」",
+                  "evidence": "D 測試信號，沒有真實人數",
+                  "source": "人流風險模型（成員 C）",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "disruption",
+                  "score": 0,
+                  "level": "low",
+                  "weight": 0.25,
+                  "contribution": 0,
+                  "claim": "服務狀態為「正常」。",
+                  "evidence": "RISK_ENGINE.md §3.2：服務狀態基準分與相關事件加成；相關事件 0 條。",
+                  "source": "運輸署特別交通消息 / 港鐵服務狀態",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "transfer",
+                  "score": 75,
+                  "level": "high",
+                  "weight": 0.1,
+                  "contribution": 7.5,
+                  "claim": "需轉乘 3 次",
+                  "evidence": "RISK_ENGINE.md §3.3：以非步行段數推算轉乘次數。",
+                  "source": "RISK_ENGINE.md §3.3",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "border",
+                  "score": 80,
+                  "level": "high",
+                  "weight": 0.3,
+                  "contribution": 24,
+                  "claim": "口岸排隊約 18–40 分鐘（估算）",
+                  "evidence": "估算：依時段規律推算，非官方即時排隊資料。",
+                  "source": "口岸排隊估算（歷史時段模型）",
+                  "sourceUrl": null
+                }
+              ],
+              "confidence": "low"
+            },
+            "quality": "fixture",
+            "notices": [
+              "資料品質為 fixture，風險評估可信度已下調。"
+            ]
+          },
+          "reliability": {
+            "routeId": "xb-2-lo-wu",
+            "label": "經羅湖口岸",
+            "mode": "balanced",
+            "onTimeConfidence": "low",
+            "confidenceNote": "此為定性到達信心，不是校準過的準時機率。",
+            "etaRange": [
+              "2026-10-13T09:49:00+08:00",
+              "2026-10-13T10:21:00+08:00"
+            ],
+            "riskLevel": "low",
+            "ruleScore": 52,
+            "factors": [
+              {
+                "claim": "這條路線的整體風險為「低」（風險分數 35）。",
+                "evidence": "風險引擎的加權總分 breakdown.overall = 35，等級門檻見 risk/thresholds.ts。",
+                "source": "RISK_ENGINE.md §2",
+                "sourceUrl": null
+              },
+              {
+                "claim": "需要 3 次轉乘，轉乘越多、誤點與趕不上接駁的風險越高。",
+                "evidence": "非步行路段數減一即為轉乘次數（transfers = 3）；轉乘 >= 2 時扣 8 分。",
+                "source": "RISK_ENGINE.md §6",
+                "sourceUrl": null
+              },
+              {
+                "claim": "本次結論的資料品質為「fixture」。",
+                "evidence": "資料品質直接限制信心上限：fixture 不得宣稱高信心（QUALITY_PENALTY[fixture] = 5）。",
+                "source": "API_CONTRACT.md §4.5",
+                "sourceUrl": null
+              },
+              {
+                "claim": "ETA 區間依風險等級「低」加上 10 分鐘緩衝。",
+                "evidence": "緩衝分鐘數取自 ETA_FLOAT_MINUTES_BY_LEVEL，等級越高緩衝越大，不假裝知道精確到達時刻。",
+                "source": "RISK_ENGINE.md §6",
+                "sourceUrl": null
+              }
+            ],
+            "quality": "fixture",
+            "notices": [
+              "本路線使用演示資料（fixture），信心與時間僅供示意，不得視為即時結果。",
+              "此為定性到達信心，不是校準過的準時機率。"
+            ]
+          }
+        },
+        "eligible": true,
+        "exclusions": [],
+        "meetsDeadline": null,
+        "data": {
+          "routeId": "xb-2-lo-wu",
+          "source": "D 界面測試 fixture（非 B 實時來源）",
+          "sourceUrl": null,
+          "updatedAt": "2026-10-13T07:58:00+08:00",
+          "expiresAt": "2026-10-13T08:14:00+08:00",
+          "quality": "fixture",
+          "confidence": "low",
+          "value": {
+            "quality": "fixture",
+            "weather": {
+              "condition": "clear",
+              "warning": null,
+              "updatedAt": "2026-10-13T07:59:00+08:00"
+            },
+            "service": {
+              "status": "ok",
+              "delayMinutes": 0,
+              "crowding": "low",
+              "updatedAt": "2026-10-13T07:59:00+08:00"
+            },
+            "incidents": [],
+            "crowd": {
+              "level": "low",
+              "confidence": "low",
+              "evidence": "D 測試信號，沒有真實人數"
+            },
+            "border": {
+              "portId": "lo-wu",
+              "queueMinutesRange": [
+                18,
+                40
+              ],
+              "confidence": "low",
+              "note": "估算：依時段規律推算，非官方即時排隊資料。"
+            }
+          }
+        }
+      },
+      {
+        "candidate": {
+          "id": "xb-3-shenzhen-bay",
+          "label": "經深圳灣口岸",
+          "provider": "fixture",
+          "quality": "fixture",
+          "journey": {
+            "id": "xb-3-shenzhen-bay",
+            "label": "經深圳灣口岸",
+            "segments": [
+              {
+                "id": "xb-3-shenzhen-bay-s1",
+                "mode": "walk",
+                "kind": "in_hk",
+                "line": null,
+                "from": {
+                  "id": "central-exchange-square",
+                  "name": "中環（交易廣場）",
+                  "lat": 22.284,
+                  "lon": 114.159,
+                  "kind": "landmark",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "central-station",
+                  "name": "中環站",
+                  "lat": 22.282,
+                  "lon": 114.158,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:00:00+08:00",
+                "arriveAt": "2026-10-13T08:05:00+08:00",
+                "durationMinutes": 5,
+                "geometry": [
+                  [
+                    114.159,
+                    22.284
+                  ],
+                  [
+                    114.158,
+                    22.282
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": []
+              },
+              {
+                "id": "xb-3-shenzhen-bay-s2",
+                "mode": "mtr",
+                "kind": "in_hk",
+                "line": "港島線",
+                "from": {
+                  "id": "central-station",
+                  "name": "中環站",
+                  "lat": 22.282,
+                  "lon": 114.158,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "admiralty-station",
+                  "name": "金鐘站",
+                  "lat": 22.279,
+                  "lon": 114.165,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:05:00+08:00",
+                "arriveAt": "2026-10-13T08:08:00+08:00",
+                "durationMinutes": 3,
+                "geometry": [
+                  [
+                    114.158,
+                    22.282
+                  ],
+                  [
+                    114.165,
+                    22.279
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": []
+              },
+              {
+                "id": "xb-3-shenzhen-bay-s3",
+                "mode": "cross_border_bus",
+                "kind": "in_hk",
+                "line": "跨境巴士（深圳灣線）",
+                "from": {
+                  "id": "admiralty-station",
+                  "name": "金鐘站",
+                  "lat": 22.279,
+                  "lon": 114.165,
+                  "kind": "station",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "shenzhen-bay-checkpoint-hk",
+                  "name": "深圳灣口岸（香港側）",
+                  "lat": 22.502,
+                  "lon": 113.944,
+                  "kind": "port",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T08:08:00+08:00",
+                "arriveAt": "2026-10-13T09:23:00+08:00",
+                "durationMinutes": 75,
+                "geometry": [
+                  [
+                    114.165,
+                    22.279
+                  ],
+                  [
+                    114.12,
+                    22.3
+                  ],
+                  [
+                    113.99,
+                    22.42
+                  ],
+                  [
+                    113.944,
+                    22.502
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": [
+                  "灣仔",
+                  "中西區",
+                  "屯門",
+                  "南山區"
+                ]
+              },
+              {
+                "id": "xb-3-shenzhen-bay-s4",
+                "mode": "walk",
+                "kind": "border_crossing",
+                "line": null,
+                "from": {
+                  "id": "shenzhen-bay-checkpoint-hk",
+                  "name": "深圳灣口岸（香港側）",
+                  "lat": 22.502,
+                  "lon": 113.944,
+                  "kind": "port",
+                  "side": "hk",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "shenzhen-bay-checkpoint",
+                  "name": "深圳灣口岸（深圳側）",
+                  "lat": 22.505,
+                  "lon": 113.95,
+                  "kind": "port",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T09:23:00+08:00",
+                "arriveAt": "2026-10-13T09:37:00+08:00",
+                "durationMinutes": 14,
+                "geometry": [
+                  [
+                    113.944,
+                    22.502
+                  ],
+                  [
+                    113.95,
+                    22.505
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": [],
+                "border": {
+                  "portId": "shenzhen-bay",
+                  "queueMinutesRange": [
+                    20,
+                    45
+                  ],
+                  "confidence": "low",
+                  "note": "估算：跨境巴士班次與時段規律推算，非官方即時排隊資料。"
+                }
+              },
+              {
+                "id": "xb-3-shenzhen-bay-s5",
+                "mode": "bus",
+                "kind": "in_sz",
+                "line": "深圳巴士",
+                "from": {
+                  "id": "shenzhen-bay-checkpoint",
+                  "name": "深圳灣口岸（深圳側）",
+                  "lat": 22.505,
+                  "lon": 113.95,
+                  "kind": "port",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "to": {
+                  "id": "futian-station-sz",
+                  "name": "福田",
+                  "lat": 22.539,
+                  "lon": 114.057,
+                  "kind": "station",
+                  "side": "sz",
+                  "sideSource": "registry"
+                },
+                "departAt": "2026-10-13T09:37:00+08:00",
+                "arriveAt": "2026-10-13T10:12:00+08:00",
+                "durationMinutes": 35,
+                "geometry": [
+                  [
+                    113.95,
+                    22.505
+                  ],
+                  [
+                    114.057,
+                    22.539
+                  ]
+                ],
+                "viaStations": [],
+                "viaDistricts": [
+                  "南山區",
+                  "福田區"
+                ]
+              }
+            ],
+            "departAt": "2026-10-13T08:00:00+08:00",
+            "arriveAt": "2026-10-13T10:12:00+08:00",
+            "totalMinutes": 132,
+            "crossesBorder": true,
+            "borderPortIds": [
+              "shenzhen-bay"
+            ]
+          }
+        },
+        "assessment": {
+          "routeId": "xb-3-shenzhen-bay",
+          "label": "經深圳灣口岸",
+          "mode": "balanced",
+          "rankScore": 33,
+          "timeScore": 0,
+          "riskScore": 35,
+          "durationMinutes": 132,
+          "risk": {
+            "routeId": "xb-3-shenzhen-bay",
+            "label": "經深圳灣口岸",
+            "mode": "balanced",
+            "crossesBorder": true,
+            "score": 35,
+            "level": "low",
+            "breakdown": {
+              "weather": 0,
+              "crowd": 15,
+              "disruption": 0,
+              "transfer": 50,
+              "border": 90,
+              "overall": 35,
+              "weights": {
+                "weather": 0.15,
+                "crowd": 0.2,
+                "disruption": 0.25,
+                "transfer": 0.1,
+                "border": 0.3
+              },
+              "factors": [
+                {
+                  "id": "weather",
+                  "score": 0,
+                  "level": "low",
+                  "weight": 0.15,
+                  "contribution": 0,
+                  "claim": "天氣條件為「晴朗」",
+                  "evidence": "RISK_ENGINE.md §3.1：天氣條件 clear，無警告。",
+                  "source": "香港天文台",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "crowd",
+                  "score": 15,
+                  "level": "low",
+                  "weight": 0.2,
+                  "contribution": 3,
+                  "claim": "人流風險等級為「低」",
+                  "evidence": "D 測試信號，沒有真實人數",
+                  "source": "人流風險模型（成員 C）",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "disruption",
+                  "score": 0,
+                  "level": "low",
+                  "weight": 0.25,
+                  "contribution": 0,
+                  "claim": "服務狀態為「正常」。",
+                  "evidence": "RISK_ENGINE.md §3.2：服務狀態基準分與相關事件加成；相關事件 0 條。",
+                  "source": "運輸署特別交通消息 / 港鐵服務狀態",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "transfer",
+                  "score": 50,
+                  "level": "medium",
+                  "weight": 0.1,
+                  "contribution": 5,
+                  "claim": "需轉乘 2 次",
+                  "evidence": "RISK_ENGINE.md §3.3：以非步行段數推算轉乘次數。",
+                  "source": "RISK_ENGINE.md §3.3",
+                  "sourceUrl": null
+                },
+                {
+                  "id": "border",
+                  "score": 90,
+                  "level": "high",
+                  "weight": 0.3,
+                  "contribution": 27,
+                  "claim": "口岸排隊約 20–45 分鐘（估算）",
+                  "evidence": "估算：跨境巴士班次與時段規律推算，非官方即時排隊資料。",
+                  "source": "口岸排隊估算（歷史時段模型）",
+                  "sourceUrl": null
+                }
+              ],
+              "confidence": "low"
+            },
+            "quality": "fixture",
+            "notices": [
+              "資料品質為 fixture，風險評估可信度已下調。"
+            ]
+          },
+          "reliability": {
+            "routeId": "xb-3-shenzhen-bay",
+            "label": "經深圳灣口岸",
+            "mode": "balanced",
+            "onTimeConfidence": "low",
+            "confidenceNote": "此為定性到達信心，不是校準過的準時機率。",
+            "etaRange": [
+              "2026-10-13T10:32:00+08:00",
+              "2026-10-13T11:07:00+08:00"
+            ],
+            "riskLevel": "low",
+            "ruleScore": 52,
+            "factors": [
+              {
+                "claim": "這條路線的整體風險為「低」（風險分數 35）。",
+                "evidence": "風險引擎的加權總分 breakdown.overall = 35，等級門檻見 risk/thresholds.ts。",
+                "source": "RISK_ENGINE.md §2",
+                "sourceUrl": null
+              },
+              {
+                "claim": "需要 2 次轉乘，轉乘越多、誤點與趕不上接駁的風險越高。",
+                "evidence": "非步行路段數減一即為轉乘次數（transfers = 2）；轉乘 >= 2 時扣 8 分。",
+                "source": "RISK_ENGINE.md §6",
+                "sourceUrl": null
+              },
+              {
+                "claim": "本次結論的資料品質為「fixture」。",
+                "evidence": "資料品質直接限制信心上限：fixture 不得宣稱高信心（QUALITY_PENALTY[fixture] = 5）。",
+                "source": "API_CONTRACT.md §4.5",
+                "sourceUrl": null
+              },
+              {
+                "claim": "ETA 區間依風險等級「低」加上 10 分鐘緩衝。",
+                "evidence": "緩衝分鐘數取自 ETA_FLOAT_MINUTES_BY_LEVEL，等級越高緩衝越大，不假裝知道精確到達時刻。",
+                "source": "RISK_ENGINE.md §6",
+                "sourceUrl": null
+              }
+            ],
+            "quality": "fixture",
+            "notices": [
+              "本路線使用演示資料（fixture），信心與時間僅供示意，不得視為即時結果。",
+              "此為定性到達信心，不是校準過的準時機率。"
+            ]
+          }
+        },
+        "eligible": true,
+        "exclusions": [],
+        "meetsDeadline": null,
+        "data": {
+          "routeId": "xb-3-shenzhen-bay",
+          "source": "D 界面測試 fixture（非 B 實時來源）",
+          "sourceUrl": null,
+          "updatedAt": "2026-10-13T07:58:00+08:00",
+          "expiresAt": "2026-10-13T08:14:00+08:00",
+          "quality": "fixture",
+          "confidence": "low",
+          "value": {
+            "quality": "fixture",
+            "weather": {
+              "condition": "clear",
+              "warning": null,
+              "updatedAt": "2026-10-13T07:59:00+08:00"
+            },
+            "service": {
+              "status": "ok",
+              "delayMinutes": 0,
+              "crowding": "low",
+              "updatedAt": "2026-10-13T07:59:00+08:00"
+            },
+            "incidents": [],
+            "crowd": {
+              "level": "low",
+              "confidence": "low",
+              "evidence": "D 測試信號，沒有真實人數"
+            },
+            "border": {
+              "portId": "shenzhen-bay",
+              "queueMinutesRange": [
+                20,
+                45
+              ],
+              "confidence": "low",
+              "note": "估算：跨境巴士班次與時段規律推算，非官方即時排隊資料。"
+            }
+          }
+        }
+      }
+    ],
+    "recommendedRouteId": "xb-1-lok-ma-chau",
+    "notices": [
+      "未設定實時路線來源（ROUTE_OSRM_BASE_URL），本次使用演示固定資料（fixture）。",
+      "本路線使用演示固定資料（fixture），非實時路況。",
+      "本路線使用演示固定資料（fixture），非實時路況。",
+      "本路線使用演示固定資料（fixture），非實時路況。",
+      "D 測試 fixture；座標未核實，折線僅示意，非導航路網。評估時間為輸入出發前一分鐘的回放時鐘。"
+    ],
+    "decision": null
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sourceUrl": "https://search.kmb.hk/TD_SS/690S.pdf",
+  "documentTitle": "Citybus/KMB Route No. 690 timetable (includes 690S special departures)",
+  "documentDate": "2026-03-31",
+  "checkedAt": "2026-10-07T01:36:21.148582+00:00",
+  "route": "690S",
+  "serviceDays": "Monday-Friday except public holidays",
+  "origin": "Hang Hau (Ming Tak Estate)",
+  "destination": "Central (Exchange Square)",
+  "direction": "towards Central",
+  "scheduledDepartures": [
+    {
+      "time": "07:30",
+      "operator": "CTB"
+    },
+    {
+      "time": "07:36",
+      "operator": "KMB"
+    },
+    {
+      "time": "07:42",
+      "operator": "CTB"
+    },
+    {
+      "time": "07:48",
+      "operator": "KMB"
+    },
+    {
+      "time": "07:54",
+      "operator": "CTB"
+    },
+    {
+      "time": "08:02",
+      "operator": "KMB"
+    },
+    {
+      "time": "08:10",
+      "operator": "CTB"
+    },
+    {
+      "time": "08:20",
+      "operator": "KMB"
+    },
+    {
+      "time": "08:40",
+      "operator": "CTB"
+    },
+    {
+      "time": "09:00",
+      "operator": "KMB"
+    }
+  ],
+  "returnDepartures": [
+    {
+      "time": "17:40",
+      "operator": "CTB"
+    },
+    {
+      "time": "18:00",
+      "operator": "KMB"
+    },
+    {
+      "time": "18:15",
+      "operator": "CTB"
+    },
+    {
+      "time": "18:30",
+      "operator": "KMB"
+    }
+  ],
+  "quality": "official_static_reference",
+  "notDecisionInput": true,
+  "limitations": [
+    "Scheduled departure is not live ETA or guarantee",
+    "Holiday/service changes require recheck",
+    "Current R2 stop and journey time not yet matched"
+  ]
+}

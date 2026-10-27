@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-12T22:26:24+08:00",
+  "note": "一次实测存檔，非目前即時資料，不作演示 fixture 或決策輸入",
+  "question": "天气信息是否也拿不到？",
+  "answer": "拿得到，而且是最完整的一类：公开、免费、无 key、已接入。",
+  "rawEndpointProbe": {
+    "rhrread": { "http": 200, "updateTime": "2026-10-12T22:02:00+08:00", "temperatureDistricts": 27, "rainfallDistricts": 18, "humidity": 76, "icon": [71] },
+    "warnsum": { "http": 200, "body": {}, "meaning": "当前无生效警告" },
+    "fnd": { "http": 200, "updateTime": "2026-10-12T16:30:00+08:00", "note": "9 天预报；须与 snapshot.serviceDate 对齐" },
+    "swt": { "http": 200, "body": { "swt": [] } }
+  },
+  "endToEndLiveRun": {
+    "command": "resolveContextWithTier({ scenario: 'live' })",
+    "tier": "live",
+    "quality": "live",
+    "snapshotWeather": {
+      "condition": "clear",
+      "warning": null,
+      "rainfallMmPerHour": null,
+      "temperatureC": 25,
+      "updatedAt": "2026-10-12T22:02:00+08:00",
+      "note": "天氣狀況由官方圖示及生效警告映射；氣溫取將軍澳站，缺測為 null。分區雨量上限不等於沿途每小時雨量，故雨量率保留 null。警告與報告為分開擷取，非原子快照。"
+    },
+    "snapshotCollectedAt": "2026-10-12T22:26:24+08:00",
+    "snapshotExpiresAt": "2026-10-12T22:27:54+08:00",
+    "sources": [
+      { "id": "weather-live", "quality": "live", "updatedAt": "2026-10-12T22:02:00+08:00" },
+      { "id": "td-special-traffic-news", "quality": "live", "updatedAt": "2026-10-12T22:26:24+08:00" },
+      { "id": "mtr-next-train", "quality": "live", "updatedAt": "2026-10-12T22:25:54+08:00" },
+      { "id": "route-estimates", "quality": "fixture", "updatedAt": "2026-10-13T07:30:00+08:00" }
+    ],
+    "notices": []
+  },
+  "knownLimits": [
+    "live 模式把天气当作必需项：src/lib/adapters/index.ts 中 `if (!merged.weather) throw new Error(\"缺少可核實的天氣資料\")`。HKO 拿不到时整层 live 会回退到 cached/fixture。",
+    "rainfallMmPerHour 恒为 null：官方 rhrread 的 rainfall 是分区上限，不是沿路点雨量率，故保留 null 而非编造。",
+    "temperatureC 取将军澳站，缺测为 null。",
+    "warnsum 只有 name/code/actionCode/updateTime/expireTime，没有 preAnnounceAt，不得用 issueTime 冒充。",
+    "DecisionResponse 无 weather 字段：天气只进入风险引擎（detectSevereWeather）影响 action/reasons，未透出给前端；前端目前也没有渲染天气的组件。若要展示，需 A 改契约 + D 加组件。"
+  ],
+  "sources": [
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php",
+    "https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf"
+  ]
+}

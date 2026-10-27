@@ -1,0 +1,89 @@
+{
+  "turnId": "af4bafe3-8695-4eea-b975-b62be70205c1",
+  "deliverResult": {
+    "message": "D 第二阶段 v2.0 已完成界面与自动化验证；正式 B/C 联调及真人验证待完成。",
+    "items": [
+      {
+        "artifact": {
+          "id": "20694ad8-5b3a-4e63-8e06-9161c9696186",
+          "type": "website",
+          "category": "website",
+          "displayName": "D 第二阶段 v2.0 · 2026-10-10",
+          "status": "ready",
+          "coverStatus": "ready",
+          "createdAt": "2026-10-10T15:43:16.889Z",
+          "updatedAt": "2026-10-10T15:43:16.889Z",
+          "websitePort": 5191,
+          "sourceNormalizedPath": "http://localhost:5191/",
+          "sourceFolderPath": "/workspace/八校黑客松/A部分/app"
+        },
+        "attachmentIndex": 0,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "62e7e732-1941-4438-a73b-f7f98ea21361",
+          "type": "file",
+          "category": "archive",
+          "displayName": "D_第二阶段交付_v2.0_2026-10-10.zip",
+          "mimeType": "application/zip",
+          "sizeBytes": 3012145,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-10T15:43:16.902Z",
+          "updatedAt": "2026-10-10T15:43:18.263Z"
+        },
+        "attachmentIndex": 1,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "5e8fdda3-13a9-4425-b84d-5e0dd01dd7c8",
+          "type": "file",
+          "category": "code",
+          "displayName": "QA_RESULTS.md",
+          "mimeType": "text/markdown; charset=utf-8",
+          "sizeBytes": 5732,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-10T15:43:18.272Z",
+          "updatedAt": "2026-10-10T15:43:19.391Z"
+        },
+        "attachmentIndex": 2,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "f93106a7-9cc6-4e80-adf0-f87c4c4cbe18",
+          "type": "file",
+          "category": "code",
+          "displayName": "D_PHASE2_HANDOFF.md",
+          "mimeType": "text/markdown; charset=utf-8",
+          "sizeBytes": 4689,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-10T15:43:19.399Z",
+          "updatedAt": "2026-10-10T15:43:20.412Z"
+        },
+        "attachmentIndex": 3,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "71c37378-caaf-434e-bd92-962a7089f4f7",
+          "type": "file",
+          "category": "code",
+          "displayName": "USER_TEST_SCRIPT.md",
+          "mimeType": "text/markdown; charset=utf-8",
+          "sizeBytes": 3086,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-10T15:43:20.420Z",
+          "updatedAt": "2026-10-10T15:43:21.276Z"
+        },
+        "attachmentIndex": 4,
+        "state": "ready"
+      }
+    ]
+  }
+}

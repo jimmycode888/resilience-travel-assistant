@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Figma Make 设计稿评审 · 韧性出行助手</title>
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --ink:#0f172a; --muted:#5b6577; --line:#e4e8ee;
+  --blue:#1f6feb; --blue-soft:#eaf1fe; --red:#c0392b; --red-soft:#fdecea;
+  --amber:#b7791f; --amber-soft:#fff8e6; --green:#1a7f4b; --green-soft:#eaf7f0;
+  --radius:14px; --shadow:0 1px 2px rgba(15,23,42,.06),0 8px 24px -12px rgba(15,23,42,.18);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+header.top{background:linear-gradient(160deg,#0b1220,#152238 55%,#0b1220);color:#fff;padding:44px 0 36px;margin-bottom:26px}
+header.top .wrap{padding-bottom:0}
+.kicker{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8fb4ff;border:1px solid #2b3f63;border-radius:999px;padding:4px 12px;margin-bottom:14px}
+h1{font-size:clamp(24px,3.4vw,36px);line-height:1.25;margin:0 0 12px;font-weight:800}
+.sub{color:#c3cddd;font-size:15px;margin:0 0 18px;max-width:70ch}
+.metaline{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:#9fb0c9;border-top:1px solid #22304a;padding-top:16px;margin-top:6px}
+.metaline b{color:#e8eefb;font-weight:600}
+.verdict{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin:26px 0 10px}
+.callout{background:var(--card);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow);border-left:5px solid var(--line)}
+.callout.bad{border-left-color:var(--red)}.callout.good{border-left-color:var(--green)}.callout.warn{border-left-color:var(--amber)}
+.callout h3{margin:0 0 6px;font-size:15px}
+.callout p{margin:0;color:var(--muted);font-size:14px}
+section{margin:34px 0}
+h2{font-size:22px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid var(--line);display:flex;align-items:center;gap:10px}
+h2 .n{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:30px;border-radius:9px;background:var(--ink);color:#fff;font-size:14px;font-weight:700}
+h3.item{font-size:17px;margin:22px 0 6px}
+p{font-size:15px}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.scores{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:16px 0}
+.score{background:var(--card);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow)}
+.score .lbl{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.score .val{font-size:24px;font-weight:800;margin-top:2px}
+.score .bar{height:6px;border-radius:99px;background:var(--line);margin-top:8px;overflow:hidden}
+.score .bar i{display:block;height:100%;border-radius:99px}
+.v9 i{background:var(--green)}.v6 i{background:var(--amber)}.v4 i{background:#e07a5f}.v3 i{background:var(--red)}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px;margin:12px 0}
+table{width:100%;border-collapse:collapse;font-size:14px;background:var(--card);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);margin:14px 0}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#f0f3f8;font-size:12.5px;letter-spacing:.03em;color:#334}
+tr:last-child td{border-bottom:none}
+code{background:#eef1f6;border-radius:5px;padding:1px 6px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.verdict-yes{color:var(--green);font-weight:700}
+.verdict-no{color:var(--red);font-weight:700}
+.verdict-mid{color:var(--amber);font-weight:700}
+.p0{border-left:5px solid var(--red)}
+.p1{border-left:5px solid var(--amber)}
+p0{}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;padding:3px 8px;border-radius:6px;vertical-align:middle}
+.tag.red{background:var(--red-soft);color:var(--red)}
+.tag.amber{background:var(--amber-soft);color:var(--amber)}
+.tag.green{background:var(--green-soft);color:var(--green)}
+.tag.blue{background:var(--blue-soft);color:var(--blue)}
+blockquote{margin:10px 0;padding:10px 14px;background:#f4f6fa;border-left:3px solid #c8d2e0;border-radius:0 8px 8px 0;color:#3b4657;font-size:14px}
+ul.clean{list-style:none;padding-left:0}
+ul.clean li{position:relative;padding-left:26px;margin:7px 0;font-size:14.5px}
+ul.clean li:before{content:"";position:absolute;left:8px;top:.62em;width:7px;height:7px;border-radius:2px;background:var(--blue)}
+ul.check li:before{content:"☐";background:none;left:0;top:0;font-size:15px;color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:14px}
+figure{margin:0;background:var(--card);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+figure a{display:block}
+figure img{display:block;width:100%;height:190px;object-fit:cover;object-position:top;border-bottom:1px solid var(--line);background:#eef1f6}
+figure.tall img{height:260px}
+figcaption{padding:10px 12px;font-size:12.5px;color:var(--muted)}
+figcaption b{display:block;color:var(--ink);font-size:13px;margin-bottom:2px}
+.footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+a{color:var(--blue)}
+.pill{display:inline-block;background:#eef1f6;border-radius:999px;padding:2px 10px;font-size:12px;color:#445;margin:0 4px 4px 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:720px){.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <span class="kicker">设计评审 · Design Review</span>
+    <h1>Figma Make 设计稿评审<br><span style="color:#8fb4ff">是否符合「韧性出行助手」项目</span></h1>
+    <p class="sub">实际打开可交互原型，走完输入页 → 三情景结果页 → 四状态页 → 桌面/手机，逐字比对已锁定契约与现有实作。</p>
+    <div class="metaline">
+      <span><b>评审日期</b> 2026-10-07</span>
+      <span><b>对象</b> Figma Community「韧性出行助手」（Figma Make 原型）</span>
+      <span><b>作者</b> Liana</span>
+      <span><b>实机站点</b> blog-drawn-56594600.figma.site</span>
+      <span><b>对照基准</b> API_CONTRACT.md · corridor · labels.ts · 现有 components</span>
+    </div>
+  </div>
+</header>
+<div class="wrap">
+
+  <div class="verdict">
+    <div class="callout good">
+      <h3>✅ 进步：版式可以冻结</h3>
+      <p>上一版评审点名的 4 条 P0（数据可信度、状态覆盖、硬阈值切换条件、到达区间 + 信心限定）基本全部落地，信息层级清晰。</p>
+    </div>
+    <div class="callout bad">
+      <h3>⛔ 致命：内容跑到契约之外</h3>
+      <p>整条走廊、地点枚举、候选路线与交通方式全部与 <code>corridor/index.ts</code> 和已锁定契约不一致——它做的其实是「另一条走廊」的产品。</p>
+    </div>
+    <div class="callout warn">
+      <h3>⚠️ 会被评委当场问倒</h3>
+      <p>三处界面自相矛盾：「服务正常」却发生港铁故障；「港岛线→观塘线」一次转乘不成立；时间基准 07:51 / 07:56 / 08:00 打架。</p>
+    </div>
+  </div>
+
+  <div class="scores">
+    <div class="score"><div class="lbl">视觉与信息层级</div><div class="val">9 / 10</div><div class="bar v9"><i style="width:90%"></i></div></div>
+    <div class="score"><div class="lbl">契约字段对齐</div><div class="val">6 / 10</div><div class="bar v6"><i style="width:60%"></i></div></div>
+    <div class="score"><div class="lbl">界面数据自洽</div><div class="val">4 / 10</div><div class="bar v4"><i style="width:40%"></i></div></div>
+    <div class="score"><div class="lbl">范围合规</div><div class="val">3 / 10</div><div class="bar v3"><i style="width:30%"></i></div></div>
+  </div>
+
+  <div class="card" style="border-left:5px solid var(--blue)">
+    <b>结论一句话：</b>视觉与信息层级相比上一版是脱胎换骨的进步，但内容层跑到了契约之外。若坚持既定走廊（坑口 ↔ 中环）→ <b>改内容、保版式</b>；若团队其实想换走廊（西营盘 ↔ 九龙湾）→ 这<b>不是 UI 修改，而是一次契约变更</b>，必须先由 A 更新 <code>types/</code>、<code>corridor/</code>、三个 fixture，重跑 golden / smoke，并同步 B / C / D。
+  </div>
+
+  <section>
+    <h2><span class="n">1</span>总体结论</h2>
+    <p>这是一份 <b>Figma Make 可交互原型</b>（不是静态画板），已发布成一个真实可访问的站点，因此可以对它做真正的用户流程测试，而不只是看排版。</p>
+    <ul class="clean">
+      <li><b>结构对了。</b>两栏输入页、一句话决策卡、路线时间轴、Plan B、独立切换条件、资料透明度、四态页面——版式层面完整且层级正确。</li>
+      <li><b>但数据是另一套。</b>设计里的地点（西营盘/九龙湾/观塘/启德/湾仔）在契约枚举中<b>根本不存在</b>，D 无法用现有 <code>/api/decision</code> 复现任何一屏。</li>
+      <li><b>数据还自相矛盾。</b>页头状态、转乘结构、时间基准三处打架，演示时经不起追问。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="n">2</span>做对了的地方（对照上一版 P0/P1）</h2>
+    <table>
+      <thead><tr><th>上一版评审要求</th><th>新版设计稿的落地</th><th>判断</th></tr></thead>
+      <tbody>
+        <tr><td>P0-1 补「数据可信度」层</td><td>顶部徽章「演示固定资料 · 08:00 HKT」；底部「资料透明度」列出交通/天气/历史三项，均标 FIXTURE + 时间</td><td class="verdict-yes">已解决</td></tr>
+        <tr><td>P0-2 补不确定/不可用状态</td><td>结果页自带「加载中 / 不确定 / 不可用 / 错误」四态，各有文案与操作</td><td class="verdict-mid">数量已补齐，语义待对齐</td></tr>
+        <tr><td>P0-3 切换条件独立成块、含硬阈值</td><td>深色高亮卡片「若 08:10 仍未离开起点，改乘的士直达」</td><td class="verdict-yes">已解决</td></tr>
+        <tr><td>P0-4 到达时间改区间、信心加限定词</td><td>「预计 08:38–08:47 到达」「已包含 8 分钟可靠性缓冲」「到达信心：高 / 演示估算」</td><td class="verdict-yes">已解决</td></tr>
+        <tr><td>P1-6 情景切换标注「演示」</td><td>「演示情景 · 固定资料」「固定演示资料，非个人偏好」</td><td class="verdict-yes">已解决</td></tr>
+        <tr><td>P1-7 补「推荐理由」</td><td>可展开块，含 3 条理由</td><td class="verdict-mid">有块，但内容不可追溯</td></tr>
+        <tr><td>P1-8 信息层级分三层</td><td>一句话决策 → 信心/数据徽章 → 时间轴/Plan B/切换条件/理由/透明度</td><td class="verdict-yes">已解决</td></tr>
+        <tr><td>P1-11 不只靠颜色表达</td><td>风险与信心均为「文字 + 图形条」</td><td class="verdict-yes">已解决</td></tr>
+        <tr><td>P2-12 底部固定演示声明</td><td>页脚「演示版本 / 固定资料 · 估算仅供参考」+ 免责</td><td class="verdict-yes">已解决</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2><span class="n">3</span>必须改（P0）</h2>
+
+    <div class="card p0">
+      <h3 class="item"><span class="tag red">P0-1 最严重</span> 走廊、地点、路线与已锁定契约完全不符</h3>
+      <table>
+        <thead><tr><th>维度</th><th>已锁定契约 / 实作（唯一真相）</th><th>新版 Figma 设计稿</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>走廊</td><td>将军澳（坑口）↔ 中环 <code>tko-hang-hau-to-central</code></td><td>西营盘/中环/湾仔 → 九龙湾/观塘/启德</td><td class="verdict-no">✕</td></tr>
+          <tr><td>起点枚举</td><td>坑口（富宁花园）、坑口站 A 出口</td><td>西营盘·皇后大道西、中环·国际金融中心、湾仔·会展站</td><td class="verdict-no">✕</td></tr>
+          <tr><td>终点枚举</td><td>中环（交易广场）、中环（国际金融中心二期）</td><td>九龙湾·宏照道、观塘·创纪之城、启德·AIRSIDE</td><td class="verdict-no">✕</td></tr>
+          <tr><td>候选路线</td><td>R1 港铁主线（将军澳线→港岛线）、R2 过海巴士（东隧）、R3 港铁经鲗鱼涌</td><td>港铁优先（港岛线→观塘线）、的士直达、巴士 101、过海的士、巴士 101+港铁</td><td class="verdict-no">✕</td></tr>
+          <tr><td>交通方式</td><td><code>mtr | bus | minibus | walk | tram | ferry</code>（<b>无 taxi</b>）</td><td>出现「的士直达」「过海的士」</td><td class="verdict-no">✕</td></tr>
+          <tr><td>巴士编号</td><td>README：未使用真实路线编号，需 B 核对官方资料</td><td>直接写「巴士 101」</td><td class="verdict-mid">需 B 核实</td></tr>
+        </tbody>
+      </table>
+      <p><b>后果：</b>① 落到代码会立刻触发 <code>400 INVALID_INPUT</code>（未知地点）；② 三个黄金 fixture 的出发时间、主路线、信心、切换条件全部对不上，<code>npm run smoke</code> 与演示互相打脸；③ 「切换情景得到不同建议」的演示脚本在真实数据下不成立。</p>
+      <p><b>改法（找 A 拍板）：</b><br>
+      <b>方案 A（推荐，成本低）</b>：设计稿改内容、保版式——地点换成坑口 → 中环，路线文案换成 R1/R2/R3，Plan B 用过海巴士、删除的士。<br>
+      <b>方案 B（成本高）</b>：走契约变更流程，改 <code>API_CONTRACT.md</code> + <code>types/</code> + <code>corridor/</code>，由 B 换数据、C 重算、D 重跑全部测试，并全组同意。未走完前设计稿不能进实现。</p>
+    </div>
+
+    <div class="card p0">
+      <h3 class="item"><span class="tag red">P0-2</span> 输入页的起终点组合超出「单一走廊」范围</h3>
+      <p>契约的 <code>origin</code> / <code>destination</code> 是<b>严格枚举</b>（各 2 个值），未知值会被 strict schema 拒绝。设计给出起 3 × 终 3 = <b>9 种组合</b>，且带交换按钮，暗示可任意对调。</p>
+      <p><b>改法：</b>收敛为契约的 2 × 2；文案点明「首版只支援一条固定通勤走廊」；去掉交换按钮。</p>
+    </div>
+
+    <div class="card p0">
+      <h3 class="item"><span class="tag red">P0-3</span> 结果页缺「最迟出发时间」（<code>latestDepartAt</code>）</h3>
+      <p>只有「建议 08:05 出发」，<b>没有「最迟 08:xx 前离开」</b>。这正是本项目区别于地图的核心输出之一，上一版评审的 P0-4 也未补齐。</p>
+      <p><b>改法：</b>一句话决策卡并列显示，例如 <code>建议 08:05 出发 · 最迟 08:15 前离开起点</code>。</p>
+    </div>
+
+    <div class="card p0">
+      <h3 class="item"><span class="tag red">P0-4</span> 三处界面自相矛盾</h3>
+      <p><b>a) 顶部状态与情景冲突。</b>页头固定「● 服务正常」，但「交通中断」情景正文写「金钟站信号设备故障」；「不可用」「错误」状态下页头仍写「服务正常」。<br><span class="muted small">→ 页头状态应由 <code>primaryPlan.status</code>（<code>labels.ts: STATUS_LABELS</code>）驱动。</span></p>
+      <p><b>b)「港岛线 → 观塘线」单次转乘不成立。</b>时间轴写 <code>08:12 港岛线 → 08:24 转乘观塘线 → 08:42 到达</code>。但两条线<b>没有任何交会站</b>，现实中至少需 2 次转乘（经荃湾线，或经将军澳线到油塘）。<br><span class="muted small">→ 换成契约里真实存在的转乘结构（将军澳线→北角→港岛线，或经鲗鱼涌）。</span></p>
+      <p><b>c) 时间基准打架。</b>页头「演示固定资料 · 08:00 HKT」，中断情景却写「信息来源 07:51」「建议 现在 · 07:56 出发」——若快照是 08:00，则 07:56 的「现在」是过去时间。<br><span class="muted small">→ 所有时间锚定 <code>dataUpdatedAt</code>；契约规定决策层永不使用「现在时间」计算。</span></p>
+    </div>
+
+    <div class="card p0">
+      <h3 class="item"><span class="tag red">P0-5</span>「不确定」状态与契约语义不符</h3>
+      <p>契约：<code>status = uncertain</code> 表示<b>有可行路线</b>但信心为 low 或无 Plan B，<b>仍要输出</b> <code>departAt / etaRange / primaryRoute / reasons</code>（例如 disruption 情景本身就是 uncertain，仍给主路线 R2 与 Plan B R3）。</p>
+      <p>设计的「不确定」预览却把建议整块换掉，只留：</p>
+      <blockquote>资料状态｜目前资料存在较大波动｜部分实时资料延迟，建议预留至少 20 分钟缓冲时间｜重新获取建议</blockquote>
+      <p>这是把<b>「决策不确定」</b>与<b>「资料延迟」</b>混为一谈。改法：① <code>uncertain</code> 照常显示完整建议 + 顶部黄色警示条；② 「资料延迟」属于 <code>notices</code>，应作为叠加提示条，名字改为「资料更新中 / 资料延迟」。</p>
+    </div>
+
+    <div class="card p0">
+      <h3 class="item"><span class="tag red">P0-6</span>「不可用」状态缺少契约要求的出口</h3>
+      <p>契约 §2.4：<code>unavailable</code> → 使用者应「依 reasons 调整限制条件、改时间或改用其他方式」；<code>DecisionAction.hold</code> = 留在安全处持续观察。设计只给一个「重新获取建议」按钮，没有「修改条件重查」、没有 hold、没有展示 <code>reasons / excludedRoutes</code>。</p>
+      <p><b>改法：</b>至少三个出口——① 修改行程条件（主按钮）② 查看原因（列出被排除路线与原因）③ 留在安全处观察。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">4</span>建议改（P1）</h2>
+    <div class="card p1"><h3 class="item">P1-7 「资料透明度」直接暴露英文技术词 <code>FIXTURE</code></h3><p><code>labels.ts</code> 规定中文标签为唯一来源（<code>live 實時資料 / cached 快取資料 / fixture 演示固定資料</code>）。设计写「FIXTURE · 08:00」，页头又写「演示固定资料」——同一概念两种写法。<b>改法：</b>统一用 <code>DATA_QUALITY_LABELS</code> 中文标签。</p></div>
+    <div class="card p1"><h3 class="item">P1-8 「额外车费」选项里没有 0、也没有演示基线 10</h3><p>契约中 <code>maxExtraCost</code> 为 0–500 整数，<b>0 是有效值</b>；演示基线是 10。设计只有 <code>HK$40 / 80 / 150</code>，既选不出基线 10，也暗示「最少要花 40」。<b>改法：</b>补「不额外付费（HK$0）」与「HK$10（演示基线）」或改为输入框。<br><span class="muted small">转乘次数「不转乘/最多1次/最多2次」已覆盖 0 且在 0–5 内，OK。</span></p></div>
+    <div class="card p1"><h3 class="item">P1-9 「最迟到达时间」只有时刻、没有日期</h3><p>契约 <code>arriveBy</code> 是 <code>YYYY-MM-DDTHH:mm</code>，服务日期影响结果，回应还带 <code>serviceDate</code>。设计只显示 <code>09:00</code>。现有实作已回显「目标到达时间 / 服务日 / 前往地点」（<code>generatedFor</code>），设计应保留。</p></div>
+    <div class="card p1"><h3 class="item">P1-10 「推荐理由」是结论，不是可追溯的依据</h3><p>理由「波动更小 / 缓冲充足 / 可及时切换」没有来源标注；且「<b>过去相似时段的行程时间较稳定</b>」与小字「<b>基于相似行程表现</b>」<b>已构成统计依据（<code>statistics</code>）</b>——而 <code>DECISION_ENGINE.md</code> 明确：没有历史校准前不得出现统计依据、不得声称概率。<b>改法：</b>每条理由挂来源（规则/资料）；删掉统计暗示，改「演示估算」。</p></div>
+    <div class="card p1"><h3 class="item">P1-11 缺「其他候选路线 / 被排除路线」</h3><p>契约 additive 有 <code>candidates</code> 与 <code>excludedRoutes</code>；disruption 情景的演示价值正是「R1 因服务中断被排除」，现有实作也有该折叠块。设计只给主路线 + 1 条 Plan B。<b>改法：</b>加可折叠的「其他候选路线（含被排除原因）」。</p></div>
+    <div class="card p1"><h3 class="item">P1-12 缺「查看原始 JSON / 决策依据」入口</h3><p>现有实作在结果页提供「查看原始 JSON」（README §6），便于向评委证明「结构化、确定性、可复现」。<b>改法：</b>保留，或改为「查看决策依据」。</p></div>
+    <div class="card p1"><h3 class="item">P1-13 「行动建议」没有比较基准，措辞与 <code>labels.ts</code> 漂移</h3><p>设计用 <code>按计划出发 / 提前出发 / 立即出发</code>；契约 <code>DECISION_ACTION_LABELS</code> 是 <code>立即出發 / 按建議時間出發 / 先核實再出發 / 留在安全處持續觀察</code>——设计把 <code>depart_at</code> 写成「按计划出发」，且缺 <code>wait</code> / <code>hold</code>。「提前出发」也没有基准。<b>改法：</b>与 <code>labels.ts</code> 对齐，并给基准（如「比最迟出发早 10 分鐘」）。</p></div>
+    <div class="card p1"><h3 class="item">P1-14 产品命名不统一</h3><p>页头/页脚「出行可靠性决策助手」、hero「AI 出行可靠性决策助手」、Figma 文件名与项目名「韧性出行助手」。另外 hero 的「AI」要小心——项目硬规则是「大模型不参与事实判断」，宣传语不能让人以为路线是 AI 算的。</p></div>
+    <div class="card p1"><h3 class="item">P1-15 「界面状态预览」是开发者控件</h3><p>结果页底部 4 个按钮（加载中/不确定/不可用/错误）对普通用户不可见为好。<b>改法：</b>放进「演示控制」折叠区、或只在 <code>?demo=1</code> 下显示、或用快捷键触发。</p></div>
+  </section>
+
+  <section>
+    <h2><span class="n">5</span>可选优化（P2）</h2>
+    <ul class="clean">
+      <li><b>输入页缺「输入无效」行内校验样式</b>（上一版 P0-2 已提）：时间为空/格式错、车费非法、未选地点。</li>
+      <li><b>「约 11.8 km」对地铁方案意义不大</b>，与「港铁优先」标签混搭；建议改为「步行 7 分鐘 + 車程 30 分鐘」。</li>
+      <li><b>风险等级用词不在契约内</b>（低/中等/较高风险）——需由 C 定义映射，或改用 <code>RouteStatus</code> + <code>riskNotes</code>。</li>
+      <li><b>缺 <code>live</code> 情景</b>：契约 <code>Scenario</code> 有 4 个值，切换器只给 3 个。</li>
+      <li><b>无障碍再核一遍</b>：信心/风险已是「文字 + 图形」，方向正确；仍需确认对比度 ≥ 4.5:1、色盲友好、手机端主 CTA 在拇指区。</li>
+      <li><code>constraints</code> 在契约中为<b>必填</b>（✓），设计标注「选填」——若用默认值请写明。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="n">6</span>证据：实机截图</h2>
+    <p class="muted small">点击任意图片可查看原图。全部截图取自 <code>blog-drawn-56594600.figma.site</code>（社区文件元资料中的 <code>published_site_url</code>），并与逐字文案（同名 <code>.txt</code>）一并存于 <code>screens/</code>。</p>
+
+    <div class="gallery">
+      <figure class="tall"><a href="screens/01-input-0-normal.png" target="_blank"><img src="screens/01-input-0-normal.png" alt="输入页"></a><figcaption><b>输入页（桌面）</b>hero + 「01 规划你的行程」；起终点为西营盘/九龙湾（契约外）</figcaption></figure>
+      <figure class="tall"><a href="screens/10-result-normal-desktop.png" target="_blank"><img src="screens/10-result-normal-desktop.png" alt="正常通勤结果页"></a><figcaption><b>结果页 · 正常通勤</b>一句话决策 + 时间轴 + Plan B + 切换条件 + 资料透明度</figcaption></figure>
+      <figure class="tall"><a href="screens/11-result-normal-expanded.png" target="_blank"><img src="screens/11-result-normal-expanded.png" alt="推荐理由展开"></a><figcaption><b>推荐理由（展开）</b>含「过去相似时段…稳定」等统计暗示</figcaption></figure>
+      <figure class="tall"><a href="screens/13-result-heavy-rain.png" target="_blank"><img src="screens/13-result-heavy-rain.png" alt="暴雨影响"></a><figcaption><b>结果页 · 暴雨影响</b>提前出发 / 红色暴雨警告 / 港铁+室内步行</figcaption></figure>
+      <figure class="tall"><a href="screens/13-result-disruption.png" target="_blank"><img src="screens/13-result-disruption.png" alt="交通中断"></a><figcaption><b>结果页 · 交通中断</b>巴士 101；页头仍写「服务正常」← 矛盾</figcaption></figure>
+      <figure class="tall"><a href="screens/30-state-uncertain.png" target="_blank"><img src="screens/30-state-uncertain.png" alt="不确定状态"></a><figcaption><b>状态 · 不确定</b>建议被整块替换，与契约语义不符</figcaption></figure>
+      <figure class="tall"><a href="screens/30-state-unavailable.png" target="_blank"><img src="screens/30-state-unavailable.png" alt="不可用状态"></a><figcaption><b>状态 · 不可用</b>只有「重新获取建议」，缺改条件/hold/原因</figcaption></figure>
+      <figure class="tall"><a href="screens/30-state-loading.png" target="_blank"><img src="screens/30-state-loading.png" alt="加载中"></a><figcaption><b>状态 · 加载中</b>「正在比较可靠路线」</figcaption></figure>
+      <figure class="tall"><a href="screens/30-state-error.png" target="_blank"><img src="screens/30-state-error.png" alt="错误"></a><figcaption><b>状态 · 错误</b>「建议未能载入 / 行程资料已保留」</figcaption></figure>
+      <figure class="tall"><a href="screens/20-mobile-input.png" target="_blank"><img src="screens/20-mobile-input.png" alt="手机输入页"></a><figcaption><b>手机 · 输入页</b>单列布局正常</figcaption></figure>
+      <figure class="tall"><a href="screens/21-mobile-result.png" target="_blank"><img src="screens/21-mobile-result.png" alt="手机结果页"></a><figcaption><b>手机 · 结果页</b>信息完整，层次保持</figcaption></figure>
+      <figure class="tall"><a href="evidence/figma-cover-1920.png" target="_blank"><img src="evidence/figma-cover-1920.png" alt="社区封面"></a><figcaption><b>Figma 社区封面</b>hero 首屏（文件封面图）</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">7</span>给成员 E 的一页修改清单</h2>
+    <div class="card">
+      <p><b>先决定一件事（找 A 拍板）</b></p>
+      <ul class="clean check">
+        <li>走廊究竟是「坑口 ↔ 中环」（改设计）还是「西营盘 ↔ 九龙湾」（改契约）？</li>
+      </ul>
+      <p style="margin-top:14px"><b>若改设计（方案 A）</b></p>
+      <ul class="clean check">
+        <li>起终点改回契约枚举；去掉交换按钮</li>
+        <li>候选路线改回 R1/R2/R3；Plan B 用过海巴士，删除「的士直达 / 过海的士」（契约无 taxi）</li>
+        <li>路线时间轴补齐真实转乘结构（港岛线与观塘线不相交）</li>
+        <li>删除「巴士 101」或改为中性描述「过海巴士（东区海底隧道）」</li>
+        <li>结果页补 <b>最迟出发时间</b> <code>latestDepartAt</code></li>
+        <li>页头状态由 <code>primaryPlan.status</code> 驱动，去掉写死的「服务正常」</li>
+        <li>「不确定」态保留完整建议，只加警示条；「资料波动」移到 <code>notices</code> 并改名</li>
+        <li>「不可用」态补：修改行程条件 + 查看原因（excludedRoutes） + 留在安全处观察（hold）</li>
+        <li>资料质量文案改用中文标签，删掉 <code>FIXTURE</code></li>
+        <li>额外车费补 <code>HK$0</code> 与演示基线 <code>HK$10</code></li>
+        <li>最迟到达时间补日期；结果页补 <code>serviceDate</code></li>
+        <li>推荐理由挂来源；删除「过去相似时段 / 基于相似行程表现」等统计暗示</li>
+        <li>行动文案与 <code>labels.ts</code> 对齐，并给「提前/立即」一个基准</li>
+        <li>补「其他候选路线 / 被排除路线」与「查看决策依据」</li>
+        <li>统一产品命名；收敛 hero 的「AI」表述</li>
+        <li>输入页补行内校验样式</li>
+        <li>「界面状态预览」收进演示控制区</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="footer">
+    <p><b>取证方式</b>：2026-10-07 实际打开 Figma Make 原型（社区文件 → Preview → 底层已发布站点），视口 1440×1000 与 390×844（DPR 2），覆盖输入页 ×3 情景、提交、三个结果页、推荐理由展开、四态页面。</p>
+    <p>本评审只读取公开原型与项目内既有文件，<b>未修改任何既有源码、契约或文件</b>；新增内容仅位于 <code>analysis/ui-design-review/figma-2026-10-07/</code>。与上一版评审 <code>UI设计稿评审_页面结构稿.md</code>（2026-10-06）配套阅读。</p>
+  </div>
+</div>
+</body>
+</html>

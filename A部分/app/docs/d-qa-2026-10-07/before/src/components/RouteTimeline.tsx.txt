@@ -1,0 +1,58 @@
+"use client";
+
+import { formatHkTime } from "@/lib/time";
+import type { RouteStep, TransportMode } from "@/lib/types";
+
+const MODE_LABELS: Record<TransportMode, string> = {
+  walk: "步行",
+  mtr: "港鐵",
+  bus: "巴士",
+  minibus: "小巴",
+  tram: "電車",
+  ferry: "渡輪",
+};
+
+const MODE_STYLES: Record<TransportMode, string> = {
+  walk: "bg-slate-200 text-slate-700",
+  mtr: "bg-sky-100 text-sky-900",
+  bus: "bg-emerald-100 text-emerald-900",
+  minibus: "bg-teal-100 text-teal-900",
+  tram: "bg-lime-100 text-lime-900",
+  ferry: "bg-cyan-100 text-cyan-900",
+};
+
+export function RouteTimeline({ steps, tone = "primary" }: { steps: readonly RouteStep[]; tone?: "primary" | "planb" }) {
+  if (steps.length === 0) {
+    return <p className="text-sm text-slate-500">沒有可顯示的路線步驟。</p>;
+  }
+
+  const accent = tone === "primary" ? "border-slate-900" : "border-slate-400";
+
+  return (
+    <ol className="space-y-0">
+      {steps.map((step, index) => (
+        <li key={step.id} className="flex gap-3">
+          <div className="flex w-14 shrink-0 flex-col items-end pt-0.5">
+            <span className="text-sm font-semibold tabular-nums text-slate-900">
+              {formatHkTime(step.departAt)}
+            </span>
+            <span className="text-[11px] tabular-nums text-slate-400">
+              {step.durationMinutes} 分
+            </span>
+          </div>
+          <div className={`flex min-w-0 flex-1 flex-col border-l-2 pl-3 ${accent} ${index === steps.length - 1 ? "pb-0" : "pb-4"}`}>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className={`pill ${MODE_STYLES[step.mode]}`}>{MODE_LABELS[step.mode]}</span>
+              {step.line ? <span className="text-xs font-medium text-slate-700">{step.line}</span> : null}
+            </div>
+            <p className="mt-1 text-sm text-slate-900">{step.instruction}</p>
+            <p className="text-xs text-slate-500">
+              {step.from} → {step.to} · 抵達 {formatHkTime(step.arriveAt)}
+            </p>
+            {step.note ? <p className="text-xs text-amber-700">{step.note}</p> : null}
+          </div>
+        </li>
+      ))}
+    </ol>
+  );
+}

@@ -1,0 +1,36 @@
+{
+  "newOrModifiedCode": [
+    "src/components/d-team/scenarios.ts",
+    "src/components/d-team/fixtures.ts",
+    "src/components/d-team/TeamPlanner.tsx",
+    "src/components/d-team/contract.ts",
+    "src/components/d-team/presentation.ts",
+    "src/components/d-team/client.ts",
+    "src/components/d-team/TeamResults.tsx",
+    "src/components/d-team/TeamMap.tsx",
+    "src/app/journey-team/page.tsx",
+    "src/app/journey-team/team.css",
+    "src/app/api/d-team-fixture/route.ts",
+    "src/test/d-team.test.ts",
+    "src/test/d-team-upstream-review.test.ts",
+    "src/test/d-team.e2e.mjs",
+    "eslint.config.mjs",
+    "src/components/JourneyPlanner.tsx",
+    "D_PHASE2_HANDOFF.md"
+  ],
+  "modifiedExisting": [
+    "eslint.config.mjs",
+    "src/components/JourneyPlanner.tsx"
+  ],
+  "baselineLibraryUnchanged": true,
+  "excluded": [
+    "node_modules",
+    ".next",
+    ".env*",
+    "tsbuildinfo",
+    "credentials",
+    "personal data"
+  ],
+  "requiredBase": "A部分/app 2026-10-10",
+  "B_C_formal": false
+}

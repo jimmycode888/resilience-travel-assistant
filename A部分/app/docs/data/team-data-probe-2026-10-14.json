@@ -1,0 +1,145 @@
+{
+  "checkedAt": "2026-10-14T12:35:23.418Z",
+  "note": "一次實測存檔，非目前即時資料",
+  "departAt": "2026-10-14T12:35:21.858Z",
+  "summary": [
+    {
+      "routeId": "xb-1-lok-ma-chau",
+      "口岸": "lok-ma-chau",
+      "排隊區間": [
+        5,
+        15
+      ],
+      "置信度": "medium",
+      "品質": "live",
+      "天氣": "cloudy",
+      "服務狀態": "unknown",
+      "公告數": 0,
+      "updatedAt": "2026-10-14T20:02:00+08:00"
+    },
+    {
+      "routeId": "xb-2-lo-wu",
+      "口岸": "lo-wu",
+      "排隊區間": [
+        5,
+        15
+      ],
+      "置信度": "medium",
+      "品質": "live",
+      "天氣": "cloudy",
+      "服務狀態": "unknown",
+      "公告數": 0,
+      "updatedAt": "2026-10-14T20:02:00+08:00"
+    },
+    {
+      "routeId": "xb-3-shenzhen-bay",
+      "口岸": "shenzhen-bay",
+      "排隊區間": [
+        10,
+        25
+      ],
+      "置信度": "medium",
+      "品質": "live",
+      "天氣": "cloudy",
+      "服務狀態": null,
+      "公告數": 0,
+      "updatedAt": "2026-10-14T20:02:00+08:00"
+    }
+  ],
+  "envelopes": [
+    {
+      "routeId": "xb-1-lok-ma-chau",
+      "value": {
+        "weather": {
+          "condition": "cloudy",
+          "warning": null,
+          "updatedAt": "2026-10-14T20:02:00+08:00"
+        },
+        "incidents": [],
+        "border": {
+          "portId": "lok-ma-chau",
+          "queueMinutesRange": [
+            5,
+            15
+          ],
+          "confidence": "medium",
+          "note": "落馬洲支線口岸排隊 5–15 分鐘（估算）｜依據：rail / offPeak 先驗區間 5–15；實測班距 港鐵東鐵線 落馬洲站 8 分、九巴 B1 落馬洲站‧福田口岸 8 分｜非官方實時排隊資料；區間來自運力信號與時段先驗，未經歷史資料校準。；天氣更新時間採官方報告時間。；交通來源時間是本次擷取時刻；事件公告時刻另列，不等於發生時刻。；huanggang 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；man-kam-to 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；口岸時間已有來源核對，雙側座標仍未完整核實。；來源：https://data.weather.gov.hk/weatherAPI/opendata/weather.php；https://www.td.gov.hk/en/special_news/trafficnews.xml；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=EAL&sta=LMC&lang=TC；https://data.etabus.gov.hk/v1/transport/kmb/eta/81567ACCCF40DD4B/B1/1"
+        },
+        "service": {
+          "status": "unknown",
+          "delayMinutes": 0,
+          "crowding": "unknown",
+          "updatedAt": "2026-10-14T20:35:17+08:00"
+        },
+        "quality": "live"
+      },
+      "source": "B 資料與估算（香港天文台／運輸署／口岸班次信號）；天氣更新時間採官方報告時間。；交通來源時間是本次擷取時刻；事件公告時刻另列，不等於發生時刻。；huanggang 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；man-kam-to 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；口岸時間已有來源核對，雙側座標仍未完整核實。",
+      "sourceUrl": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=EAL&sta=LMC&lang=TC",
+      "updatedAt": "2026-10-14T20:02:00+08:00",
+      "expiresAt": "2026-10-14T20:37:17+08:00",
+      "confidence": "medium",
+      "quality": "live"
+    },
+    {
+      "routeId": "xb-2-lo-wu",
+      "value": {
+        "weather": {
+          "condition": "cloudy",
+          "warning": null,
+          "updatedAt": "2026-10-14T20:02:00+08:00"
+        },
+        "incidents": [],
+        "border": {
+          "portId": "lo-wu",
+          "queueMinutesRange": [
+            5,
+            15
+          ],
+          "confidence": "medium",
+          "note": "羅湖口岸排隊 5–15 分鐘（估算）｜依據：rail / offPeak 先驗區間 5–15；實測班距 港鐵東鐵線 羅湖站 7 分｜非官方實時排隊資料；區間來自運力信號與時段先驗，未經歷史資料校準。；天氣更新時間採官方報告時間。；交通來源時間是本次擷取時刻；事件公告時刻另列，不等於發生時刻。；huanggang 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；man-kam-to 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；口岸時間已有來源核對，雙側座標仍未完整核實。；來源：https://data.weather.gov.hk/weatherAPI/opendata/weather.php；https://www.td.gov.hk/en/special_news/trafficnews.xml；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=EAL&sta=LOW&lang=TC"
+        },
+        "service": {
+          "status": "unknown",
+          "delayMinutes": 0,
+          "crowding": "unknown",
+          "updatedAt": "2026-10-14T20:35:17+08:00"
+        },
+        "quality": "live"
+      },
+      "source": "B 資料與估算（香港天文台／運輸署／口岸班次信號）；天氣更新時間採官方報告時間。；交通來源時間是本次擷取時刻；事件公告時刻另列，不等於發生時刻。；huanggang 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；man-kam-to 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；口岸時間已有來源核對，雙側座標仍未完整核實。",
+      "sourceUrl": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=EAL&sta=LOW&lang=TC",
+      "updatedAt": "2026-10-14T20:02:00+08:00",
+      "expiresAt": "2026-10-14T20:37:17+08:00",
+      "confidence": "medium",
+      "quality": "live"
+    },
+    {
+      "routeId": "xb-3-shenzhen-bay",
+      "value": {
+        "weather": {
+          "condition": "cloudy",
+          "warning": null,
+          "updatedAt": "2026-10-14T20:02:00+08:00"
+        },
+        "incidents": [],
+        "border": {
+          "portId": "shenzhen-bay",
+          "queueMinutesRange": [
+            10,
+            25
+          ],
+          "confidence": "medium",
+          "note": "深圳灣口岸排隊 10–25 分鐘（估算）｜依據：coach / offPeak 先驗區間 10–25；實測班距 城巴 B3X 深圳灣口岸 6 分、城巴 B3 深圳灣口岸 20 分｜非官方實時排隊資料；區間來自運力信號與時段先驗，未經歷史資料校準。；天氣更新時間採官方報告時間。；交通來源時間是本次擷取時刻；事件公告時刻另列，不等於發生時刻。；huanggang 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；man-kam-to 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；口岸時間已有來源核對，雙側座標仍未完整核實。；來源：https://data.weather.gov.hk/weatherAPI/opendata/weather.php；https://www.td.gov.hk/en/special_news/trafficnews.xml；https://rt.data.gov.hk/v2/transport/citybus/eta/CTB/003208/B3X；https://rt.data.gov.hk/v2/transport/citybus/eta/CTB/003208/B3；https://rt.data.gov.hk/v2/transport/citybus/eta/CTB/003208/B3M"
+        },
+        "service": null,
+        "quality": "live"
+      },
+      "source": "B 資料與估算（香港天文台／運輸署／口岸班次信號）；天氣更新時間採官方報告時間。；交通來源時間是本次擷取時刻；事件公告時刻另列，不等於發生時刻。；huanggang 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；man-kam-to 沒有公開的班次信號來源（例如皇巴、文錦渡），排隊僅為先驗估算。；口岸時間已有來源核對，雙側座標仍未完整核實。",
+      "sourceUrl": "https://rt.data.gov.hk/v2/transport/citybus/eta/CTB/003208/B3X",
+      "updatedAt": "2026-10-14T20:02:00+08:00",
+      "expiresAt": "2026-10-14T20:37:22+08:00",
+      "confidence": "medium",
+      "quality": "live"
+    }
+  ]
+}

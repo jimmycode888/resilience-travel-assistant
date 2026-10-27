@@ -1,0 +1,170 @@
+{
+  "items": [
+    {
+      "artifactId": "a83e63ef-7abe-4716-963c-3e1331a5d9bf",
+      "type": "file",
+      "name": "mobile-core.png",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/d-qa-2026-10-07/mobile-core.png",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:11.096Z"
+    },
+    {
+      "artifactId": "12024a43-0797-4f2f-92a1-d54f0ed5b051",
+      "type": "file",
+      "name": "USER_TEST_SCRIPT.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/USER_TEST_SCRIPT.md",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:10.128Z"
+    },
+    {
+      "artifactId": "bc547b54-d5b4-4f64-bad8-65c6bc309661",
+      "type": "file",
+      "name": "USER_TEST_SUMMARY.csv",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/USER_TEST_SUMMARY.csv",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:09.368Z"
+    },
+    {
+      "artifactId": "187d3d94-5c8e-45bf-8bff-0d3a11aa4682",
+      "type": "file",
+      "name": "USER_TEST_RECORDS.csv",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/USER_TEST_RECORDS.csv",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:08.622Z"
+    },
+    {
+      "artifactId": "9b803342-8e66-495b-9fb2-d3891dc727e0",
+      "type": "file",
+      "name": "FRONTEND_CONTRACT_ISSUES.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/FRONTEND_CONTRACT_ISSUES.md",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:07.846Z"
+    },
+    {
+      "artifactId": "d8e6aecf-e4c9-4040-88e1-cb886b5a1a52",
+      "type": "file",
+      "name": "QA_ISSUES.csv",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/QA_ISSUES.csv",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:07.077Z"
+    },
+    {
+      "artifactId": "cbe44d45-984d-40a0-85b2-c4a8d4ab9776",
+      "type": "file",
+      "name": "QA_CHECKLIST.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/QA_CHECKLIST.md",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:06.344Z"
+    },
+    {
+      "artifactId": "fcf29339-3adb-4d6d-83e0-58ce0a38faef",
+      "type": "file",
+      "name": "D_前端QA准备包_2026-10-07.zip",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/D_前端QA准备包_2026-10-07.zip",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:05.549Z"
+    },
+    {
+      "artifactId": "6c2abd4a-5eac-40fb-9313-74505c4829d8",
+      "type": "file",
+      "name": "D_前端QA实际交付_2026-10-07.zip",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/D_前端QA实际交付_2026-10-07.zip",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:04.739Z"
+    },
+    {
+      "artifactId": "6dcce578-a105-45e2-8c6d-29645de3fb14",
+      "type": "file",
+      "name": "D_QA_RESULTS_2026-10-07.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/D_QA_RESULTS_2026-10-07.md",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:02.678Z"
+    },
+    {
+      "artifactId": "3ff22bb3-4f92-4143-81eb-18a6f53008bc",
+      "type": "file",
+      "name": "D_HANDOFF.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/D_HANDOFF.md",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:01.839Z"
+    },
+    {
+      "artifactId": "e4003a29-0fa2-4288-9b09-1894a2dea54e",
+      "type": "website",
+      "name": "D 前端 QA 新构建预览（同一团队项目）",
+      "url": "http://localhost:5180/",
+      "port": 5180,
+      "folderPath": "/workspace/八校黑客松/resilience-travel-assistant",
+      "command": "cd /workspace/八校黑客松/resilience-travel-assistant && exec npm run start -- --hostname 0.0.0.0 --port \"$PORT\"",
+      "sourceSessionId": "d6555281-4af2-4e5d-a363-31b40b9950bd",
+      "updatedAt": "2026-10-07T10:16:01.011Z",
+      "revision": "b51a6f36a381eed7e1ea644393fb0957ecf5c25fea84171fcf933e9ca139ac2a",
+      "runtimeState": "unknown"
+    },
+    {
+      "artifactId": "24b6fb45-07f0-49b1-9bb5-e510d8b22879",
+      "type": "file",
+      "name": "DATA_CONTRACT_CHANGE_REQUEST.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/DATA_CONTRACT_CHANGE_REQUEST.md",
+      "sourceSessionId": "44f8d610-f887-44e2-a0af-38c2939019c8",
+      "updatedAt": "2026-10-07T01:37:45.748Z"
+    },
+    {
+      "artifactId": "9eec1dcd-fbf6-4369-a4f8-c24ca2401dcf",
+      "type": "file",
+      "name": "official-rail-reference.json",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/data/official-rail-reference.json",
+      "sourceSessionId": "44f8d610-f887-44e2-a0af-38c2939019c8",
+      "updatedAt": "2026-10-07T01:37:44.950Z"
+    },
+    {
+      "artifactId": "5e9e1e86-a62a-4e6c-8aa2-d9a3d38340f5",
+      "type": "file",
+      "name": "official-bus-service-reference.json",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/data/official-bus-service-reference.json",
+      "sourceSessionId": "44f8d610-f887-44e2-a0af-38c2939019c8",
+      "updatedAt": "2026-10-07T01:37:44.124Z"
+    },
+    {
+      "artifactId": "dfd94565-a667-4d54-81f8-44eeceab0dc3",
+      "type": "file",
+      "name": "live-source-check.json",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/data/live-source-check.json",
+      "sourceSessionId": "44f8d610-f887-44e2-a0af-38c2939019c8",
+      "updatedAt": "2026-10-07T01:37:43.305Z"
+    },
+    {
+      "artifactId": "e0bc9397-8e0a-4c73-abd4-f09ab454d188",
+      "type": "file",
+      "name": "B-data-handoff.zip",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/B-data-handoff.zip",
+      "sourceSessionId": "44f8d610-f887-44e2-a0af-38c2939019c8",
+      "updatedAt": "2026-10-07T01:37:42.508Z"
+    },
+    {
+      "artifactId": "e8aa30c9-e66c-48d6-9e81-408506c23a05",
+      "type": "file",
+      "name": "B_COLLABORATION_REVIEW.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/B_COLLABORATION_REVIEW.md",
+      "sourceSessionId": "44f8d610-f887-44e2-a0af-38c2939019c8",
+      "updatedAt": "2026-10-07T01:37:41.465Z"
+    },
+    {
+      "artifactId": "02224e80-942b-4545-980e-db74e6f2bacb",
+      "type": "file",
+      "name": "INTEGRATION_VERIFICATION_BC_A.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/INTEGRATION_VERIFICATION_BC_A.md",
+      "sourceSessionId": "4a6ec3c9-a0a7-4682-93c9-411ca41d3068",
+      "updatedAt": "2026-10-06T16:08:16.301Z"
+    },
+    {
+      "artifactId": "cd580930-6991-45b2-ab12-d09c614f1aa8",
+      "type": "file",
+      "name": "DECISION_ENGINE.md",
+      "path": "/workspace/八校黑客松/resilience-travel-assistant/docs/DECISION_ENGINE.md",
+      "sourceSessionId": "eae80eee-1a94-43a1-a704-4502ddf5bb2d",
+      "updatedAt": "2026-10-06T15:48:01.325Z"
+    }
+  ],
+  "nextCursor": "eyJ2IjoxLCJmaWx0ZXIiOiI0cXJqeGYwdUZ3UUJYTlJWZ2lidHMzMmM1OWpVTHhRckNZeW0xTWtGalNVOjowOiIsInVwZGF0ZWRBdCI6MTc5MTMwMTY4MTMyNSwiaWQiOiJjZDU4MDkzMC02OTkxLTQ1YjItYWIxMi1kMDljNjE0ZjFhYTgifQ"
+}

@@ -1,0 +1,611 @@
+{
+  "checkedAt": "2026-10-07T09:37:26.203514+08:00",
+  "request": {
+    "origin": "hang-hau-estate",
+    "destination": "central-exchange-square",
+    "arriveBy": "2026-10-07T10:37",
+    "constraints": {
+      "maxExtraCost": 10,
+      "maxTransfers": 2
+    },
+    "scenario": "live"
+  },
+  "response": {
+    "status": "uncertain",
+    "departAt": "2026-10-07T09:39:00+08:00",
+    "latestDepartAt": "2026-10-07T09:47:00+08:00",
+    "etaRange": [
+      "2026-10-07T10:24:00+08:00",
+      "2026-10-07T10:44:00+08:00"
+    ],
+    "confidence": "low",
+    "primaryRoute": [
+      {
+        "id": "R1-walk-access",
+        "mode": "walk",
+        "line": null,
+        "from": "坑口（富寧花園）",
+        "to": "坑口站 A 出口",
+        "departAt": "2026-10-07T09:39:00+08:00",
+        "arriveAt": "2026-10-07T09:44:00+08:00",
+        "durationMinutes": 5,
+        "instruction": "步行前往坑口站 A 出口",
+        "note": null
+      },
+      {
+        "id": "R1-ride-tko",
+        "mode": "mtr",
+        "line": "將軍澳線",
+        "from": "坑口站",
+        "to": "北角站",
+        "departAt": "2026-10-07T09:44:00+08:00",
+        "arriveAt": "2026-10-07T10:07:00+08:00",
+        "durationMinutes": 23,
+        "instruction": "乘將軍澳線（往北角方向）至北角站",
+        "note": "坑口 → 北角：下一班抵站 2026-10-07T09:38:21+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；北角 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:39:07+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=NOP&lang=TC；預測只適用現在，不能推算未來出發的接駁或全程延誤。"
+      },
+      {
+        "id": "R1-interchange-nop",
+        "mode": "walk",
+        "line": null,
+        "from": "北角站",
+        "to": "北角站",
+        "departAt": "2026-10-07T10:07:00+08:00",
+        "arriveAt": "2026-10-07T10:10:00+08:00",
+        "durationMinutes": 3,
+        "instruction": "於北角站同站轉乘港島線（往堅尼地城方向）",
+        "note": null
+      },
+      {
+        "id": "R1-ride-isl",
+        "mode": "mtr",
+        "line": "港島線",
+        "from": "北角站",
+        "to": "中環站",
+        "departAt": "2026-10-07T10:10:00+08:00",
+        "arriveAt": "2026-10-07T10:23:00+08:00",
+        "durationMinutes": 13,
+        "instruction": "乘港島線至中環站",
+        "note": null
+      },
+      {
+        "id": "R1-walk-egress",
+        "mode": "walk",
+        "line": null,
+        "from": "中環站",
+        "to": "中環（交易廣場）",
+        "departAt": "2026-10-07T10:23:00+08:00",
+        "arriveAt": "2026-10-07T10:29:00+08:00",
+        "durationMinutes": 6,
+        "instruction": "由中環站出口步行前往目的地",
+        "note": null
+      }
+    ],
+    "planB": [
+      {
+        "id": "R2-walk-access",
+        "mode": "walk",
+        "line": null,
+        "from": "坑口（富寧花園）",
+        "to": "坑口（北）巴士總站",
+        "departAt": "2026-10-07T09:22:00+08:00",
+        "arriveAt": "2026-10-07T09:31:00+08:00",
+        "durationMinutes": 9,
+        "instruction": "步行前往坑口（北）巴士總站",
+        "note": null
+      },
+      {
+        "id": "R2-ride-bus",
+        "mode": "bus",
+        "line": "過海巴士（東隧）",
+        "from": "坑口（北）巴士總站",
+        "to": "中環（交易廣場）",
+        "departAt": "2026-10-07T09:31:00+08:00",
+        "arriveAt": "2026-10-07T10:29:00+08:00",
+        "durationMinutes": 58,
+        "instruction": "乘過海巴士經東區海底隧道至中環（交易廣場）",
+        "note": "R2 真實起站與线路尚待確認；城巴 690S 候選數據獨立提供，不冒充現行 R2。"
+      },
+      {
+        "id": "R2-walk-egress",
+        "mode": "walk",
+        "line": null,
+        "from": "中環（交易廣場）",
+        "to": "中環（交易廣場）",
+        "departAt": "2026-10-07T10:29:00+08:00",
+        "arriveAt": "2026-10-07T10:29:00+08:00",
+        "durationMinutes": 0,
+        "instruction": "步行前往目的地",
+        "note": null
+      }
+    ],
+    "switchCondition": "若出發前將軍澳線延誤超過 10 分鐘，改行 Plan B：過海巴士（東區海底隧道）（需先步行 9 分鐘至坑口（北）巴士總站；巴士較慢，必須在 09:22 前離開起點，逾時則維持主路線並改乘下一班）。若到達坑口（北）巴士總站後 15 分鐘內仍未能上車，時間已不可控，請改乘下一個可行班次。",
+    "reasons": [
+      "火災危險警告生效。天氣狀況由官方圖示及生效警告映射；氣溫取將軍澳站，缺測為 null。分區雨量上限不等於沿途每小時雨量，故雨量率保留 null。警告與報告為分開擷取，非原子快照。",
+      "港鐵主線（將軍澳線 → 港島線）：服務狀態未確認，已在資料延誤之上額外預留 5 分鐘作保守估算（預計全程 50 分鐘），請預留更多時間。",
+      "主路線較 Plan B（過海巴士（東區海底隧道））快 17 分鐘，因此建議先採用主路線，並保留 Plan B 作為切換選項。",
+      "已按「實時資料」情景預留 8 分鐘緩衝：建議 09:39 出發，不遲於 09:47 起程，預計 10:29 到達。",
+      "到達信心為「低」（規則分數 35/100；扣分：人流未確認（-10））。"
+    ],
+    "dataUpdatedAt": "2026-10-07T09:37:26+08:00",
+    "dataQuality": "live",
+    "primaryPlan": {
+      "routeId": "R1",
+      "label": "港鐵主線（將軍澳線 → 港島線）",
+      "summary": "坑口站上車，北角站同站轉乘港島線，中環站下車。最快但依賴鐵路班次。",
+      "steps": [
+        {
+          "id": "R1-walk-access",
+          "mode": "walk",
+          "line": null,
+          "from": "坑口（富寧花園）",
+          "to": "坑口站 A 出口",
+          "departAt": "2026-10-07T09:39:00+08:00",
+          "arriveAt": "2026-10-07T09:44:00+08:00",
+          "durationMinutes": 5,
+          "instruction": "步行前往坑口站 A 出口",
+          "note": null
+        },
+        {
+          "id": "R1-ride-tko",
+          "mode": "mtr",
+          "line": "將軍澳線",
+          "from": "坑口站",
+          "to": "北角站",
+          "departAt": "2026-10-07T09:44:00+08:00",
+          "arriveAt": "2026-10-07T10:07:00+08:00",
+          "durationMinutes": 23,
+          "instruction": "乘將軍澳線（往北角方向）至北角站",
+          "note": "坑口 → 北角：下一班抵站 2026-10-07T09:38:21+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；北角 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:39:07+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=NOP&lang=TC；預測只適用現在，不能推算未來出發的接駁或全程延誤。"
+        },
+        {
+          "id": "R1-interchange-nop",
+          "mode": "walk",
+          "line": null,
+          "from": "北角站",
+          "to": "北角站",
+          "departAt": "2026-10-07T10:07:00+08:00",
+          "arriveAt": "2026-10-07T10:10:00+08:00",
+          "durationMinutes": 3,
+          "instruction": "於北角站同站轉乘港島線（往堅尼地城方向）",
+          "note": null
+        },
+        {
+          "id": "R1-ride-isl",
+          "mode": "mtr",
+          "line": "港島線",
+          "from": "北角站",
+          "to": "中環站",
+          "departAt": "2026-10-07T10:10:00+08:00",
+          "arriveAt": "2026-10-07T10:23:00+08:00",
+          "durationMinutes": 13,
+          "instruction": "乘港島線至中環站",
+          "note": null
+        },
+        {
+          "id": "R1-walk-egress",
+          "mode": "walk",
+          "line": null,
+          "from": "中環站",
+          "to": "中環（交易廣場）",
+          "departAt": "2026-10-07T10:23:00+08:00",
+          "arriveAt": "2026-10-07T10:29:00+08:00",
+          "durationMinutes": 6,
+          "instruction": "由中環站出口步行前往目的地",
+          "note": null
+        }
+      ],
+      "departAt": "2026-10-07T09:39:00+08:00",
+      "arriveAt": "2026-10-07T10:29:00+08:00",
+      "accessWalkMinutes": 5,
+      "durationMinutes": 50,
+      "baseDurationMinutes": 45,
+      "delayMinutes": 5,
+      "transfers": 1,
+      "extraCostHkd": 0,
+      "status": "unknown",
+      "crowding": "unknown",
+      "riskNotes": [
+        "依賴將軍澳線與港島線兩個區段",
+        "北角站轉乘通道在繁忙時間人流較多",
+        "坑口 → 北角：下一班抵站 2026-10-07T09:38:21+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；北角 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:39:07+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=NOP&lang=TC；預測只適用現在，不能推算未來出發的接駁或全程延誤。",
+        "服務狀態未確認，已額外預留 5 分鐘作保守估算"
+      ],
+      "score": 0.74
+    },
+    "planBPlan": {
+      "routeId": "R2",
+      "label": "過海巴士（東區海底隧道）",
+      "summary": "坑口（北）上車，經東區海底隧道直達中環，全程免轉乘，但受路面情況影響。",
+      "steps": [
+        {
+          "id": "R2-walk-access",
+          "mode": "walk",
+          "line": null,
+          "from": "坑口（富寧花園）",
+          "to": "坑口（北）巴士總站",
+          "departAt": "2026-10-07T09:22:00+08:00",
+          "arriveAt": "2026-10-07T09:31:00+08:00",
+          "durationMinutes": 9,
+          "instruction": "步行前往坑口（北）巴士總站",
+          "note": null
+        },
+        {
+          "id": "R2-ride-bus",
+          "mode": "bus",
+          "line": "過海巴士（東隧）",
+          "from": "坑口（北）巴士總站",
+          "to": "中環（交易廣場）",
+          "departAt": "2026-10-07T09:31:00+08:00",
+          "arriveAt": "2026-10-07T10:29:00+08:00",
+          "durationMinutes": 58,
+          "instruction": "乘過海巴士經東區海底隧道至中環（交易廣場）",
+          "note": "R2 真實起站與线路尚待確認；城巴 690S 候選數據獨立提供，不冒充現行 R2。"
+        },
+        {
+          "id": "R2-walk-egress",
+          "mode": "walk",
+          "line": null,
+          "from": "中環（交易廣場）",
+          "to": "中環（交易廣場）",
+          "departAt": "2026-10-07T10:29:00+08:00",
+          "arriveAt": "2026-10-07T10:29:00+08:00",
+          "durationMinutes": 0,
+          "instruction": "步行前往目的地",
+          "note": null
+        }
+      ],
+      "departAt": "2026-10-07T09:22:00+08:00",
+      "arriveAt": "2026-10-07T10:29:00+08:00",
+      "accessWalkMinutes": 9,
+      "durationMinutes": 67,
+      "baseDurationMinutes": 62,
+      "delayMinutes": 5,
+      "transfers": 0,
+      "extraCostHkd": 6,
+      "status": "unknown",
+      "crowding": "unknown",
+      "riskNotes": [
+        "全程受路面擠塞影響",
+        "班次較疏，候車時間變動大",
+        "車費高於港鐵方案",
+        "R2 真實起站與线路尚待確認；城巴 690S 候選數據獨立提供，不冒充現行 R2。",
+        "服務狀態未確認，已額外預留 5 分鐘作保守估算"
+      ],
+      "score": 0.355
+    },
+    "candidates": [
+      {
+        "routeId": "R1",
+        "label": "港鐵主線（將軍澳線 → 港島線）",
+        "summary": "坑口站上車，北角站同站轉乘港島線，中環站下車。最快但依賴鐵路班次。",
+        "steps": [
+          {
+            "id": "R1-walk-access",
+            "mode": "walk",
+            "line": null,
+            "from": "坑口（富寧花園）",
+            "to": "坑口站 A 出口",
+            "departAt": "2026-10-07T09:39:00+08:00",
+            "arriveAt": "2026-10-07T09:44:00+08:00",
+            "durationMinutes": 5,
+            "instruction": "步行前往坑口站 A 出口",
+            "note": null
+          },
+          {
+            "id": "R1-ride-tko",
+            "mode": "mtr",
+            "line": "將軍澳線",
+            "from": "坑口站",
+            "to": "北角站",
+            "departAt": "2026-10-07T09:44:00+08:00",
+            "arriveAt": "2026-10-07T10:07:00+08:00",
+            "durationMinutes": 23,
+            "instruction": "乘將軍澳線（往北角方向）至北角站",
+            "note": "坑口 → 北角：下一班抵站 2026-10-07T09:38:21+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；北角 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:39:07+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=NOP&lang=TC；預測只適用現在，不能推算未來出發的接駁或全程延誤。"
+          },
+          {
+            "id": "R1-interchange-nop",
+            "mode": "walk",
+            "line": null,
+            "from": "北角站",
+            "to": "北角站",
+            "departAt": "2026-10-07T10:07:00+08:00",
+            "arriveAt": "2026-10-07T10:10:00+08:00",
+            "durationMinutes": 3,
+            "instruction": "於北角站同站轉乘港島線（往堅尼地城方向）",
+            "note": null
+          },
+          {
+            "id": "R1-ride-isl",
+            "mode": "mtr",
+            "line": "港島線",
+            "from": "北角站",
+            "to": "中環站",
+            "departAt": "2026-10-07T10:10:00+08:00",
+            "arriveAt": "2026-10-07T10:23:00+08:00",
+            "durationMinutes": 13,
+            "instruction": "乘港島線至中環站",
+            "note": null
+          },
+          {
+            "id": "R1-walk-egress",
+            "mode": "walk",
+            "line": null,
+            "from": "中環站",
+            "to": "中環（交易廣場）",
+            "departAt": "2026-10-07T10:23:00+08:00",
+            "arriveAt": "2026-10-07T10:29:00+08:00",
+            "durationMinutes": 6,
+            "instruction": "由中環站出口步行前往目的地",
+            "note": null
+          }
+        ],
+        "departAt": "2026-10-07T09:39:00+08:00",
+        "arriveAt": "2026-10-07T10:29:00+08:00",
+        "accessWalkMinutes": 5,
+        "durationMinutes": 50,
+        "baseDurationMinutes": 45,
+        "delayMinutes": 5,
+        "transfers": 1,
+        "extraCostHkd": 0,
+        "status": "unknown",
+        "crowding": "unknown",
+        "riskNotes": [
+          "依賴將軍澳線與港島線兩個區段",
+          "北角站轉乘通道在繁忙時間人流較多",
+          "坑口 → 北角：下一班抵站 2026-10-07T09:38:21+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；北角 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:39:07+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=NOP&lang=TC；預測只適用現在，不能推算未來出發的接駁或全程延誤。",
+          "服務狀態未確認，已額外預留 5 分鐘作保守估算"
+        ],
+        "score": 0.74
+      },
+      {
+        "routeId": "R3",
+        "label": "港鐵（鰂魚涌轉乘）",
+        "summary": "坑口站上車，改於鰂魚涌站轉乘港島線。北角站受阻時的替代轉乘點。",
+        "steps": [
+          {
+            "id": "R3-walk-access",
+            "mode": "walk",
+            "line": null,
+            "from": "坑口（富寧花園）",
+            "to": "坑口站 A 出口",
+            "departAt": "2026-10-07T09:33:00+08:00",
+            "arriveAt": "2026-10-07T09:38:00+08:00",
+            "durationMinutes": 5,
+            "instruction": "步行前往坑口站 A 出口",
+            "note": null
+          },
+          {
+            "id": "R3-ride-tko",
+            "mode": "mtr",
+            "line": "將軍澳線",
+            "from": "坑口站",
+            "to": "鰂魚涌站",
+            "departAt": "2026-10-07T09:38:00+08:00",
+            "arriveAt": "2026-10-07T10:03:00+08:00",
+            "durationMinutes": 25,
+            "instruction": "乘將軍澳線（往北角方向）至鰂魚涌站",
+            "note": "坑口 → 北角：下一班抵站 2026-10-07T09:38:21+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；鰂魚涌 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:39:07+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=QUB&lang=TC；與 R1 共用將軍澳線，非獨立故障備援。"
+          },
+          {
+            "id": "R3-interchange-qb",
+            "mode": "walk",
+            "line": null,
+            "from": "鰂魚涌站",
+            "to": "鰂魚涌站",
+            "departAt": "2026-10-07T10:03:00+08:00",
+            "arriveAt": "2026-10-07T10:07:00+08:00",
+            "durationMinutes": 4,
+            "instruction": "於鰂魚涌站轉乘港島線（往堅尼地城方向）",
+            "note": null
+          },
+          {
+            "id": "R3-ride-isl",
+            "mode": "mtr",
+            "line": "港島線",
+            "from": "鰂魚涌站",
+            "to": "中環站",
+            "departAt": "2026-10-07T10:07:00+08:00",
+            "arriveAt": "2026-10-07T10:23:00+08:00",
+            "durationMinutes": 16,
+            "instruction": "乘港島線至中環站",
+            "note": null
+          },
+          {
+            "id": "R3-walk-egress",
+            "mode": "walk",
+            "line": null,
+            "from": "中環站",
+            "to": "中環（交易廣場）",
+            "departAt": "2026-10-07T10:23:00+08:00",
+            "arriveAt": "2026-10-07T10:29:00+08:00",
+            "durationMinutes": 6,
+            "instruction": "由中環站出口步行前往目的地",
+            "note": null
+          }
+        ],
+        "departAt": "2026-10-07T09:33:00+08:00",
+        "arriveAt": "2026-10-07T10:29:00+08:00",
+        "accessWalkMinutes": 5,
+        "durationMinutes": 56,
+        "baseDurationMinutes": 51,
+        "delayMinutes": 5,
+        "transfers": 1,
+        "extraCostHkd": 0,
+        "status": "unknown",
+        "crowding": "unknown",
+        "riskNotes": [
+          "鰂魚涌站月台較窄，人流管制時轉乘時間會顯著增加",
+          "仍然依賴將軍澳線",
+          "坑口 → 北角：下一班抵站 2026-10-07T09:38:21+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC；鰂魚涌 → 堅尼地城（途經中環）：下一班抵站 2026-10-07T09:39:07+08:00；https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=ISL&sta=QUB&lang=TC；與 R1 共用將軍澳線，非獨立故障備援。",
+          "服務狀態未確認，已額外預留 5 分鐘作保守估算"
+        ],
+        "score": 0.599
+      },
+      {
+        "routeId": "R2",
+        "label": "過海巴士（東區海底隧道）",
+        "summary": "坑口（北）上車，經東區海底隧道直達中環，全程免轉乘，但受路面情況影響。",
+        "steps": [
+          {
+            "id": "R2-walk-access",
+            "mode": "walk",
+            "line": null,
+            "from": "坑口（富寧花園）",
+            "to": "坑口（北）巴士總站",
+            "departAt": "2026-10-07T09:22:00+08:00",
+            "arriveAt": "2026-10-07T09:31:00+08:00",
+            "durationMinutes": 9,
+            "instruction": "步行前往坑口（北）巴士總站",
+            "note": null
+          },
+          {
+            "id": "R2-ride-bus",
+            "mode": "bus",
+            "line": "過海巴士（東隧）",
+            "from": "坑口（北）巴士總站",
+            "to": "中環（交易廣場）",
+            "departAt": "2026-10-07T09:31:00+08:00",
+            "arriveAt": "2026-10-07T10:29:00+08:00",
+            "durationMinutes": 58,
+            "instruction": "乘過海巴士經東區海底隧道至中環（交易廣場）",
+            "note": "R2 真實起站與线路尚待確認；城巴 690S 候選數據獨立提供，不冒充現行 R2。"
+          },
+          {
+            "id": "R2-walk-egress",
+            "mode": "walk",
+            "line": null,
+            "from": "中環（交易廣場）",
+            "to": "中環（交易廣場）",
+            "departAt": "2026-10-07T10:29:00+08:00",
+            "arriveAt": "2026-10-07T10:29:00+08:00",
+            "durationMinutes": 0,
+            "instruction": "步行前往目的地",
+            "note": null
+          }
+        ],
+        "departAt": "2026-10-07T09:22:00+08:00",
+        "arriveAt": "2026-10-07T10:29:00+08:00",
+        "accessWalkMinutes": 9,
+        "durationMinutes": 67,
+        "baseDurationMinutes": 62,
+        "delayMinutes": 5,
+        "transfers": 0,
+        "extraCostHkd": 6,
+        "status": "unknown",
+        "crowding": "unknown",
+        "riskNotes": [
+          "全程受路面擠塞影響",
+          "班次較疏，候車時間變動大",
+          "車費高於港鐵方案",
+          "R2 真實起站與线路尚待確認；城巴 690S 候選數據獨立提供，不冒充現行 R2。",
+          "服務狀態未確認，已額外預留 5 分鐘作保守估算"
+        ],
+        "score": 0.355
+      }
+    ],
+    "excludedRoutes": [],
+    "dataSources": [
+      {
+        "id": "weather-live",
+        "label": "即時天氣",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php",
+        "quality": "live",
+        "updatedAt": "2026-10-07T09:02:00+08:00",
+        "note": "來源：hko-weather"
+      },
+      {
+        "id": "td-special-traffic-news",
+        "label": "運輸署走廊相關公告",
+        "url": "https://www.td.gov.hk/en/special_news/trafficnews.xml",
+        "quality": "live",
+        "updatedAt": "2026-10-07T09:37:26+08:00",
+        "note": "抵站／公告不是全程 ETA、擁擠預測或精確延誤"
+      },
+      {
+        "id": "mtr-next-train",
+        "label": "港鐵下一班抵站預測",
+        "url": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php",
+        "quality": "live",
+        "updatedAt": "2026-10-07T09:37:07+08:00",
+        "note": "抵站／公告不是全程 ETA、擁擠預測或精確延誤"
+      },
+      {
+        "id": "route-estimates",
+        "label": "靜態路線時間及費用",
+        "url": null,
+        "quality": "fixture",
+        "updatedAt": "2026-10-13T07:30:00+08:00",
+        "note": "演示估算，非官方 ETA 或票價。交通狀態缺失時為 unknown。"
+      }
+    ],
+    "notices": [],
+    "disclaimer": "到達信心是基於演示規則的定性判斷，並非經校準的準時機率。實際出行請同時參考港鐵、運輸署與香港天文台的官方資訊。",
+    "scenario": "live",
+    "serviceDate": "2026-10-07",
+    "generatedFor": {
+      "origin": "坑口（富寧花園）",
+      "destination": "中環（交易廣場）",
+      "arriveBy": "2026-10-07T10:37:00+08:00"
+    },
+    "action": "depart_at",
+    "switchDeadline": "2026-10-07T09:22:00+08:00",
+    "basis": [
+      {
+        "claim": "建議出發時間的規則：arriveBy − （行程時間 + 延誤）− 8 分鐘緩衝；到達範圍另計 ±15 分鐘浮動。",
+        "type": "rule",
+        "source": "API_CONTRACT.md §4.1 情景參數（演示設定，未經校準）",
+        "sourceUrl": null
+      },
+      {
+        "claim": "有路線的服務狀態未確認，已在資料延誤之上額外預留 5 分鐘（保守政策，不是統計估算）。",
+        "type": "rule",
+        "source": "DECISION_ENGINE.md §12.6 資料不足時的保守假設",
+        "sourceUrl": null
+      },
+      {
+        "claim": "所有緩衝、權重與信心門檻都是演示設定，未經歷史資料校準，因此只輸出定性信心，不輸出準時機率。本專案尚未完成歷史資料校準，因此沒有任何統計依據可以引用。",
+        "type": "rule",
+        "source": "專案範圍限制：DECISION_ENGINE.md §10 已知限制",
+        "sourceUrl": null
+      },
+      {
+        "claim": "即時天氣（實時資料，更新於 2026-10-07 09:02）；來源：hko-weather",
+        "type": "data",
+        "source": "即時天氣",
+        "sourceUrl": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php"
+      },
+      {
+        "claim": "運輸署走廊相關公告（實時資料，更新於 2026-10-07 09:37）；抵站／公告不是全程 ETA、擁擠預測或精確延誤",
+        "type": "data",
+        "source": "運輸署走廊相關公告",
+        "sourceUrl": "https://www.td.gov.hk/en/special_news/trafficnews.xml"
+      },
+      {
+        "claim": "港鐵下一班抵站預測（實時資料，更新於 2026-10-07 09:37）；抵站／公告不是全程 ETA、擁擠預測或精確延誤",
+        "type": "data",
+        "source": "港鐵下一班抵站預測",
+        "sourceUrl": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php"
+      },
+      {
+        "claim": "主路線「港鐵主線（將軍澳線 → 港島線）」的服務狀態（狀態未確認，延誤約 5 分鐘）與人流（人流未確認）來自本次資料快照。",
+        "type": "data",
+        "source": "成員 B 的 ContextSnapshot.routes",
+        "sourceUrl": null
+      },
+      {
+        "claim": "到達信心「低」由規則分數 35/100 得出；扣分項：人流未確認（-10）。",
+        "type": "rule",
+        "source": "DECISION_ENGINE.md §7 到達信心規則",
+        "sourceUrl": null
+      }
+    ],
+    "uncertainty": [
+      "主要路線的服務狀態未經確認，已在資料延誤之上額外預留 5 分鐘（保守政策）；實際情況可能更好或更差。",
+      "到達信心為「低」，出發前請再確認港鐵、運輸署與香港天文台的官方公告。",
+      "行動建議為「按建議時間出發」，本建議由規則與輸入資料產生，不構成出行保證。"
+    ]
+  },
+  "note": "一次 API 核查存档，不是当前数据"
+}

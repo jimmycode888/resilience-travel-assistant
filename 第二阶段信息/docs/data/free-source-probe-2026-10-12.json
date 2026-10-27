@@ -1,0 +1,146 @@
+{
+  "probedAt": "2026-10-12T14:20:54.508859+00:00",
+  "note": "一次实测，非即时数据；用于确认公开免费来源可达性",
+  "probes": [
+    {
+      "name": "HKO 实时天气 rhrread",
+      "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc",
+      "http": 200,
+      "bytes": 2705,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 712,
+      "note": "气温/湿度/雨量，无 key",
+      "sample": "{\"rainfall\":{\"data\":[{\"unit\":\"mm\",\"place\":\"中西區\",\"max\":0,\"main\":\"FALSE\"},{\"unit\":\"mm\",\"place\":\"東區\",\"max\":0,\"main\":\"FALSE\"},{\"unit\":\"mm\",\"place\":\"葵青\",\"max\":0,\"main\":\"FA"
+    },
+    {
+      "name": "HKO 警告摘要 warnsum",
+      "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warnsum&lang=tc",
+      "http": 200,
+      "bytes": 2,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 414,
+      "note": "生效警告，无 key",
+      "sample": "{}"
+    },
+    {
+      "name": "MTR 下一班 坑口 TKL-HAH",
+      "url": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=TKL&sta=HAH&lang=TC",
+      "http": 200,
+      "bytes": 1032,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 675,
+      "note": "将军澳线，无 key",
+      "sample": "{\"sys_time\":\"2026-10-12 22:20:54\",\"curr_time\":\"2026-10-12 22:20:48\",\"data\":{\"TKL-HAH\":{\"curr_time\":\"2026-10-12 22:20:48\",\"sys_time\":\"2026-10-12 22:20:54\",\"UP\":[{\"seq\":\"1\",\"dest\":\"P"
+    },
+    {
+      "name": "MTR 下一班 东铁 落马洲 EAL-LMC",
+      "url": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=EAL&sta=LMC&lang=TC",
+      "http": 200,
+      "bytes": 724,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 643,
+      "note": "跨境口岸站，无 key",
+      "sample": "{\"sys_time\":\"2026-10-12 22:20:54\",\"curr_time\":\"2026-10-12 22:20:46\",\"data\":{\"EAL-LMC\":{\"curr_time\":\"2026-10-12 22:20:46\",\"sys_time\":\"2026-10-12 22:20:54\",\"DOWN\":[{\"seq\":\"1\",\"dest\":"
+    },
+    {
+      "name": "MTR 下一班 东铁 罗湖 EAL-LOW",
+      "url": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=EAL&sta=LOW&lang=TC",
+      "http": 200,
+      "bytes": 724,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 633,
+      "note": "跨境口岸站，无 key",
+      "sample": "{\"sys_time\":\"2026-10-12 22:20:54\",\"curr_time\":\"2026-10-12 22:20:46\",\"data\":{\"EAL-LOW\":{\"curr_time\":\"2026-10-12 22:20:46\",\"sys_time\":\"2026-10-12 22:20:54\",\"DOWN\":[{\"seq\":\"1\",\"dest\":"
+    },
+    {
+      "name": "MTR 下一班 东铁 上水 EAL-SHS",
+      "url": "https://rt.data.gov.hk/v1/transport/mtr/getSchedule.php?line=EAL&sta=SHS&lang=TC",
+      "http": 200,
+      "bytes": 1113,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 643,
+      "note": "跨境前一站，无 key",
+      "sample": "{\"sys_time\":\"2026-10-12 22:20:54\",\"curr_time\":\"2026-10-12 22:20:46\",\"data\":{\"EAL-SHS\":{\"curr_time\":\"2026-10-12 22:20:46\",\"sys_time\":\"2026-10-12 22:20:54\",\"UP\":[{\"seq\":\"1\",\"dest\":\"L"
+    },
+    {
+      "name": "TD 特别交通消息 XML",
+      "url": "https://www.td.gov.hk/en/special_news/trafficnews.xml",
+      "http": 200,
+      "bytes": 2090,
+      "contentType": "application/xml",
+      "ms": 571,
+      "note": "XML 公告，无 key",
+      "sample": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<list xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"https://www.td.gov.hk/en/special_news/trafficnews.xsd\">\r\n  <"
+    },
+    {
+      "name": "KMB 九巴 ETA 路线站序 690S",
+      "url": "https://data.etabus.gov.hk/v1/transport/kmb/route-stop/690S/outbound/1",
+      "http": 200,
+      "bytes": 1361,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 693,
+      "note": "九巴免费 ETA API，无 key",
+      "sample": "{\"type\":\"RouteStop\",\"version\":\"1.0\",\"generated_timestamp\":\"2026-10-12T22:20:59+08:00\",\"data\":[{\"route\":\"690S\",\"bound\":\"O\",\"service_type\":\"1\",\"seq\":\"1\",\"stop\":\"5016E25156D72ADA\"},{\""
+    },
+    {
+      "name": "KMB 九巴 690 走线",
+      "url": "https://data.etabus.gov.hk/v1/transport/kmb/route/690/outbound/1",
+      "http": 200,
+      "bytes": 319,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 650,
+      "note": "九巴免费 ETA API，无 key",
+      "sample": "{\"type\":\"Route\",\"version\":\"1.0\",\"generated_timestamp\":\"2026-10-12T22:21:00+08:00\",\"data\":{\"route\":\"690\",\"bound\":\"O\",\"service_type\":\"1\",\"orig_en\":\"HONG SING GARDEN\",\"orig_tc\":\"康�"
+    },
+    {
+      "name": "CTB 城巴 ETA v2 690S",
+      "url": "https://rt.data.gov.hk/v2/transport/citybus/eta/CTB/002910/690S",
+      "http": 200,
+      "bytes": 97,
+      "contentType": "application/json; charset=utf-8",
+      "ms": 535,
+      "note": "城巴 ETA，无 key",
+      "sample": "{\"type\": \"ETA\", \"version\": \"2.0\", \"generated_timestamp\": \"2026-10-12T22:21:00+08:00\", \"data\": []}"
+    },
+    {
+      "name": "MTR 静态 线路车站 CSV",
+      "url": "https://opendata.mtr.com.hk/data/mtr_lines_and_stations.csv",
+      "http": 200,
+      "bytes": 14161,
+      "contentType": "text/csv",
+      "ms": 85,
+      "note": "站序静态档",
+      "sample": "﻿\"Line Code\",\"Direction\",\"Station Code\",\"Station ID\",\"Chinese Name\",\"English Name\",\"Sequence\"\r\n\"AEL\",\"DT\",\"AWE\",\"56\",\"博覽館\",\"AsiaWorld-Expo\",1.00\r\n\"AEL\",\"DT\",\"AIR\",\"47\",\"機"
+    },
+    {
+      "name": "MTR 静态 票价 CSV",
+      "url": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv",
+      "http": 200,
+      "bytes": 743938,
+      "contentType": "text/csv",
+      "ms": 211,
+      "note": "成人票价静态档",
+      "sample": "\"SRC_STATION_NAME\",\"SRC_STATION_ID\",\"DEST_STATION_NAME\",\"DEST_STATION_ID\",\"OCT_ADT_FARE\",\"OCT_STD_FARE\",\"OCT_JOYYOU_SIXTY_FARE\",\"SINGLE_ADT_FARE\",\"OCT_CON_CHILD_FARE\",\"OCT_CON_ELDE"
+    },
+    {
+      "name": "data.gov.hk CKAN 搜索: 口岸等候时间",
+      "url": "https://data.gov.hk/en-data/api/3/action/package_search?q=control+point+waiting+time&rows=5",
+      "http": 200,
+      "bytes": 219,
+      "contentType": "application/json;charset=utf-8",
+      "ms": 454,
+      "note": "官方开放数据目录检索",
+      "sample": "{\"help\": \"https://data.gov.hk/en-data/api/3/action/help_show?name=package_search\", \"success\": true, \"result\": {\"count\": 0, \"facets\": {}, \"results\": [], \"sort\": \"score desc, metadat"
+    },
+    {
+      "name": "data.gov.hk CKAN 搜索: boundary",
+      "url": "https://data.gov.hk/en-data/api/3/action/package_search?q=boundary&rows=10",
+      "http": 200,
+      "bytes": 17764,
+      "contentType": "application/json;charset=utf-8",
+      "ms": 578,
+      "note": "官方开放数据目录检索",
+      "sample": "{\"help\": \"https://data.gov.hk/en-data/api/3/action/help_show?name=package_search\", \"success\": true, \"result\": {\"count\": 5, \"facets\": {}, \"results\": [{\"author\": null, \"author_email\""
+    }
+  ]
+}

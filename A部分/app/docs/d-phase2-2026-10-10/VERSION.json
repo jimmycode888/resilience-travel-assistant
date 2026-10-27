@@ -1,0 +1,16 @@
+{
+  "name": "D 第二阶段 v2.0 · 2026-10-10",
+  "sourceDirectory": "/workspace/八校黑客松/A部分/app",
+  "entry": "/journey-team",
+  "port": 5191,
+  "buildId": "8wTbNgfu0WX2RLcxwkVxE",
+  "builtAtUtc": "2026-10-10T15:22:15.772331+00:00",
+  "sourceManifestSha256": "e4de60a36537fdffd40b56fe58402ce873ef4f04265967123ba38489d9d3a3f3",
+  "git": "无 Git 元数据；使用 Next BUILD_ID + SHA-256 源码清单",
+  "BFormalModule": false,
+  "CFormalModule": false,
+  "fixtureEndpoint": "/api/d-team-fixture",
+  "formalEndpointPending": "/api/team-journey",
+  "command": "cd /workspace/八校黑客松/A部分/app && exec npm run start -- --hostname 0.0.0.0 --port \"$PORT\"",
+  "testedAtUtc": "2026-10-10T15:40:30.365Z"
+}

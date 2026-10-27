@@ -1,0 +1,68 @@
+--- a/eslint.config.mjs
++++ b/eslint.config.mjs
+@@ -10,6 +10,8 @@
+       ".next/**",
+       "node_modules/**",
+       "coverage/**",
++      // E independent static reference is outside the Next application.
++      "docs/ui-spec-v2/prototype/**",
+       "src/lib/fixtures/golden/**",
+       "next-env.d.ts",
+       // 第一階段歸檔含舊版原始碼，不參與第二階段的 lint。
+--- a/src/components/JourneyPlanner.tsx
++++ b/src/components/JourneyPlanner.tsx
+@@ -1,7 +1,7 @@
+ 'use client';
+ import dynamic from 'next/dynamic';
+ import Link from 'next/link';
+-import { useRef, useState } from 'react';
++import { useEffect, useRef, useState } from 'react';
+ import { searchPlaces, findPlace, PLACES, type PlaceEntry } from '@/lib/geo/places';
+ import { createLocator, metersBetween, type UserPosition } from '@/lib/geo/geolocation';
+ import { formatHkTime, addMinutes } from '@/lib/time';
+@@ -47,17 +47,25 @@
+   const [offline, setOffline] = useState(false);
+   const [replay, setReplay] = useState(-1);
+   const generation = useRef(0);
++  const running = useRef(false);
+   const activeController = useRef<AbortController | null>(null);
+   const selected = analysis?.routes.find(route => route.candidate.id === selectedId) ?? analysis?.routes[0];
+   const dirty = analysis && (request.origin !== analysis.request.origin || request.destination !== analysis.request.destination || request.mode !== analysis.request.mode || request.scenario !== analysis.request.scenario || request.departAt.slice(0, 16) !== analysis.request.departAt.slice(0, 16) || (request.arriveBy ?? '').slice(0, 16) !== (analysis.request.arriveBy ?? '').slice(0, 16));
+ 
+-  function change(patch: Partial<JourneyAnalysisRequest>) { setRequest(current => ({ ...current, ...patch })); setReplay(-1); }
++  useEffect(() => () => { generation.current++; activeController.current?.abort(); }, []);
++  function change(patch: Partial<JourneyAnalysisRequest>) {
++    generation.current++; activeController.current?.abort(); running.current = false;
++    setLoading(false); setAnalysis(null); setSelectedId(null); setError('');
++    setRequest(current => ({ ...current, ...patch })); setReplay(-1);
++  }
+   async function run(input = request) {
++    if (running.current) return;
++    running.current = true;
+     const id = ++generation.current;
+     activeController.current?.abort();
+     const controller = new AbortController(); activeController.current = controller;
+     const timer = setTimeout(() => controller.abort(), 8000);
+-    setLoading(true); setError(''); setOffline(false);
++    setLoading(true); setAnalysis(null); setSelectedId(null); setError(''); setOffline(false);
+     try {
+       let result: JourneyAnalysis;
+       try {
+@@ -77,7 +85,7 @@
+       if (generation.current !== id) return;
+       setAnalysis(result); setSelectedId(result.recommendedRouteId ?? result.routes[0]?.candidate.id ?? null);
+     } catch (failure) { if (generation.current === id) setError(failure instanceof Error ? failure.message : '分析失敗，請重試。'); }
+-    finally { clearTimeout(timer); if (generation.current === id) setLoading(false); }
++    finally { clearTimeout(timer); if (generation.current === id) { running.current = false; setLoading(false); } }
+   }
+   async function locate() {
+     setLocating(true);
+@@ -95,7 +103,7 @@
+     setReplay(index);
+     const frame = REPLAY[index]!;
+     const input = { ...request, departAt: addMinutes(INITIAL.departAt + ':00+08:00', frame.offset).slice(0, 16), scenario: frame.scenario };
+-    setRequest(input); void run(input);
++    change(input); setReplay(index); void run(input);
+   }
+   return <div className="journey-shell">
+     <div className="journey-heading"><div><p className="journey-eyebrow">港深跨境 · 第二階段演示</p><h1>走哪條，何時走，心裡有數。</h1><p>比較口岸、人流與天氣風險，提前準備另一條路。</p></div><Link href="/" className="btn-secondary">第一階段通勤演示 ↗</Link></div>

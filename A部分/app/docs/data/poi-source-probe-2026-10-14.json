@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-10-14T12:08:50.110312+00:00",
+  "queries": [
+    {
+      "query": "港鐵金鐘站",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E9%87%91%E9%90%98%E7%AB%99&n=5&b=1",
+      "candidates": []
+    },
+    {
+      "query": "港鐵北角站",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E5%8C%97%E8%A7%92%E7%AB%99&n=5&b=1",
+      "candidates": []
+    },
+    {
+      "query": "港鐵鰂魚涌站",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E9%B0%82%E9%AD%9A%E6%B6%8C%E7%AB%99&n=5&b=1",
+      "candidates": []
+    },
+    {
+      "query": "港鐵上水站",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E4%B8%8A%E6%B0%B4%E7%AB%99&n=5&b=1",
+      "candidates": [
+        [
+          "港鐵上水站",
+          "22.50149",
+          "114.12779"
+        ]
+      ]
+    },
+    {
+      "query": "港鐵大學站",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E5%A4%A7%E5%AD%B8%E7%AB%99&n=5&b=1",
+      "candidates": [
+        [
+          "港鐵大學站",
+          "22.41361",
+          "114.21028"
+        ]
+      ]
+    },
+    {
+      "query": "港鐵坑口站",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E6%B8%AF%E9%90%B5%E5%9D%91%E5%8F%A3%E7%AB%99&n=5&b=1",
+      "candidates": []
+    },
+    {
+      "query": "富寧花園",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E5%AF%8C%E5%AF%A7%E8%8A%B1%E5%9C%92&n=5&b=1",
+      "candidates": [
+        [
+          "第１座",
+          "22.31991",
+          "114.26763"
+        ],
+        [
+          "富寧花園",
+          "22.31885",
+          "114.26756"
+        ],
+        [
+          "富寧花園",
+          "22.31885",
+          "114.26756"
+        ],
+        [
+          "富寧花園",
+          "22.31991",
+          "114.26763"
+        ],
+        [
+          "富寧花園",
+          "22.31965",
+          "114.26801"
+        ]
+      ]
+    },
+    {
+      "query": "交易廣場",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E4%BA%A4%E6%98%93%E5%BB%A3%E5%A0%B4&n=5&b=1",
+      "candidates": [
+        [
+          "交易廣塲第一座",
+          "22.28346",
+          "114.15825"
+        ],
+        [
+          "交易廣塲第三座",
+          "22.28451",
+          "114.15728"
+        ],
+        [
+          "交易廣塲第二座",
+          "22.28385",
+          "114.15816"
+        ],
+        [
+          "富臨閣",
+          "22.28425",
+          "114.15771"
+        ],
+        [
+          "交易廣塲",
+          "22.28361",
+          "114.15807"
+        ]
+      ]
+    },
+    {
+      "query": "落馬洲站",
+      "sourceUrl": "https://www.als.gov.hk/lookup?q=%E8%90%BD%E9%A6%AC%E6%B4%B2%E7%AB%99&n=5&b=1",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "summary": {
+    "total": 8,
+    "addressFound": 8,
+    "shenzhen": 8,
+    "hkToSz": 8,
+    "szToHk": 8
+  },
+  "testedAt": "2026-10-17T07:55:35.719Z",
+  "departAt": "2026-10-17T08:00:00+08:00",
+  "definition": "Eight named Shenzhen POI samples, selected first returned Shenzhen candidate; Shenzhen Bay to POI and Central to/from POI via two road ports. Provider route availability is not a field validation or all-address guarantee.",
+  "results": [
+    {
+      "district": "福田",
+      "query": "深圳市民中心",
+      "addressFound": true,
+      "selectedName": "深圳市民中心",
+      "address": "深圳市 · 福田区 · 福中三路(市民中心地铁站C口步行190米)",
+      "shenzhen": {
+        "success": true,
+        "plans": 5,
+        "minutes": 57
+      },
+      "hkToSz": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          257,
+          365
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      },
+      "szToHk": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          218,
+          219
+        ],
+        "ports": [
+          "heung-yuen-wai",
+          "shenzhen-bay"
+        ],
+        "failures": []
+      }
+    },
+    {
+      "district": "南山",
+      "query": "深圳大学",
+      "addressFound": true,
+      "selectedName": "深圳大学(粤海校区)",
+      "address": "深圳市 · 南山区 · 粤海街道深圳大学社区南海大道3688号",
+      "shenzhen": {
+        "success": true,
+        "plans": 5,
+        "minutes": 47
+      },
+      "hkToSz": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          247,
+          401
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      },
+      "szToHk": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          215,
+          259
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      }
+    },
+    {
+      "district": "龙华",
+      "query": "深圳北站",
+      "addressFound": true,
+      "selectedName": "深圳北站",
+      "address": "深圳市 · 龙华区 · 民治街道北站社区致远中路28号",
+      "shenzhen": {
+        "success": true,
+        "plans": 3,
+        "minutes": 63
+      },
+      "hkToSz": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          263,
+          366
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      },
+      "szToHk": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          219,
+          233
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      }
+    },
+    {
+      "district": "罗湖",
+      "query": "深圳站",
+      "addressFound": true,
+      "selectedName": "深圳站",
+      "address": "深圳市 · 罗湖区 · 南湖街道罗湖桥社区建设路1001号",
+      "shenzhen": {
+        "success": true,
+        "plans": 5,
+        "minutes": 70
+      },
+      "hkToSz": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          270,
+          358
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      },
+      "szToHk": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          215,
+          230
+        ],
+        "ports": [
+          "heung-yuen-wai",
+          "shenzhen-bay"
+        ],
+        "failures": []
+      }
+    },
+    {
+      "district": "宝安",
+      "query": "宝安中心",
+      "addressFound": true,
+      "selectedName": "宝安中心(地铁站)",
+      "address": "深圳市 · 宝安区 · 1号线/罗宝线;5号线/环中线",
+      "shenzhen": {
+        "success": true,
+        "plans": 4,
+        "minutes": 49
+      },
+      "hkToSz": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          249,
+          394
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      },
+      "szToHk": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          215,
+          249
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      }
+    },
+    {
+      "district": "龙岗",
+      "query": "龙岗区人民医院",
+      "addressFound": true,
+      "selectedName": "深圳市龙岗区人民医院",
+      "address": "深圳市 · 龙岗区 · 龙城街道愉园社区爱心路53号",
+      "shenzhen": {
+        "success": true,
+        "plans": 5,
+        "minutes": 107
+      },
+      "hkToSz": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          307,
+          408
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      },
+      "szToHk": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          266,
+          270
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      }
+    },
+    {
+      "district": "坪山",
+      "query": "坪山站",
+      "addressFound": true,
+      "selectedName": "深圳坪山站",
+      "address": "深圳市 · 龙岗区 · 宝龙街道同心社区站前路3号",
+      "shenzhen": {
+        "success": true,
+        "plans": 5,
+        "minutes": 114
+      },
+      "hkToSz": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          314,
+          394
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      },
+      "szToHk": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          259,
+          272
+        ],
+        "ports": [
+          "heung-yuen-wai",
+          "shenzhen-bay"
+        ],
+        "failures": []
+      }
+    },
+    {
+      "district": "光明",
+      "query": "光明城站",
+      "addressFound": true,
+      "selectedName": "光明城站",
+      "address": "深圳市 · 光明区 · 凤凰街道凤凰社区三十八号路8号",
+      "shenzhen": {
+        "success": true,
+        "plans": 5,
+        "minutes": 66
+      },
+      "hkToSz": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          266,
+          406
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      },
+      "szToHk": {
+        "completeRoutes": 2,
+        "eligibleRoutes": 2,
+        "minutes": [
+          225,
+          288
+        ],
+        "ports": [
+          "shenzhen-bay",
+          "heung-yuen-wai"
+        ],
+        "failures": []
+      }
+    }
+  ]
+}

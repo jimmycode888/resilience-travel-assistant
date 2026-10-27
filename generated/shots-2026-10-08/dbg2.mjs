@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const { chromium } = require('playwright');
+const url = 'http://localhost:5173/result?origin=hang-hau-estate&destination=central-exchange-square&arriveBy=2026-10-13T09%3A00&maxExtraCost=10&maxTransfers=2&scenario=normal';
+const b = await chromium.launch({ headless: true });
+const ctx = await b.newContext({ viewport:{width:1280,height:900}, timezoneId:'Asia/Hong_Kong', locale:'zh-HK' });
+const p = await ctx.newPage();
+p.on('request', r => { if (r.url().includes('/api/decision')) console.log('REQ', r.method(), r.url(), '\nPOSTDATA:', r.postData()); });
+p.on('response', async r => { if (r.url().includes('/api/decision')) { console.log('RESP', r.status()); try { console.log('BODY', (await r.text()).slice(0,400)); } catch {} } });
+await p.goto(url, { waitUntil:'load', timeout:60000 });
+await p.waitForTimeout(5000);
+await b.close();

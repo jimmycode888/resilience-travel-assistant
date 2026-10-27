@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-07T10:14:39.625Z",
+  "browser": "148.0.7778.96",
+  "result": "passed",
+  "operations": [
+    "Tab至提交/Enter",
+    "Tab至情景/ArrowRight",
+    "Tab至重查/Enter触发500",
+    "Tab至重试/Enter恢复"
+  ],
+  "note": "自动真实键盘事件，非真人读屏"
+}

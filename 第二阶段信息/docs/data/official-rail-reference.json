@@ -1,0 +1,300 @@
+{
+  "checkedAt": "2026-10-07T01:32:42.046067+00:00",
+  "quality": "official_static_reference",
+  "notDecisionInput": true,
+  "mtr_lines_and_stations": {
+    "sourceUrl": "https://opendata.mtr.com.hk/data/mtr_lines_and_stations.csv",
+    "rows": [
+      {
+        "Line Code": "ISL",
+        "Direction": "DT",
+        "Station Code": "QUB",
+        "Station ID": "32",
+        "Chinese Name": "鰂魚涌",
+        "English Name": "Quarry Bay",
+        "Sequence": "6.00"
+      },
+      {
+        "Line Code": "ISL",
+        "Direction": "DT",
+        "Station Code": "NOP",
+        "Station ID": "31",
+        "Chinese Name": "北角",
+        "English Name": "North Point",
+        "Sequence": "7.00"
+      },
+      {
+        "Line Code": "ISL",
+        "Direction": "DT",
+        "Station Code": "CEN",
+        "Station ID": "1",
+        "Chinese Name": "中環",
+        "English Name": "Central",
+        "Sequence": "13.00"
+      },
+      {
+        "Line Code": "ISL",
+        "Direction": "DT",
+        "Station Code": "KET",
+        "Station ID": "83",
+        "Chinese Name": "堅尼地城",
+        "English Name": "Kennedy Town",
+        "Sequence": "17.00"
+      },
+      {
+        "Line Code": "ISL",
+        "Direction": "UT",
+        "Station Code": "KET",
+        "Station ID": "83",
+        "Chinese Name": "堅尼地城",
+        "English Name": "Kennedy Town",
+        "Sequence": "1.00"
+      },
+      {
+        "Line Code": "ISL",
+        "Direction": "UT",
+        "Station Code": "CEN",
+        "Station ID": "1",
+        "Chinese Name": "中環",
+        "English Name": "Central",
+        "Sequence": "5.00"
+      },
+      {
+        "Line Code": "ISL",
+        "Direction": "UT",
+        "Station Code": "NOP",
+        "Station ID": "31",
+        "Chinese Name": "北角",
+        "English Name": "North Point",
+        "Sequence": "11.00"
+      },
+      {
+        "Line Code": "ISL",
+        "Direction": "UT",
+        "Station Code": "QUB",
+        "Station ID": "32",
+        "Chinese Name": "鰂魚涌",
+        "English Name": "Quarry Bay",
+        "Sequence": "12.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "DT",
+        "Station Code": "POA",
+        "Station ID": "52",
+        "Chinese Name": "寶琳",
+        "English Name": "Po Lam",
+        "Sequence": "1.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "DT",
+        "Station Code": "HAH",
+        "Station ID": "51",
+        "Chinese Name": "坑口",
+        "English Name": "Hang Hau",
+        "Sequence": "2.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "DT",
+        "Station Code": "TKO",
+        "Station ID": "50",
+        "Chinese Name": "將軍澳",
+        "English Name": "Tseung Kwan O",
+        "Sequence": "3.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "DT",
+        "Station Code": "TIK",
+        "Station ID": "49",
+        "Chinese Name": "調景嶺",
+        "English Name": "Tiu Keng Leng",
+        "Sequence": "4.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "DT",
+        "Station Code": "YAT",
+        "Station ID": "48",
+        "Chinese Name": "油塘",
+        "English Name": "Yau Tong",
+        "Sequence": "5.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "DT",
+        "Station Code": "QUB",
+        "Station ID": "32",
+        "Chinese Name": "鰂魚涌",
+        "English Name": "Quarry Bay",
+        "Sequence": "6.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "DT",
+        "Station Code": "NOP",
+        "Station ID": "31",
+        "Chinese Name": "北角",
+        "English Name": "North Point",
+        "Sequence": "7.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "TKS-DT",
+        "Station Code": "LHP",
+        "Station ID": "57",
+        "Chinese Name": "康城",
+        "English Name": "LOHAS Park",
+        "Sequence": "1.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "TKS-DT",
+        "Station Code": "TKO",
+        "Station ID": "50",
+        "Chinese Name": "將軍澳",
+        "English Name": "Tseung Kwan O",
+        "Sequence": "2.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "TKS-DT",
+        "Station Code": "TIK",
+        "Station ID": "49",
+        "Chinese Name": "調景嶺",
+        "English Name": "Tiu Keng Leng",
+        "Sequence": "3.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "TKS-UT",
+        "Station Code": "TIK",
+        "Station ID": "49",
+        "Chinese Name": "調景嶺",
+        "English Name": "Tiu Keng Leng",
+        "Sequence": "1.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "TKS-UT",
+        "Station Code": "TKO",
+        "Station ID": "50",
+        "Chinese Name": "將軍澳",
+        "English Name": "Tseung Kwan O",
+        "Sequence": "2.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "TKS-UT",
+        "Station Code": "LHP",
+        "Station ID": "57",
+        "Chinese Name": "康城",
+        "English Name": "LOHAS Park",
+        "Sequence": "3.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "UT",
+        "Station Code": "NOP",
+        "Station ID": "31",
+        "Chinese Name": "北角",
+        "English Name": "North Point",
+        "Sequence": "1.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "UT",
+        "Station Code": "QUB",
+        "Station ID": "32",
+        "Chinese Name": "鰂魚涌",
+        "English Name": "Quarry Bay",
+        "Sequence": "2.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "UT",
+        "Station Code": "YAT",
+        "Station ID": "48",
+        "Chinese Name": "油塘",
+        "English Name": "Yau Tong",
+        "Sequence": "3.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "UT",
+        "Station Code": "TIK",
+        "Station ID": "49",
+        "Chinese Name": "調景嶺",
+        "English Name": "Tiu Keng Leng",
+        "Sequence": "4.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "UT",
+        "Station Code": "TKO",
+        "Station ID": "50",
+        "Chinese Name": "將軍澳",
+        "English Name": "Tseung Kwan O",
+        "Sequence": "5.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "UT",
+        "Station Code": "HAH",
+        "Station ID": "51",
+        "Chinese Name": "坑口",
+        "English Name": "Hang Hau",
+        "Sequence": "6.00"
+      },
+      {
+        "Line Code": "TKL",
+        "Direction": "UT",
+        "Station Code": "POA",
+        "Station ID": "52",
+        "Chinese Name": "寶琳",
+        "English Name": "Po Lam",
+        "Sequence": "7.00"
+      },
+      {
+        "Line Code": "TWL",
+        "Direction": "DT",
+        "Station Code": "CEN",
+        "Station ID": "1",
+        "Chinese Name": "中環",
+        "English Name": "Central",
+        "Sequence": "16.00"
+      },
+      {
+        "Line Code": "TWL",
+        "Direction": "UT",
+        "Station Code": "CEN",
+        "Station ID": "1",
+        "Chinese Name": "中環",
+        "English Name": "Central",
+        "Sequence": "1.00"
+      }
+    ]
+  },
+  "mtr_lines_fares": {
+    "sourceUrl": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv",
+    "rows": [
+      {
+        "SRC_STATION_NAME": "Hang Hau",
+        "SRC_STATION_ID": "51",
+        "DEST_STATION_NAME": "Central",
+        "DEST_STATION_ID": "1",
+        "OCT_ADT_FARE": "15.80",
+        "OCT_STD_FARE": "7.40",
+        "OCT_JOYYOU_SIXTY_FARE": "3.20",
+        "SINGLE_ADT_FARE": "16.00",
+        "OCT_CON_CHILD_FARE": "7.40",
+        "OCT_CON_ELDERLY_FARE": "3.20",
+        "OCT_CON_PWD_FARE": "3.20",
+        "SINGLE_CON_CHILD_FARE": "7.50",
+        "SINGLE_CON_ELDERLY_FARE": "7.50"
+      }
+    ]
+  }
+}

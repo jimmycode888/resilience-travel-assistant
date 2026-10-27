@@ -1,0 +1,264 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "现有出行方案与可靠性缺口",
+    "description": "面向香港及深港跨境出行场景的“韧性出行助手”竞品分析。",
+    "generatedAt": "2026-10-04T01:20:00+08:00",
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "layout": "full",
+        "body": "# 现有出行方案与可靠性缺口"
+      },
+      {
+        "id": "summary",
+        "type": "markdown",
+        "layout": "full",
+        "body": "## Executive Summary\n\n- **现有工具很多，但关键决策仍未被充分解决。** Google Maps、Citymapper、香港出行易、MTR Mobile 和“我的天文台”已分别覆盖路线规划、实时到站、交通中断、拥挤信号、口岸情况或天气警告。\n- **Citymapper 是最接近的直接竞品。** 其“Best for you”功能已经考虑交通、天气、价格、体力消耗及中断风险，因此项目不宜宣称“可靠性路线”本身完全空白。\n- **最清晰的缺口是可量化的全程到达信心。** 根据公开功能说明，尚未看到有产品同时提供经过校准的准时到达概率、可靠性优先路线、出发前主动准备的 Plan B，以及可直接执行的极端天气出行建议。"
+      },
+      {
+        "id": "landscape-heading",
+        "type": "markdown",
+        "layout": "full",
+        "body": "## 现有工具只覆盖了问题的一部分\n\n下图采用八项能力量表：多方式路线规划、实时运行数据、拥挤信息、中断绕行、天气整合、口岸信息、量化的准时概率，以及出发前 Plan B。评分只统计官方资料中明确描述的能力，不代表产品整体质量，也不代表其在所有地区的完整表现。"
+      },
+      {
+        "id": "coverage-chart-block",
+        "type": "chart",
+        "layout": "full",
+        "chartId": "coverage-chart"
+      },
+      {
+        "id": "landscape-table",
+        "type": "table",
+        "layout": "full",
+        "tableId": "solution-landscape"
+      },
+      {
+        "id": "gap",
+        "type": "markdown",
+        "layout": "full",
+        "body": "## 真正未满足的是“不确定情况下的决策支持”\n\n**1. ETA 不等于准时把握。** 现有工具通常只显示一个预计到达时间；赶考试、面试或飞机的用户更需要知道准时概率，以及这个预测留有多大缓冲。\n\n**2. 中断处理通常是被动的。** 提醒和改道多在故障已经发生后出现；我们的机会是在出发前准备可行的 Plan B，并说明何时应该切换。\n\n**3. 拥挤通常只是信息，不是路线目标。** Google 在有数据时会显示拥挤程度，MTR 也提供部分候车信息，但公开资料没有显示这些产品能在全程范围内稳定提供“人少且可靠”的路线。\n\n**4. 跨机构、跨境行程仍然碎片化。** 深港通勤者可能需要同时查看综合地图、运营商 App、口岸信息和天气警告；目前没有受评产品公开描述一个整合这些数据的全程可靠性模型。\n\n**5. 天气信息很少直接转化为出行决策。** “我的天文台”提供权威警告和短临预报，但用户仍需自己判断是否出门、几点出发，以及哪条路线风险最低。"
+      },
+      {
+        "id": "positioning",
+        "type": "markdown",
+        "layout": "full",
+        "body": "## 建议的产品定位\n\n不要把产品定位成另一款地图，而应定位为叠加在现有导航和官方数据之上的**可靠性决策层**。最有力的首要承诺是：“面对重要行程，选择最有可能准时到达的路线，并在出发前知道备用方案。”\n\n建议优先突出四项差异：\n\n1. 与用户要求到达时间绑定、经过校准的准时到达概率。\n2. 可靠性优先、兼顾低拥挤，并清楚解释时间与风险取舍。\n3. 预先计算 Plan B，并给出明确的切换条件。\n4. 将极端天气和口岸中断转化为出发时间与路线建议。"
+      },
+      {
+        "id": "questions",
+        "type": "markdown",
+        "layout": "full",
+        "body": "## 下一步需要验证的问题\n\n- 团队能否取得足够可靠的巴士、铁路、口岸排队、天气、事故和拥挤历史及实时数据？\n- 准时到达概率能否校准到足以获得用户信任？\n- 最适合切入的场景是香港重要通勤、深港跨境出行，还是极端天气出行？\n- 当系统清楚说明可靠性收益时，用户是否愿意接受稍慢路线？"
+      },
+      {
+        "id": "caveats",
+        "type": "markdown",
+        "layout": "full",
+        "body": "## 限制与假设\n\n本比较基于截至 2026 年 10 月 4 日查阅的公开产品资料。功能可能因地区、数据合作方、设备和账户而异；公开资料没有提及某项能力，并不代表该能力在所有市场都不存在。以上结论反映的是从公开功能中能观察到的最清晰定位机会。"
+      }
+    ],
+    "charts": [
+      {
+        "id": "coverage-chart",
+        "title": "现有方案对可靠性工作流的公开覆盖",
+        "subtitle": "按官方资料明确描述的八项能力计分；仅为方向性量表，并非质量评分",
+        "showDescription": true,
+        "intent": "comparison",
+        "question": "各方案在公开资料中明确覆盖了多少项可靠性优先能力？",
+        "rationale": "五个方案使用同一指标，柱状图最便于比较。",
+        "type": "bar",
+        "dataset": "capability_coverage",
+        "sourceId": "official-docs-synthesis",
+        "encodings": {
+          "x": {
+            "field": "solution",
+            "type": "nominal",
+            "label": "方案"
+          },
+          "y": {
+            "field": "capability_count",
+            "type": "quantitative",
+            "label": "公开描述的能力数量",
+            "format": "number",
+            "unit": "项（满分 8 项）"
+          },
+          "tooltip": [
+            {"field": "capability_count", "type": "quantitative", "label": "已公开能力", "format": "number"},
+            {"field": "documented_strengths", "type": "text", "label": "计入评分"},
+            {"field": "key_missing", "type": "text", "label": "主要缺口"}
+          ]
+        },
+        "xAxisTitle": "方案",
+        "yAxisTitle": "公开描述的能力数量（满分 8 项）",
+        "valueFormat": "number",
+        "layout": "full",
+        "maxRows": 5,
+        "surface": {
+          "legend": "none",
+          "labels": "value"
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "solution-landscape",
+        "title": "现有方案对比",
+        "subtitle": "公开功能与拟议的可靠性优先体验对比",
+        "showDescription": true,
+        "dataset": "solution_landscape",
+        "defaultSort": {
+          "field": "solution",
+          "direction": "asc"
+        },
+        "density": "spacious",
+        "layout": "full",
+        "sourceId": "official-docs-synthesis",
+        "columns": [
+          {"field": "solution", "label": "方案", "type": "text"},
+          {"field": "strength", "label": "现有优势", "type": "text"},
+          {"field": "shortfall", "label": "主要不足", "type": "text"}
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "official-docs-synthesis",
+        "label": "官方产品资料审阅",
+        "query": {
+          "engine": "duckdb",
+          "language": "sql",
+          "sql": "SELECT * FROM (VALUES ('Citymapper', 4, '多方式路线规划；实时运行数据；中断绕行；天气整合', '量化的准时概率；出发前 Plan B；口岸信息整合', 8, DATE '2026-10-04'), ('HKeMobility', 4, '多方式路线规划；实时运行数据；中断信息；口岸信息', '量化的准时概率；出发前 Plan B；一致的低拥挤路线目标', 8, DATE '2026-10-04'), ('MTR Mobile', 4, '路线规划；实时运行数据；部分月台候车信息；中断绕行', '全程覆盖；量化的准时概率；天气与口岸整合', 8, DATE '2026-10-04'), ('Google Maps', 3, '多方式路线规划；实时运行数据；有数据时提供拥挤信息', '量化的准时概率；出发前 Plan B；口岸与天气决策层', 8, DATE '2026-10-04'), ('MyObservatory', 1, '通过权威警告和预报提供天气信息', '路线规划、全程可靠性、拥挤信息、Plan B 和准时概率', 8, DATE '2026-10-04')) AS t(solution, capability_count, documented_strengths, key_missing, rubric_max, assessment_date)",
+          "description": "综合比较截至 2026 年 10 月 4 日查阅的 Google Maps、Citymapper、香港运输署、港铁及香港天文台官方产品资料。",
+          "executed_at": "2026-10-04T01:20:00+08:00",
+          "metric_definitions": [
+            "capability_count：八项能力中被官方资料明确描述的能力数量；仅为公开功能覆盖量表，不代表产品质量。",
+            "八项能力：多方式路线规划、实时运行数据、拥挤信息、中断绕行、天气整合、口岸信息、量化准时概率、出发前 Plan B。"
+          ],
+          "tables_used": [
+            "https://support.google.com/maps/answer/6142130",
+            "https://support.google.com/transitpartners/answer/10106342",
+            "https://citymapper.com/news/2838/citymapper-now-uses-ai-powers-to-help-you-choose-the-best-route",
+            "https://www1.citymapper.com/news/495/route-around-disruptions",
+            "https://www5.citymapper.com/cities",
+            "https://www.td.gov.hk/en/public_services/hong_kong_emobility/index.html",
+            "https://www.mtr.com.hk/archive/corporate/en/press_release/PR-20-070-E.pdf",
+            "https://www.hko.gov.hk/en/myobservatory.htm"
+          ],
+          "filters": [
+            "与香港及深港跨境出行相关",
+            "覆盖路线规划、实时信息、交通中断、拥挤、口岸状态及极端天气",
+            "仅使用官方或产品方资料"
+          ]
+        }
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-10-04T01:20:00+08:00",
+    "status": "ready",
+    "datasets": {
+      "capability_coverage": [
+        {
+          "solution": "Citymapper",
+          "capability_count": 4,
+          "documented_strengths": "多方式路线规划；实时运行数据；中断绕行；天气整合",
+          "key_missing": "量化的准时概率；出发前 Plan B；口岸信息整合",
+          "rubric_max": 8,
+          "assessment_date": "2026-10-04"
+        },
+        {
+          "solution": "HKeMobility",
+          "capability_count": 4,
+          "documented_strengths": "多方式路线规划；实时运行数据；中断信息；口岸信息",
+          "key_missing": "量化的准时概率；出发前 Plan B；一致的低拥挤路线目标",
+          "rubric_max": 8,
+          "assessment_date": "2026-10-04"
+        },
+        {
+          "solution": "MTR Mobile",
+          "capability_count": 4,
+          "documented_strengths": "路线规划；实时运行数据；部分月台候车信息；中断绕行",
+          "key_missing": "全程覆盖；量化的准时概率；天气与口岸整合",
+          "rubric_max": 8,
+          "assessment_date": "2026-10-04"
+        },
+        {
+          "solution": "Google Maps",
+          "capability_count": 3,
+          "documented_strengths": "多方式路线规划；实时运行数据；有数据时提供拥挤信息",
+          "key_missing": "量化的准时概率；出发前 Plan B；口岸与天气决策层",
+          "rubric_max": 8,
+          "assessment_date": "2026-10-04"
+        },
+        {
+          "solution": "MyObservatory",
+          "capability_count": 1,
+          "documented_strengths": "通过权威警告和预报提供天气信息",
+          "key_missing": "路线规划、全程可靠性、拥挤信息、Plan B 和准时概率",
+          "rubric_max": 8,
+          "assessment_date": "2026-10-04"
+        }
+      ],
+      "solution_landscape": [
+        {
+          "solution": "Google Maps",
+          "strength": "提供多方式导航、实时或计划班次、延误提示，并在数据充足时显示车站或车辆拥挤程度。",
+          "shortfall": "拥挤信息并非处处可用；公开功能未提供经过校准的全程准时概率，也没有针对截止时间预先生成的备用方案。"
+        },
+        {
+          "solution": "Citymapper",
+          "strength": "提供多方式路线、实时 ETA、中断绕行，并通过“Best for you”综合考虑交通、天气、价格、体力消耗和中断风险。",
+          "shortfall": "是最接近的替代方案，但公开资料主要描述定性推荐和 ETA，而不是达到指定到达时间的校准概率；官方城市列表包括香港但未列深圳。"
+        },
+        {
+          "solution": "HKeMobility",
+          "strength": "提供香港官方多方式路线规划、实时到站和交通消息、推送提醒、停车信息及口岸实时状况。",
+          "shortfall": "擅长传统路线优化和实时信息展示，但公开资料未描述可靠性评分、低拥挤优先排序或主动生成的全程 Plan B。"
+        },
+        {
+          "solution": "MTR Mobile",
+          "strength": "提供港铁路线规划、下一班列车、个性化中断提醒、多条路线、月台候车提示，以及已知中断情况下的替代路线。",
+          "shortfall": "在港铁网络内较强，但无法单独覆盖巴士、步行、出租车、口岸和天气组成的完整行程可靠性。"
+        },
+        {
+          "solution": "MyObservatory",
+          "strength": "提供权威天气警告、定点降雨和闪电预报，以及大湾区天气信息。",
+          "shortfall": "提供的是风险信息而非路线或出发决策；用户仍需自行判断是否出行，以及天气如何改变准时风险。"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "official-docs-synthesis",
+      "label": "官方产品资料审阅",
+      "query": {
+        "engine": "duckdb",
+        "language": "sql",
+        "sql": "SELECT * FROM (VALUES ('Citymapper', 4, '多方式路线规划；实时运行数据；中断绕行；天气整合', '量化的准时概率；出发前 Plan B；口岸信息整合', 8, DATE '2026-10-04'), ('HKeMobility', 4, '多方式路线规划；实时运行数据；中断信息；口岸信息', '量化的准时概率；出发前 Plan B；一致的低拥挤路线目标', 8, DATE '2026-10-04'), ('MTR Mobile', 4, '路线规划；实时运行数据；部分月台候车信息；中断绕行', '全程覆盖；量化的准时概率；天气与口岸整合', 8, DATE '2026-10-04'), ('Google Maps', 3, '多方式路线规划；实时运行数据；有数据时提供拥挤信息', '量化的准时概率；出发前 Plan B；口岸与天气决策层', 8, DATE '2026-10-04'), ('MyObservatory', 1, '通过权威警告和预报提供天气信息', '路线规划、全程可靠性、拥挤信息、Plan B 和准时概率', 8, DATE '2026-10-04')) AS t(solution, capability_count, documented_strengths, key_missing, rubric_max, assessment_date)",
+        "description": "综合比较截至 2026 年 10 月 4 日查阅的官方产品资料。",
+        "executed_at": "2026-10-04T01:20:00+08:00",
+        "metric_definitions": [
+          "capability_count：八项能力中被官方资料明确描述的能力数量；仅为公开功能覆盖量表，不代表产品质量。",
+          "八项能力：多方式路线规划、实时运行数据、拥挤信息、中断绕行、天气整合、口岸信息、量化准时概率、出发前 Plan B。"
+        ],
+        "tables_used": [
+          "https://support.google.com/maps/answer/6142130",
+          "https://support.google.com/transitpartners/answer/10106342",
+          "https://citymapper.com/news/2838/citymapper-now-uses-ai-powers-to-help-you-choose-the-best-route",
+          "https://www1.citymapper.com/news/495/route-around-disruptions",
+          "https://www5.citymapper.com/cities",
+          "https://www.td.gov.hk/en/public_services/hong_kong_emobility/index.html",
+          "https://www.mtr.com.hk/archive/corporate/en/press_release/PR-20-070-E.pdf",
+          "https://www.hko.gov.hk/en/myobservatory.htm"
+        ]
+      }
+    }
+  ]
+}

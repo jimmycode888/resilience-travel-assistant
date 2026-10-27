@@ -1,0 +1,12 @@
+{
+  "title": "韌性出行助手",
+  "language": "zh-HK",
+  "description": "This AI-powered travel assistant provides users with timely travel decisions based on weather and traffic, optimizing routes and arrival times.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

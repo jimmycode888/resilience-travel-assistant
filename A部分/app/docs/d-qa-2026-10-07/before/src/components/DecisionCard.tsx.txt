@@ -1,0 +1,185 @@
+"use client";
+
+import { CONFIDENCE_LABELS, CROWDING_LABELS, DECISION_STATUS_LABELS, STATUS_LABELS } from "@/lib/labels";
+import { formatHkDateTime, formatHkTime } from "@/lib/time";
+import { isActionable, type Confidence, type DecisionResponse } from "@/lib/types";
+import { DataFreshnessBadge, DataSourceList } from "./DataFreshnessBadge";
+import { RouteTimeline } from "./RouteTimeline";
+import { KeyValue, NoticeList, SectionCard } from "./states";
+
+const CONFIDENCE_STYLES: Record<Confidence, string> = {
+  high: "bg-emerald-100 text-emerald-900",
+  medium: "bg-amber-100 text-amber-900",
+  low: "bg-rose-100 text-rose-900",
+};
+
+const STATUS_STYLES: Record<DecisionResponse["status"], string> = {
+  ready: "bg-emerald-100 text-emerald-900",
+  uncertain: "bg-amber-100 text-amber-900",
+  unavailable: "bg-rose-100 text-rose-900",
+};
+
+export function DecisionCard({ decision }: { decision: DecisionResponse }) {
+  return (
+    <div className="space-y-4">
+      {isActionable(decision) ? (
+        <PrimaryRecommendation decision={decision} />
+      ) : (
+        <UnavailableCard decision={decision} />
+      )}
+
+      <NoticeList notices={decision.notices} />
+
+      {isActionable(decision) && decision.planBPlan ? (
+        <SectionCard
+          title="Plan B"
+          hint={`備用路線：${decision.planBPlan.label}（${STATUS_LABELS[decision.planBPlan.status]} · ${CROWDING_LABELS[decision.planBPlan.crowding]}）`}
+        >
+          <p className="mb-3 text-sm text-slate-700">{decision.planBPlan.summary}</p>
+          <RouteTimeline steps={decision.planB} tone="planb" />
+          <dl className="mt-4 grid grid-cols-2 gap-3 rounded-xl bg-slate-50 p-3 sm:grid-cols-4">
+            <KeyValue label="出發" value={formatHkTime(decision.planBPlan.departAt)} />
+            <KeyValue label="到達" value={formatHkTime(decision.planBPlan.arriveAt)} />
+            <KeyValue label="全程" value={`${decision.planBPlan.durationMinutes} 分鐘`} />
+            <KeyValue label="額外車費" value={`$${decision.planBPlan.extraCostHkd}`} />
+          </dl>
+          {decision.planBPlan.riskNotes.length > 0 ? (
+            <ul className="mt-3 list-disc space-y-1 pl-5 text-xs text-slate-600">
+              {decision.planBPlan.riskNotes.map((note) => (
+                <li key={note}>{note}</li>
+              ))}
+            </ul>
+          ) : null}
+        </SectionCard>
+      ) : null}
+
+      {isActionable(decision) ? (
+        <SectionCard title="切換條件" hint="什麼情況下應該改用 Plan B">
+          {decision.switchCondition ? (
+            <p className="rounded-xl bg-slate-900 p-3 text-sm leading-relaxed text-white">
+              {decision.switchCondition}
+            </p>
+          ) : (
+            <p className="text-sm text-slate-600">本次沒有可用的 Plan B，因此沒有切換條件。</p>
+          )}
+        </SectionCard>
+      ) : null}
+
+      <SectionCard title="推薦理由" hint="全部由規則與資料產生；大模型不參與路線與時間的事實判斷">
+        <ol className="list-decimal space-y-2 pl-5 text-sm leading-relaxed text-slate-700">
+          {decision.reasons.map((reason) => (
+            <li key={reason}>{reason}</li>
+          ))}
+        </ol>
+        <p className="mt-3 text-xs text-slate-500">{decision.disclaimer}</p>
+      </SectionCard>
+
+      <SectionCard
+        title="資料來源與時間"
+        hint="固定顯示資料品質與更新時間，避免把演示資料當作實時資料"
+        action={<DataFreshnessBadge quality={decision.dataQuality} updatedAt={decision.dataUpdatedAt} />}
+      >
+        <DataSourceList sources={decision.dataSources} />
+      </SectionCard>
+
+      {decision.candidates.length > 1 ? (
+        <SectionCard title="其他候選路線" hint="決策層評估過的所有可用路線">
+          <ul className="space-y-2">
+            {decision.candidates.map((candidate) => (
+              <li
+                key={candidate.routeId}
+                className="rounded-xl bg-slate-50 px-3 py-2 text-sm text-slate-800"
+              >
+                <div className="font-medium">
+                  {candidate.routeId} · {candidate.label}
+                </div>
+                <div className="text-xs tabular-nums text-slate-600">
+                  {candidate.durationMinutes} 分鐘 · 轉乘 {candidate.transfers} 次 · ${candidate.extraCostHkd}{" "}
+                  · 評分 {candidate.score.toFixed(3)} · {STATUS_LABELS[candidate.status]}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </SectionCard>
+      ) : null}
+    </div>
+  );
+}
+
+function UnavailableCard({ decision }: { decision: DecisionResponse }) {
+  return (
+    <section className="card border-rose-200 bg-rose-50" aria-live="polite">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className={`pill ${STATUS_STYLES[decision.status]}`}>
+          {DECISION_STATUS_LABELS[decision.status]}
+        </span>
+        <DataFreshnessBadge quality={decision.dataQuality} updatedAt={decision.dataUpdatedAt} />
+      </div>
+      <h2 className="mt-2 text-base font-semibold text-rose-900">目前沒有可執行的建議</h2>
+      <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed text-rose-900">
+        {decision.reasons.map((reason) => (
+          <li key={reason}>{reason}</li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+function PrimaryRecommendation({ decision }: { decision: DecisionResponse }) {
+  const plan = decision.primaryPlan;
+  if (!plan) return null;
+
+  return (
+    <section className="card" aria-live="polite">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className={`pill ${STATUS_STYLES[decision.status]}`}>
+          {DECISION_STATUS_LABELS[decision.status]}
+        </span>
+        <span className={`pill ${CONFIDENCE_STYLES[decision.confidence]}`}>
+          到達信心 {CONFIDENCE_LABELS[decision.confidence]}
+        </span>
+        <DataFreshnessBadge quality={decision.dataQuality} updatedAt={decision.dataUpdatedAt} />
+      </div>
+
+      <div className="mt-3">
+        <p className="text-xs text-slate-500">建議出發時間（離開起點）</p>
+        <p className="text-4xl font-bold tabular-nums tracking-tight text-slate-900">
+          {formatHkTime(decision.departAt)}
+        </p>
+        <p className="mt-1 text-xs text-slate-500">
+          最遲 {formatHkTime(decision.latestDepartAt)} 起程 · 需先步行 {plan.accessWalkMinutes} 分鐘前往上車點
+        </p>
+      </div>
+
+      <dl className="mt-4 grid grid-cols-2 gap-3 rounded-xl bg-slate-50 p-3 sm:grid-cols-4">
+        <KeyValue label="預計到達範圍" value={`${formatHkTime(decision.etaRange[0])} – ${formatHkTime(decision.etaRange[1])}`} />
+        <KeyValue label="服務狀態" value={STATUS_LABELS[plan.status]} />
+        <KeyValue label="全程" value={`${plan.durationMinutes} 分鐘`} />
+        <KeyValue label="轉乘 / 額外車費" value={`${plan.transfers} 次 · $${plan.extraCostHkd}`} />
+      </dl>
+
+      <p className="mt-3 text-xs text-slate-500">
+        目標到達時間：{formatHkDateTime(decision.generatedFor.arriveBy)} · 服務日 {decision.serviceDate} ·
+        前往 {decision.generatedFor.destination}
+      </p>
+
+      <div className="mt-4 border-t border-slate-100 pt-4">
+        <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+          <h3 className="text-sm font-semibold text-slate-900">主路線：{plan.label}</h3>
+          <span className="pill bg-slate-200 text-slate-800">
+            {STATUS_LABELS[plan.status]} · {CROWDING_LABELS[plan.crowding]}
+          </span>
+        </div>
+        <p className="mb-3 text-sm text-slate-700">{plan.summary}</p>
+        <RouteTimeline steps={decision.primaryRoute} />
+        {plan.riskNotes.length > 0 ? (
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-xs text-slate-600">
+            {plan.riskNotes.map((note) => (
+              <li key={note}>{note}</li>
+            ))}
+          </ul>
+        ) : null}
+      </div>
+    </section>
+  );
+}

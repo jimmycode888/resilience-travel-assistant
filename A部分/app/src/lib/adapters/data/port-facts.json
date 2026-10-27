@@ -1,0 +1,128 @@
+{
+  "checkedAt": "2026-10-14T12:06:25.762033+00:00",
+  "sourceUrl": "https://portal.csdi.gov.hk/server/rest/services/common/immd_rcd_1633320081376_19895/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "hoursCorroborationUrl": "https://www.customs.gov.hk/en/service-enforcement-information/passenger-clearance/contact-us/index.html",
+  "huanggangNotice": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_13011576.html",
+  "ports": [
+    {
+      "portId": "lok-ma-chau",
+      "name": "落馬洲支線出入境管制站",
+      "hkRepresentativePoint": [
+        114.06560700000011,
+        22.51493400000004
+      ],
+      "openingHours": "6:30 am to 10:30 pm",
+      "sourceUpdatedAt": "2023-01-09T09:37:15+08:00",
+      "sourceUrl": "https://portal.csdi.gov.hk/server/rest/services/common/immd_rcd_1633320081376_19895/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "hoursVerified": true,
+      "hkPointVerified": true,
+      "szPointVerified": false,
+      "entranceVerified": false,
+      "modesVerified": false,
+      "note": "官方管制站代表點；不是已核實旅客入口或深圳側節點。",
+      "transportClass": "rail",
+      "transportClassSource": "https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/index.html",
+      "modeLimitation": "官方只核對鐵路／道路大類，所有步行與車輛接駁段尚未逐項核實。"
+    },
+    {
+      "portId": "lo-wu",
+      "name": "羅湖出入境管制站",
+      "hkRepresentativePoint": [
+        114.11366400000009,
+        22.529477000000043
+      ],
+      "openingHours": "6:30 am to midnight",
+      "sourceUpdatedAt": "2023-02-06T11:41:33+08:00",
+      "sourceUrl": "https://portal.csdi.gov.hk/server/rest/services/common/immd_rcd_1633320081376_19895/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "hoursVerified": true,
+      "hkPointVerified": true,
+      "szPointVerified": false,
+      "entranceVerified": false,
+      "modesVerified": false,
+      "note": "官方管制站代表點；不是已核實旅客入口或深圳側節點。",
+      "transportClass": "rail",
+      "transportClassSource": "https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/index.html",
+      "modeLimitation": "官方只核對鐵路／道路大類，所有步行與車輛接駁段尚未逐項核實。"
+    },
+    {
+      "portId": "huanggang",
+      "name": "皇崗管制站",
+      "hkRepresentativePoint": [
+        114.0676820000001,
+        22.523179000000027
+      ],
+      "openingHours": "24 hours",
+      "sourceUpdatedAt": "2026-10-12T09:10:51+08:00",
+      "sourceUrl": "https://portal.csdi.gov.hk/server/rest/services/common/immd_rcd_1633320081376_19895/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "hoursVerified": true,
+      "hkPointVerified": true,
+      "szPointVerified": false,
+      "entranceVerified": false,
+      "modesVerified": false,
+      "note": "官方管制站代表點；不是已核實旅客入口或深圳側節點。",
+      "transportClass": "road",
+      "transportClassSource": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/content/post_13011576.html",
+      "modeLimitation": "官方只核對鐵路／道路大類，所有步行與車輛接駁段尚未逐項核實。"
+    },
+    {
+      "portId": "shenzhen-bay",
+      "name": "深圳灣出入境管制站",
+      "hkRepresentativePoint": [
+        113.9454330000001,
+        22.493822000000023
+      ],
+      "openingHours": "Passenger Clearance Building and private cars' passenger clearance services:<br/>6:30 am to midnight<br/>Goods vehicle clearance services:<br/>24 hours",
+      "sourceUpdatedAt": "2023-01-09T09:35:44+08:00",
+      "sourceUrl": "https://portal.csdi.gov.hk/server/rest/services/common/immd_rcd_1633320081376_19895/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "hoursVerified": true,
+      "hkPointVerified": true,
+      "szPointVerified": false,
+      "entranceVerified": false,
+      "modesVerified": false,
+      "note": "官方管制站代表點；不是已核實旅客入口或深圳側節點。",
+      "transportClass": "road",
+      "transportClassSource": "https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/index.html",
+      "modeLimitation": "官方只核對鐵路／道路大類，所有步行與車輛接駁段尚未逐項核實。"
+    },
+    {
+      "portId": "man-kam-to",
+      "name": "文錦渡出入境管制站",
+      "hkRepresentativePoint": [
+        114.12879200000009,
+        22.53741700000006
+      ],
+      "openingHours": "7:00 am to 10:00 pm",
+      "sourceUpdatedAt": "2026-06-22T11:35:11+08:00",
+      "sourceUrl": "https://portal.csdi.gov.hk/server/rest/services/common/immd_rcd_1633320081376_19895/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "hoursVerified": true,
+      "hkPointVerified": true,
+      "szPointVerified": false,
+      "entranceVerified": false,
+      "modesVerified": false,
+      "note": "官方管制站代表點；不是已核實旅客入口或深圳側節點。",
+      "transportClass": "road",
+      "transportClassSource": "https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/index.html",
+      "modeLimitation": "官方只核對鐵路／道路大類，所有步行與車輛接駁段尚未逐項核實。"
+    },
+    {
+      "portId": "heung-yuen-wai",
+      "name": "香園圍管制站",
+      "hkRepresentativePoint": [
+        114.15380900000002,
+        22.55229600000007
+      ],
+      "openingHours": "7:00 am to 10:00 pm",
+      "sourceUpdatedAt": "2023-02-06T14:25:40+08:00",
+      "sourceUrl": "https://portal.csdi.gov.hk/server/rest/services/common/immd_rcd_1633320081376_19895/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "hoursVerified": true,
+      "hkPointVerified": true,
+      "szPointVerified": false,
+      "entranceVerified": false,
+      "modesVerified": false,
+      "note": "官方管制站代表點；不是已核實旅客入口或深圳側節點。",
+      "transportClass": "road",
+      "transportClassSource": "https://www.td.gov.hk/en/transport_in_hong_kong/land_based_cross_boundary_transport/index.html",
+      "modeLimitation": "官方只核對鐵路／道路大類，所有步行與車輛接駁段尚未逐項核實。"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/result?origin=hang-hau-estate&destination=central-exchange-square&arriveBy=2026-10-13T09%3A00&maxExtraCost=10&maxTransfers=2&scenario=normal",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/result?origin=hang-hau-estate&destination=central-exchange-square&arriveBy=2026-10-13T09%3A00&maxExtraCost=10&maxTransfers=2&scenario=disruption",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/result?origin=hang-hau-estate&destination=central-exchange-square&arriveBy=2026-10-13T05%3A45&maxExtraCost=10&maxTransfers=2&scenario=normal",
+    "violations": [],
+    "incomplete": []
+  }
+]

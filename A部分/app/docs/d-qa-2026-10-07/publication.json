@@ -1,0 +1,218 @@
+{
+  "turnId": "606b4462-6b2c-4f03-89b6-69c25cad6089",
+  "deliverResult": {
+    "message": "D前端修复和真实QA结果已完成；原准备包与团队记录保留，真人测试待执行。",
+    "items": [
+      {
+        "artifact": {
+          "id": "e4003a29-0fa2-4288-9b09-1894a2dea54e",
+          "type": "website",
+          "category": "website",
+          "displayName": "D 前端 QA 新构建预览（同一团队项目）",
+          "status": "ready",
+          "coverStatus": "ready",
+          "createdAt": "2026-10-07T10:16:01.011Z",
+          "updatedAt": "2026-10-07T10:16:01.011Z",
+          "websitePort": 5180,
+          "sourceNormalizedPath": "http://localhost:5180/",
+          "sourceFolderPath": "/workspace/八校黑客松/resilience-travel-assistant"
+        },
+        "attachmentIndex": 0,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "3ff22bb3-4f92-4143-81eb-18a6f53008bc",
+          "type": "file",
+          "category": "code",
+          "displayName": "D_HANDOFF.md",
+          "mimeType": "text/markdown; charset=utf-8",
+          "sizeBytes": 2074,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:01.026Z",
+          "updatedAt": "2026-10-07T10:16:01.839Z"
+        },
+        "attachmentIndex": 1,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "6dcce578-a105-45e2-8c6d-29645de3fb14",
+          "type": "file",
+          "category": "code",
+          "displayName": "D_QA_RESULTS_2026-10-07.md",
+          "mimeType": "text/markdown; charset=utf-8",
+          "sizeBytes": 8305,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:01.847Z",
+          "updatedAt": "2026-10-07T10:16:02.678Z"
+        },
+        "attachmentIndex": 2,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "6c2abd4a-5eac-40fb-9313-74505c4829d8",
+          "type": "file",
+          "category": "archive",
+          "displayName": "D_前端QA实际交付_2026-10-07.zip",
+          "mimeType": "application/zip",
+          "sizeBytes": 11499462,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:02.686Z",
+          "updatedAt": "2026-10-07T10:16:04.739Z"
+        },
+        "attachmentIndex": 3,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "fcf29339-3adb-4d6d-83e0-58ce0a38faef",
+          "type": "file",
+          "category": "archive",
+          "displayName": "D_前端QA准备包_2026-10-07.zip",
+          "mimeType": "application/zip",
+          "sizeBytes": 11874,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:04.747Z",
+          "updatedAt": "2026-10-07T10:16:05.549Z"
+        },
+        "attachmentIndex": 4,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "cbe44d45-984d-40a0-85b2-c4a8d4ab9776",
+          "type": "file",
+          "category": "code",
+          "displayName": "QA_CHECKLIST.md",
+          "mimeType": "text/markdown; charset=utf-8",
+          "sizeBytes": 11012,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:05.557Z",
+          "updatedAt": "2026-10-07T10:16:06.344Z"
+        },
+        "attachmentIndex": 5,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "d8e6aecf-e4c9-4040-88e1-cb886b5a1a52",
+          "type": "file",
+          "category": "spreadsheet",
+          "displayName": "QA_ISSUES.csv",
+          "mimeType": "text/csv; charset=utf-8",
+          "sizeBytes": 2290,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:06.352Z",
+          "updatedAt": "2026-10-07T10:16:07.077Z"
+        },
+        "attachmentIndex": 6,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "9b803342-8e66-495b-9fb2-d3891dc727e0",
+          "type": "file",
+          "category": "code",
+          "displayName": "FRONTEND_CONTRACT_ISSUES.md",
+          "mimeType": "text/markdown; charset=utf-8",
+          "sizeBytes": 3825,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:07.085Z",
+          "updatedAt": "2026-10-07T10:16:07.846Z"
+        },
+        "attachmentIndex": 7,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "187d3d94-5c8e-45bf-8bff-0d3a11aa4682",
+          "type": "file",
+          "category": "spreadsheet",
+          "displayName": "USER_TEST_RECORDS.csv",
+          "mimeType": "text/csv; charset=utf-8",
+          "sizeBytes": 2407,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:07.854Z",
+          "updatedAt": "2026-10-07T10:16:08.622Z"
+        },
+        "attachmentIndex": 8,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "bc547b54-d5b4-4f64-bad8-65c6bc309661",
+          "type": "file",
+          "category": "spreadsheet",
+          "displayName": "USER_TEST_SUMMARY.csv",
+          "mimeType": "text/csv; charset=utf-8",
+          "sizeBytes": 484,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:08.629Z",
+          "updatedAt": "2026-10-07T10:16:09.368Z"
+        },
+        "attachmentIndex": 9,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "12024a43-0797-4f2f-92a1-d54f0ed5b051",
+          "type": "file",
+          "category": "code",
+          "displayName": "USER_TEST_SCRIPT.md",
+          "mimeType": "text/markdown; charset=utf-8",
+          "sizeBytes": 6937,
+          "status": "ready",
+          "coverStatus": "unsupported",
+          "createdAt": "2026-10-07T10:16:09.375Z",
+          "updatedAt": "2026-10-07T10:16:10.128Z"
+        },
+        "attachmentIndex": 10,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "a83e63ef-7abe-4716-963c-3e1331a5d9bf",
+          "type": "file",
+          "category": "image",
+          "displayName": "mobile-core.png",
+          "mimeType": "image/png",
+          "sizeBytes": 97232,
+          "status": "ready",
+          "coverStatus": "ready",
+          "createdAt": "2026-10-07T10:16:10.136Z",
+          "updatedAt": "2026-10-07T10:16:11.096Z"
+        },
+        "attachmentIndex": 11,
+        "state": "ready"
+      },
+      {
+        "artifact": {
+          "id": "7b99781f-89d9-430f-9744-adfbc16265c7",
+          "type": "website",
+          "category": "website",
+          "displayName": "韧性出行助手预览",
+          "status": "ready",
+          "coverStatus": "ready",
+          "createdAt": "2026-10-06T14:21:44.303Z",
+          "updatedAt": "2026-10-06T14:21:44.303Z",
+          "websitePort": 5173,
+          "sourceNormalizedPath": "http://localhost:5173/",
+          "sourceFolderPath": "/workspace/八校黑客松/resilience-travel-assistant"
+        },
+        "attachmentIndex": 12,
+        "state": "ready"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "sourceUrl": "https://static.data.gov.hk/td/pt-headway-tc/gtfs.zip",
+  "datasetUrl": "https://data.gov.hk/en-data/dataset/hk-td-tis_11-pt-headway-en",
+  "importedAt": "2026-10-16T14:55:12.592724+00:00",
+  "sha256": "bec5f8d1381f376e17b8f6a9ccf14f395f5b0e53fa3ca867debbcd46028b4f48",
+  "feedDate": "2026-10-14T18:50:32",
+  "stopCount": 9466,
+  "routeCount": 2452,
+  "patternCount": 3625,
+  "skippedTrips": 0,
+  "interpolatedTrips": 78506,
+  "limitations": [
+    "No MTR heavy rail in this feed",
+    "Intermediate arrival times interpolated from official terminal timepoints",
+    "No live ETA or temporary diversions",
+    "Huanggang XB records excluded because terminals changed"
+  ]
+}
