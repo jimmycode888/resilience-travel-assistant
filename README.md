@@ -62,8 +62,12 @@ analysis/                      現有方案調研、UI 設計評審
 progress-2026-10-08/           進度頁
 progress-2026-10-12/           進度頁
 generated/                     演示截圖
+docs/                          靜態演示構建產物（GitHub Pages 來源）
 *.docx / *.pdf                 立項說明、選題、參考論文
 ```
+
+> `ui-review-prototype/` 下的介面截圖以 **Git LFS** 儲存（沿用原專案的 `.gitattributes`）。
+> clone 前請先安裝 `git-lfs`，否則只會取得指標檔案。
 
 ## 本地運行
 
